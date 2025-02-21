@@ -235,6 +235,31 @@
   height: 36px;
   position: relative;
 }
+.icon {
+  background: var(--white-100, #ffffff);
+  border-radius: 129.53px;
+  border-style: solid;
+  border-color: var(--color-surfaces-border-secundary, #f3ebf1);
+  border-width: 0.53px;
+  padding: 7.77px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: absolute;
+  left: 64.5px;
+  top: 5px;
+  box-shadow: 0px 10.36px 41.45px -5.18px rgba(103, 111, 123, 0.1);
+}
+.bs-zoom-in {
+  flex-shrink: 0;
+  width: 13px;
+  height: 13px;
+  position: relative;
+  overflow: visible;
+}
 .frame-1265 {
   display: flex;
   flex-direction: row;
