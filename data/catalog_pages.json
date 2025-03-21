@@ -1,0 +1,147 @@
+{
+    "_start": [
+        {
+            "content": "url",
+            "path": "https://interactive-catalog-ten.vercel.app/src/_start/index.html",
+            "products": []
+        }
+    ],
+    "zi_ceramic_implant_system-ceramic_implant_system": [
+        {
+            "content": "url",
+            "path": "https://interactive-catalog-ten.vercel.app/src/zi_ceramic_implant_system/ceramic_implant_system/0/index.html",
+            "products": []
+        },
+        {
+            "content": "url",
+            "path": "https://interactive-catalog-ten.vercel.app/src/zi_ceramic_implant_system/ceramic_implant_system/1/index.html",
+            "products": [
+                {
+                    "imageUrl": "https://straumannprod-h.assetsadobe2.com/is/image/content/dam/external/pim/pim/04/0486/048601.jpg?wid=300&hei=300",
+                    "brand": "straumann",
+                    "name": "RN synOcta® 1.5 Pilar aparafusado, H 1.5mm, TAN",
+                    "sku": "048.601",
+                    "value": 313.0
+                },
+                {
+                    "imageUrl": "https://straumannprod-h.assetsadobe2.com/is/image/content/dam/external/pim/pim/04/0486/048601.jpg?wid=300&hei=300",
+                    "brand": "straumann",
+                    "name": "RN synOcta® 1.5 Pilar aparafusado, H 1.5mm, TAN",
+                    "sku": "048.601",
+                    "value": 313.0
+                }
+            ]
+        },
+        {
+            "content": "url",
+            "path": "https://interactive-catalog-ten.vercel.app/src/zi_ceramic_implant_system/ceramic_implant_system/2/index.html",
+            "products": []
+        },
+        {
+            "content": "url",
+            "path": "https://interactive-catalog-ten.vercel.app/src/zi_ceramic_implant_system/ceramic_implant_system/3/index.html",
+            "products": [
+                {
+                    "imageUrl": "https://straumannprod-h.assetsadobe2.com/is/image/content/dam/external/pim/pim/04/0486/048601.jpg?wid=300&hei=300",
+                    "brand": "straumann",
+                    "name": "RN synOcta® 1.5 Pilar aparafusado, H 1.5mm, TAN",
+                    "sku": "048.601",
+                    "value": 313.0
+                },
+                {
+                    "imageUrl": "https://straumannprod-h.assetsadobe2.com/is/image/content/dam/external/pim/pim/04/0486/048601.jpg?wid=300&hei=300",
+                    "brand": "straumann",
+                    "name": "RN synOcta® 1.5 Pilar aparafusado, H 1.5mm, TAN",
+                    "sku": "048.601",
+                    "value": 313.0
+                }
+            ]
+        },
+        {
+            "content": "url",
+            "path": "https://interactive-catalog-ten.vercel.app/src/zi_ceramic_implant_system/ceramic_implant_system/4/index.html",
+            "products": []
+        },
+        {
+            "content": "url",
+            "path": "https://interactive-catalog-ten.vercel.app/src/zi_ceramic_implant_system/ceramic_implant_system/5/index.html",
+            "products": []
+        }
+    ],
+    "zi_ceramic_implant_system-implant_zi": [
+        {
+            "content": "url",
+            "path": "https://interactive-catalog-ten.vercel.app/src/zi_ceramic_implant_system/implant_zi/0/index.html",
+            "products": []
+        },
+        {
+            "content": "url",
+            "path": "https://interactive-catalog-ten.vercel.app/src/zi_ceramic_implant_system/implant_zi/1/index.html",
+            "products": []
+        },
+        {
+            "content": "url",
+            "path": "https://interactive-catalog-ten.vercel.app/src/zi_ceramic_implant_system/implant_zi/2/index.html",
+            "products": []
+        },
+        {
+            "content": "url",
+            "path": "https://interactive-catalog-ten.vercel.app/src/zi_ceramic_implant_system/implant_zi/3/index.html",
+            "products": []
+        },
+        {
+            "content": "url",
+            "path": "https://interactive-catalog-ten.vercel.app/src/zi_ceramic_implant_system/implant_zi/4/index.html",
+            "products": []
+        },
+        {
+            "content": "url",
+            "path": "https://interactive-catalog-ten.vercel.app/src/zi_ceramic_implant_system/implant_zi/5/index.html",
+            "products": []
+        }
+    ],
+    "grand_morse-grand_morse": [
+        {
+            "content": "url",
+            "path": "https://interactive-catalog-ten.vercel.app/src/grand_morse/grand_morse/0/index.html",
+            "products": []
+        },
+        {
+            "content": "url",
+            "path": "https://interactive-catalog-ten.vercel.app/src/grand_morse/grand_morse/1/index.html",
+            "products": []
+        },
+        {
+            "content": "url",
+            "path": "https://interactive-catalog-ten.vercel.app/src/grand_morse/grand_morse/2/index.html",
+            "products": []
+        },
+        {
+            "content": "url",
+            "path": "https://interactive-catalog-ten.vercel.app/src/grand_morse/grand_morse/3/index.html",
+            "products": []
+        },
+        {
+            "content": "url",
+            "path": "https://interactive-catalog-ten.vercel.app/src/grand_morse/grand_morse/4/index.html",
+            "products": []
+        },
+        {
+            "content": "url",
+            "path": "https://interactive-catalog-ten.vercel.app/src/grand_morse/grand_morse/5/index.html",
+            "products": []
+        }
+    ],
+    "grand_morse-neoporos": [
+        {
+            "content": "url",
+            "path": "https://interactive-catalog-ten.vercel.app/src/grand_morse/neoporos/0/index.html",
+            "products": []
+        },
+        {
+            "content": "url",
+            "path": "https://interactive-catalog-ten.vercel.app/src/grand_morse/neoporos/1/index.html",
+            "products": []
+        }
+    ]
+}

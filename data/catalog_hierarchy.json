@@ -1,0 +1,32 @@
+[
+    {
+        "family": "_start",
+        "items": []
+    },
+    {
+        "family": "Zi ceramic implant system",
+        "items": [
+            {
+                "name": "Ceramic Implant System",
+                "imageUrl": "https://straumannprod-h.assetsadobe2.com/is/image/content/dam/external/pim/pim/04/0486/048601.jpg?wid=300&hei=300"
+            },
+            {
+                "name": "Implant Zi",
+                "imageUrl": "https://straumannprod-h.assetsadobe2.com/is/image/content/dam/external/pim/pim/04/0486/048601.jpg?wid=300&hei=300"
+            }
+        ]
+    },
+    {
+        "family": "Grand Morse",
+        "items": [
+            {
+                "name": "Grand Morse",
+                "imageUrl": "https://straumannprod-h.assetsadobe2.com/is/image/content/dam/external/pim/pim/04/0486/048601.jpg?wid=300&hei=300"
+            },
+            {
+                "name": "Neoporos",
+                "imageUrl": "https://straumannprod-h.assetsadobe2.com/is/image/content/dam/external/pim/pim/04/0486/048601.jpg?wid=300&hei=300"
+            }
+        ]
+    }
+]
