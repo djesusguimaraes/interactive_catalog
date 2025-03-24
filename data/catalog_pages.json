@@ -2,19 +2,19 @@
     "_start": [
         {
             "content": "url",
-            "path": "https://interactive-catalog-ten.vercel.app/src/_start/index.html",
+            "path": "http://develop-interactive-catalog.s3-website-us-east-1.amazonaws.com/src/_start/",
             "products": []
         }
     ],
     "zi_ceramic_implant_system-ceramic_implant_system": [
         {
             "content": "url",
-            "path": "https://interactive-catalog-ten.vercel.app/src/zi_ceramic_implant_system/ceramic_implant_system/0/index.html",
+            "path": "http://develop-interactive-catalog.s3-website-us-east-1.amazonaws.com/src/zi_ceramic_implant_system/ceramic_implant_system/0/",
             "products": []
         },
         {
             "content": "url",
-            "path": "https://interactive-catalog-ten.vercel.app/src/zi_ceramic_implant_system/ceramic_implant_system/1/index.html",
+            "path": "http://develop-interactive-catalog.s3-website-us-east-1.amazonaws.com/src/zi_ceramic_implant_system/ceramic_implant_system/1/",
             "products": [
                 {
                     "imageUrl": "https://straumannprod-h.assetsadobe2.com/is/image/content/dam/external/pim/pim/04/0486/048601.jpg?wid=300&hei=300",
@@ -34,12 +34,12 @@
         },
         {
             "content": "url",
-            "path": "https://interactive-catalog-ten.vercel.app/src/zi_ceramic_implant_system/ceramic_implant_system/2/index.html",
+            "path": "http://develop-interactive-catalog.s3-website-us-east-1.amazonaws.com/src/zi_ceramic_implant_system/ceramic_implant_system/2/",
             "products": []
         },
         {
             "content": "url",
-            "path": "https://interactive-catalog-ten.vercel.app/src/zi_ceramic_implant_system/ceramic_implant_system/3/index.html",
+            "path": "http://develop-interactive-catalog.s3-website-us-east-1.amazonaws.com/src/zi_ceramic_implant_system/ceramic_implant_system/3/",
             "products": [
                 {
                     "imageUrl": "https://straumannprod-h.assetsadobe2.com/is/image/content/dam/external/pim/pim/04/0486/048601.jpg?wid=300&hei=300",
@@ -59,88 +59,88 @@
         },
         {
             "content": "url",
-            "path": "https://interactive-catalog-ten.vercel.app/src/zi_ceramic_implant_system/ceramic_implant_system/4/index.html",
+            "path": "http://develop-interactive-catalog.s3-website-us-east-1.amazonaws.com/src/zi_ceramic_implant_system/ceramic_implant_system/4/",
             "products": []
         },
         {
             "content": "url",
-            "path": "https://interactive-catalog-ten.vercel.app/src/zi_ceramic_implant_system/ceramic_implant_system/5/index.html",
+            "path": "http://develop-interactive-catalog.s3-website-us-east-1.amazonaws.com/src/zi_ceramic_implant_system/ceramic_implant_system/5/",
             "products": []
         }
     ],
     "zi_ceramic_implant_system-implant_zi": [
         {
             "content": "url",
-            "path": "https://interactive-catalog-ten.vercel.app/src/zi_ceramic_implant_system/implant_zi/0/index.html",
+            "path": "http://develop-interactive-catalog.s3-website-us-east-1.amazonaws.com/src/zi_ceramic_implant_system/implant_zi/0/",
             "products": []
         },
         {
             "content": "url",
-            "path": "https://interactive-catalog-ten.vercel.app/src/zi_ceramic_implant_system/implant_zi/1/index.html",
+            "path": "http://develop-interactive-catalog.s3-website-us-east-1.amazonaws.com/src/zi_ceramic_implant_system/implant_zi/1/",
             "products": []
         },
         {
             "content": "url",
-            "path": "https://interactive-catalog-ten.vercel.app/src/zi_ceramic_implant_system/implant_zi/2/index.html",
+            "path": "http://develop-interactive-catalog.s3-website-us-east-1.amazonaws.com/src/zi_ceramic_implant_system/implant_zi/2/",
             "products": []
         },
         {
             "content": "url",
-            "path": "https://interactive-catalog-ten.vercel.app/src/zi_ceramic_implant_system/implant_zi/3/index.html",
+            "path": "http://develop-interactive-catalog.s3-website-us-east-1.amazonaws.com/src/zi_ceramic_implant_system/implant_zi/3/",
             "products": []
         },
         {
             "content": "url",
-            "path": "https://interactive-catalog-ten.vercel.app/src/zi_ceramic_implant_system/implant_zi/4/index.html",
+            "path": "http://develop-interactive-catalog.s3-website-us-east-1.amazonaws.com/src/zi_ceramic_implant_system/implant_zi/4/",
             "products": []
         },
         {
             "content": "url",
-            "path": "https://interactive-catalog-ten.vercel.app/src/zi_ceramic_implant_system/implant_zi/5/index.html",
+            "path": "http://develop-interactive-catalog.s3-website-us-east-1.amazonaws.com/src/zi_ceramic_implant_system/implant_zi/5/",
             "products": []
         }
     ],
     "grand_morse-grand_morse": [
         {
             "content": "url",
-            "path": "https://interactive-catalog-ten.vercel.app/src/grand_morse/grand_morse/0/index.html",
+            "path": "http://develop-interactive-catalog.s3-website-us-east-1.amazonaws.com/src/grand_morse/grand_morse/0/",
             "products": []
         },
         {
             "content": "url",
-            "path": "https://interactive-catalog-ten.vercel.app/src/grand_morse/grand_morse/1/index.html",
+            "path": "http://develop-interactive-catalog.s3-website-us-east-1.amazonaws.com/src/grand_morse/grand_morse/1/",
             "products": []
         },
         {
             "content": "url",
-            "path": "https://interactive-catalog-ten.vercel.app/src/grand_morse/grand_morse/2/index.html",
+            "path": "http://develop-interactive-catalog.s3-website-us-east-1.amazonaws.com/src/grand_morse/grand_morse/2/",
             "products": []
         },
         {
             "content": "url",
-            "path": "https://interactive-catalog-ten.vercel.app/src/grand_morse/grand_morse/3/index.html",
+            "path": "http://develop-interactive-catalog.s3-website-us-east-1.amazonaws.com/src/grand_morse/grand_morse/3/",
             "products": []
         },
         {
             "content": "url",
-            "path": "https://interactive-catalog-ten.vercel.app/src/grand_morse/grand_morse/4/index.html",
+            "path": "http://develop-interactive-catalog.s3-website-us-east-1.amazonaws.com/src/grand_morse/grand_morse/4/",
             "products": []
         },
         {
             "content": "url",
-            "path": "https://interactive-catalog-ten.vercel.app/src/grand_morse/grand_morse/5/index.html",
+            "path": "http://develop-interactive-catalog.s3-website-us-east-1.amazonaws.com/src/grand_morse/grand_morse/5/",
             "products": []
         }
     ],
     "grand_morse-neoporos": [
         {
             "content": "url",
-            "path": "https://interactive-catalog-ten.vercel.app/src/grand_morse/neoporos/0/index.html",
+            "path": "http://develop-interactive-catalog.s3-website-us-east-1.amazonaws.com/src/grand_morse/neoporos/0/",
             "products": []
         },
         {
             "content": "url",
-            "path": "https://interactive-catalog-ten.vercel.app/src/grand_morse/neoporos/1/index.html",
+            "path": "http://develop-interactive-catalog.s3-website-us-east-1.amazonaws.com/src/grand_morse/neoporos/1/",
             "products": []
         }
     ]
