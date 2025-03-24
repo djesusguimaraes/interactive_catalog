@@ -1,0 +1,13 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo "Iniciando build (copiando arquivos)"
+  build:
+    commands:
+      - echo "Build não necessário"
+artifacts:
+  files:
+    - '**/*'
+  base-directory: .
