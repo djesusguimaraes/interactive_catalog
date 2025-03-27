@@ -1,0 +1,791 @@
+.control-system-1,
+.control-system-1 * {
+  box-sizing: border-box;
+}
+.control-system-1 {
+  flex-shrink: 0;
+  height: 834px;
+  position: relative;
+}
+.mask-group {
+  width: 327px;
+  height: 834px;
+  position: static;
+}
+.mask-group-container {
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 327px;
+  height: 834px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.mask-group-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.mask-group-section {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.mask-group-section2 {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.description-container {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.description-content {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.text-content {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.text-container2 {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 256px;
+  height: 56px;
+  position: relative;
+}
+.text-content2 {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.text-row {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.text {
+  color: var(--color-surfaces-titles-secundary, #07392a);
+  text-align: left;
+  font-family: var(
+    --body-smhighlight-font-family,
+    "LeagueSpartan-Medium",
+    sans-serif
+  );
+  font-size: var(--body-smhighlight-font-size, 14px);
+  line-height: var(--body-smhighlight-line-height, 130%);
+  font-weight: var(--body-smhighlight-font-weight, 500);
+  position: relative;
+  flex: 1;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.text2 {
+  color: var(--color-neutral-40, #6c6760);
+  text-align: left;
+  font-family: var(--body-xs-font-family, "LeagueSpartan-Regular", sans-serif);
+  font-size: var(--body-xs-font-size, 12px);
+  line-height: var(--body-xs-line-height, 130%);
+  font-weight: var(--body-xs-font-weight, 400);
+  position: relative;
+  align-self: stretch;
+}
+.sem-t-tulo-1-34 {
+  flex-shrink: 0;
+  width: 71.45px;
+  height: 57.64px;
+  position: absolute;
+  left: 255.55px;
+  top: 0px;
+  object-fit: cover;
+}
+.section-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.section-content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.section-header {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.section-text {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.section-description {
+  color: var(--color-feedback-states-active-primary, #46b98c);
+  text-align: left;
+  font-family: var(
+    --body-xshighlight-font-family,
+    "LeagueSpartan-Medium",
+    sans-serif
+  );
+  font-size: var(--body-xshighlight-font-size, 12px);
+  line-height: var(--body-xshighlight-line-height, 130%);
+  font-weight: var(--body-xshighlight-font-weight, 500);
+  position: relative;
+  width: 326.59px;
+}
+.image-row {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.sem-t-tulo-1-93 {
+  flex: 1;
+  height: 60px;
+  position: relative;
+  object-fit: cover;
+}
+.sem-t-tulo-1-94 {
+  flex: 1;
+  height: 60px;
+  position: relative;
+  object-fit: cover;
+}
+.sem-t-tulo-1-95 {
+  flex: 1;
+  height: 60px;
+  position: relative;
+  object-fit: cover;
+}
+.sem-t-tulo-1-96 {
+  flex: 1;
+  height: 60px;
+  position: relative;
+  object-fit: cover;
+}
+.image-section {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.image-header {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.image-text {
+  color: var(--color-feedback-states-active-primary, #46b98c);
+  text-align: left;
+  font-family: var(
+    --body-xshighlight-font-family,
+    "LeagueSpartan-Medium",
+    sans-serif
+  );
+  font-size: var(--body-xshighlight-font-size, 12px);
+  line-height: var(--body-xshighlight-line-height, 130%);
+  font-weight: var(--body-xshighlight-font-weight, 500);
+  position: relative;
+  width: 326.59px;
+}
+.sem-t-tulo-1-97 {
+  flex-shrink: 0;
+  width: 261.41px;
+  height: 148.75px;
+  position: relative;
+  object-fit: cover;
+}
+.sem-t-tulo-1-972 {
+  flex-shrink: 0;
+  width: 217.02px;
+  height: 140.59px;
+  position: relative;
+  object-fit: cover;
+}
+.image-section2 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.image-row2 {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-start;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-1171276339 {
+  border-radius: 8px;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 118.76px;
+  position: relative;
+  overflow: hidden;
+}
+.image-column {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 327px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.image-header2 {
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 21.94px;
+  position: static;
+}
+.image-header3 {
+  width: 327px;
+  height: 21.94px;
+  position: static;
+}
+.image-row3 {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.image-row4 {
+  background: #833376;
+  border-radius: 5.13px 5.13px 0px 0px;
+  padding: 1.28px 7.69px 1.28px 3.85px;
+  display: flex;
+  flex-direction: row;
+  gap: 33.34px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 279.55px;
+  position: absolute;
+  left: 47.64px;
+  top: 0px;
+}
+.image-text2 {
+  color: var(--color-neutral-100, #ffffff);
+  text-align: left;
+  font-family: "LeagueSpartan-Regular", sans-serif;
+  font-size: 6.411764621734619px;
+  line-height: 130%;
+  font-weight: 400;
+  position: absolute;
+  left: 11.52px;
+  top: 5.45px;
+}
+.image-row5 {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 327px;
+  position: relative;
+}
+.image-column2 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 48.09px;
+  position: relative;
+}
+.image-row6 {
+  background: #ededed;
+  border-style: solid;
+  border-color: var(--neutral-0, #fefefe);
+  border-width: 0px 0.64px 0px 0px;
+  padding: 5.13px 2.56px 5.13px 2.56px;
+  display: flex;
+  flex-direction: row;
+  gap: 5.13px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 48.09px;
+  height: 21.8px;
+  position: relative;
+}
+.image-text3 {
+  color: var(--color-neutral-40, #6c6760);
+  text-align: left;
+  font-family: "LeagueSpartan-Regular", sans-serif;
+  font-size: 6.411764621734619px;
+  line-height: 130%;
+  font-weight: 400;
+  position: relative;
+}
+.image-row7 {
+  background: #ededed;
+  border-style: solid;
+  border-color: var(--neutral-0, #fefefe);
+  border-width: 0.64px 0.64px 0px 0px;
+  padding: 5.13px 2.56px 5.13px 2.56px;
+  display: flex;
+  flex-direction: row;
+  gap: 5.13px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 48.41px;
+  height: 18.59px;
+  position: relative;
+}
+.image-text4 {
+  color: var(--color-neutral-40, #6c6760);
+  text-align: left;
+  font-family: "LeagueSpartan-SemiBold", sans-serif;
+  font-size: 6.411764621734619px;
+  line-height: 130%;
+  font-weight: 600;
+  position: relative;
+}
+.image-column3 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-end;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+.image-row8 {
+  background: var(--color-feedback-states-active-primary, #46b98c);
+  border-style: solid;
+  border-color: var(--neutral-0, #fefefe);
+  border-width: 0.64px 0.64px 0.64px 0px;
+  padding: 5.13px 2.56px 5.13px 2.56px;
+  display: flex;
+  flex-direction: row;
+  gap: 5.13px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 22.44px;
+  position: relative;
+}
+.image-text5 {
+  color: var(--color-neutral-100, #ffffff);
+  text-align: left;
+  font-family: "LeagueSpartan-Regular", sans-serif;
+  font-size: 6.411764621734619px;
+  line-height: 130%;
+  font-weight: 400;
+  position: relative;
+}
+.image-row9 {
+  background: var(--color-neutral-100, #ffffff);
+  border-style: solid;
+  border-color: var(--color-neutral-40, #6c6760);
+  border-width: 0.64px 0.64px 0px 0.64px;
+  padding: 5.13px 2.56px 5.13px 2.56px;
+  display: flex;
+  flex-direction: row;
+  gap: 5.13px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 18.59px;
+  position: relative;
+}
+.check-icon {
+  flex-shrink: 0;
+  width: 9.62px;
+  height: 9.62px;
+  position: relative;
+  overflow: visible;
+}
+.check-icon2 {
+  flex-shrink: 0;
+  width: 9.62px;
+  height: 9.62px;
+  position: relative;
+  overflow: visible;
+}
+.check-icon3 {
+  flex-shrink: 0;
+  width: 9.62px;
+  height: 9.62px;
+  position: relative;
+  overflow: visible;
+}
+.image-row10 {
+  background: var(--color-neutral-100, #ffffff);
+  border-style: solid;
+  border-color: var(--color-neutral-40, #6c6760);
+  border-width: 0.64px;
+  padding: 5.13px 2.56px 5.13px 2.56px;
+  display: flex;
+  flex-direction: row;
+  gap: 5.13px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 18.59px;
+  position: relative;
+}
+.check-icon4 {
+  flex-shrink: 0;
+  width: 9.62px;
+  height: 9.62px;
+  position: relative;
+  overflow: visible;
+}
+.check-icon5 {
+  flex-shrink: 0;
+  width: 9.62px;
+  height: 9.62px;
+  position: relative;
+  overflow: visible;
+}
+.check-icon6 {
+  flex-shrink: 0;
+  width: 9.62px;
+  height: 9.62px;
+  position: relative;
+  overflow: visible;
+}
+.check-icon7 {
+  flex-shrink: 0;
+  width: 9.62px;
+  height: 9.62px;
+  position: relative;
+  overflow: visible;
+}
+.check-icon8 {
+  flex-shrink: 0;
+  width: 9.62px;
+  height: 9.62px;
+  position: relative;
+  overflow: visible;
+}
+.check-icon9 {
+  flex-shrink: 0;
+  width: 9.62px;
+  height: 9.62px;
+  position: relative;
+  overflow: visible;
+}
+.check-icon10 {
+  flex-shrink: 0;
+  width: 9.62px;
+  height: 9.62px;
+  position: relative;
+  overflow: visible;
+}
+.check-icon11 {
+  flex-shrink: 0;
+  width: 9.62px;
+  height: 9.62px;
+  position: relative;
+  overflow: visible;
+}
+.check-icon12 {
+  flex-shrink: 0;
+  width: 9.62px;
+  height: 9.62px;
+  position: relative;
+  overflow: visible;
+}
+.check-icon13 {
+  flex-shrink: 0;
+  width: 9.62px;
+  height: 9.62px;
+  position: relative;
+  overflow: visible;
+}
+.check-icon14 {
+  flex-shrink: 0;
+  width: 9.62px;
+  height: 9.62px;
+  position: relative;
+  overflow: visible;
+}
+.check-icon15 {
+  flex-shrink: 0;
+  width: 9.62px;
+  height: 9.62px;
+  position: relative;
+  overflow: visible;
+}
+.check-icon16 {
+  flex-shrink: 0;
+  width: 9.62px;
+  height: 9.62px;
+  position: relative;
+  overflow: visible;
+}
+.check-icon17 {
+  flex-shrink: 0;
+  width: 9.62px;
+  height: 9.62px;
+  position: relative;
+  overflow: visible;
+}
+.check-icon18 {
+  flex-shrink: 0;
+  width: 9.62px;
+  height: 9.62px;
+  position: relative;
+  overflow: visible;
+}
+.check-icon19 {
+  flex-shrink: 0;
+  width: 9.62px;
+  height: 9.62px;
+  position: relative;
+  overflow: visible;
+}
+.check-icon20 {
+  flex-shrink: 0;
+  width: 9.62px;
+  height: 9.62px;
+  position: relative;
+  overflow: visible;
+}
+.check-icon21 {
+  flex-shrink: 0;
+  width: 9.62px;
+  height: 9.62px;
+  position: relative;
+  overflow: visible;
+}
+.check-icon22 {
+  flex-shrink: 0;
+  width: 9.62px;
+  height: 9.62px;
+  position: relative;
+  overflow: visible;
+}
+.check-icon23 {
+  flex-shrink: 0;
+  width: 9.62px;
+  height: 9.62px;
+  position: relative;
+  overflow: visible;
+}
+.check-icon24 {
+  flex-shrink: 0;
+  width: 9.62px;
+  height: 9.62px;
+  position: relative;
+  overflow: visible;
+}
+.check-icon25 {
+  flex-shrink: 0;
+  width: 9.62px;
+  height: 9.62px;
+  position: relative;
+  overflow: visible;
+}
+.check-icon26 {
+  flex-shrink: 0;
+  width: 9.62px;
+  height: 9.62px;
+  position: relative;
+  overflow: visible;
+}
+.check-icon27 {
+  flex-shrink: 0;
+  width: 9.62px;
+  height: 9.62px;
+  position: relative;
+  overflow: visible;
+}
+.check-icon28 {
+  flex-shrink: 0;
+  width: 9.62px;
+  height: 9.62px;
+  position: relative;
+  overflow: visible;
+}
+.rectangle-9464 {
+  background: rgba(0, 0, 0, 0.2);
+  width: 119px;
+  height: 328px;
+  position: absolute;
+  left: calc(50% - -163.5px);
+  top: calc(50% - 59.73px);
+  transform-origin: 0 0;
+  transform: rotate(90deg) scale(1, 1);
+  backdrop-filter: blur(2.8px);
+}
+.bs-eye {
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  left: 50%;
+  translate: -50% -50%;
+  top: 50%;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.note-container {
+  border-radius: 10px;
+  border-style: solid;
+  border-color: var(--color-surfaces-border-secundary, #ddf6eb);
+  border-width: 1px;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 327px;
+  position: relative;
+}
+.note-content {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.note-row {
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.note-text {
+  color: var(--color-surfaces-body, #6c6760);
+  text-align: left;
+  font-family: var(--body-xs-font-family, "LeagueSpartan-Regular", sans-serif);
+  font-size: var(--body-xs-font-size, 12px);
+  line-height: var(--body-xs-line-height, 130%);
+  font-weight: var(--body-xs-font-weight, 400);
+  position: relative;
+  flex: 1;
+}
