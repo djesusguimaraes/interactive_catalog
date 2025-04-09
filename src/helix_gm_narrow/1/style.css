@@ -1,0 +1,367 @@
+.mask-group,
+.mask-group * {
+  box-sizing: border-box;
+}
+.mask-group {
+  flex-shrink: 0;
+  height: 878.27px;
+  position: relative;
+}
+.mask-group2 {
+  width: 327px;
+  height: 878.27px;
+  position: static;
+}
+.mask-group-container {
+  border-radius: 10px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 327px;
+  height: 878.27px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.mask-group-content {
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.tit-nio-comercialmente-puro-e-mecanicamente-forte-grau-4 {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 327px;
+  height: 115px;
+  position: relative;
+}
+.description {
+  color: var(--color-feedback-states-active-primary, #7b3972);
+  text-align: left;
+  font-family: var(
+    --body-xshighlight-font-family,
+    "LeagueSpartan-Medium",
+    sans-serif
+  );
+  font-size: var(--body-xshighlight-font-size, 12px);
+  line-height: var(--body-xshighlight-line-height, 130%);
+  font-weight: var(--body-xshighlight-font-weight, 500);
+  position: relative;
+  align-self: stretch;
+}
+.description2 {
+  color: var(--color-neutral-40, #6c6760);
+  text-align: left;
+  font-family: var(--body-xs-font-family, "LeagueSpartan-Regular", sans-serif);
+  font-size: var(--body-xs-font-size, 12px);
+  line-height: var(--body-xs-line-height, 130%);
+  font-weight: var(--body-xs-font-weight, 400);
+  position: relative;
+  align-self: stretch;
+}
+.main-content {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  height: 225px;
+  position: relative;
+}
+.teste-de-tor-o-est-tica {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.teste-de-tor-o-est-tica2 {
+  color: var(--color-feedback-states-active-primary, #7b3972);
+  text-align: left;
+  font-family: var(
+    --body-xshighlight-font-family,
+    "LeagueSpartan-Medium",
+    sans-serif
+  );
+  font-size: var(--body-xshighlight-font-size, 12px);
+  line-height: var(--body-xshighlight-line-height, 130%);
+  font-weight: var(--body-xshighlight-font-weight, 500);
+  position: relative;
+  width: 327px;
+}
+.camada-x-0020-1 {
+  flex-shrink: 0;
+  width: 327px;
+  height: 87.34px;
+  position: relative;
+  overflow: visible;
+}
+.fonte {
+  color: var(--color-surfaces-body, #6c6760);
+  text-align: left;
+  font-family: "LeagueSpartan-Regular", sans-serif;
+  font-size: 10px;
+  line-height: 130%;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+}
+.previsibilidade-da-superf-cie-hidrof-lica-acqua-e-do-tratamento {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 327px;
+  position: relative;
+}
+.previsibilidade-da-superf-cie-hidrof-lica-acqua-e-do-tratamento2 {
+  color: var(--color-feedback-states-active-primary, #7b3972);
+  text-align: left;
+  font-family: var(
+    --body-xshighlight-font-family,
+    "LeagueSpartan-Medium",
+    sans-serif
+  );
+  font-size: var(--body-xshighlight-font-size, 12px);
+  line-height: var(--body-xshighlight-line-height, 130%);
+  font-weight: var(--body-xshighlight-font-weight, 500);
+  position: relative;
+  align-self: stretch;
+}
+.percentage {
+  color: var(--color-neutral-100, #ffffff);
+  text-align: left;
+  font-family: "LeagueSpartan-Regular", sans-serif;
+  font-size: 10px;
+  line-height: 130%;
+  font-weight: 400;
+  position: absolute;
+  left: 280.32px;
+  top: 28.27px;
+}
+.new-system-description {
+  color: var(--color-neutral-100, #ffffff);
+  text-align: left;
+  font-family: "LeagueSpartan-Regular", sans-serif;
+  font-size: 10px;
+  line-height: 130%;
+  font-weight: 400;
+  position: absolute;
+  left: 5.06px;
+  top: 57.72px;
+}
+.old-system-description {
+  color: var(--color-neutral-100, #ffffff);
+  text-align: left;
+  font-family: "LeagueSpartan-Regular", sans-serif;
+  font-size: 10px;
+  line-height: 130%;
+  font-weight: 400;
+  position: absolute;
+  left: 5.06px;
+  top: 90.62px;
+}
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 327px;
+  position: relative;
+  margin-top: 24px;
+}
+.section2 {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.section3 {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 327px;
+  position: relative;
+}
+.icon-and-text {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.camada-x-0020-12 {
+  flex-shrink: 0;
+  width: 42.18px;
+  height: 19px;
+  position: relative;
+  overflow: visible;
+}
+.section-title {
+  color: var(--color-surfaces-titles-primary, #250a20);
+  text-align: left;
+  font-family: var(--body-xs-font-family, "LeagueSpartan-Regular", sans-serif);
+  font-size: var(--body-xs-font-size, 12px);
+  line-height: var(--body-xs-line-height, 130%);
+  font-weight: var(--body-xs-font-weight, 400);
+  position: relative;
+  flex: 1;
+}
+.description3 {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.description4 {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.description5 {
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.description6 {
+  color: var(--color-surfaces-body, #6c6760);
+  text-align: left;
+  font-family: var(--body-xs-font-family, "LeagueSpartan-Regular", sans-serif);
+  font-size: var(--body-xs-font-size, 12px);
+  line-height: var(--body-xs-line-height, 130%);
+  font-weight: var(--body-xs-font-weight, 400);
+  position: relative;
+  flex: 1;
+}
+.section-title2 {
+  color: var(--color-feedback-states-active-primary, #7b3972);
+  text-align: left;
+  font-family: var(
+    --body-xshighlight-font-family,
+    "LeagueSpartan-Medium",
+    sans-serif
+  );
+  font-size: var(--body-xshighlight-font-size, 12px);
+  line-height: var(--body-xshighlight-line-height, 130%);
+  font-weight: var(--body-xshighlight-font-weight, 500);
+  position: relative;
+}
+.description7 {
+  color: var(--color-neutral-40, #6c6760);
+  text-align: left;
+  font-family: var(--body-xs-font-family, "LeagueSpartan-Regular", sans-serif);
+  font-size: var(--body-xs-font-size, 12px);
+  line-height: var(--body-xs-line-height, 130%);
+  font-weight: var(--body-xs-font-weight, 400);
+  position: relative;
+  width: 244.39px;
+}
+.sem-t-tulo-1-74 {
+  flex-shrink: 0;
+  width: 70.12px;
+  height: 71.51px;
+  position: absolute;
+  left: 256.88px;
+  top: 13.25px;
+  object-fit: cover;
+}
+.section-title3 {
+  color: var(--color-feedback-states-active-primary, #7b3972);
+  text-align: left;
+  font-family: var(
+    --body-xshighlight-font-family,
+    "LeagueSpartan-Medium",
+    sans-serif
+  );
+  font-size: var(--body-xshighlight-font-size, 12px);
+  line-height: var(--body-xshighlight-line-height, 130%);
+  font-weight: var(--body-xshighlight-font-weight, 500);
+  position: relative;
+  width: 263.48px;
+}
+.description8 {
+  color: var(--color-neutral-40, #6c6760);
+  text-align: left;
+  font-family: var(--body-xs-font-family, "LeagueSpartan-Regular", sans-serif);
+  font-size: var(--body-xs-font-size, 12px);
+  line-height: var(--body-xs-line-height, 130%);
+  font-weight: var(--body-xs-font-weight, 400);
+  position: relative;
+  width: 262.7px;
+}
+.sem-t-tulo-1-742 {
+  flex-shrink: 0;
+  width: 55.35px;
+  height: 71.51px;
+  position: absolute;
+  left: 267.6px;
+  top: 23.25px;
+  object-fit: cover;
+}
+.section-title4 {
+  color: var(--color-feedback-states-active-primary, #7b3972);
+  text-align: left;
+  font-family: var(
+    --body-xshighlight-font-family,
+    "LeagueSpartan-Medium",
+    sans-serif
+  );
+  font-size: var(--body-xshighlight-font-size, 12px);
+  line-height: var(--body-xshighlight-line-height, 130%);
+  font-weight: var(--body-xshighlight-font-weight, 500);
+  position: relative;
+  width: 262.7px;
+}
+.sem-t-tulo-1-743 {
+  flex-shrink: 0;
+  width: 51.41px;
+  height: 81.66px;
+  position: absolute;
+  left: 275.59px;
+  top: 18.17px;
+  object-fit: cover;
+}
