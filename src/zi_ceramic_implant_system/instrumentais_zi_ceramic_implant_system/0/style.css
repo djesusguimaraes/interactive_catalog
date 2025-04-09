@@ -1,0 +1,785 @@
+.mask-group,
+.mask-group * {
+  box-sizing: border-box;
+}
+.mask-group {
+  flex-shrink: 0;
+  height: 2036.31px;
+  position: relative;
+}
+.container {
+  width: 327px;
+  height: 2036.31px;
+  position: static;
+}
+.container2 {
+  border-radius: 10px;
+  padding: 0px 0px 12px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-end;
+  justify-content: center;
+  width: 327px;
+  height: 2036.31px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.container3 {
+  border-radius: 10px;
+  padding: 16px 0px 16px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.product-list-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+  margin-top: 60px;
+}
+.product-item-container {
+  border-style: solid;
+  border-color: var(--color-surfaces-border-secundary, #f3ebf1);
+  border-width: 0px 0px 1px 0px;
+  padding: 0px 0px 20px 0px;
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+  flex-shrink: 0;
+  width: 327px;
+  position: relative;
+}
+.product-details-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+.product-name {
+  color: var(--color-surfaces-titles-secundary, #3c1635);
+  text-align: left;
+  font-family: var(
+    --body-smhighlight-font-family,
+    "LeagueSpartan-Medium",
+    sans-serif
+  );
+  font-size: var(--body-smhighlight-font-size, 14px);
+  line-height: var(--body-smhighlight-line-height, 130%);
+  font-weight: var(--body-smhighlight-font-weight, 500);
+  position: relative;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.product-description-container {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.product-description {
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.product-feature {
+  color: var(--color-surfaces-body, #6c6760);
+  text-align: left;
+  font-family: var(--body-xs-font-family, "LeagueSpartan-Regular", sans-serif);
+  font-size: var(--body-xs-font-size, 12px);
+  line-height: var(--body-xs-line-height, 130%);
+  font-weight: var(--body-xs-font-weight, 400);
+  position: relative;
+}
+.product-feature2 {
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.product-code-container {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.product-code {
+  border-radius: 50px;
+  border-style: solid;
+  border-color: var(--color-feedback-states-active-primary, #7b3972);
+  border-width: 0.5px;
+  padding: 2px 6px 2px 6px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.product-code2 {
+  color: var(--color-surfaces-body, #6c6760);
+  text-align: left;
+  font-family: "LeagueSpartan-Regular", sans-serif;
+  font-size: 10px;
+  line-height: 130%;
+  font-weight: 400;
+  position: relative;
+}
+._1-81 {
+  flex-shrink: 0;
+  width: 38.13px;
+  height: 82.1px;
+  position: relative;
+  object-fit: cover;
+}
+.icon {
+  background: var(--white-100, #ffffff);
+  border-radius: 129.53px;
+  border-style: solid;
+  border-color: var(--color-surfaces-border-secundary, #f3ebf1);
+  border-width: 0.53px;
+  padding: 7.77px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: absolute;
+  left: 269px;
+  top: 31.51px;
+  box-shadow: 0px 10.36px 41.45px -5.18px rgba(103, 111, 123, 0.1);
+}
+.bs-cart-plus {
+  flex-shrink: 0;
+  width: 13.44px;
+  height: 13.44px;
+  position: relative;
+  overflow: visible;
+}
+.varia-es-sku {
+  color: var(--color-neutral-0, #000000);
+  text-align: left;
+  font-family: "LeagueSpartan-Regular", sans-serif;
+  font-size: 4.3918890953063965px;
+  line-height: 130%;
+  font-weight: 400;
+  opacity: 0;
+  position: absolute;
+  left: 276.77px;
+  top: 43.68px;
+}
+.product-name2 {
+  color: var(--color-surfaces-titles-secundary, #3c1635);
+  text-align: left;
+  font-family: var(
+    --body-smhighlight-font-family,
+    "LeagueSpartan-Medium",
+    sans-serif
+  );
+  font-size: var(--body-smhighlight-font-size, 14px);
+  line-height: var(--body-smhighlight-line-height, 130%);
+  font-weight: var(--body-smhighlight-font-weight, 500);
+  position: relative;
+  align-self: stretch;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.product-code-container2 {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.product-code3 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.product-code4 {
+  color: var(--color-surfaces-titles-primary, #250a20);
+  text-align: left;
+  font-family: var(--body-xs-font-family, "LeagueSpartan-Regular", sans-serif);
+  font-size: var(--body-xs-font-size, 12px);
+  line-height: var(--body-xs-line-height, 130%);
+  font-weight: var(--body-xs-font-weight, 400);
+  position: relative;
+}
+.product-code5 {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.product-code6 {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.icon2 {
+  background: var(--white-100, #ffffff);
+  border-radius: 129.53px;
+  border-style: solid;
+  border-color: var(--color-surfaces-border-secundary, #f3ebf1);
+  border-width: 0.53px;
+  padding: 7.77px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: absolute;
+  left: 253px;
+  top: 60.51px;
+  box-shadow: 0px 10.36px 41.45px -5.18px rgba(103, 111, 123, 0.1);
+}
+.bs-cart-plus2 {
+  flex-shrink: 0;
+  width: 13.44px;
+  height: 13.44px;
+  position: relative;
+  overflow: visible;
+}
+.varia-es-sku2 {
+  color: var(--color-neutral-0, #000000);
+  text-align: left;
+  font-family: "LeagueSpartan-Regular", sans-serif;
+  font-size: 4.3918890953063965px;
+  line-height: 130%;
+  font-weight: 400;
+  opacity: 0;
+  position: absolute;
+  left: 259.3px;
+  top: 69.12px;
+}
+._2-6 {
+  flex-shrink: 0;
+  width: 67.7px;
+  height: 82.1px;
+  position: relative;
+  object-fit: cover;
+}
+.product-description-container2 {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.product-description2 {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.product-code-container3 {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.product-code7 {
+  color: var(--color-surfaces-body, #6c6760);
+  text-align: left;
+  font-family: var(--body-xs-font-family, "LeagueSpartan-Regular", sans-serif);
+  font-size: var(--body-xs-font-size, 12px);
+  line-height: var(--body-xs-line-height, 130%);
+  font-weight: var(--body-xs-font-weight, 400);
+  position: relative;
+}
+.product-code8 {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.icon3 {
+  background: var(--white-100, #ffffff);
+  border-radius: 129.53px;
+  border-style: solid;
+  border-color: var(--color-surfaces-border-secundary, #f3ebf1);
+  border-width: 0.53px;
+  padding: 7.77px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: absolute;
+  left: 271px;
+  top: 200.51px;
+  box-shadow: 0px 10.36px 41.45px -5.18px rgba(103, 111, 123, 0.1);
+}
+.bs-cart-plus3 {
+  flex-shrink: 0;
+  width: 13.44px;
+  height: 13.44px;
+  position: relative;
+  overflow: visible;
+}
+.varia-es-sku3 {
+  color: var(--color-neutral-0, #000000);
+  text-align: left;
+  font-family: "LeagueSpartan-Regular", sans-serif;
+  font-size: 4.3918890953063965px;
+  line-height: 130%;
+  font-weight: 400;
+  opacity: 0;
+  position: absolute;
+  left: 277.89px;
+  top: 179.42px;
+}
+._3-6 {
+  flex-shrink: 0;
+  width: 46.6px;
+  height: 82.1px;
+  position: relative;
+  object-fit: cover;
+}
+.icon4 {
+  background: var(--white-100, #ffffff);
+  border-radius: 129.53px;
+  border-style: solid;
+  border-color: var(--color-surfaces-border-secundary, #f3ebf1);
+  border-width: 0.53px;
+  padding: 7.77px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: absolute;
+  left: 247.95px;
+  top: 55.01px;
+  box-shadow: 0px 10.36px 41.45px -5.18px rgba(103, 111, 123, 0.1);
+}
+.bs-cart-plus4 {
+  flex-shrink: 0;
+  width: 13.44px;
+  height: 13.44px;
+  position: relative;
+  overflow: visible;
+}
+.varia-es-sku4 {
+  color: var(--color-neutral-0, #000000);
+  text-align: left;
+  font-family: "LeagueSpartan-Regular", sans-serif;
+  font-size: 4.3918890953063965px;
+  line-height: 130%;
+  font-weight: 400;
+  opacity: 0;
+  position: absolute;
+  left: 252.45px;
+  top: 62px;
+}
+._4-5 {
+  flex-shrink: 0;
+  width: 67.05px;
+  height: 82.1px;
+  position: relative;
+  object-fit: cover;
+}
+.product-code9 {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.product-code10 {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.icon5 {
+  background: var(--white-100, #ffffff);
+  border-radius: 129.53px;
+  border-style: solid;
+  border-color: var(--color-surfaces-border-secundary, #f3ebf1);
+  border-width: 0.53px;
+  padding: 7.77px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: absolute;
+  left: 275.17px;
+  top: 31.51px;
+  box-shadow: 0px 10.36px 41.45px -5.18px rgba(103, 111, 123, 0.1);
+}
+.bs-cart-plus5 {
+  flex-shrink: 0;
+  width: 13.44px;
+  height: 13.44px;
+  position: relative;
+  overflow: visible;
+}
+.varia-es-sku5 {
+  color: var(--color-neutral-0, #000000);
+  text-align: left;
+  font-family: "LeagueSpartan-Regular", sans-serif;
+  font-size: 4.3918890953063965px;
+  line-height: 130%;
+  font-weight: 400;
+  opacity: 0;
+  position: absolute;
+  left: 278.32px;
+  top: 40.72px;
+}
+._5-3 {
+  flex-shrink: 0;
+  width: 22.84px;
+  height: 82.1px;
+  position: relative;
+  object-fit: cover;
+}
+.product-feature3 {
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.product-feature4 {
+  color: var(--color-surfaces-body, #6c6760);
+  text-align: left;
+  font-family: var(--body-xs-font-family, "LeagueSpartan-Regular", sans-serif);
+  font-size: var(--body-xs-font-size, 12px);
+  line-height: var(--body-xs-line-height, 130%);
+  font-weight: var(--body-xs-font-weight, 400);
+  position: relative;
+  flex: 1;
+}
+.product-feature5 {
+  color: var(--color-surfaces-body, #6c6760);
+  text-align: left;
+  font-family: var(--body-xs-font-family, "LeagueSpartan-Regular", sans-serif);
+  font-size: var(--body-xs-font-size, 12px);
+  line-height: var(--body-xs-line-height, 130%);
+  font-weight: var(--body-xs-font-weight, 400);
+  position: relative;
+  align-self: stretch;
+}
+.product-code-container4 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.product-code11 {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.icon6 {
+  background: var(--white-100, #ffffff);
+  border-radius: 129.53px;
+  border-style: solid;
+  border-color: var(--color-surfaces-border-secundary, #f3ebf1);
+  border-width: 0.53px;
+  padding: 7.77px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: absolute;
+  left: 272.41px;
+  top: 41.51px;
+  box-shadow: 0px 10.36px 41.45px -5.18px rgba(103, 111, 123, 0.1);
+}
+.bs-cart-plus6 {
+  flex-shrink: 0;
+  width: 13.44px;
+  height: 13.44px;
+  position: relative;
+  overflow: visible;
+}
+._6-1 {
+  flex-shrink: 0;
+  width: 25.6px;
+  height: 82.1px;
+  position: relative;
+  object-fit: cover;
+}
+.varia-es-sku6 {
+  color: var(--color-neutral-0, #000000);
+  text-align: left;
+  font-family: "LeagueSpartan-Regular", sans-serif;
+  font-size: 4.3918890953063965px;
+  line-height: 130%;
+  font-weight: 400;
+  opacity: 0;
+  position: absolute;
+  left: 277.72px;
+  top: 49.58px;
+}
+.product-feature6 {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.product-feature7 {
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 263px;
+  position: relative;
+}
+.group-18 {
+  flex-shrink: 0;
+  width: 60px;
+  height: 82.1px;
+  position: static;
+}
+.icon7 {
+  background: var(--white-100, #ffffff);
+  border-radius: 129.53px;
+  border-style: solid;
+  border-color: var(--color-surfaces-border-secundary, #f3ebf1);
+  border-width: 0.53px;
+  padding: 7.77px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 267px;
+  top: 55.51px;
+  box-shadow: 0px 10.36px 41.45px -5.18px rgba(103, 111, 123, 0.1);
+}
+.bs-cart-plus7 {
+  flex-shrink: 0;
+  width: 13.44px;
+  height: 13.44px;
+  position: relative;
+  overflow: visible;
+}
+.broca-de-perfil-1 {
+  width: 37.07px;
+  height: 82.1px;
+  position: absolute;
+  left: 289.93px;
+  top: 28.45px;
+  object-fit: cover;
+}
+.varia-es-sku7 {
+  color: var(--color-neutral-0, #000000);
+  text-align: left;
+  font-family: "LeagueSpartan-Regular", sans-serif;
+  font-size: 4.3918890953063965px;
+  line-height: 130%;
+  font-weight: 400;
+  opacity: 0;
+  position: absolute;
+  left: 275.22px;
+  top: 66.19px;
+}
+.group-19 {
+  flex-shrink: 0;
+  width: 118.03px;
+  height: 69.64px;
+  position: static;
+}
+.chave-1 {
+  width: 118.03px;
+  height: 59.3px;
+  position: absolute;
+  left: 208.97px;
+  top: 13.85px;
+  overflow: visible;
+  object-fit: cover;
+}
+.icon8 {
+  background: var(--white-100, #ffffff);
+  border-radius: 129.53px;
+  border-style: solid;
+  border-color: var(--color-surfaces-border-secundary, #f3ebf1);
+  border-width: 0.53px;
+  padding: 7.77px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 273px;
+  top: 3.51px;
+  box-shadow: 0px 10.36px 41.45px -5.18px rgba(103, 111, 123, 0.1);
+}
+.bs-cart-plus8 {
+  flex-shrink: 0;
+  width: 13.44px;
+  height: 13.44px;
+  position: relative;
+  overflow: visible;
+}
+.varia-es-sku8 {
+  color: var(--color-neutral-0, #000000);
+  text-align: left;
+  font-family: "LeagueSpartan-Regular", sans-serif;
+  font-size: 4.3918890953063965px;
+  line-height: 130%;
+  font-weight: 400;
+  opacity: 0;
+  position: absolute;
+  left: 280.77px;
+  top: 15.68px;
+}
+.product-description-container3 {
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 262px;
+  position: relative;
+}
+.product-code12 {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.group-20 {
+  flex-shrink: 0;
+  width: 58.26px;
+  height: 82.1px;
+  position: static;
+}
+.icon9 {
+  background: var(--white-100, #ffffff);
+  border-radius: 129.53px;
+  border-style: solid;
+  border-color: var(--color-surfaces-border-secundary, #f3ebf1);
+  border-width: 0.53px;
+  padding: 7.77px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 268.74px;
+  top: 38.51px;
+  box-shadow: 0px 10.36px 41.45px -5.18px rgba(103, 111, 123, 0.1);
+}
+.bs-cart-plus9 {
+  flex-shrink: 0;
+  width: 13.44px;
+  height: 13.44px;
+  position: relative;
+  overflow: visible;
+}
+.posicionador-1 {
+  width: 31.76px;
+  height: 82.1px;
+  position: absolute;
+  left: 295.24px;
+  top: 10.45px;
+  object-fit: cover;
+}
+.varia-es-sku9 {
+  color: var(--color-neutral-0, #000000);
+  text-align: left;
+  font-family: "LeagueSpartan-Regular", sans-serif;
+  font-size: 4.3918890953063965px;
+  line-height: 130%;
+  font-weight: 400;
+  opacity: 0;
+  position: absolute;
+  left: 275.74px;
+  top: 50.68px;
+}

@@ -1,6 +1,29 @@
-.drill-sequence-section,
-.drill-sequence-section * {
+.mask-group,
+.mask-group * {
   box-sizing: border-box;
+}
+.mask-group {
+  flex-shrink: 0;
+  height: 1819.42px;
+  position: relative;
+}
+.container {
+  width: 327px;
+  height: 1819.42px;
+  position: static;
+}
+.container2 {
+  border-radius: 10px;
+  padding: 16px 0px 16px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 327px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
 }
 .drill-sequence-section {
   display: flex;
@@ -10,7 +33,6 @@
   justify-content: flex-start;
   align-self: stretch;
   flex-shrink: 0;
-  height: 1963px;
   position: relative;
 }
 .drill-sequence-container {
@@ -200,7 +222,7 @@
   background: var(--white-100, #ffffff);
   border-radius: 129.53px;
   border-style: solid;
-  border-color: var(--color-surfaces-border-secundary, #ddf6eb);
+  border-color: var(--color-surfaces-border-secundary, #f3ebf1);
   border-width: 0.53px;
   padding: 7.77px;
   display: flex;
@@ -210,7 +232,7 @@
   justify-content: center;
   flex-shrink: 0;
   position: absolute;
-  left: 315px;
+  left: 292.75px;
   top: 90.69px;
   box-shadow: 0px 10.36px 41.45px -5.18px rgba(103, 111, 123, 0.1);
 }
@@ -267,7 +289,6 @@
   flex-direction: row;
   gap: 2px;
   align-items: center;
-  justify-content: center;
   flex-shrink: 0;
   position: relative;
 }
@@ -457,8 +478,9 @@
   align-items: flex-start;
   justify-content: flex-start;
   flex-shrink: 0;
-  height: 1180px;
+  height: 1004px;
   position: relative;
+  margin-bottom: 32px;
 }
 .workflow-title {
   color: var(--color-surfaces-titles-secundary, #3c1635);
@@ -483,6 +505,7 @@
   justify-content: flex-start;
   flex-shrink: 0;
   width: 327px;
+  height: 884px;
   position: relative;
 }
 .workflow-step-container {
@@ -827,26 +850,33 @@
   position: relative;
   overflow: visible;
 }
+.frame-1171276340 {
+  border-radius: 8px;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 118.76px;
+  position: relative;
+  overflow: hidden;
+}
 .workflow-step-container8 {
   display: flex;
   flex-direction: column;
   gap: 0px;
   align-items: flex-start;
   justify-content: flex-start;
-  align-self: stretch;
-  flex-shrink: 0;
-  position: relative;
+  position: absolute;
+  left: 1px;
+  top: -0.35px;
 }
 .workflow-step-container9 {
   align-self: stretch;
   flex-shrink: 0;
-  height: 34.22px;
+  height: 21.87px;
   position: static;
 }
 .workflow-step-container10 {
-  background: #833376;
-  width: 510px;
-  height: 34.22px;
+  width: 326px;
+  height: 21.87px;
   position: static;
 }
 .workflow-step-container11 {
@@ -855,82 +885,83 @@
   gap: 0px;
   align-items: center;
   justify-content: flex-start;
-  width: 327px;
+  width: 326px;
   position: absolute;
   left: 0px;
   top: 0px;
 }
 .workflow-step-container12 {
-  border-radius: 8px 8px 0px 0px;
-  padding: 2px 12px 2px 6px;
+  background: #833376;
+  border-radius: 5.11px 5.11px 0px 0px;
+  padding: 1.28px 7.67px 1.28px 3.84px;
   display: flex;
   flex-direction: row;
-  gap: 52px;
+  gap: 33.24px;
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-  width: 510px;
+  width: 326px;
   position: relative;
 }
 .workflow-step-title4 {
   color: var(--color-neutral-100, #ffffff);
   text-align: left;
   font-family: "LeagueSpartan-Regular", sans-serif;
-  font-size: 10px;
+  font-size: 6.392157077789307px;
   line-height: 130%;
   font-weight: 400;
   position: absolute;
-  left: 175.96px;
-  top: 8.5px;
+  left: 112.48px;
+  top: 5.43px;
 }
 .workflow-step-title5 {
   color: var(--color-neutral-100, #ffffff);
   text-align: left;
   font-family: "LeagueSpartan-Regular", sans-serif;
-  font-size: 10px;
+  font-size: 6.392157077789307px;
   line-height: 130%;
   font-weight: 400;
   position: absolute;
-  left: 17.97px;
-  top: 8.5px;
+  left: 11.49px;
+  top: 5.43px;
 }
 .workflow-step-description4 {
   color: var(--color-neutral-100, #ffffff);
   text-align: center;
   font-family: "LeagueSpartan-Regular", sans-serif;
-  font-size: 10px;
+  font-size: 6.392157077789307px;
   line-height: 130%;
   font-weight: 400;
   position: absolute;
-  left: 384.43px;
-  top: 4.11px;
-  width: 103px;
+  left: 245.73px;
+  top: 2.63px;
+  width: 65.84px;
 }
 .line-2 {
-  margin-top: -1px;
+  margin-top: -0.64px;
   border-style: solid;
   border-color: var(--neutral-0, #fefefe);
-  border-width: 1px 0 0 0;
+  border-width: 0.64px 0 0 0;
   flex-shrink: 0;
-  width: 34.22px;
+  width: 21.87px;
   height: 0px;
   position: absolute;
-  left: 75.39px;
-  top: 34.22px;
+  left: 48.19px;
+  top: 21.87px;
   transform-origin: 0 0;
   transform: rotate(-90deg) scale(1, 1);
 }
 .line-3 {
-  margin-top: -1px;
+  margin-top: -0.64px;
   border-style: solid;
   border-color: var(--neutral-0, #fefefe);
-  border-width: 1px 0 0 0;
+  border-width: 0.64px 0 0 0;
   flex-shrink: 0;
-  width: 34.22px;
+  width: 21.87px;
   height: 0px;
   position: absolute;
-  left: 358.96px;
-  top: 34.22px;
+  left: 229.45px;
+  top: 21.87px;
   transform-origin: 0 0;
   transform: rotate(-90deg) scale(1, 1);
 }
@@ -941,7 +972,7 @@
   align-items: center;
   justify-content: flex-start;
   flex-shrink: 0;
-  width: 510px;
+  width: 326px;
   position: relative;
 }
 .workflow-step-info6 {
@@ -957,23 +988,23 @@
   background: #ededed;
   border-style: solid;
   border-color: var(--neutral-0, #fefefe);
-  border-width: 0px 1px 0px 0px;
-  padding: 8px 4px 8px 4px;
+  border-width: 0px 0.64px 0px 0px;
+  padding: 5.11px 2.56px 5.11px 2.56px;
   display: flex;
   flex-direction: row;
-  gap: 8px;
+  gap: 5.11px;
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-  width: 75.4px;
-  height: 55px;
+  width: 48.2px;
+  height: 35.16px;
   position: relative;
 }
 .workflow-step-title6 {
   color: var(--color-neutral-40, #6c6760);
   text-align: left;
   font-family: "LeagueSpartan-Regular", sans-serif;
-  font-size: 10px;
+  font-size: 6.392157077789307px;
   line-height: 130%;
   font-weight: 400;
   position: relative;
@@ -982,42 +1013,42 @@
   background: #ededed;
   border-style: solid;
   border-color: var(--neutral-0, #fefefe);
-  border-width: 1px 1px 0px 0px;
-  padding: 8px 4px 8px 4px;
+  border-width: 0.64px 0.64px 0px 0px;
+  padding: 5.11px 2.56px 5.11px 2.56px;
   display: flex;
   flex-direction: row;
-  gap: 8px;
+  gap: 5.11px;
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-  width: 75.5px;
-  height: 29px;
+  width: 48.26px;
+  height: 18.54px;
   position: relative;
 }
 .workflow-step-title7 {
   color: var(--color-neutral-40, #6c6760);
   text-align: left;
   font-family: "LeagueSpartan-SemiBold", sans-serif;
-  font-size: 10px;
+  font-size: 6.392157077789307px;
   line-height: 130%;
   font-weight: 600;
   position: relative;
 }
 .workflow-step-container16 {
   background: #ededed;
-  border-radius: 0px 0px 0px 8px;
+  border-radius: 0px 0px 0px 5.11px;
   border-style: solid;
   border-color: var(--neutral-0, #fefefe);
-  border-width: 1px 1px 0px 0px;
-  padding: 8px 4px 8px 4px;
+  border-width: 0.64px 0.64px 0px 0px;
+  padding: 5.11px 2.56px 5.11px 2.56px;
   display: flex;
   flex-direction: row;
-  gap: 8px;
+  gap: 5.11px;
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-  width: 75.5px;
-  height: 29px;
+  width: 48.26px;
+  height: 18.54px;
   position: relative;
 }
 .workflow-step-container17 {
@@ -1028,34 +1059,34 @@
   justify-content: center;
   align-self: stretch;
   flex-shrink: 0;
-  width: 71px;
+  width: 45.38px;
   position: relative;
 }
 .workflow-step-container18 {
   background: #ededed;
   border-style: solid;
   border-color: var(--neutral-0, #fefefe);
-  border-width: 0px 1px 0px 0px;
-  padding: 8px 4px 8px 4px;
+  border-width: 0px 0.64px 0px 0px;
+  padding: 5.11px 2.56px 5.11px 2.56px;
   display: flex;
   flex-direction: row;
-  gap: 8px;
+  gap: 5.11px;
   align-items: center;
   justify-content: center;
   align-self: stretch;
   flex-shrink: 0;
-  height: 55px;
+  height: 35.16px;
   position: relative;
 }
 .workflow-step-container19 {
   background: #ededed;
   border-style: solid;
   border-color: var(--neutral-0, #fefefe);
-  border-width: 1px 1px 0px 0px;
-  padding: 8px 4px 8px 4px;
+  border-width: 0.64px 0.64px 0px 0px;
+  padding: 5.11px 2.56px 5.11px 2.56px;
   display: flex;
   flex-direction: row;
-  gap: 8px;
+  gap: 5.11px;
   align-items: center;
   justify-content: center;
   align-self: stretch;
@@ -1076,36 +1107,36 @@
   background: #ededed;
   border-style: solid;
   border-color: var(--neutral-0, #fefefe);
-  border-width: 0px 1px 0px 0px;
-  padding: 8px 4px 8px 4px;
+  border-width: 0px 0.64px 0px 0px;
+  padding: 5.11px 2.56px 5.11px 2.56px;
   display: flex;
   flex-direction: row;
-  gap: 8px;
+  gap: 5.11px;
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-  height: 55px;
+  height: 35.16px;
   position: relative;
 }
 .workflow-step-title8 {
   color: var(--color-neutral-40, #6c6760);
   text-align: center;
   font-family: "LeagueSpartan-Regular", sans-serif;
-  font-size: 10px;
+  font-size: 6.392157077789307px;
   line-height: 130%;
   font-weight: 400;
   position: relative;
-  width: 58px;
+  width: 37.07px;
 }
 .workflow-step-container22 {
   background: #ededed;
   border-style: solid;
   border-color: var(--neutral-0, #fefefe);
-  border-width: 1px 1px 0px 0px;
-  padding: 8px 4px 8px 4px;
+  border-width: 0.64px 0.64px 0px 0px;
+  padding: 5.11px 2.56px 5.11px 2.56px;
   display: flex;
   flex-direction: row;
-  gap: 8px;
+  gap: 5.11px;
   align-items: center;
   justify-content: center;
   flex: 1;
@@ -1115,21 +1146,21 @@
   color: var(--color-neutral-40, #6c6760);
   text-align: center;
   font-family: "LeagueSpartan-Regular", sans-serif;
-  font-size: 10px;
+  font-size: 6.392157077789307px;
   line-height: 130%;
   font-weight: 400;
   position: relative;
-  width: 62.81px;
+  width: 40.15px;
 }
 .workflow-step-title10 {
   color: var(--color-neutral-40, #6c6760);
   text-align: center;
   font-family: "LeagueSpartan-Regular", sans-serif;
-  font-size: 10px;
+  font-size: 6.392157077789307px;
   line-height: 130%;
   font-weight: 400;
   position: relative;
-  width: 39.96px;
+  width: 25.54px;
 }
 .workflow-step-container23 {
   display: flex;
@@ -1145,16 +1176,37 @@
   background: #ededed;
   border-style: solid;
   border-color: var(--neutral-0, #fefefe);
-  border-width: 0px 1px 0px 0px;
-  padding: 8px 4px 8px 4px;
+  border-width: 0px 0.64px 0px 0px;
+  padding: 5.11px 2.56px 5.11px 2.56px;
   display: flex;
   flex-direction: row;
-  gap: 8px;
+  gap: 5.11px;
   align-items: center;
   justify-content: center;
   align-self: stretch;
   flex: 1;
   position: relative;
+}
+.rectangle-9464 {
+  background: rgba(0, 0, 0, 0.2);
+  width: 119px;
+  height: 328px;
+  position: absolute;
+  left: calc(50% - -163.5px);
+  top: calc(50% - 59.73px);
+  transform-origin: 0 0;
+  transform: rotate(90deg) scale(1, 1);
+  backdrop-filter: blur(2.8px);
+}
+.bs-eye {
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  left: 50%;
+  translate: -50% -50%;
+  top: 50%;
+  overflow: visible;
+  aspect-ratio: 1;
 }
 .workflow-step-container25 {
   display: flex;
@@ -1227,7 +1279,6 @@
   flex-direction: row;
   gap: 6px;
   align-items: center;
-  justify-content: center;
   flex-shrink: 0;
   position: relative;
 }
@@ -1283,7 +1334,7 @@
   background: var(--white-100, #ffffff);
   border-radius: 129.53px;
   border-style: solid;
-  border-color: var(--color-surfaces-border-secundary, #ddf6eb);
+  border-color: var(--color-surfaces-border-secundary, #f3ebf1);
   border-width: 0.53px;
   padding: 7.77px;
   display: flex;
@@ -1323,7 +1374,7 @@
   background: var(--white-100, #ffffff);
   border-radius: 129.53px;
   border-style: solid;
-  border-color: var(--color-surfaces-border-secundary, #ddf6eb);
+  border-color: var(--color-surfaces-border-secundary, #f3ebf1);
   border-width: 0.53px;
   padding: 7.77px;
   display: flex;
@@ -1433,7 +1484,7 @@
   background: var(--white-100, #ffffff);
   border-radius: 129.53px;
   border-style: solid;
-  border-color: var(--color-surfaces-border-secundary, #ddf6eb);
+  border-color: var(--color-surfaces-border-secundary, #f3ebf1);
   border-width: 0.53px;
   padding: 7.77px;
   display: flex;
