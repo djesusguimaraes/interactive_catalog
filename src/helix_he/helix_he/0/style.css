@@ -102,7 +102,7 @@
   align-items: flex-start;
   justify-content: flex-start;
   flex-shrink: 0;
-  width: 327px;
+  width: 100%;
   position: relative;
 }
 .section-description {
@@ -122,7 +122,7 @@
   align-items: flex-start;
   justify-content: flex-start;
   flex-shrink: 0;
-  width: 327px;
+  width: 100%;
   position: relative;
 }
 .section-title {
@@ -184,7 +184,7 @@
   align-items: flex-start;
   justify-content: flex-start;
   flex-shrink: 0;
-  width: 327px;
+  width: 100%;
   position: relative;
 }
 .frame-1171276375 {
@@ -212,7 +212,7 @@
   align-items: flex-start;
   justify-content: flex-start;
   flex-shrink: 0;
-  width: 327px;
+  width: 100%;
   position: relative;
 }
 .sem-t-tulo-1-1523 {
@@ -230,6 +230,6 @@
   align-items: flex-start;
   justify-content: flex-start;
   flex-shrink: 0;
-  width: 327px;
+  width: 100%;
   position: relative;
 }

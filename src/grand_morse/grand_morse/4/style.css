@@ -77,7 +77,7 @@
   line-height: 130%;
   font-weight: 400;
   position: relative;
-  width: 327px;
+  width: 100%;
 }
 .subheader-text-span {
   color: var(--color-feedback-states-active-primary, #7b3972);
@@ -118,7 +118,7 @@
   align-items: flex-start;
   justify-content: flex-start;
   flex-shrink: 0;
-  width: 327px;
+  width: 100%;
   position: relative;
 }
 .description-container2 {
@@ -168,7 +168,7 @@
   align-items: flex-start;
   justify-content: flex-start;
   flex-shrink: 0;
-  width: 327px;
+  width: 100%;
   position: relative;
 }
 .instruction-step-container {
@@ -220,7 +220,7 @@
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-  width: 327px;
+  width: 100%;
   position: relative;
 }
 .instruction-step-text {

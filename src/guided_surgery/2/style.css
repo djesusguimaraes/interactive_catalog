@@ -19,18 +19,18 @@
   align-items: flex-start;
   justify-content: flex-start;
   flex-shrink: 0;
-  width: 327px;
+  width: 100%;
   height: 1075px;
   position: relative;
 }
 .mask-group {
   flex-shrink: 0;
-  width: 327px;
+  width: 100%;
   height: 1037px;
   position: static;
 }
 .group-1 {
-  width: 327px;
+  width: 100%;
   height: 1037px;
   position: static;
 }
@@ -40,7 +40,7 @@
   gap: 32px;
   align-items: flex-start;
   justify-content: flex-start;
-  width: 327px;
+  width: 100%;
   position: absolute;
   left: 0px;
   top: 0px;
@@ -336,7 +336,7 @@
   align-items: flex-start;
   justify-content: flex-start;
   flex-shrink: 0;
-  width: 327px;
+  width: 100%;
   position: relative;
 }
 .container17 {

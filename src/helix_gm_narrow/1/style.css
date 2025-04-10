@@ -8,7 +8,7 @@
   position: relative;
 }
 .mask-group2 {
-  width: 327px;
+  width: 100%;
   height: 878.27px;
   position: static;
 }
@@ -20,7 +20,7 @@
   gap: 32px;
   align-items: flex-start;
   justify-content: flex-start;
-  width: 327px;
+  width: 100%;
   height: 878.27px;
   position: absolute;
   left: 0px;
@@ -44,7 +44,7 @@
   align-items: flex-start;
   justify-content: flex-start;
   flex-shrink: 0;
-  width: 327px;
+  width: 100%;
   height: 115px;
   position: relative;
 }
@@ -103,11 +103,11 @@
   line-height: var(--body-xshighlight-line-height, 130%);
   font-weight: var(--body-xshighlight-font-weight, 500);
   position: relative;
-  width: 327px;
+  width: 100%;
 }
 .camada-x-0020-1 {
   flex-shrink: 0;
-  width: 327px;
+  width: 100%;
   height: 87.34px;
   position: relative;
   overflow: visible;
@@ -129,7 +129,7 @@
   align-items: flex-start;
   justify-content: flex-start;
   flex-shrink: 0;
-  width: 327px;
+  width: 100%;
   position: relative;
 }
 .previsibilidade-da-superf-cie-hidrof-lica-acqua-e-do-tratamento2 {
@@ -186,7 +186,7 @@
   align-items: flex-start;
   justify-content: flex-start;
   flex-shrink: 0;
-  width: 327px;
+  width: 100%;
   position: relative;
   margin-top: 24px;
 }
@@ -207,7 +207,7 @@
   align-items: flex-start;
   justify-content: flex-start;
   flex-shrink: 0;
-  width: 327px;
+  width: 100%;
   position: relative;
 }
 .icon-and-text {

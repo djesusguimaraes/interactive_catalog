@@ -37,7 +37,7 @@
   align-items: flex-start;
   justify-content: flex-start;
   flex-shrink: 0;
-  width: 327px;
+  width: 100%;
   position: relative;
 }
 .sem-t-tulo-2-13 {
@@ -188,7 +188,7 @@
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-  width: 327px;
+  width: 100%;
   position: relative;
 }
 .sem-t-tulo-1-138 {

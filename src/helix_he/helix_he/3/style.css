@@ -28,7 +28,7 @@
   align-items: flex-start;
   justify-content: flex-start;
   flex-shrink: 0;
-  width: 327px;
+  width: 100%;
   position: relative;
 }
 .main-container2 {
@@ -38,7 +38,7 @@
   align-items: flex-start;
   justify-content: flex-start;
   flex-shrink: 0;
-  width: 327px;
+  width: 100%;
   position: relative;
 }
 .main-container3 {
@@ -364,7 +364,7 @@
   align-items: flex-start;
   justify-content: flex-start;
   flex-shrink: 0;
-  width: 327px;
+  width: 100%;
   position: relative;
 }
 .implantes-helix-gm {
@@ -622,7 +622,7 @@
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-  width: 326.98px;
+  width: 100%;
   position: relative;
 }
 .product-info {

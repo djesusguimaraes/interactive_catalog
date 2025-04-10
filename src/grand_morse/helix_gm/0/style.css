@@ -79,7 +79,7 @@
   line-height: var(--body-xs-line-height, 130%);
   font-weight: var(--body-xs-font-weight, 400);
   position: relative;
-  width: 327px;
+  width: 100%;
 }
 .product-features-container {
   display: flex;
@@ -88,7 +88,7 @@
   align-items: flex-start;
   justify-content: flex-start;
   flex-shrink: 0;
-  width: 327px;
+  width: 100%;
   position: relative;
 }
 .implant-description-container {

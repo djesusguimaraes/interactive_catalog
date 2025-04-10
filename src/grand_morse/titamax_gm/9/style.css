@@ -231,7 +231,7 @@
   align-items: flex-start;
   justify-content: flex-start;
   flex-shrink: 0;
-  width: 327px;
+  width: 100%;
   position: relative;
 }
 .container2 {
@@ -420,7 +420,7 @@
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-  width: 327px;
+  width: 100%;
   position: relative;
   overflow: hidden;
 }
@@ -490,7 +490,7 @@
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-  width: 327px;
+  width: 100%;
   position: relative;
   overflow: hidden;
 }
@@ -502,7 +502,7 @@
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-  width: 327px;
+  width: 100%;
   position: relative;
   overflow: hidden;
 }
@@ -752,7 +752,7 @@
   align-items: flex-start;
   justify-content: flex-start;
   flex-shrink: 0;
-  width: 327px;
+  width: 100%;
   position: relative;
 }
 .keys-column {
@@ -973,7 +973,7 @@
   align-items: center;
   justify-content: flex-start;
   flex-shrink: 0;
-  width: 327px;
+  width: 100%;
   position: relative;
 }
 ._1-112 {

@@ -45,17 +45,17 @@
   align-items: flex-start;
   justify-content: flex-start;
   flex-shrink: 0;
-  width: 327px;
+  width: 100%;
   height: 897px;
   position: relative;
 }
 .mask-group {
   flex: 1;
-  width: 327px;
+  width: 100%;
   position: static;
 }
 .mask-group2 {
-  width: 327px;
+  width: 100%;
   height: 897px;
   position: static;
 }
@@ -66,7 +66,7 @@
   gap: 20px;
   align-items: flex-start;
   justify-content: flex-start;
-  width: 327px;
+  width: 100%;
   height: 897px;
   position: absolute;
   left: 0px;
@@ -78,7 +78,7 @@
   gap: 16px;
   align-items: center;
   flex-shrink: 0;
-  width: 326.98px;
+  width: 100%;
   position: relative;
 }
 .product-info {

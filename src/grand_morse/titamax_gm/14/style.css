@@ -365,7 +365,7 @@
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-  width: 327px;
+  width: 100%;
   position: relative;
   overflow: hidden;
 }
@@ -415,7 +415,7 @@
   align-items: flex-start;
   justify-content: flex-start;
   flex-shrink: 0;
-  width: 327px;
+  width: 100%;
   position: relative;
 }
 .container12 {
@@ -523,7 +523,7 @@
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-  width: 327px;
+  width: 100%;
   position: relative;
   overflow: hidden;
 }
@@ -564,7 +564,7 @@
   align-items: flex-start;
   justify-content: center;
   flex-shrink: 0;
-  width: 327px;
+  width: 100%;
   position: relative;
 }
 .step-row {
@@ -665,7 +665,7 @@
   align-items: flex-start;
   justify-content: flex-start;
   flex-shrink: 0;
-  width: 327px;
+  width: 100%;
   height: 382px;
   position: relative;
 }
@@ -686,7 +686,7 @@
   align-items: flex-start;
   justify-content: flex-start;
   flex-shrink: 0;
-  width: 327px;
+  width: 100%;
   position: relative;
 }
 .container25 {
@@ -862,7 +862,7 @@
   align-items: center;
   justify-content: flex-start;
   flex-shrink: 0;
-  width: 327px;
+  width: 100%;
   position: relative;
 }
 ._1-112 {

@@ -86,7 +86,7 @@
   line-height: var(--body-xs-line-height, 130%);
   font-weight: var(--body-xs-font-weight, 400);
   position: relative;
-  width: 327px;
+  width: 100%;
 }
 .container5 {
   display: flex;
@@ -150,7 +150,7 @@
   line-height: var(--body-xshighlight-line-height, 130%);
   font-weight: var(--body-xshighlight-font-weight, 500);
   position: relative;
-  width: 327px;
+  width: 100%;
 }
 .section-description {
   color: var(--color-neutral-40, #6c6760);

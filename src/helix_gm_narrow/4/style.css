@@ -14,7 +14,7 @@
   gap: 6px;
   align-items: flex-start;
   justify-content: flex-start;
-  width: 327px;
+  width: 100%;
   position: absolute;
   left: 0px;
   top: 0px;
@@ -201,7 +201,7 @@
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-  width: 327px;
+  width: 100%;
   position: relative;
 }
 .instruction-text-container {

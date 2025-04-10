@@ -18,7 +18,7 @@
   align-items: flex-start;
   justify-content: flex-start;
   flex-shrink: 0;
-  width: 327px;
+  width: 100%;
   height: 1330px;
   position: relative;
 }
@@ -126,7 +126,7 @@
   align-items: center;
   justify-content: flex-start;
   flex-shrink: 0;
-  width: 327px;
+  width: 100%;
   position: relative;
 }
 .subtitle {
@@ -402,7 +402,7 @@
   align-items: flex-start;
   justify-content: flex-start;
   flex-shrink: 0;
-  width: 327px;
+  width: 100%;
   position: relative;
 }
 .drill-sequence {
@@ -656,7 +656,7 @@
   align-items: center;
   justify-content: flex-start;
   flex-shrink: 0;
-  width: 327px;
+  width: 100%;
   position: relative;
 }
 .note-text {
@@ -674,7 +674,7 @@
   align-items: flex-start;
   justify-content: space-between;
   flex-shrink: 0;
-  width: 327px;
+  width: 100%;
   height: 103.11px;
   position: relative;
 }
@@ -809,7 +809,7 @@
   align-items: flex-start;
   justify-content: flex-start;
   flex-shrink: 0;
-  width: 327px;
+  width: 100%;
   position: relative;
 }
 .product-list2 {
@@ -985,7 +985,7 @@
   align-items: flex-start;
   justify-content: flex-start;
   flex-shrink: 0;
-  width: 327px;
+  width: 100%;
   position: relative;
 }
 .container3 {
@@ -1159,7 +1159,7 @@
   align-items: flex-start;
   justify-content: flex-start;
   flex-shrink: 0;
-  width: 327px;
+  width: 100%;
   position: relative;
 }
 .left-section {

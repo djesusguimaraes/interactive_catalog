@@ -14,7 +14,7 @@
   gap: 16px;
   align-items: flex-start;
   justify-content: flex-start;
-  width: 327px;
+  width: 100%;
   height: 1044.46px;
   position: absolute;
   left: 0px;
@@ -52,7 +52,7 @@
   line-height: var(--body-xshighlight-line-height, 130%);
   font-weight: var(--body-xshighlight-font-weight, 500);
   position: relative;
-  width: 327px;
+  width: 100%;
 }
 .section {
   display: flex;
@@ -61,7 +61,7 @@
   align-items: flex-start;
   justify-content: flex-start;
   flex-shrink: 0;
-  width: 327px;
+  width: 100%;
   position: relative;
 }
 .section2 {
@@ -81,7 +81,7 @@
   align-items: flex-start;
   justify-content: flex-start;
   flex-shrink: 0;
-  width: 327px;
+  width: 100%;
   position: relative;
 }
 .icon-container {
@@ -187,7 +187,7 @@
   align-items: flex-start;
   justify-content: flex-start;
   flex-shrink: 0;
-  width: 327px;
+  width: 100%;
   position: relative;
 }
 .section-title {
@@ -367,7 +367,7 @@
   align-items: flex-start;
   justify-content: flex-start;
   flex-shrink: 0;
-  width: 327px;
+  width: 100%;
   position: absolute;
   left: 0px;
   top: 1016px;

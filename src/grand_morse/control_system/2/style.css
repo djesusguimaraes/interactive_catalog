@@ -13,7 +13,7 @@
   gap: 376px;
   align-items: flex-start;
   justify-content: flex-start;
-  width: 327px;
+  width: 100%;
   height: 1344px;
   position: absolute;
   left: 0px;
@@ -21,12 +21,12 @@
 }
 .mask-group {
   flex-shrink: 0;
-  width: 327px;
+  width: 100%;
   height: 2192.81px;
   position: static;
 }
 .mask-group2 {
-  width: 327px;
+  width: 100%;
   height: 2192.81px;
   position: static;
 }
@@ -38,7 +38,7 @@
   gap: 16px;
   align-items: flex-start;
   justify-content: flex-start;
-  width: 327px;
+  width: 100%;
   height: 2192.81px;
   position: absolute;
   left: 0px;
@@ -51,7 +51,7 @@
   align-items: flex-start;
   justify-content: flex-start;
   flex-shrink: 0;
-  width: 327px;
+  width: 100%;
   height: 2177px;
   position: relative;
 }
@@ -365,7 +365,7 @@
   align-items: flex-start;
   justify-content: flex-start;
   flex-shrink: 0;
-  width: 327px;
+  width: 100%;
   position: relative;
   margin-top: 32px;
 }
@@ -407,7 +407,7 @@
   gap: 12px;
   align-items: flex-end;
   justify-content: center;
-  width: 327px;
+  width: 100%;
   height: 817px;
   position: absolute;
   left: 0px;
@@ -755,7 +755,7 @@
   align-items: flex-start;
   justify-content: flex-start;
   flex-shrink: 0;
-  width: 327px;
+  width: 100%;
   position: relative;
 }
 .footer-text-container {

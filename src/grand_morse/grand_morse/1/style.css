@@ -93,7 +93,7 @@
   line-height: var(--body-xs-line-height, 130%);
   font-weight: var(--body-xs-font-weight, 400);
   position: relative;
-  width: 327px;
+  width: 100%;
 }
 .testimonial-container2 {
   display: flex;
@@ -132,7 +132,7 @@
   align-items: flex-start;
   justify-content: flex-start;
   flex-shrink: 0;
-  width: 327px;
+  width: 100%;
   position: relative;
 }
 .testimonial-title2 {
@@ -177,7 +177,7 @@
 }
 .diametros-gm-1 {
   flex-shrink: 0;
-  width: 326.98px;
+  width: 100%;
   height: 59.81px;
   position: relative;
   object-fit: cover;
@@ -199,7 +199,7 @@
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-  width: 326.98px;
+  width: 100%;
   position: relative;
 }
 .testimonial-text-container {
