@@ -1,0 +1,357 @@
+.mask-group-container,
+.mask-group-container * {
+  box-sizing: border-box;
+}
+.mask-group-container {
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: 506.16px;
+  position: relative;
+}
+.frame-1171276320 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.mask-group-content {
+  padding: 16px 0px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.mask-group-section {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-1171276318 {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.section-subtitle {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.title {
+  color: #07392a;
+  text-align: left;
+  font-family: var(
+    --body-smhighlight-font-family,
+    "LeagueSpartan-Medium",
+    sans-serif
+  );
+  font-size: var(--body-smhighlight-font-size, 14px);
+  line-height: var(--body-smhighlight-line-height, 130%);
+  font-weight: var(--body-smhighlight-font-weight, 500);
+  position: relative;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.frame-1171276321 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-1171276319 {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 327px;
+  position: relative;
+}
+.section-description {
+  color: var(--color-neutral-40, #6c6760);
+  text-align: left;
+  font-family: var(--body-xs-font-family, "LeagueSpartan-Regular", sans-serif);
+  font-size: var(--body-xs-font-size, 12px);
+  line-height: var(--body-xs-line-height, 130%);
+  font-weight: var(--body-xs-font-weight, 400);
+  position: relative;
+  align-self: stretch;
+}
+.frame-11712763202 {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 327px;
+  position: relative;
+}
+.section-title {
+  color: #46b98c;
+  text-align: left;
+  font-family: var(
+    --body-xshighlight-font-family,
+    "LeagueSpartan-Medium",
+    sans-serif
+  );
+  font-size: var(--body-xshighlight-font-size, 12px);
+  line-height: var(--body-xshighlight-line-height, 130%);
+  font-weight: var(--body-xshighlight-font-weight, 500);
+  position: relative;
+  align-self: stretch;
+}
+.frame-1171276376 {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-1171276374 {
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.section-description2 {
+  color: #6c6760;
+  text-align: left;
+  font-family: var(--body-xs-font-family, "LeagueSpartan-Regular", sans-serif);
+  font-size: var(--body-xs-font-size, 12px);
+  line-height: var(--body-xs-line-height, 130%);
+  font-weight: var(--body-xs-font-weight, 400);
+  position: relative;
+  flex: 1;
+}
+.sem-t-tulo-1-152 {
+  flex-shrink: 0;
+  width: 106.38px;
+  height: 72.68px;
+  position: relative;
+  object-fit: cover;
+  aspect-ratio: 106.38/72.68;
+}
+.frame-1171276377 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-1171276378 {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-11712763212 {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 327px;
+  position: relative;
+}
+.frame-1171276375 {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.description-item {
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 327px;
+  position: relative;
+}
+.ellipse-9 {
+  background: var(--color-feedback-states-active-primary, #7b3972);
+  border-radius: 50%;
+  flex-shrink: 0;
+  width: 6px;
+  height: 6px;
+  position: relative;
+}
+.description-text {
+  color: var(--color-surfaces-body, #6c6760);
+  text-align: left;
+  font-family: var(--body-xs-font-family, "LeagueSpartan-Regular", sans-serif);
+  font-size: var(--body-xs-font-size, 12px);
+  line-height: var(--body-xs-line-height, 130%);
+  font-weight: var(--body-xs-font-weight, 400);
+  position: relative;
+}
+.sem-t-tulo-1-153 {
+  background: #ffffff;
+  border-radius: 7.53px;
+  border-style: solid;
+  border-color: var(--color-surfaces-border, #cfccc9);
+  border-width: 0.47px;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 91.35px;
+  position: relative;
+  overflow: hidden;
+}
+.camada-x-0020-1 {
+  height: auto;
+  position: absolute;
+  left: -5.4px;
+  top: 58.76px;
+  overflow: visible;
+}
+._1-137 {
+  width: 15.67%;
+  height: 49.56px;
+  position: absolute;
+  right: 85.6%;
+  left: -1.27%;
+  top: 10.89px;
+  object-fit: cover;
+  aspect-ratio: 51.23/49.56;
+}
+._2-49 {
+  width: 44.43px;
+  height: 53.72px;
+  position: absolute;
+  left: 39.74px;
+  top: 8.53px;
+  object-fit: cover;
+  aspect-ratio: 44.43/53.72;
+}
+._4-28 {
+  width: 36.55px;
+  height: 41.37px;
+  position: absolute;
+  left: 108.24px;
+  top: 16.74px;
+  object-fit: cover;
+  aspect-ratio: 36.55/41.37;
+}
+._5-20 {
+  width: 36.26px;
+  height: 47.61px;
+  position: absolute;
+  left: 144.79px;
+  top: 11.47px;
+  object-fit: cover;
+  aspect-ratio: 36.26/47.61;
+}
+._6-431339 {
+  width: 37.24px;
+  height: 42.37px;
+  position: absolute;
+  left: 215.13px;
+  top: 15.73px;
+  object-fit: cover;
+  aspect-ratio: 37.24/42.37;
+}
+._7-9 {
+  width: 38.74px;
+  height: 37.66px;
+  position: absolute;
+  left: 254.6px;
+  top: 20.44px;
+  object-fit: cover;
+  aspect-ratio: 38.74/37.66;
+}
+._8-5 {
+  width: 41.88px;
+  height: 37.66px;
+  position: absolute;
+  left: 289.69px;
+  top: 21.26px;
+  object-fit: cover;
+  aspect-ratio: 41.88/37.66;
+}
+._3-13559 {
+  width: 44px;
+  height: 53.55px;
+  position: absolute;
+  left: 72.15px;
+  top: 5.53px;
+  object-fit: cover;
+  aspect-ratio: 44/53.55;
+}
+._9-4 {
+  width: 40.4px;
+  height: 28.24px;
+  position: absolute;
+  left: 179.49px;
+  top: 30.84px;
+  object-fit: cover;
+  aspect-ratio: 40.4/28.24;
+}
+.rectangle-9465 {
+  background: rgba(0, 0, 0, 0.2);
+  width: 131.06px;
+  height: 361.24px;
+  position: absolute;
+  left: calc(50% - -196.17px);
+  top: calc(50% - 48.96px);
+  transform-origin: 0 0;
+  transform: rotate(90deg) scale(1, 1);
+  backdrop-filter: blur(3.08px);
+}
+.bs-eye {
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  left: 50%;
+  translate: -50% -50%;
+  top: 50%;
+  overflow: visible;
+  aspect-ratio: 1;
+}
