@@ -1135,7 +1135,7 @@
   align-items: center;
   justify-content: flex-start;
   flex-shrink: 0;
-  width: 327px;
+  width: 100%;
   position: relative;
 }
 .parafuso-2 {

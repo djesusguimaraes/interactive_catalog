@@ -397,7 +397,7 @@
   align-items: flex-start;
   justify-content: flex-start;
   flex-shrink: 0;
-  width: 327px;
+  width: 100%;
   position: relative;
 }
 .subcategorias-zi {
@@ -468,18 +468,18 @@
   align-items: flex-start;
   justify-content: flex-start;
   flex-shrink: 0;
-  width: 327px;
+  width: 100%;
   height: 1142px;
   position: relative;
 }
 .mask-group {
   flex-shrink: 0;
-  width: 327px;
+  width: 100%;
   height: 851.72px;
   position: static;
 }
 .group-1 {
-  width: 327px;
+  width: 100%;
   height: 851.72px;
   position: static;
 }
@@ -491,7 +491,7 @@
   gap: 6px;
   align-items: flex-start;
   justify-content: flex-start;
-  width: 327px;
+  width: 100%;
   height: 851.72px;
   position: absolute;
   left: 0px;
@@ -749,7 +749,7 @@
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-  width: 327px;
+  width: 100%;
   position: relative;
 }
 ._1-as-embalagens-cartonadas-e-blister-devem-ser-abertas-manualmente-sem-o-uso-de-luvas-est-reis-quebre-o-selo-da-embalagem-de-papel-o-e-remova-o-blister-abra-a-embalagem-blister-deposite-o-frasco-est-ril-sobre-o-campo-cir-rgico-nota-o-tubo-transparente-e-o-implante-devem-ser-manuseados-com-uma-luva-cir-rgica-est-ril-em-um-ambiente-cir-rgico-segure-o-frasco-usando-a-m-o-n-o-dominante-e-retire-a-tampa {
