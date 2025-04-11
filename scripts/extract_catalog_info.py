@@ -163,10 +163,10 @@ for dir in pastas_finais:
         subcategory_df.append(dir[1])
         pagina_df.append(dir[2])
 
-print(family_df.shape)
-print(subcategory_df.shape)
-print(pagina_df.shape)
-print(lista_products.shape)
+print(len(family_df))
+print(len(subcategory_df))
+print(len(pagina_df))
+print(len(lista_products))
 print(len(lista_is_sku))
 
 #Cria DataFrame
