@@ -163,6 +163,12 @@ for dir in pastas_finais:
         subcategory_df.append(dir[1])
         pagina_df.append(dir[2])
 
+print(family_df.shape())
+print(subcategory_df.shape())
+print(pagina_df.shape())
+print(lista_products.shape())
+print(lista_is_sku.shape())
+
 #Cria DataFrame
 df_pages = pd.DataFrame({
     "family": family_df,
