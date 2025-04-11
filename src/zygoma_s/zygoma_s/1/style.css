@@ -1,0 +1,238 @@
+.mask-group,
+.mask-group * {
+  box-sizing: border-box;
+}
+.mask-group {
+  position: relative;
+  overflow-x: clip;
+}
+.mask-group-container {
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  position: absolute;
+  left: 0px;
+}
+.mask-group-container2 {
+  display: flex;
+  flex-direction: column;
+  gap: 42px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 45%;
+  position: relative;
+  overflow: hidden;
+}
+.mask-group-container3 {
+  display: flex;
+  flex-direction: column;
+  gap: 12.21px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.mask-group-container4 {
+  display: flex;
+  flex-direction: column;
+  gap: 7.32px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.mask-group-container5 {
+  display: flex;
+  flex-direction: column;
+  gap: 7.32px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.mask-group-container6 {
+  display: flex;
+  flex-direction: column;
+  gap: 3.66px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.text-container {
+  display: flex;
+  flex-direction: row;
+  gap: 4.88px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 152px;
+  position: relative;
+}
+.description-text {
+  color: var(--color-surfaces-titles-primary, #250a20);
+  text-align: left;
+  font-family: "LeagueSpartan-Medium", sans-serif;
+  font-size: 12px;
+  line-height: 130%;
+  font-weight: 500;
+  position: relative;
+  flex: 1;
+}
+.text-container2 {
+  display: flex;
+  flex-direction: column;
+  gap: 3.66px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.bullet-point-container {
+  display: flex;
+  flex-direction: row;
+  gap: 3.66px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.ellipse-9 {
+  background: var(--color-feedback-states-active-primary, #7b3972);
+  border-radius: 50%;
+  flex-shrink: 0;
+  width: 3.66px;
+  height: 3.66px;
+  position: relative;
+}
+.bullet-point-text {
+  color: var(--color-surfaces-body, #6c6760);
+  text-align: left;
+  font-family: "LeagueSpartan-Regular", sans-serif;
+  font-size: 10px;
+  line-height: 130%;
+  font-weight: 400;
+  position: relative;
+  flex: 1;
+}
+.ellipse-10 {
+  background: var(--color-feedback-states-active-primary, #7b3972);
+  border-radius: 50%;
+  flex-shrink: 0;
+  width: 3.66px;
+  height: 3.66px;
+  position: relative;
+}
+.vector-container {
+  flex-shrink: 0;
+  width: 38%;
+  position: absolute;
+  left: 45%;
+  top: 455px;
+  overflow: visible;
+}
+.vector-container2 {
+  flex-shrink: 0;
+  width: 38%;
+  position: absolute;
+  left: 45%;
+  top: 165.9px;
+  overflow: visible;
+}
+.sem-t-tulo-1-114 {
+  flex-shrink: 0;
+  width: 59.9px;
+  height: 60.27px;
+  position: absolute;
+  left: 55%;
+  top: 140px;
+  object-fit: cover;
+  aspect-ratio: 59.9/60.27;
+}
+.vector-container3 {
+  flex-shrink: 0;
+  width: 38%;
+  position: absolute;
+  left: 45%;
+  bottom: 290px;
+  overflow: visible;
+}
+.sem-t-tulo-1-115 {
+  flex-shrink: 0;
+  width: 59.9px;
+  height: 60.27px;
+  position: absolute;
+  left: 55%;
+  top: 645.14px;
+  object-fit: cover;
+  aspect-ratio: 59.9/60.27;
+}
+.text-container3 {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.text-container4 {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.sem-t-tulo-1-106 {
+  flex-shrink: 0;
+  width: 32.62px;
+  height: 32.57px;
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: 32.62/32.57;
+}
+.camada-x-0020-1 {
+  height: auto;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.description-text2 {
+  color: var(--color-surfaces-titles-secundary, #3c1635);
+  text-align: left;
+  font-family: var(
+    --body-smhighlight-font-family,
+    "LeagueSpartan-Medium",
+    sans-serif
+  );
+  font-size: var(--body-smhighlight-font-size, 14px);
+  line-height: var(--body-smhighlight-line-height, 130%);
+  font-weight: var(--body-smhighlight-font-weight, 500);
+  position: relative;
+  flex: 1;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+._109-1100-115-301-p-and-v-1-2-1 {
+  width: 257.76px;
+  height: 1120px;
+  position: absolute;
+  left: 490px;
+  top: -170px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(-1, 1);
+  object-fit: cover;
+}

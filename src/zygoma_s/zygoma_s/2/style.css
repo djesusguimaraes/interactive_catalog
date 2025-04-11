@@ -1,0 +1,280 @@
+.mask-group-container {
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.image-container {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.vertical-container {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  height: 296px;
+  position: relative;
+}
+.sem-t-tulo-1-33 {
+  flex-shrink: 0;
+  width: 95.29px;
+  height: 70px;
+  position: relative;
+  object-fit: cover;
+}
+.text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.horizontal-container {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.title {
+  color: var(--color-surfaces-titles-secundary, #3c1635);
+  text-align: left;
+  font-family: var(
+    --body-smhighlight-font-family,
+    "LeagueSpartan-Medium",
+    sans-serif
+  );
+  font-size: var(--body-smhighlight-font-size, 14px);
+  line-height: var(--body-smhighlight-line-height, 130%);
+  font-weight: var(--body-smhighlight-font-weight, 500);
+  position: relative;
+  align-self: stretch;
+  flex: 1;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.vertical-container2 {
+  padding: 0px 0px 20px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.vertical-container3 {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.horizontal-container2 {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.description {
+  color: var(--color-neutral-40, #6c6760);
+  text-align: left;
+  font-family: var(--body-xs-font-family, "LeagueSpartan-Regular", sans-serif);
+  font-size: var(--body-xs-font-size, 12px);
+  line-height: var(--body-xs-line-height, 130%);
+  font-weight: var(--body-xs-font-weight, 400);
+  position: relative;
+  flex: 1;
+}
+.description2 {
+  color: var(--color-neutral-40, #6c6760);
+  text-align: left;
+  font-family: var(--body-xs-font-family, "LeagueSpartan-Regular", sans-serif);
+  font-size: var(--body-xs-font-size, 12px);
+  line-height: var(--body-xs-line-height, 130%);
+  font-weight: var(--body-xs-font-weight, 400);
+  position: relative;
+  align-self: stretch;
+  flex: 1;
+}
+.vertical-container4 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 100%;
+  position: relative;
+}
+.vertical-container5 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.subtitle {
+  color: var(--color-surfaces-titles-primary, #250a20);
+  text-align: left;
+  font-family: var(
+    --body-xshighlight-font-family,
+    "LeagueSpartan-Medium",
+    sans-serif
+  );
+  font-size: var(--body-xshighlight-font-size, 12px);
+  line-height: var(--body-xshighlight-line-height, 130%);
+  font-weight: var(--body-xshighlight-font-weight, 500);
+  position: relative;
+}
+.description3 {
+  color: var(--color-neutral-40, #6c6760);
+  text-align: left;
+  font-family: var(--body-xs-font-family, "LeagueSpartan-Regular", sans-serif);
+  font-size: var(--body-xs-font-size, 12px);
+  line-height: var(--body-xs-line-height, 130%);
+  font-weight: var(--body-xs-font-weight, 400);
+  position: relative;
+  align-self: stretch;
+}
+.vertical-container6 {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.horizontal-container3 {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.sem-t-tulo-1-116 {
+  flex-shrink: 0;
+  width: 70.94px;
+  height: 71.38px;
+  position: relative;
+  object-fit: cover;
+  aspect-ratio: 70.94/71.38;
+}
+.sem-t-tulo-1-117 {
+  flex-shrink: 0;
+  width: 70.94px;
+  height: 71.38px;
+  position: relative;
+  object-fit: cover;
+  aspect-ratio: 70.94/71.38;
+}
+.sem-t-tulo-1-118 {
+  flex-shrink: 0;
+  width: 70.94px;
+  height: 71.38px;
+  position: relative;
+  object-fit: cover;
+  aspect-ratio: 70.94/71.38;
+}
+.horizontal-container4 {
+  padding: 0px 16px 0px 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.vector-container {
+  flex-shrink: 0;
+  width: 4.19%;
+  height: 21.75px;
+  position: absolute;
+  right: 89.15%;
+  left: 6.65%;
+  top: 50%;
+  translate: 0 -50%;
+  overflow: visible;
+}
+.vector-container2 {
+  flex-shrink: 0;
+  width: 5.92%;
+  height: 30.72px;
+  position: absolute;
+  right: 70.02%;
+  left: 24.06%;
+  top: calc(50% - -13.59px);
+  transform: translate(0px, -29.59px);
+  overflow: visible;
+}
+.vector-container3 {
+  flex-shrink: 0;
+  width: 5.92%;
+  height: 30.72px;
+  position: absolute;
+  right: 35.23%;
+  left: 58.85%;
+  top: calc(50% - -18.71px);
+  transform: translate(0px, -29.59px);
+  overflow: visible;
+}
+.vector-container4 {
+  flex-shrink: 0;
+  width: 4.77%;
+  height: 24.74px;
+  position: absolute;
+  right: 48.44%;
+  left: 46.79%;
+  top: calc(50% - 16px);
+  transform: translate(-10.09px, 0px);
+  overflow: visible;
+}
+.vector-container5 {
+  flex-shrink: 0;
+  width: 4.77%;
+  height: 24.74px;
+  position: absolute;
+  right: 12.31%;
+  left: 82.92%;
+  top: calc(50% - 16px);
+  transform: translate(-10.09px, 0px);
+  overflow: visible;
+}
