@@ -1,0 +1,127 @@
+.frame-1171276382,
+.frame-1171276382 * {
+  box-sizing: border-box;
+}
+.frame-1171276382 {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.kits-cir-rgicos-para-a-instala-o-dos-principais-implantes-cone-morse {
+  color: var(--color-surfaces-titles-secundary, #3c1635);
+  text-align: left;
+  font-family: var(
+    --body-smhighlight-font-family,
+    "LeagueSpartan-Medium",
+    sans-serif
+  );
+  font-size: var(--body-smhighlight-font-size, 14px);
+  line-height: var(--body-smhighlight-line-height, 130%);
+  font-weight: var(--body-smhighlight-font-weight, 500);
+  position: relative;
+  align-self: stretch;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.frame-1171276511 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.instruction-text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: flex-start;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 100%;
+  position: relative;
+}
+.instruction-row {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+._1-139 {
+  flex-shrink: 0;
+  width: 109.32px;
+  height: 84.47px;
+  position: relative;
+  transform-origin: 0 0;
+  transform: rotate(-0.558deg) scale(1, 1);
+  object-fit: cover;
+  aspect-ratio: 109.32/84.47;
+}
+.frame-1171276510 {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 195.46px;
+  position: relative;
+}
+.instruction-text {
+  color: var(--color-feedback-states-active-primary, #7b3972);
+  text-align: left;
+  font-family: var(--body-xs-font-family, "LeagueSpartan-Regular", sans-serif);
+  font-size: var(--body-xs-font-size, 12px);
+  line-height: var(--body-xs-line-height, 130%);
+  font-weight: var(--body-xs-font-weight, 400);
+  position: relative;
+  align-self: stretch;
+}
+.instruction-text2 {
+  color: var(--color-neutral-40, #6c6760);
+  text-align: left;
+  font-family: var(--body-xs-font-family, "LeagueSpartan-Regular", sans-serif);
+  font-size: var(--body-xs-font-size, 12px);
+  line-height: var(--body-xs-line-height, 130%);
+  font-weight: var(--body-xs-font-weight, 400);
+  position: relative;
+  align-self: stretch;
+}
+._1-1392 {
+  flex-shrink: 0;
+  width: 109.41px;
+  height: 87.79px;
+  position: relative;
+  transform-origin: 0 0;
+  transform: rotate(-0.558deg) scale(1, 1);
+  object-fit: cover;
+  aspect-ratio: 109.41/87.79;
+}
+._1-1393 {
+  flex-shrink: 0;
+  width: 109.32px;
+  height: 84.47px;
+  position: relative;
+  transform-origin: 0 0;
+  transform: rotate(-0.558deg) scale(1, 1);
+  object-fit: contain;
+  aspect-ratio: 109.32/84.47;
+}
+.instruction-text3 {
+  color: var(--color-feedback-states-active-primary, #7b3972);
+  text-align: left;
+  font-family: var(--body-xs-font-family, "LeagueSpartan-Regular", sans-serif);
+  font-size: var(--body-xs-font-size, 12px);
+  line-height: var(--body-xs-line-height, 130%);
+  font-weight: var(--body-xs-font-weight, 400);
+  position: relative;
+}
