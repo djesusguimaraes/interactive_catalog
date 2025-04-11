@@ -32,3 +32,74 @@ steps:
     AWS_REPO_URL: $(AWS_REPO_URL)
     AWS_GIT_USERNAME: $(AWS_GIT_USERNAME)
     AWS_GIT_PASSWORD: $(AWS_GIT_PASSWORD)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Pipeline to automatically mirror
+# an Azure DevOps repository in AWS CodeCommit
+
+# Trigger on all branches
+trigger:
+  branches:
+    include:
+      - main
+      - develop
+pr:
+  branches:
+    include:
+      - main
+      - develop
+
+# Use latest Ubuntu image
+pool:
+  vmImage: 'ubuntu-latest'
+
+# Pipeline
+jobs:
+- job: populate_interactive_catalog_db
+  steps:
+  - checkout: self
+
+
+  # Step 6: Install Python Dependencies
+  - script: |
+      python -m venv venv
+      source venv/bin/activate
+      pip install --upgrade pip
+      pip install -r requirements.txt
+    displayName: 'Install Python dependencies'
+
+  # Step 7: Run src/main.py with parameter
+  - script: |
+      echo "Running Py Script"
+      python scripts/extract_catalog_info.py
+    displayName: 'Run scripts/extract_catalog_info.py'
