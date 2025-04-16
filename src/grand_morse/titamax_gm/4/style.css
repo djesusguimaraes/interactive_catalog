@@ -10,7 +10,6 @@
   justify-content: flex-start;
   align-self: stretch;
   flex-shrink: 0;
-  height: 2520px;
   position: relative;
 }
 .product-info-container {
@@ -146,8 +145,8 @@
 .product-details-column {
   display: flex;
   flex-direction: column;
-  gap: 12px;
-  align-items: center;
+  gap: 8px;
+  align-items: flex-start;
   justify-content: center;
   align-self: stretch;
   flex: 1;
@@ -163,9 +162,9 @@
   position: relative;
   align-self: stretch;
 }
-._1-126 {
+._1-119 {
   flex-shrink: 0;
-  width: 115.02px;
+  width: 123.52px;
   height: 137.38px;
   position: relative;
   object-fit: cover;
@@ -184,8 +183,8 @@
   justify-content: center;
   flex-shrink: 0;
   position: absolute;
-  left: 224.67px;
-  top: 54.2px;
+  left: 206.94px;
+  top: 49.69px;
   box-shadow: 0px 10.36px 41.45px -5.18px rgba(103, 111, 123, 0.1);
 }
 .bs-cart-plus {
@@ -195,18 +194,7 @@
   position: relative;
   overflow: visible;
 }
-.main-container {
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  align-self: stretch;
-  flex-shrink: 0;
-  height: 1014px;
-  position: relative;
-}
-.content-container {
+.installation-sequence-container {
   display: flex;
   flex-direction: row;
   gap: 12px;
@@ -216,7 +204,7 @@
   flex-shrink: 0;
   position: relative;
 }
-.left-column {
+.installation-sequence-column {
   display: flex;
   flex-direction: column;
   gap: 12px;
@@ -225,7 +213,7 @@
   flex: 1;
   position: relative;
 }
-.title {
+.installation-sequence-title {
   color: var(--color-surfaces-titles-secundary, #3c1635);
   text-align: left;
   font-family: var(
@@ -240,51 +228,7 @@
   text-overflow: ellipsis;
   overflow: hidden;
 }
-.left-column-content {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  align-self: stretch;
-  flex-shrink: 0;
-  position: relative;
-}
-.left-column-row {
-  display: flex;
-  flex-direction: row;
-  gap: 2px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  align-self: stretch;
-  flex-shrink: 0;
-  position: relative;
-}
-.left-column-item {
-  border-style: solid;
-  border-color: var(--color-surfaces-border, #cfccc9);
-  border-width: 0px 1px 0px 0px;
-  padding: 0px 4px 0px 0px;
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  align-self: stretch;
-  flex: 1;
-  position: relative;
-}
-.left-column-item-title {
-  color: var(--color-surfaces-titles-primary, #250a20);
-  text-align: center;
-  font-family: var(--body-xs-font-family, "LeagueSpartan-Regular", sans-serif);
-  font-size: var(--body-xs-font-size, 12px);
-  line-height: var(--body-xs-line-height, 130%);
-  font-weight: var(--body-xs-font-weight, 400);
-  position: relative;
-  align-self: stretch;
-}
-.left-column-item-image-container {
+.installation-step-container {
   display: flex;
   flex-direction: row;
   gap: 4px;
@@ -294,14 +238,32 @@
   flex-shrink: 0;
   position: relative;
 }
-._1-127 {
+._2-40 {
   flex-shrink: 0;
-  width: 44.05px;
+  width: 67.31px;
   height: 72.38px;
   position: relative;
   object-fit: cover;
 }
-.left-column-item-text-container {
+.installation-step-details {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.installation-step-column {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.installation-step-column2 {
   display: flex;
   flex-direction: column;
   gap: 6px;
@@ -310,7 +272,7 @@
   flex-shrink: 0;
   position: relative;
 }
-.left-column-item-description {
+.installation-step-title {
   color: var(--color-surfaces-body, #6c6760);
   text-align: left;
   font-family: var(--body-xs-font-family, "LeagueSpartan-Regular", sans-serif);
@@ -318,41 +280,51 @@
   line-height: var(--body-xs-line-height, 130%);
   font-weight: var(--body-xs-font-weight, 400);
   position: relative;
-  width: 72px;
 }
-.left-column-item-number-container {
-  background: var(--color-surfaces-body, #6c6760);
-  border-radius: 60px;
-  padding: 2px 4px 2px 4px;
+.icon-2-4 {
+  flex-shrink: 0;
+  width: 33.1px;
+  height: 35.7px;
+  position: relative;
+  object-fit: cover;
+}
+.installation-step-column3 {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 6px;
+  align-items: flex-start;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.installation-step-row {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.installation-step-column4 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-  width: 20px;
   position: relative;
 }
-.left-column-item-number {
-  color: var(--color-neutral-100, #ffffff);
-  text-align: center;
+.installation-step-detail {
+  color: var(--color-surfaces-titles-primary, #250a20);
+  text-align: left;
   font-family: var(--body-xs-font-family, "LeagueSpartan-Regular", sans-serif);
   font-size: var(--body-xs-font-size, 12px);
   line-height: var(--body-xs-line-height, 130%);
   font-weight: var(--body-xs-font-weight, 400);
   position: relative;
-  align-self: stretch;
 }
-.left-column-item-code-container {
-  display: flex;
-  flex-direction: row;
-  gap: 4px;
-  align-items: center;
-  justify-content: center;
-  flex-shrink: 0;
-  position: relative;
-}
-.left-column-item-code-wrapper {
+.installation-step-column5 {
   display: flex;
   flex-direction: column;
   gap: 4px;
@@ -361,7 +333,7 @@
   flex-shrink: 0;
   position: relative;
 }
-.left-column-item-code-inner-wrapper {
+.installation-step-column6 {
   display: flex;
   flex-direction: column;
   gap: 14px;
@@ -370,7 +342,7 @@
   flex-shrink: 0;
   position: relative;
 }
-.left-column-item-code {
+.installation-step-row2 {
   border-radius: 50px;
   border-style: solid;
   border-color: var(--color-feedback-states-active-primary, #7b3972);
@@ -384,7 +356,179 @@
   flex-shrink: 0;
   position: relative;
 }
-.left-column-item-code-text {
+.installation-step-detail2 {
+  color: var(--color-surfaces-body, #6c6760);
+  text-align: left;
+  font-family: "LeagueSpartan-Regular", sans-serif;
+  font-size: 10px;
+  line-height: 130%;
+  font-weight: 400;
+  position: relative;
+}
+.linha-4 {
+  padding: 0px 1px 0px 1px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.camada-x-0020-1 {
+  flex-shrink: 0;
+  width: 9.86px;
+  height: 28.31px;
+  position: relative;
+  overflow: visible;
+}
+.alternative-installation-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.intraoral-container {
+  display: flex;
+  flex-direction: row;
+  gap: 2px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.intraoral-column {
+  border-style: solid;
+  border-color: var(--color-surfaces-border, #cfccc9);
+  border-width: 0px 1px 0px 0px;
+  padding: 0px 4px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.intraoral-title {
+  color: var(--color-surfaces-titles-primary, #250a20);
+  text-align: center;
+  font-family: var(--body-xs-font-family, "LeagueSpartan-Regular", sans-serif);
+  font-size: var(--body-xs-font-size, 12px);
+  line-height: var(--body-xs-line-height, 130%);
+  font-weight: var(--body-xs-font-weight, 400);
+  position: relative;
+  align-self: stretch;
+}
+.intraoral-step-container {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+._1-120 {
+  flex-shrink: 0;
+  width: 51.12px;
+  height: 72.38px;
+  position: relative;
+  object-fit: cover;
+}
+.intraoral-step-details {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.intraoral-step-title {
+  color: var(--color-surfaces-body, #6c6760);
+  text-align: left;
+  font-family: var(--body-xs-font-family, "LeagueSpartan-Regular", sans-serif);
+  font-size: var(--body-xs-font-size, 12px);
+  line-height: var(--body-xs-line-height, 130%);
+  font-weight: var(--body-xs-font-weight, 400);
+  position: relative;
+  width: 72px;
+}
+.intraoral-step-column {
+  background: var(--color-surfaces-body, #6c6760);
+  border-radius: 60px;
+  padding: 2px 4px 2px 4px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 20px;
+  position: relative;
+}
+.intraoral-step-number {
+  color: var(--color-neutral-100, #ffffff);
+  text-align: center;
+  font-family: var(--body-xs-font-family, "LeagueSpartan-Regular", sans-serif);
+  font-size: var(--body-xs-font-size, 12px);
+  line-height: var(--body-xs-line-height, 130%);
+  font-weight: var(--body-xs-font-weight, 400);
+  position: relative;
+  align-self: stretch;
+}
+.intraoral-step-row {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.intraoral-step-column2 {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.intraoral-step-column3 {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.intraoral-step-row2 {
+  border-radius: 50px;
+  border-style: solid;
+  border-color: var(--color-feedback-states-active-primary, #7b3972);
+  border-width: 0.5px;
+  padding: 2px 6px 2px 6px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.intraoral-step-detail {
   color: var(--color-surfaces-body, #6c6760);
   text-align: left;
   font-family: "LeagueSpartan-Regular", sans-serif;
@@ -408,7 +552,7 @@
   flex-shrink: 0;
   position: absolute;
   left: 26.45px;
-  top: 120.69px;
+  top: 116.5px;
   box-shadow: 0px 10.36px 41.45px -5.18px rgba(103, 111, 123, 0.1);
 }
 .bs-cart-plus2 {
@@ -430,24 +574,14 @@
   position: relative;
   overflow: hidden;
 }
-.camada-x-0020-1 {
+.camada-x-0020-12 {
   flex-shrink: 0;
   width: 9.86px;
   height: 28.31px;
   position: relative;
   overflow: visible;
 }
-.left-column-item-container {
-  display: flex;
-  flex-direction: column;
-  gap: 244px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  align-self: stretch;
-  flex-shrink: 0;
-  position: relative;
-}
-.left-column-item-subcontainer {
+.intraoral-step-container2 {
   display: flex;
   flex-direction: column;
   gap: 12px;
@@ -457,7 +591,7 @@
   flex-shrink: 0;
   position: relative;
 }
-.left-column-item-subcontainer-row {
+.intraoral-step-details2 {
   display: flex;
   flex-direction: row;
   gap: 4px;
@@ -467,32 +601,14 @@
   flex-shrink: 0;
   position: relative;
 }
-.left-column-item-subcontainer-content {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-  align-items: flex-start;
-  justify-content: center;
+._2-41 {
   flex-shrink: 0;
-  position: relative;
-}
-.left-column-item-subcontainer-image-container {
-  display: flex;
-  flex-direction: row;
-  gap: 4px;
-  align-items: center;
-  justify-content: flex-start;
-  flex-shrink: 0;
-  position: relative;
-}
-._2-44 {
-  flex-shrink: 0;
-  width: 65.75px;
-  height: 88.4px;
+  width: 58.42px;
+  height: 72.68px;
   position: relative;
   object-fit: cover;
 }
-.left-column-item-subcontainer-text-container {
+.intraoral-step-column4 {
   display: flex;
   flex-direction: column;
   gap: 6px;
@@ -501,7 +617,7 @@
   flex-shrink: 0;
   position: relative;
 }
-.left-column-item-subcontainer-description {
+.intraoral-step-title2 {
   color: var(--color-surfaces-body, #6c6760);
   text-align: left;
   font-family: var(--body-xs-font-family, "LeagueSpartan-Regular", sans-serif);
@@ -509,88 +625,6 @@
   line-height: var(--body-xs-line-height, 130%);
   font-weight: var(--body-xs-font-weight, 400);
   position: relative;
-}
-.left-column-item-subcontainer-code-container {
-  display: flex;
-  flex-direction: column;
-  gap: 9px;
-  align-items: center;
-  justify-content: center;
-  flex-shrink: 0;
-  width: 150px;
-  position: relative;
-}
-.left-column-item-subcontainer-code-row {
-  display: flex;
-  flex-direction: row;
-  gap: 6px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  align-self: stretch;
-  flex-shrink: 0;
-  position: relative;
-}
-.left-column-item-subcontainer-code-column {
-  display: flex;
-  flex-direction: column;
-  gap: 2px;
-  align-items: flex-start;
-  justify-content: center;
-  flex: 1;
-  position: relative;
-}
-.left-column-item-subcontainer-code-text {
-  color: var(--color-surfaces-body, #6c6760);
-  text-align: left;
-  font-family: "LeagueSpartan-Regular", sans-serif;
-  font-size: 10px;
-  line-height: 130%;
-  font-weight: 400;
-  position: relative;
-}
-.left-column-item-subcontainer-code-inner-container {
-  display: flex;
-  flex-direction: column;
-  gap: 14px;
-  align-items: center;
-  justify-content: flex-start;
-  flex-shrink: 0;
-  width: 44px;
-  position: relative;
-}
-.left-column-item-subcontainer-code-inner-row {
-  border-radius: 50px;
-  border-style: solid;
-  border-color: var(--color-feedback-states-active-primary, #7b3972);
-  border-width: 0.5px;
-  padding: 2px 6px 2px 6px;
-  display: flex;
-  flex-direction: row;
-  gap: 8px;
-  align-items: center;
-  justify-content: center;
-  flex-shrink: 0;
-  width: 44px;
-  position: relative;
-}
-.left-column-item-subcontainer-code-inner-text {
-  color: var(--color-surfaces-body, #6c6760);
-  text-align: left;
-  font-family: "LeagueSpartan-Regular", sans-serif;
-  font-size: 10px;
-  line-height: 130%;
-  font-weight: 400;
-  position: relative;
-}
-.left-column-item-subcontainer-description2 {
-  color: var(--color-surfaces-body, #6c6760);
-  text-align: left;
-  font-family: "LeagueSpartan-Regular", sans-serif;
-  font-size: 10px;
-  line-height: 130%;
-  font-weight: 400;
-  position: relative;
-  align-self: stretch;
 }
 .icon3 {
   background: var(--white-100, #ffffff);
@@ -606,8 +640,8 @@
   justify-content: center;
   flex-shrink: 0;
   position: absolute;
-  left: -8px;
-  top: 21.7px;
+  left: 24.46px;
+  top: 81px;
   box-shadow: 0px 10.36px 41.45px -5.18px rgba(103, 111, 123, 0.1);
 }
 .bs-cart-plus3 {
@@ -634,18 +668,94 @@
   width: 21.22px;
   height: 21.22px;
   position: relative;
-  transform-origin: 0 0;
-  transform: rotate(-90deg) scale(1, 1);
   overflow: hidden;
 }
-.camada-x-0020-12 {
+.camada-x-0020-13 {
   height: auto;
   position: absolute;
   left: 0.7px;
   top: 0.47px;
   overflow: visible;
 }
-.right-column {
+._3-27 {
+  flex-shrink: 0;
+  width: 37.54px;
+  height: 72.68px;
+  position: relative;
+  object-fit: cover;
+}
+.icon-3-10 {
+  flex-shrink: 0;
+  width: 33.1px;
+  height: 35.7px;
+  position: relative;
+  object-fit: cover;
+}
+.linha-9 {
+  padding: 0px 1px 0px 1px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.or-text {
+  color: var(--color-surfaces-body, #6c6760);
+  text-align: left;
+  font-family: var(--body-xs-font-family, "LeagueSpartan-Regular", sans-serif);
+  font-size: var(--body-xs-font-size, 12px);
+  line-height: var(--body-xs-line-height, 130%);
+  font-weight: var(--body-xs-font-weight, 400);
+  position: relative;
+}
+.linha-10 {
+  padding: 0px 1px 0px 1px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.camada-x-0020-14 {
+  height: auto;
+  position: absolute;
+  left: 0.7px;
+  top: 0.47px;
+  overflow: visible;
+}
+._4-27 {
+  flex-shrink: 0;
+  width: 94.57px;
+  height: 72.68px;
+  position: relative;
+  object-fit: cover;
+}
+.intraoral-step-title3 {
+  color: var(--color-surfaces-body, #6c6760);
+  text-align: left;
+  font-family: var(--body-xs-font-family, "LeagueSpartan-Regular", sans-serif);
+  font-size: var(--body-xs-font-size, 12px);
+  line-height: var(--body-xs-line-height, 130%);
+  font-weight: var(--body-xs-font-weight, 400);
+  position: relative;
+  align-self: stretch;
+}
+.icon-3-11 {
+  flex-shrink: 0;
+  width: 33.1px;
+  height: 35.7px;
+  position: relative;
+  object-fit: cover;
+}
+.model-scanning-container {
   display: flex;
   flex-direction: column;
   gap: 12px;
@@ -655,7 +765,7 @@
   flex: 1;
   position: relative;
 }
-.right-column-title {
+.model-scanning-title {
   color: var(--color-surfaces-titles-primary, #250a20);
   text-align: center;
   font-family: var(--body-xs-font-family, "LeagueSpartan-Regular", sans-serif);
@@ -665,7 +775,7 @@
   position: relative;
   align-self: stretch;
 }
-.right-column-row {
+.model-scanning-step-container {
   display: flex;
   flex-direction: row;
   gap: 4px;
@@ -675,14 +785,14 @@
   flex-shrink: 0;
   position: relative;
 }
-._3-30 {
+._1-121 {
   flex-shrink: 0;
-  width: 42.37px;
+  width: 54.11px;
   height: 72.38px;
   position: relative;
   object-fit: cover;
 }
-.right-column-item-text-container {
+.model-scanning-step-details {
   display: flex;
   flex-direction: column;
   gap: 6px;
@@ -691,7 +801,7 @@
   flex-shrink: 0;
   position: relative;
 }
-.right-column-item-description {
+.model-scanning-step-title {
   color: var(--color-surfaces-body, #6c6760);
   text-align: left;
   font-family: var(--body-xs-font-family, "LeagueSpartan-Regular", sans-serif);
@@ -700,7 +810,7 @@
   font-weight: var(--body-xs-font-weight, 400);
   position: relative;
 }
-.right-column-item-number-container {
+.model-scanning-step-row {
   display: flex;
   flex-direction: row;
   gap: 6px;
@@ -709,7 +819,7 @@
   flex-shrink: 0;
   position: relative;
 }
-.right-column-item-number-wrapper {
+.model-scanning-step-column {
   display: flex;
   flex-direction: column;
   gap: 2px;
@@ -718,7 +828,7 @@
   flex-shrink: 0;
   position: relative;
 }
-.right-column-item-number-inner-wrapper {
+.model-scanning-step-column2 {
   background: var(--color-surfaces-body, #6c6760);
   border-radius: 60px;
   padding: 2px 4px 2px 4px;
@@ -731,7 +841,7 @@
   width: 20px;
   position: relative;
 }
-.right-column-item-number {
+.model-scanning-step-number {
   color: var(--color-neutral-100, #ffffff);
   text-align: center;
   font-family: var(--body-xs-font-family, "LeagueSpartan-Regular", sans-serif);
@@ -741,45 +851,34 @@
   position: relative;
   align-self: stretch;
 }
-.right-column-item-code-container {
+.model-scanning-step-row2 {
   display: flex;
   flex-direction: row;
-  gap: 6px;
+  gap: 4px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.model-scanning-step-column3 {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
   align-items: flex-start;
   justify-content: flex-start;
   flex-shrink: 0;
   position: relative;
 }
-.right-column-item-code-column {
-  display: flex;
-  flex-direction: column;
-  gap: 2px;
-  align-items: center;
-  justify-content: center;
-  flex-shrink: 0;
-  height: 51px;
-  position: relative;
-}
-.right-column-item-code-text {
-  color: var(--color-surfaces-body, #6c6760);
-  text-align: left;
-  font-family: "LeagueSpartan-Regular", sans-serif;
-  font-size: 10px;
-  line-height: 130%;
-  font-weight: 400;
-  position: relative;
-}
-.right-column-item-code-inner-container {
+.model-scanning-step-column4 {
   display: flex;
   flex-direction: column;
   gap: 14px;
   align-items: center;
   justify-content: flex-start;
   flex-shrink: 0;
-  width: 44px;
   position: relative;
 }
-.right-column-item-code-inner-row {
+.model-scanning-step-row3 {
   border-radius: 50px;
   border-style: solid;
   border-color: var(--color-feedback-states-active-primary, #7b3972);
@@ -791,16 +890,38 @@
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-  width: 44px;
   position: relative;
 }
-.right-column-item-code-inner-text {
+.model-scanning-step-detail {
   color: var(--color-surfaces-body, #6c6760);
   text-align: left;
   font-family: "LeagueSpartan-Regular", sans-serif;
   font-size: 10px;
   line-height: 130%;
   font-weight: 400;
+  position: relative;
+}
+.model-scanning-step-row4 {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.model-scanning-step-column5 {
+  border-radius: 50px;
+  border-style: solid;
+  border-color: var(--color-feedback-states-active-primary, #7b3972);
+  border-width: 0.5px;
+  padding: 2px 6px 2px 6px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
   position: relative;
 }
 .icon4 {
@@ -817,8 +938,8 @@
   justify-content: center;
   flex-shrink: 0;
   position: absolute;
-  left: 17.76px;
-  top: 130.51px;
+  left: 14.1px;
+  top: 118.61px;
   box-shadow: 0px 10.36px 41.45px -5.18px rgba(103, 111, 123, 0.1);
 }
 .bs-cart-plus4 {
@@ -828,147 +949,37 @@
   position: relative;
   overflow: visible;
 }
-.camada-x-0020-13 {
+.camada-x-0020-15 {
   flex-shrink: 0;
   width: 9.86px;
   height: 28.31px;
   position: relative;
   overflow: visible;
 }
-.right-column-item-container {
-  display: flex;
-  flex-direction: row;
-  gap: 4px;
-  align-items: center;
-  justify-content: center;
-  align-self: stretch;
-  flex-shrink: 0;
-  position: relative;
-}
-.right-column-item-subcontainer {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-  align-items: flex-start;
-  justify-content: center;
-  flex-shrink: 0;
-  position: relative;
-}
-.right-column-item-subcontainer-image-container {
-  display: flex;
-  flex-direction: row;
-  gap: 4px;
-  align-items: center;
-  justify-content: flex-start;
-  flex-shrink: 0;
-  position: relative;
-}
-._2-442 {
-  flex-shrink: 0;
-  width: 65.75px;
-  height: 86.62px;
-  position: relative;
-  object-fit: cover;
-}
-.right-column-item-subcontainer-text-container {
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-shrink: 0;
-  position: relative;
-}
-.right-column-item-subcontainer-description {
-  color: var(--color-surfaces-body, #6c6760);
-  text-align: left;
-  font-family: var(--body-xs-font-family, "LeagueSpartan-Regular", sans-serif);
-  font-size: var(--body-xs-font-size, 12px);
-  line-height: var(--body-xs-line-height, 130%);
-  font-weight: var(--body-xs-font-weight, 400);
-  position: relative;
-}
-.right-column-item-subcontainer-code-container {
-  display: flex;
-  flex-direction: column;
-  gap: 9px;
-  align-items: center;
-  justify-content: center;
-  flex-shrink: 0;
-  width: 150px;
-  position: relative;
-}
-.right-column-item-subcontainer-code-row {
-  display: flex;
-  flex-direction: row;
-  gap: 6px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  align-self: stretch;
-  flex-shrink: 0;
-  position: relative;
-}
-.right-column-item-subcontainer-code-column {
-  display: flex;
-  flex-direction: column;
-  gap: 2px;
-  align-items: flex-start;
-  justify-content: center;
-  flex: 1;
-  position: relative;
-}
-.right-column-item-subcontainer-code-text {
-  color: var(--color-surfaces-body, #6c6760);
-  text-align: left;
-  font-family: "LeagueSpartan-Regular", sans-serif;
-  font-size: 10px;
-  line-height: 130%;
-  font-weight: 400;
-  position: relative;
-}
-.right-column-item-subcontainer-code-inner-container {
-  display: flex;
-  flex-direction: column;
-  gap: 14px;
-  align-items: center;
-  justify-content: flex-start;
-  flex-shrink: 0;
-  width: 44px;
-  position: relative;
-}
-.right-column-item-subcontainer-code-inner-row {
-  border-radius: 50px;
+.icon5 {
+  background: var(--white-100, #ffffff);
+  border-radius: 129.53px;
   border-style: solid;
-  border-color: var(--color-feedback-states-active-primary, #7b3972);
-  border-width: 0.5px;
-  padding: 2px 6px 2px 6px;
+  border-color: var(--color-surfaces-border-secundary, #f3ebf1);
+  border-width: 0.53px;
+  padding: 7.77px;
   display: flex;
   flex-direction: row;
-  gap: 8px;
+  gap: 0px;
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-  width: 44px;
-  position: relative;
+  position: absolute;
+  left: 14.52px;
+  top: 78.5px;
+  box-shadow: 0px 10.36px 41.45px -5.18px rgba(103, 111, 123, 0.1);
 }
-.right-column-item-subcontainer-code-inner-text {
-  color: var(--color-surfaces-body, #6c6760);
-  text-align: left;
-  font-family: "LeagueSpartan-Regular", sans-serif;
-  font-size: 10px;
-  line-height: 130%;
-  font-weight: 400;
+.bs-cart-plus5 {
+  flex-shrink: 0;
+  width: 13.44px;
+  height: 13.44px;
   position: relative;
-}
-.right-column-item-subcontainer-description2 {
-  color: var(--color-surfaces-body, #6c6760);
-  text-align: center;
-  font-family: "LeagueSpartan-Regular", sans-serif;
-  font-size: 10px;
-  line-height: 130%;
-  font-weight: 400;
-  position: relative;
-  align-self: stretch;
+  overflow: visible;
 }
 .linha-3 {
   padding: 0px 1px 0px 1px;
@@ -982,31 +993,46 @@
   position: relative;
   overflow: hidden;
 }
-.camada-x-0020-14 {
+.camada-x-0020-16 {
   flex-shrink: 0;
   width: 9.86px;
   height: 28.31px;
   position: relative;
   overflow: visible;
 }
-.right-column-item-image-container {
-  display: flex;
-  flex-direction: row;
-  gap: 4px;
-  align-items: center;
-  justify-content: center;
-  align-self: stretch;
+._1-122 {
   flex-shrink: 0;
-  position: relative;
-}
-._1-128 {
-  flex-shrink: 0;
-  width: 44.05px;
-  height: 72.38px;
+  width: 54.09px;
+  height: 72.68px;
   position: relative;
   object-fit: cover;
 }
-.right-column-item-description2 {
+.icon6 {
+  background: var(--white-100, #ffffff);
+  border-radius: 129.53px;
+  border-style: solid;
+  border-color: var(--color-surfaces-border-secundary, #f3ebf1);
+  border-width: 0.53px;
+  padding: 7.77px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: absolute;
+  left: 13.5px;
+  top: 82.51px;
+  box-shadow: 0px 10.36px 41.45px -5.18px rgba(103, 111, 123, 0.1);
+}
+.bs-cart-plus6 {
+  flex-shrink: 0;
+  width: 13.44px;
+  height: 13.44px;
+  position: relative;
+  overflow: visible;
+}
+.model-scanning-step-title2 {
   color: var(--color-surfaces-body, #6c6760);
   text-align: left;
   font-family: var(--body-xs-font-family, "LeagueSpartan-Regular", sans-serif);
@@ -1015,60 +1041,6 @@
   font-weight: var(--body-xs-font-weight, 400);
   position: relative;
   width: 72px;
-}
-.right-column-item-number-container2 {
-  background: var(--color-surfaces-body, #6c6760);
-  border-radius: 60px;
-  padding: 2px 4px 2px 4px;
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  align-items: center;
-  justify-content: center;
-  flex-shrink: 0;
-  width: 20px;
-  position: relative;
-}
-.right-column-item-code-container2 {
-  display: flex;
-  flex-direction: row;
-  gap: 4px;
-  align-items: center;
-  justify-content: center;
-  flex-shrink: 0;
-  position: relative;
-}
-.right-column-item-code-wrapper {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-shrink: 0;
-  position: relative;
-}
-.right-column-item-code-inner-wrapper {
-  display: flex;
-  flex-direction: column;
-  gap: 14px;
-  align-items: center;
-  justify-content: flex-start;
-  flex-shrink: 0;
-  position: relative;
-}
-.right-column-item-code {
-  border-radius: 50px;
-  border-style: solid;
-  border-color: var(--color-feedback-states-active-primary, #7b3972);
-  border-width: 0.5px;
-  padding: 2px 6px 2px 6px;
-  display: flex;
-  flex-direction: row;
-  gap: 8px;
-  align-items: center;
-  justify-content: center;
-  flex-shrink: 0;
-  position: relative;
 }
 .linha-11 {
   padding: 0px 1px 0px 1px;
@@ -1082,57 +1054,33 @@
   position: relative;
   overflow: hidden;
 }
-._1-1062 {
-  flex-shrink: 0;
-  width: 21.22px;
-  height: 21.22px;
-  position: relative;
-  overflow: hidden;
-}
-.camada-x-0020-15 {
+.camada-x-0020-17 {
   height: auto;
   position: absolute;
   left: 0.7px;
   top: 0.47px;
   overflow: visible;
 }
-.bottom-section {
-  display: flex;
-  flex-direction: column;
-  gap: 2px;
-  align-items: flex-start;
-  justify-content: center;
-  align-self: stretch;
-  flex-shrink: 0;
-  position: relative;
-}
-.bottom-section-row {
+.linha-12 {
+  padding: 0px 1px 0px 1px;
   display: flex;
   flex-direction: row;
   gap: 8px;
   align-items: center;
-  justify-content: flex-start;
-  flex-shrink: 0;
-  width: 160.81px;
-  position: relative;
-}
-.bottom-section-item {
-  display: flex;
-  flex-direction: row;
-  gap: 6px;
-  align-items: center;
   justify-content: center;
-  flex: 1;
-  position: relative;
-}
-._1-130 {
+  align-self: stretch;
   flex-shrink: 0;
-  width: 45.31px;
-  height: 79.83px;
   position: relative;
-  object-fit: cover;
+  overflow: hidden;
 }
-.bottom-section-item-description {
+.camada-x-0020-18 {
+  height: auto;
+  position: absolute;
+  left: 0.7px;
+  top: 0.47px;
+  overflow: visible;
+}
+.model-scanning-step-title3 {
   color: var(--color-surfaces-body, #6c6760);
   text-align: left;
   font-family: var(--body-xs-font-family, "LeagueSpartan-Regular", sans-serif);
@@ -1140,148 +1088,7 @@
   line-height: var(--body-xs-line-height, 130%);
   font-weight: var(--body-xs-font-weight, 400);
   position: relative;
-}
-._2-45 {
-  flex-shrink: 0;
-  width: 32.23px;
-  height: 35.07px;
-  position: relative;
-  object-fit: cover;
-}
-.bottom-section-code-container {
-  display: flex;
-  flex-direction: row;
-  gap: 6px;
-  align-items: center;
-  justify-content: center;
   align-self: stretch;
-  flex-shrink: 0;
-  position: relative;
-}
-.bottom-section-code-column {
-  display: flex;
-  flex-direction: column;
-  gap: 3px;
-  align-items: center;
-  justify-content: flex-end;
-  align-self: stretch;
-  flex-shrink: 0;
-  width: 28px;
-  position: relative;
-}
-.bottom-section-code-text {
-  color: var(--color-surfaces-titles-primary, #250a20);
-  text-align: left;
-  font-family: var(--body-xs-font-family, "LeagueSpartan-Regular", sans-serif);
-  font-size: var(--body-xs-font-size, 12px);
-  line-height: var(--body-xs-line-height, 130%);
-  font-weight: var(--body-xs-font-weight, 400);
-  position: relative;
-  align-self: stretch;
-}
-.bottom-section-code-column2 {
-  display: flex;
-  flex-direction: row;
-  gap: 6px;
-  align-items: flex-start;
-  justify-content: center;
-  align-self: stretch;
-  flex-shrink: 0;
-  position: relative;
-}
-.bottom-section-code-column3 {
-  display: flex;
-  flex-direction: column;
-  gap: 2px;
-  align-items: center;
-  justify-content: flex-start;
-  flex-shrink: 0;
-  width: 45px;
-  position: relative;
-}
-.bottom-section-code-text2 {
-  color: var(--color-surfaces-titles-primary, #250a20);
-  text-align: center;
-  font-family: var(--body-xs-font-family, "LeagueSpartan-Regular", sans-serif);
-  font-size: var(--body-xs-font-size, 12px);
-  line-height: var(--body-xs-line-height, 130%);
-  font-weight: var(--body-xs-font-weight, 400);
-  position: relative;
-  align-self: stretch;
-}
-.bottom-section-code-inner-container {
-  border-radius: 50px;
-  border-style: solid;
-  border-color: var(--color-feedback-states-active-primary, #7b3972);
-  border-width: 0.5px;
-  padding: 2px 6px 2px 6px;
-  display: flex;
-  flex-direction: row;
-  gap: 8px;
-  align-items: center;
-  justify-content: center;
-  align-self: stretch;
-  flex-shrink: 0;
-  position: relative;
-}
-.bottom-section-code-inner-text {
-  color: var(--color-surfaces-body, #6c6760);
-  text-align: left;
-  font-family: "LeagueSpartan-Regular", sans-serif;
-  font-size: 10px;
-  line-height: 130%;
-  font-weight: 400;
-  position: relative;
-}
-.frame-1171275863 {
-  border-radius: 50px;
-  border-style: solid;
-  border-color: var(--color-feedback-states-active-primary, #7b3972);
-  border-width: 0.5px;
-  opacity: 0;
-  padding: 2px 6px 2px 6px;
-  display: flex;
-  flex-direction: row;
-  gap: 8px;
-  align-items: center;
-  justify-content: center;
-  align-self: stretch;
-  flex-shrink: 0;
-  position: relative;
-}
-._135-256 {
-  color: var(--color-surfaces-body, #6c6760);
-  text-align: left;
-  font-family: "LeagueSpartan-Regular", sans-serif;
-  font-size: 10px;
-  line-height: 130%;
-  font-weight: 400;
-  position: relative;
-}
-.bottom-section-row2 {
-  display: flex;
-  flex-direction: row;
-  gap: 8px;
-  align-items: center;
-  justify-content: flex-start;
-  flex-shrink: 0;
-  position: relative;
-}
-.bottom-section-item2 {
-  display: flex;
-  flex-direction: row;
-  gap: 6px;
-  align-items: center;
-  justify-content: center;
-  flex-shrink: 0;
-  position: relative;
-}
-._1-131 {
-  flex-shrink: 0;
-  width: 55.06px;
-  height: 72.68px;
-  position: relative;
-  object-fit: cover;
 }
 .conventional-title {
   color: var(--color-surfaces-titles-primary, #250a20);
@@ -1310,10 +1117,9 @@
   align-items: flex-start;
   justify-content: flex-start;
   flex-shrink: 0;
-  width: 198px;
   position: relative;
 }
-.title2 {
+.conventional-step-title {
   color: var(--color-surfaces-body, #6c6760);
   text-align: left;
   font-family: var(--body-xs-font-family, "LeagueSpartan-Regular", sans-serif);
@@ -1321,7 +1127,7 @@
   line-height: var(--body-xs-line-height, 130%);
   font-weight: var(--body-xs-font-weight, 400);
   position: relative;
-  align-self: stretch;
+  width: 195.83px;
 }
 .conventional-step-row {
   display: flex;
@@ -1354,7 +1160,7 @@
   width: 20px;
   position: relative;
 }
-.step-number {
+.conventional-step-detail {
   color: var(--color-neutral-100, #ffffff);
   text-align: center;
   font-family: var(--body-xs-font-family, "LeagueSpartan-Regular", sans-serif);
@@ -1364,36 +1170,43 @@
   position: relative;
   align-self: stretch;
 }
-.regular-container {
+.conventional-step-row2 {
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.conventional-step-column3 {
   display: flex;
   flex-direction: row;
   gap: 4px;
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-  height: 17px;
   position: relative;
 }
-.regular-label {
-  color: var(--color-surfaces-body, #6c6760);
-  text-align: left;
-  font-family: "LeagueSpartan-Regular", sans-serif;
-  font-size: 10px;
-  line-height: 130%;
-  font-weight: 400;
+.conventional-step-column4 {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
   position: relative;
 }
-.regular-code-container {
+.conventional-step-row3 {
   display: flex;
   flex-direction: column;
   gap: 14px;
   align-items: center;
   justify-content: flex-start;
   flex-shrink: 0;
-  width: 44px;
   position: relative;
 }
-.regular-code-row {
+.conventional-step-detail2 {
   border-radius: 50px;
   border-style: solid;
   border-color: var(--color-feedback-states-active-primary, #7b3972);
@@ -1405,10 +1218,9 @@
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-  width: 44px;
   position: relative;
 }
-.regular-code {
+.conventional-step-detail3 {
   color: var(--color-surfaces-body, #6c6760);
   text-align: left;
   font-family: "LeagueSpartan-Regular", sans-serif;
@@ -1417,45 +1229,16 @@
   font-weight: 400;
   position: relative;
 }
-.longa-container {
-  display: flex;
-  flex-direction: row;
-  gap: 6px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-shrink: 0;
-  position: relative;
-}
-.longa-container2 {
-  display: flex;
-  flex-direction: row;
-  gap: 4px;
-  align-items: center;
-  justify-content: center;
-  flex-shrink: 0;
-  height: 17px;
-  position: relative;
-}
-.longa-label {
-  color: var(--color-surfaces-body, #6c6760);
-  text-align: left;
-  font-family: "LeagueSpartan-Regular", sans-serif;
-  font-size: 10px;
-  line-height: 130%;
-  font-weight: 400;
-  position: relative;
-}
-.longa-code-container {
+.conventional-step-column5 {
   display: flex;
   flex-direction: column;
   gap: 14px;
   align-items: center;
   justify-content: flex-start;
   flex-shrink: 0;
-  width: 44px;
   position: relative;
 }
-.longa-code-row {
+.conventional-step-row4 {
   border-radius: 50px;
   border-style: solid;
   border-color: var(--color-feedback-states-active-primary, #7b3972);
@@ -1467,524 +1250,32 @@
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-  width: 44px;
   position: relative;
 }
-.longa-code {
-  color: var(--color-surfaces-body, #6c6760);
-  text-align: left;
-  font-family: "LeagueSpartan-Regular", sans-serif;
-  font-size: 10px;
-  line-height: 130%;
-  font-weight: 400;
-  position: relative;
-}
-.camada-x-0020-16 {
+.icon7 {
+  background: var(--white-100, #ffffff);
+  border-radius: 129.53px;
+  border-style: solid;
+  border-color: var(--color-surfaces-border-secundary, #f3ebf1);
+  border-width: 0.53px;
+  padding: 7.77px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
   flex-shrink: 0;
-  width: 9.86px;
-  height: 28.31px;
+  position: absolute;
+  left: 7.54px;
+  top: 39.51px;
+  box-shadow: 0px 10.36px 41.45px -5.18px rgba(103, 111, 123, 0.1);
+}
+.bs-cart-plus7 {
+  flex-shrink: 0;
+  width: 13.44px;
+  height: 13.44px;
   position: relative;
   overflow: visible;
-}
-.product-card {
-  display: flex;
-  flex-direction: row;
-  gap: 4px;
-  align-items: center;
-  justify-content: center;
-  align-self: stretch;
-  flex-shrink: 0;
-  position: relative;
-}
-.product-info {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-  align-items: flex-start;
-  justify-content: center;
-  flex-shrink: 0;
-  position: relative;
-}
-.product-header {
-  display: flex;
-  flex-direction: row;
-  gap: 4px;
-  align-items: center;
-  justify-content: flex-start;
-  flex-shrink: 0;
-  position: relative;
-}
-._2-443 {
-  flex-shrink: 0;
-  width: 65.75px;
-  height: 80.19px;
-  position: relative;
-  object-fit: cover;
-}
-.product-title-container4 {
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-shrink: 0;
-  position: relative;
-}
-.product-title2 {
-  color: var(--color-surfaces-body, #6c6760);
-  text-align: left;
-  font-family: var(--body-xs-font-family, "LeagueSpartan-Regular", sans-serif);
-  font-size: var(--body-xs-font-size, 12px);
-  line-height: var(--body-xs-line-height, 130%);
-  font-weight: var(--body-xs-font-weight, 400);
-  position: relative;
-}
-.product-details {
-  display: flex;
-  flex-direction: column;
-  gap: 9px;
-  align-items: flex-start;
-  justify-content: center;
-  flex-shrink: 0;
-  width: 150px;
-  position: relative;
-}
-.size-and-code-container {
-  display: flex;
-  flex-direction: row;
-  gap: 6px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  align-self: stretch;
-  flex-shrink: 0;
-  position: relative;
-}
-.size-and-code {
-  display: flex;
-  flex-direction: column;
-  gap: 2px;
-  align-items: flex-start;
-  justify-content: center;
-  flex: 1;
-  position: relative;
-}
-.size {
-  color: var(--color-surfaces-body, #6c6760);
-  text-align: left;
-  font-family: "LeagueSpartan-Regular", sans-serif;
-  font-size: 10px;
-  line-height: 130%;
-  font-weight: 400;
-  position: relative;
-}
-.code-container {
-  display: flex;
-  flex-direction: column;
-  gap: 14px;
-  align-items: center;
-  justify-content: flex-start;
-  flex-shrink: 0;
-  width: 44px;
-  position: relative;
-}
-.code-wrapper {
-  border-radius: 50px;
-  border-style: solid;
-  border-color: var(--color-feedback-states-active-primary, #7b3972);
-  border-width: 0.5px;
-  padding: 2px 6px 2px 6px;
-  display: flex;
-  flex-direction: row;
-  gap: 8px;
-  align-items: center;
-  justify-content: center;
-  flex-shrink: 0;
-  width: 44px;
-  position: relative;
-}
-.code {
-  color: var(--color-surfaces-body, #6c6760);
-  text-align: left;
-  font-family: "LeagueSpartan-Regular", sans-serif;
-  font-size: 10px;
-  line-height: 130%;
-  font-weight: 400;
-  position: relative;
-}
-.product-description2 {
-  color: var(--color-surfaces-body, #6c6760);
-  text-align: left;
-  font-family: "LeagueSpartan-Regular", sans-serif;
-  font-size: 10px;
-  line-height: 130%;
-  font-weight: 400;
-  position: relative;
-  align-self: stretch;
-}
-.linha-4 {
-  padding: 0px 1px 0px 1px;
-  display: flex;
-  flex-direction: row;
-  gap: 8px;
-  align-items: center;
-  justify-content: center;
-  align-self: stretch;
-  flex-shrink: 0;
-  position: relative;
-  overflow: hidden;
-}
-.camada-x-0020-17 {
-  flex-shrink: 0;
-  width: 9.86px;
-  height: 28.31px;
-  position: relative;
-  overflow: visible;
-}
-.container {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-  align-items: flex-start;
-  justify-content: center;
-  flex-shrink: 0;
-  width: 100%;
-  position: relative;
-}
-.top-section {
-  display: flex;
-  flex-direction: row;
-  gap: 8px;
-  align-items: center;
-  justify-content: flex-start;
-  align-self: stretch;
-  flex-shrink: 0;
-  position: relative;
-}
-.product-info2 {
-  display: flex;
-  flex-direction: row;
-  gap: 6px;
-  align-items: center;
-  justify-content: center;
-  flex: 1;
-  position: relative;
-}
-._1-129 {
-  flex-shrink: 0;
-  width: 45.31px;
-  height: 79.83px;
-  position: relative;
-  object-fit: cover;
-}
-.bottom-section2 {
-  display: flex;
-  flex-direction: row;
-  gap: 6px;
-  align-items: center;
-  justify-content: center;
-  align-self: stretch;
-  flex-shrink: 0;
-  position: relative;
-}
-.diameter-column {
-  display: flex;
-  flex-direction: column;
-  gap: 3px;
-  align-items: center;
-  justify-content: flex-end;
-  align-self: stretch;
-  flex-shrink: 0;
-  width: 28px;
-  position: relative;
-}
-.diameter {
-  color: var(--color-surfaces-titles-primary, #250a20);
-  text-align: left;
-  font-family: var(--body-xs-font-family, "LeagueSpartan-Regular", sans-serif);
-  font-size: var(--body-xs-font-size, 12px);
-  line-height: var(--body-xs-line-height, 130%);
-  font-weight: var(--body-xs-font-weight, 400);
-  position: relative;
-  align-self: stretch;
-}
-.size-columns {
-  display: flex;
-  flex-direction: row;
-  gap: 6px;
-  align-items: flex-start;
-  justify-content: center;
-  align-self: stretch;
-  flex-shrink: 0;
-  position: relative;
-}
-.size-column {
-  display: flex;
-  flex-direction: column;
-  gap: 2px;
-  align-items: center;
-  justify-content: flex-start;
-  flex-shrink: 0;
-  width: 45px;
-  position: relative;
-}
-.size2 {
-  color: var(--color-surfaces-titles-primary, #250a20);
-  text-align: center;
-  font-family: var(--body-xs-font-family, "LeagueSpartan-Regular", sans-serif);
-  font-size: var(--body-xs-font-size, 12px);
-  line-height: var(--body-xs-line-height, 130%);
-  font-weight: var(--body-xs-font-weight, 400);
-  position: relative;
-  align-self: stretch;
-}
-.code-container2 {
-  border-radius: 50px;
-  border-style: solid;
-  border-color: var(--color-feedback-states-active-primary, #7b3972);
-  border-width: 0.5px;
-  padding: 2px 6px 2px 6px;
-  display: flex;
-  flex-direction: row;
-  gap: 8px;
-  align-items: center;
-  justify-content: center;
-  align-self: stretch;
-  flex-shrink: 0;
-  position: relative;
-}
-.product-card2 {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-  align-items: flex-start;
-  justify-content: center;
-  flex-shrink: 0;
-  width: 100%;
-  position: relative;
-}
-.product-info3 {
-  display: flex;
-  flex-direction: row;
-  gap: 8px;
-  align-items: center;
-  justify-content: center;
-  align-self: stretch;
-  flex-shrink: 0;
-  position: relative;
-}
-.product-description3 {
-  display: flex;
-  flex-direction: row;
-  gap: 6px;
-  align-items: center;
-  justify-content: center;
-  flex-shrink: 0;
-  position: relative;
-}
-._1-1302 {
-  flex-shrink: 0;
-  width: 55.06px;
-  height: 72.68px;
-  position: relative;
-  object-fit: cover;
-}
-.size-and-code-table {
-  display: flex;
-  flex-direction: row;
-  gap: 6px;
-  align-items: center;
-  justify-content: center;
-  align-self: stretch;
-  flex-shrink: 0;
-  position: relative;
-}
-.size-column2 {
-  display: flex;
-  flex-direction: column;
-  gap: 3px;
-  align-items: center;
-  justify-content: flex-end;
-  align-self: stretch;
-  flex-shrink: 0;
-  width: 28px;
-  position: relative;
-}
-.size3 {
-  color: var(--color-surfaces-titles-primary, #250a20);
-  text-align: left;
-  font-family: var(--body-xs-font-family, "LeagueSpartan-Regular", sans-serif);
-  font-size: var(--body-xs-font-size, 12px);
-  line-height: var(--body-xs-line-height, 130%);
-  font-weight: var(--body-xs-font-weight, 400);
-  position: relative;
-  align-self: stretch;
-}
-.code-columns {
-  display: flex;
-  flex-direction: row;
-  gap: 6px;
-  align-items: flex-start;
-  justify-content: center;
-  align-self: stretch;
-  flex-shrink: 0;
-  position: relative;
-}
-.code-column {
-  display: flex;
-  flex-direction: column;
-  gap: 2px;
-  align-items: center;
-  justify-content: flex-start;
-  flex-shrink: 0;
-  width: 45px;
-  position: relative;
-}
-.code-header {
-  color: var(--color-surfaces-titles-primary, #250a20);
-  text-align: center;
-  font-family: var(--body-xs-font-family, "LeagueSpartan-Regular", sans-serif);
-  font-size: var(--body-xs-font-size, 12px);
-  line-height: var(--body-xs-line-height, 130%);
-  font-weight: var(--body-xs-font-weight, 400);
-  position: relative;
-  align-self: stretch;
-}
-.code2 {
-  border-radius: 50px;
-  border-style: solid;
-  border-color: var(--color-feedback-states-active-primary, #7b3972);
-  border-width: 0.5px;
-  padding: 2px 6px 2px 6px;
-  display: flex;
-  flex-direction: row;
-  gap: 8px;
-  align-items: center;
-  justify-content: center;
-  align-self: stretch;
-  flex-shrink: 0;
-  position: relative;
-}
-.code-value {
-  color: var(--color-surfaces-body, #6c6760);
-  text-align: left;
-  font-family: "LeagueSpartan-Regular", sans-serif;
-  font-size: 10px;
-  line-height: 130%;
-  font-weight: 400;
-  position: relative;
-}
-.linha-5 {
-  padding: 0px 1px 0px 1px;
-  display: flex;
-  flex-direction: row;
-  gap: 8px;
-  align-items: center;
-  justify-content: center;
-  align-self: stretch;
-  flex-shrink: 0;
-  position: relative;
-  overflow: hidden;
-}
-.camada-x-0020-18 {
-  flex-shrink: 0;
-  width: 9.86px;
-  height: 28.31px;
-  position: relative;
-  overflow: visible;
-}
-.product-container {
-  display: flex;
-  flex-direction: row;
-  gap: 4px;
-  align-items: center;
-  justify-content: center;
-  align-self: stretch;
-  flex-shrink: 0;
-  position: relative;
-}
-._1-1312 {
-  flex-shrink: 0;
-  width: 56.79px;
-  height: 72.38px;
-  position: relative;
-  object-fit: cover;
-}
-.product-info4 {
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-shrink: 0;
-  width: 198px;
-  position: relative;
-}
-.product-title3 {
-  color: var(--color-surfaces-body, #6c6760);
-  text-align: left;
-  font-family: var(--body-xs-font-family, "LeagueSpartan-Regular", sans-serif);
-  font-size: var(--body-xs-font-size, 12px);
-  line-height: var(--body-xs-line-height, 130%);
-  font-weight: var(--body-xs-font-weight, 400);
-  position: relative;
-  align-self: stretch;
-}
-.product-details2 {
-  display: flex;
-  flex-direction: row;
-  gap: 6px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-shrink: 0;
-  position: relative;
-}
-.size-info {
-  display: flex;
-  flex-direction: column;
-  gap: 2px;
-  align-items: center;
-  justify-content: flex-end;
-  align-self: stretch;
-  flex-shrink: 0;
-  position: relative;
-}
-.size4 {
-  color: var(--color-surfaces-titles-primary, #250a20);
-  text-align: center;
-  font-family: var(--body-xs-font-family, "LeagueSpartan-Regular", sans-serif);
-  font-size: var(--body-xs-font-size, 12px);
-  line-height: var(--body-xs-line-height, 130%);
-  font-weight: var(--body-xs-font-weight, 400);
-  position: relative;
-}
-.diameter-info {
-  display: flex;
-  flex-direction: row;
-  gap: 6px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-shrink: 0;
-  position: relative;
-}
-.diameter-container {
-  display: flex;
-  flex-direction: column;
-  gap: 2px;
-  align-items: center;
-  justify-content: flex-start;
-  flex-shrink: 0;
-  width: 45px;
-  position: relative;
-}
-.diameter2 {
-  color: var(--color-surfaces-titles-primary, #250a20);
-  text-align: center;
-  font-family: var(--body-xs-font-family, "LeagueSpartan-Regular", sans-serif);
-  font-size: var(--body-xs-font-size, 12px);
-  line-height: var(--body-xs-line-height, 130%);
-  font-weight: var(--body-xs-font-weight, 400);
-  position: relative;
-  align-self: stretch;
 }
 .conventional-container {
   display: flex;
@@ -1996,7 +1287,290 @@
   flex-shrink: 0;
   position: relative;
 }
+.camada-x-0020-19 {
+  height: auto;
+  position: absolute;
+  left: 0.7px;
+  top: 0.47px;
+  overflow: visible;
+}
+._1-107 {
+  flex-shrink: 0;
+  width: 21.22px;
+  height: 21.22px;
+  position: relative;
+  transform-origin: 0 0;
+  transform: rotate(-90deg) scale(1, 1);
+  overflow: hidden;
+}
+.camada-x-0020-110 {
+  height: auto;
+  position: absolute;
+  left: 0.7px;
+  top: 0.47px;
+  overflow: visible;
+}
 .conventional-step-container2 {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.conventional-step-details2 {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+._1-123 {
+  flex-shrink: 0;
+  width: 67.45px;
+  height: 72.68px;
+  position: relative;
+  object-fit: cover;
+}
+.conventional-step-column6 {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.conventional-step-title2 {
+  color: var(--color-surfaces-body, #6c6760);
+  text-align: left;
+  font-family: var(--body-xs-font-family, "LeagueSpartan-Regular", sans-serif);
+  font-size: var(--body-xs-font-size, 12px);
+  line-height: var(--body-xs-line-height, 130%);
+  font-weight: var(--body-xs-font-weight, 400);
+  position: relative;
+}
+.icon-3-7 {
+  flex-shrink: 0;
+  width: 33.1px;
+  height: 35.7px;
+  position: relative;
+  object-fit: cover;
+}
+.conventional-step-row5 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.conventional-step-column7 {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.conventional-step-column8 {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 44px;
+  position: relative;
+}
+.conventional-step-row6 {
+  border-radius: 50px;
+  border-style: solid;
+  border-color: var(--color-feedback-states-active-primary, #7b3972);
+  border-width: 0.5px;
+  padding: 2px 6px 2px 6px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 44px;
+  position: relative;
+}
+.conventional-step-row7 {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.conventional-step-details3 {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+._2-42 {
+  flex-shrink: 0;
+  width: 61.3px;
+  height: 72.68px;
+  position: relative;
+  object-fit: cover;
+}
+.conventional-step-column9 {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+.conventional-step-column10 {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+.conventional-step-row8 {
+  color: var(--color-surfaces-body, #6c6760);
+  text-align: left;
+  font-family: "LeagueSpartan-Regular", sans-serif;
+  font-size: 10px;
+  line-height: 130%;
+  font-weight: 400;
+  position: relative;
+}
+.linha-6 {
+  padding: 0px 1px 0px 1px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.or-text2 {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+._1-1062 {
+  flex-shrink: 0;
+  width: 21.22px;
+  height: 21.22px;
+  position: relative;
+  transform-origin: 0 0;
+  transform: rotate(-90deg) scale(1, 1);
+  overflow: hidden;
+}
+.camada-x-0020-111 {
+  height: auto;
+  position: absolute;
+  left: 0.7px;
+  top: 0.47px;
+  overflow: visible;
+}
+._1-1072 {
+  flex-shrink: 0;
+  width: 21.22px;
+  height: 21.22px;
+  position: relative;
+  overflow: hidden;
+}
+.camada-x-0020-112 {
+  height: auto;
+  position: absolute;
+  left: 0.7px;
+  top: 0.47px;
+  overflow: visible;
+}
+._3-28 {
+  flex-shrink: 0;
+  width: 58.14px;
+  height: 72.68px;
+  position: relative;
+  object-fit: cover;
+}
+.conventional-step-row9 {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.conventional-step-column11 {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: flex-start;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.conventional-step-detail4 {
+  color: var(--color-surfaces-body, #6c6760);
+  text-align: left;
+  font-family: var(--body-xs-font-family, "LeagueSpartan-Regular", sans-serif);
+  font-size: var(--body-xs-font-size, 12px);
+  line-height: var(--body-xs-line-height, 130%);
+  font-weight: var(--body-xs-font-weight, 400);
+  position: relative;
+}
+.linha-7 {
+  padding: 0px 1px 0px 1px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.camada-x-0020-113 {
+  height: auto;
+  position: absolute;
+  left: 0.7px;
+  top: 0.47px;
+  overflow: visible;
+}
+.camada-x-0020-114 {
+  height: auto;
+  position: absolute;
+  left: 0.7px;
+  top: 0.47px;
+  overflow: visible;
+}
+.conventional-step-container3 {
   display: flex;
   flex-direction: column;
   gap: 24px;
@@ -2006,6 +1580,84 @@
   flex-shrink: 0;
   position: relative;
 }
+.conventional-step-details4 {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.conventional-step-column12 {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  position: relative;
+}
+._1-124 {
+  flex-shrink: 0;
+  width: 63.31px;
+  height: 72.68px;
+  position: relative;
+  object-fit: cover;
+}
+.conventional-step-title3 {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.icon-3-8 {
+  flex-shrink: 0;
+  width: 33.1px;
+  height: 35.7px;
+  position: relative;
+  object-fit: cover;
+}
+.conventional-step-row10 {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: flex-start;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.conventional-step-column13 {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: flex-start;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.conventional-step-container4 {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  position: relative;
+}
+._2-43 {
+  flex-shrink: 0;
+  width: 59.44px;
+  height: 72.68px;
+  position: relative;
+  object-fit: cover;
+}
 .keys-container {
   display: flex;
   flex-direction: column;
@@ -2013,7 +1665,7 @@
   align-items: flex-start;
   justify-content: flex-start;
   flex-shrink: 0;
-  width: 100%;
+  width: 327px;
   position: relative;
 }
 .keys-column {
@@ -2072,6 +1724,82 @@
   text-overflow: ellipsis;
   overflow: hidden;
 }
+.keys-step-container {
+  border-style: solid;
+  border-color: var(--color-surfaces-border, #cfccc9);
+  border-width: 0px 0px 1px 0px;
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.keys-step-column {
+  background: var(--color-surfaces-border, #cfccc9);
+  border-radius: 60px;
+  padding: 2px 4px 2px 4px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 20px;
+  position: relative;
+}
+.keys-step-number {
+  color: var(--color-neutral-100, #ffffff);
+  text-align: center;
+  font-family: var(--body-xs-font-family, "LeagueSpartan-Regular", sans-serif);
+  font-size: var(--body-xs-font-size, 12px);
+  line-height: var(--body-xs-line-height, 130%);
+  font-weight: var(--body-xs-font-weight, 400);
+  position: relative;
+  align-self: stretch;
+}
+.keys-step-details {
+  display: flex;
+  flex-direction: row;
+  gap: 2px;
+  align-items: flex-start;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+._1-111 {
+  flex-shrink: 0;
+  width: 43.65px;
+  height: 72.7px;
+  position: relative;
+  object-fit: cover;
+}
+.keys-step-title {
+  color: var(--color-surfaces-body, #6c6760);
+  text-align: left;
+  font-family: var(--body-xs-font-family, "LeagueSpartan-Regular", sans-serif);
+  font-size: var(--body-xs-font-size, 12px);
+  line-height: var(--body-xs-line-height, 130%);
+  font-weight: var(--body-xs-font-weight, 400);
+  position: relative;
+}
+.keys-step-row {
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+  position: relative;
+  overflow: visible;
+}
+.chave-2 {
+  flex-shrink: 0;
+  width: 80px;
+  height: 39.8px;
+  position: relative;
+  overflow: visible;
+  object-fit: cover;
+}
 .keys-details-container {
   display: flex;
   flex-direction: column;
@@ -2093,43 +1821,12 @@
   flex-shrink: 0;
   position: relative;
 }
-.keys-step-column {
-  background: var(--color-surfaces-border, #cfccc9);
-  border-radius: 60px;
-  padding: 2px 4px 2px 4px;
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  align-items: center;
-  justify-content: center;
-  flex-shrink: 0;
-  width: 20px;
-  position: relative;
-}
-.keys-step-details {
-  display: flex;
-  flex-direction: row;
-  gap: 2px;
-  align-items: flex-start;
-  justify-content: center;
-  flex-shrink: 0;
-  position: relative;
-}
 .sem-t-tulo-1-43 {
   flex-shrink: 0;
   width: 56.51px;
   height: 72.7px;
   position: relative;
   object-fit: cover;
-}
-.keys-step-title {
-  color: var(--color-surfaces-body, #6c6760);
-  text-align: left;
-  font-family: var(--body-xs-font-family, "LeagueSpartan-Regular", sans-serif);
-  font-size: var(--body-xs-font-size, 12px);
-  line-height: var(--body-xs-line-height, 130%);
-  font-weight: var(--body-xs-font-weight, 400);
-  position: relative;
 }
 .plus-icon {
   flex-shrink: 0;
@@ -2138,7 +1835,7 @@
   position: relative;
   overflow: visible;
 }
-.keys-step-row {
+.keys-step-row2 {
   display: flex;
   flex-direction: row;
   gap: 2px;
@@ -2147,7 +1844,7 @@
   flex-shrink: 0;
   position: relative;
 }
-.chave-2 {
+.chave-22 {
   flex-shrink: 0;
   width: 80px;
   height: 39.8px;
@@ -2262,10 +1959,10 @@
   flex: 1;
   position: relative;
 }
-._1-132 {
+._1-125 {
   flex-shrink: 0;
-  width: 37.92px;
-  height: 72.38px;
+  width: 57.64px;
+  height: 72.7px;
   position: relative;
   object-fit: cover;
 }
@@ -2278,7 +1975,7 @@
   flex-shrink: 0;
   position: relative;
 }
-.accessory-description {
+.accessories-step-title {
   color: var(--color-surfaces-body, #6c6760);
   text-align: left;
   font-family: var(--body-xs-font-family, "LeagueSpartan-Regular", sans-serif);
@@ -2376,7 +2073,7 @@
   flex-shrink: 0;
   position: relative;
 }
-.accessory-code {
+.accessories-step-detail {
   color: var(--color-surfaces-body, #6c6760);
   text-align: left;
   font-family: "LeagueSpartan-Regular", sans-serif;
@@ -2392,5 +2089,58 @@
   align-items: flex-start;
   justify-content: center;
   flex-shrink: 0;
+  position: relative;
+}
+.accessories-step-detail2 {
+  color: var(--color-surfaces-body, #6c6760);
+  text-align: left;
+  font-family: var(--body-xs-font-family, "LeagueSpartan-Regular", sans-serif);
+  font-size: var(--body-xs-font-size, 12px);
+  line-height: var(--body-xs-line-height, 130%);
+  font-weight: var(--body-xs-font-weight, 400);
+  position: relative;
+}
+.accessories-step-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.accessories-step-details {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  align-items: center;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+._2-402 {
+  flex-shrink: 0;
+  width: 48.69px;
+  height: 72.7px;
+  position: relative;
+  object-fit: cover;
+}
+.accessories-step-column10 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.accessories-note {
+  color: var(--color-surfaces-body, #6c6760);
+  text-align: left;
+  font-family: "LeagueSpartan-Regular", sans-serif;
+  font-size: 10px;
+  line-height: 130%;
+  font-weight: 400;
   position: relative;
 }

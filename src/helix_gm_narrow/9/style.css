@@ -181,8 +181,8 @@
   justify-content: center;
   flex-shrink: 0;
   position: absolute;
-  left: 348.89px;
-  top: 54.2px;
+  left: 292.6px;
+  top: 105.7px;
   box-shadow: 0px 10.36px 41.45px -5.18px rgba(103, 111, 123, 0.1);
 }
 .bs-cart-plus {
@@ -474,7 +474,7 @@
   border-style: solid;
   border-color: var(--color-surfaces-border, #cfccc9);
   border-width: 0px 1px 0px 0px;
-  padding: 0px 4px 0px 0px;
+  padding: 0px 16px 0px 0px;
   display: flex;
   flex-direction: column;
   gap: 12px;

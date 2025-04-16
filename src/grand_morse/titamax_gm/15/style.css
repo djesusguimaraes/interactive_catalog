@@ -35,6 +35,7 @@
   justify-content: flex-start;
   flex-shrink: 0;
   position: relative;
+  width: 100%;
 }
 .product-list-container {
   display: flex;

@@ -599,7 +599,6 @@
   align-self: stretch;
   flex-shrink: 0;
   position: relative;
-  overflow: hidden;
 }
 .camada-x-0020-12 {
   flex-shrink: 0;
@@ -1192,7 +1191,6 @@
   width: 21.22px;
   height: 21.22px;
   position: relative;
-  overflow: hidden;
 }
 .camada-x-0020-17 {
   height: auto;
@@ -1215,9 +1213,6 @@
   width: 21.22px;
   height: 21.22px;
   position: relative;
-  transform-origin: 0 0;
-  transform: rotate(-90deg) scale(1, 1);
-  overflow: hidden;
 }
 .camada-x-0020-18 {
   height: auto;
@@ -1406,9 +1401,6 @@
   width: 21.22px;
   height: 21.22px;
   position: relative;
-  transform-origin: 0 0;
-  transform: rotate(-90deg) scale(1, 1);
-  overflow: hidden;
 }
 .camada-x-0020-19 {
   height: auto;

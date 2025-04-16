@@ -354,25 +354,23 @@
 }
 .item-label2 {
   color: var(--color-surfaces-titles-primary, #250a20);
-  text-align: center;
   font-family: var(--body-xs-font-family, "LeagueSpartan-Regular", sans-serif);
   font-size: var(--body-xs-font-size, 12px);
   line-height: var(--body-xs-line-height, 130%);
   font-weight: var(--body-xs-font-weight, 400);
-  position: relative;
+  position: absolute;
   align-self: stretch;
-  width: 113.77px;
   transform-origin: 0 0;
   transform: rotate(-89.846deg) scale(1, 1);
+  top: 95px;
 }
 .item-container2 {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: 6px;
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-  width: 50px;
   position: relative;
 }
 .item-container3 {
@@ -460,8 +458,7 @@
   justify-content: center;
   flex-shrink: 0;
   position: absolute;
-  left: 45.55px;
-  top: 43.94px;
+  left: -16px;
   box-shadow: 0px 10.36px 41.45px -5.18px rgba(103, 111, 123, 0.1);
 }
 .bs-cart-plus {

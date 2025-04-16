@@ -7,7 +7,7 @@ function addToCartByText(text) {
 }
 
 function addToCartByVariations(variations) {
-    FlutterChannel.postMessage(`cart://add?variations=${variations.join(',')}`);
+    FlutterChannel.postMessage(`cart://add?variations=${variations}`);
 }
 
 function zoomImg(url) {

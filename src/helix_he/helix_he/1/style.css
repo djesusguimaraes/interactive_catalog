@@ -9,7 +9,6 @@
   gap: 20px;
   align-items: flex-start;
   justify-content: flex-start;
-  height: 506.16px;
   position: relative;
 }
 .frame-1171276320 {
@@ -336,8 +335,8 @@
 }
 .rectangle-9465 {
   background: rgba(0, 0, 0, 0.2);
-  width: 131.06px;
-  height: 361.24px;
+  width: 100px;
+  height: 410.24px;
   position: absolute;
   left: calc(50% - -196.17px);
   top: calc(50% - 48.96px);
