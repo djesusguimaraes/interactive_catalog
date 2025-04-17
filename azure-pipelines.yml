@@ -61,6 +61,13 @@ jobs:
     - checkout: self
 
     - script: |
+        curl https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
+        curl https://packages.microsoft.com/config/ubuntu/20.04/prod.list | sudo tee /etc/apt/sources.list.d/msprod.list
+        sudo apt-get update -y
+        sudo ACCEPT_EULA=Y apt-get install -y msodbcsql18 unixodbc-dev -y
+      displayName: 'Install ODBC Driver for SQL Server'
+
+    - script: |
         python -m venv venv
         source venv/bin/activate
         pip install --upgrade pip

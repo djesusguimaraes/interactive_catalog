@@ -247,7 +247,7 @@ elif BRANCH == "main":
 
 username = 'adminSmilink'
 password = 'Smilinkinha@2023'
-conn_str = f'DRIVER={{SQL Server}};SERVER={server};DATABASE={database};UID={username};PWD={password}'
+conn_str = f'DRIVER={{ODBC Driver 18 for SQL Server}};SERVER={server};DATABASE={database};UID={username};PWD={password};TrustServerCertificate=yes'
 
 conn = pyodbc.connect(conn_str)
 cursor = conn.cursor()
