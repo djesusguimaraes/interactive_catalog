@@ -163,12 +163,6 @@ for dir in pastas_finais:
         subcategory_df.append(dir[1])
         pagina_df.append(dir[2])
 
-print(len(family_df))
-print(len(subcategory_df))
-print(len(pagina_df))
-print(len(lista_products))
-print(len(lista_is_sku))
-
 #Cria DataFrame
 df_pages = pd.DataFrame({
     "family": family_df,
@@ -181,7 +175,7 @@ df_pages = pd.DataFrame({
 #Formata o Dataframe
 df_pages["link"] = df_pages.apply(lambda row: 
                           f"http://{BRANCH}-{REPO}"+ ".s3-website-us-east-1.amazonaws.com/src/" + row["family"] + "/" + row["subcategory"] + "/"
-                          if row["subcategory"] 
+                          if row["subcategory"] #and not row['subcategory'].isnumeric()
                           else 
                           f"http://{BRANCH}-{REPO}"+ ".s3-website-us-east-1.amazonaws.com/src/" + row["family"] + "/", axis = 1)
 
@@ -208,7 +202,7 @@ def somente_numeros(s):
 families_to_fix = []
 for index, row in df_pages.iterrows():
     if row["subcategory"] != None:
-        flag_numeros = somente_numeros(row["subcategory"]) #checa se familia eh apenas um numero
+        flag_numeros = somente_numeros(row["subcategory"]) #checa se subcategoria eh apenas um numero
         if flag_numeros == True:
             families_to_fix.append(row["family"]) #Salva a familia para corrigir na tabela products
             df_pages.at[index, "max_page_number"] = row["subcategory"] #substitui o numero da pagina pela subcategoria
@@ -230,8 +224,20 @@ for family in families_to_fix:
         .str.split(string_split)\
         .str[1].str.replace("/", "", regex = False) # preenche o numero da pagina
 
+#Corrigir o link
+df_products['link'] = df_products['link'].apply(lambda x: re.sub(r'/(\d+)/?$', '/', x))
+df_pages['link'] = df_pages['link'].apply(lambda x: re.sub(r'/(\d+)/?$', '/', x))
+
+df_pages = df_pages.groupby(["family", "subcategory", "link", "image"], dropna=False)\
+    .agg({"max_page_number": "max"})\
+    .sort_values(["family", "subcategory"])\
+    .reset_index() #Agrega tudo para pegar somente a maior pagina
+df_pages = df_pages.astype(str).replace("nan", None) #garante str nas colunas
+df_pages = df_pages[["family", "subcategory", "max_page_number", "link", "image"]]
+
 print("Registros em interactive_catalog_pages: ", len(df_pages))
 print("Registros em interactive_catalog_products: ", len(df_products))
+
 #=====================================================SALVA BASES==========================================================================
 
 print("Salvando...")
