@@ -14,8 +14,6 @@
   align-items: flex-start;
   justify-content: flex-start;
   width: 100%;
-  position: absolute;
-  left: 0px;
 }
 .mask-group-container2 {
   display: flex;
@@ -26,7 +24,6 @@
   flex-shrink: 0;
   width: 45%;
   position: relative;
-  overflow: hidden;
 }
 .mask-group-container3 {
   display: flex;

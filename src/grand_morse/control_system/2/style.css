@@ -3,31 +3,28 @@
   box-sizing: border-box;
 }
 .frame-1171276551 {
-  flex-shrink: 0;
-  height: 2193px;
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+  width: 100%;
+  height: 2350px;
 }
 .main-container {
   display: flex;
   flex-direction: column;
-  gap: 376px;
   align-items: flex-start;
   justify-content: flex-start;
   width: 100%;
-  height: 1344px;
-  position: absolute;
-  left: 0px;
-  top: 0px;
 }
 .mask-group {
   flex-shrink: 0;
   width: 100%;
-  height: 2192.81px;
   position: static;
 }
 .mask-group2 {
   width: 100%;
-  height: 2192.81px;
   position: static;
 }
 .mask-group-container {
@@ -39,10 +36,6 @@
   align-items: flex-start;
   justify-content: flex-start;
   width: 100%;
-  height: 2192.81px;
-  position: absolute;
-  left: 0px;
-  top: 0px;
 }
 .product-list-container {
   display: flex;
@@ -52,7 +45,6 @@
   justify-content: flex-start;
   flex-shrink: 0;
   width: 100%;
-  height: 2177px;
   position: relative;
 }
 .product-section {
@@ -350,7 +342,6 @@
   justify-content: flex-start;
   align-self: stretch;
   flex-shrink: 0;
-  height: 356px;
   position: relative;
 }
 .container11 {
@@ -367,7 +358,6 @@
   flex-shrink: 0;
   width: 100%;
   position: relative;
-  margin-top: 32px;
 }
 .container12 {
   display: flex;
@@ -408,18 +398,11 @@
   align-items: flex-end;
   justify-content: center;
   width: 100%;
-  height: 817px;
-  position: absolute;
-  left: 0px;
-  top: 1404px;
-  margin-top: 128px;
 }
 .content-container {
   border-radius: 10px;
-  padding: 0px 0px 16px 0px;
   display: flex;
   flex-direction: column;
-  gap: 70px;
   align-items: flex-start;
   justify-content: flex-start;
   align-self: stretch;
@@ -434,7 +417,6 @@
   justify-content: flex-start;
   align-self: stretch;
   flex-shrink: 0;
-  height: 769px;
   position: relative;
 }
 .product-header {

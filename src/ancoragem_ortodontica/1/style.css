@@ -10,6 +10,7 @@
   justify-content: flex-start;
   flex-shrink: 0;
   position: relative;
+  height: 1553px;
 }
 .cinta-baixa {
   color: var(--color-surfaces-titles-secundary, #3c1635);

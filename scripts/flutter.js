@@ -11,5 +11,5 @@ function addToCartByVariations(variations) {
 }
 
 function zoomImg(url) {
-    FlutterChannel.postMessage(`zoom://image?url=${url}`);
+    FlutterChannel.postMessage(`zoom://image?url=${url}`); 
 }

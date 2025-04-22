@@ -11,6 +11,7 @@
   align-self: stretch;
   flex-shrink: 0;
   position: relative;
+  height: 318px;
 }
 .title {
   color: var(--color-surfaces-titles-secundary, #3c1635);
