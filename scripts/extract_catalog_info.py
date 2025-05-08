@@ -86,8 +86,11 @@ for pasta in pastas_src:
     except:
         subcategory = None
     
-    if (pasta[-1].isdigit()) or (family in lista_manter_family) or (subcategory in lista_manter_subcategory):
-        pastas_finais.append("/" + "/".join(pasta) + "/index.html")
+    if "fragments" in pasta: #não queremos pegar os index.html dentro de fragments
+        continue #aqui vai o código par identificar e montar a base de fragments
+    else:
+        if (pasta[-1].isdigit()) or (family in lista_manter_family) or (subcategory in lista_manter_subcategory):
+            pastas_finais.append("/" + "/".join(pasta) + "/index.html")
     
 #Coleta links do index.html
 lista_urls = []
