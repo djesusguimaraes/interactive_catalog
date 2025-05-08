@@ -77,6 +77,7 @@ for subcategory in lista_subcategorys:
         lista_manter_subcategory.append(subcategory)
 
 #Filtrar pastas finais
+pastas_fragments = []
 pastas_finais = []
 for pasta in pastas_src:
 
@@ -86,12 +87,12 @@ for pasta in pastas_src:
     except:
         subcategory = None
     
-    if "fragments" in pasta: #não queremos pegar os index.html dentro de fragments
-        continue #aqui vai o código par identificar e montar a base de fragments
+    if "fragments" in pasta: #queremos separar as pastas que possuem fragments
+        pastas_fragments.append(pasta) #aqui vai o código par identificar e montar a base de fragments
     else:
         if (pasta[-1].isdigit()) or (family in lista_manter_family) or (subcategory in lista_manter_subcategory):
             pastas_finais.append("/" + "/".join(pasta) + "/index.html")
-    
+
 #Coleta links do index.html
 lista_urls = []
 for dir in pastas_finais:
@@ -165,6 +166,22 @@ for dir in pastas_finais:
         family_df.append(dir[0])
         subcategory_df.append(dir[1])
         pagina_df.append(dir[2])
+
+#DataFrame fragments
+max_len = max(len(row) for row in pastas_fragments)
+data_padded = [row + [None] * (max_len - len(row)) for row in pastas_fragments] # Preenche com None para igualar o tamanho das listas
+
+df_fragments = pd.DataFrame(data_padded, columns=["src", "family", "subcategory", "page", "fragments", "max_fragment_number"])
+df_fragments = df_fragments[["family", "subcategory", "page", "max_fragment_number"]]
+df_fragments = df_fragments.sort_values("max_fragment_number", ascending=False).drop_duplicates(subset=["family", "subcategory", "page"], keep="first").sort_values(["family", "subcategory", "page"])
+
+df_fragments["link"] = df_fragments.apply(lambda row: 
+                          f"http://{BRANCH}-{REPO}"+ ".s3-website-us-east-1.amazonaws.com/src/" + row["family"] + "/" + row["subcategory"] + "/"
+                          if row["subcategory"] #and not row['subcategory'].isnumeric()
+                          else 
+                          f"http://{BRANCH}-{REPO}"+ ".s3-website-us-east-1.amazonaws.com/src/" + row["family"] + "/", axis = 1)
+
+df_fragments = df_fragments[["link", "page", "max_fragment_number"]].reset_index(drop=True)
 
 #Cria DataFrame
 df_pages = pd.DataFrame({
@@ -240,6 +257,7 @@ df_pages = df_pages[["family", "subcategory", "max_page_number", "link", "image"
 
 print("Registros em interactive_catalog_pages: ", len(df_pages))
 print("Registros em interactive_catalog_products: ", len(df_products))
+print("Registros em interactive_catalog_products: ", len(df_fragments))
 
 #=====================================================SALVA BASES==========================================================================
 
@@ -295,6 +313,25 @@ conn.commit()
 
 # Insert DataFrame into the table
 for _, row in df_products.iterrows():
+    placeholders = ",  ".join("?" * len(row))
+    query = f"INSERT INTO {table_name} VALUES ({placeholders})"
+    cursor.execute(query, *row)
+conn.commit()
+
+#salva base fragmentos
+table_name = "interactive_catalog_fragment"
+
+# Delete records from the table
+cursor.execute(f"IF OBJECT_ID('{table_name}', 'U') IS NOT NULL DROP TABLE {table_name}")
+conn.commit()
+
+# Recreate the table with all columns as VARCHAR(MAX)
+columns = ", ".join([f"{col} VARCHAR(MAX)" if col not in ['page', 'max_fragment_number'] else f"{col} INT" for col in df_fragments.columns])
+cursor.execute(f"CREATE TABLE {table_name} ({columns})")
+conn.commit()
+
+# Insert DataFrame into the table
+for _, row in df_fragments.iterrows():
     placeholders = ",  ".join("?" * len(row))
     query = f"INSERT INTO {table_name} VALUES ({placeholders})"
     cursor.execute(query, *row)
