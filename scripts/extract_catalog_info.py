@@ -337,12 +337,12 @@ cursor.execute(f"IF OBJECT_ID('{table_name}', 'U') IS NOT NULL DROP TABLE {table
 conn.commit()
 
 # Recreate the table with all columns as VARCHAR(MAX)
-columns = ", ".join([f"{col} VARCHAR(MAX)" if col not in ['page', 'max_fragment_number'] else f"{col} INT" for col in df_summary.columns])
+columns = ", ".join([f"{col} VARCHAR(MAX)" if col not in ['page', 'max_fragment_number'] else f"{col} INT" for col in df_fragments.columns])
 cursor.execute(f"CREATE TABLE {table_name} ({columns})")
 conn.commit()
 
 # Insert DataFrame into the table
-for _, row in df_summary.iterrows():
+for _, row in df_fragments.iterrows():
     placeholders = ",  ".join("?" * len(row))
     query = f"INSERT INTO {table_name} VALUES ({placeholders})"
     cursor.execute(query, *row)
