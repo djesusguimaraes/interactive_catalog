@@ -104,15 +104,22 @@ for dir in pastas_finais:
 #coleta produtos dentro do index.html
 lista_products = []
 lista_is_sku = []
+lista_summary_title_content = []
 for url in lista_urls:
     response = requests.get(url, headers=HEADERS, auth=AUTH)
 
     if response.status_code == 200:
         soup = BeautifulSoup(response.content, "html.parser")
 
+        # Extrai summary_title_content
+        summary_title_content = soup.find("div", class_="summary_title_content") #.find pois coleta apenas a primeira ocorrência
+        if summary_title_content:
+            summary_title_content = summary_title_content.text.strip()
+        lista_summary_title_content.append(summary_title_content)
+
+        # Extrai products
         products = []
         is_sku = []
-
         for a in soup.find_all("a", href=True):
             href = a["href"]
 
@@ -133,7 +140,6 @@ for url in lista_urls:
                             is_sku.append(1)
                         else:
                             is_sku.append(0)
-
         products_formatados = []
 
         for produto in products:
@@ -183,13 +189,14 @@ df_fragments["link"] = df_fragments.apply(lambda row:
 
 df_fragments = df_fragments[["link", "page", "max_fragment_number"]].reset_index(drop=True)
 
-#Cria DataFrame
+#Cria DataFrame pages e depois extrai dele products e titles
 df_pages = pd.DataFrame({
     "family": family_df,
     "subcategory":subcategory_df,
     "max_page_number": pagina_df,
     "product":lista_products,
-    "is_sku": lista_is_sku
+    "is_sku": lista_is_sku,
+    "summary_title_content": lista_summary_title_content
 })
 
 #Formata o Dataframe
@@ -205,6 +212,9 @@ df_products.rename(columns={"max_page_number": "page"}, inplace=True)
 df_products = df_products.explode(['is_sku', 'product']).reset_index(drop=True)
 df_products = df_products.where(pd.notna(df_products), None)
 df_products["product"] = df_products["product"].str.replace(r'^\s+|\s+$', '', regex=True)
+
+df_summary = df_pages[["link", "summary_title_content"]]
+df_summary = df_summary[df_summary["summary_title_content"].notna()].reset_index(drop=True)
 
 df_pages = df_pages[["family", "subcategory", "max_page_number", "link"]]
 df_pages = df_pages.copy()
@@ -255,9 +265,10 @@ df_pages = df_pages.groupby(["family", "subcategory", "link", "image"], dropna=F
 df_pages = df_pages.astype(str).replace("nan", None) #garante str nas colunas
 df_pages = df_pages[["family", "subcategory", "max_page_number", "link", "image"]]
 
-print("Registros em interactive_catalog_pages: ", len(df_pages))
-print("Registros em interactive_catalog_products: ", len(df_products))
-print("Registros em interactive_catalog_products: ", len(df_fragments))
+print("Registros em interactive_catalog_page: ", len(df_pages))
+print("Registros em interactive_catalog_product: ", len(df_products))
+print("Registros em interactive_catalog_fragment: ", len(df_fragments))
+print("Registros em interactive_catalog_summary: ", len(df_summary))
 
 #=====================================================SALVA BASES==========================================================================
 
@@ -326,12 +337,31 @@ cursor.execute(f"IF OBJECT_ID('{table_name}', 'U') IS NOT NULL DROP TABLE {table
 conn.commit()
 
 # Recreate the table with all columns as VARCHAR(MAX)
-columns = ", ".join([f"{col} VARCHAR(MAX)" if col not in ['page', 'max_fragment_number'] else f"{col} INT" for col in df_fragments.columns])
+columns = ", ".join([f"{col} VARCHAR(MAX)" if col not in ['page', 'max_fragment_number'] else f"{col} INT" for col in df_summary.columns])
 cursor.execute(f"CREATE TABLE {table_name} ({columns})")
 conn.commit()
 
 # Insert DataFrame into the table
-for _, row in df_fragments.iterrows():
+for _, row in df_summary.iterrows():
+    placeholders = ",  ".join("?" * len(row))
+    query = f"INSERT INTO {table_name} VALUES ({placeholders})"
+    cursor.execute(query, *row)
+conn.commit()
+
+#salva base summary
+table_name = "interactive_catalog_summary"
+
+# Delete records from the table
+cursor.execute(f"IF OBJECT_ID('{table_name}', 'U') IS NOT NULL DROP TABLE {table_name}")
+conn.commit()
+
+# Recreate the table with all columns as VARCHAR(MAX)
+columns = ", ".join([f"{col} VARCHAR(MAX)" for col in df_summary.columns])
+cursor.execute(f"CREATE TABLE {table_name} ({columns})")
+conn.commit()
+
+# Insert DataFrame into the table
+for _, row in df_summary.iterrows():
     placeholders = ",  ".join("?" * len(row))
     query = f"INSERT INTO {table_name} VALUES ({placeholders})"
     cursor.execute(query, *row)
