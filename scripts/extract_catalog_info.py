@@ -213,7 +213,8 @@ df_products = df_products.explode(['is_sku', 'product']).reset_index(drop=True)
 df_products = df_products.where(pd.notna(df_products), None)
 df_products["product"] = df_products["product"].str.replace(r'^\s+|\s+$', '', regex=True)
 
-df_summary = df_pages[["link", "summary_title_content"]]
+df_summary = df_pages[["link", "max_page_number", "summary_title_content"]]
+df_summary.columns = ['link', 'page', 'summary_title_content']
 df_summary = df_summary[df_summary["summary_title_content"].notna()].reset_index(drop=True)
 
 df_pages = df_pages[["family", "subcategory", "max_page_number", "link"]]
