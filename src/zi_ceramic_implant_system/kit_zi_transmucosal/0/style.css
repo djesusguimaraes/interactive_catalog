@@ -1,0 +1,344 @@
+.container,
+.container * {
+  box-sizing: border-box;
+}
+.container {
+  height: 1336px;
+  position: relative;
+}
+.container2 {
+  border-radius: 10px;
+  padding: 0px 0px 12px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-end;
+  justify-content: center;
+  width: 327px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.container3 {
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.container4 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.product-container {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.product-info-container {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 229px;
+  position: relative;
+}
+.summary-title-content {
+  color: var(--color-surfaces-titles-secundary, #3c1635);
+  text-align: left;
+  font-family: var(
+    --body-smhighlight-font-family,
+    "LeagueSpartan-Medium",
+    sans-serif
+  );
+  font-size: var(--body-smhighlight-font-size, 14px);
+  line-height: var(--body-smhighlight-line-height, 130%);
+  font-weight: var(--body-smhighlight-font-weight, 500);
+  position: relative;
+  align-self: stretch;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.product-description-container {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 204px;
+  position: relative;
+}
+.product-description {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.product-description-text {
+  color: var(--color-neutral-40, #6c6760);
+  text-align: left;
+  font-family: var(--body-xs-font-family, "LeagueSpartan-Regular", sans-serif);
+  font-size: var(--body-xs-font-size, 12px);
+  line-height: var(--body-xs-line-height, 130%);
+  font-weight: var(--body-xs-font-weight, 400);
+  position: relative;
+  flex: 1;
+}
+.sem-t-tulo-1-33 {
+  flex-shrink: 0;
+  width: 92.69px;
+  height: 66.88px;
+  position: relative;
+  object-fit: cover;
+}
+.product-details-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.product-features-title-container {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.section-title {
+  color: var(--color-surfaces-titles-primary, #250a20);
+  text-align: left;
+  font-family: var(--body-xs-font-family, "LeagueSpartan-Regular", sans-serif);
+  font-size: var(--body-xs-font-size, 12px);
+  line-height: var(--body-xs-line-height, 130%);
+  font-weight: var(--body-xs-font-weight, 400);
+  position: relative;
+  align-self: stretch;
+}
+.product-list-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.product-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.product-item-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.product-item {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.product-item-info {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.product-item-info-container {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.product-item-code-container {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.product-item-code {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.product-item-code-text {
+  border-radius: 50px;
+  border-style: solid;
+  border-color: var(--color-feedback-states-active-primary, #7b3972);
+  border-width: 0.5px;
+  padding: 2px 6px 2px 6px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.product-item-code-text2 {
+  color: var(--color-surfaces-body, #6c6760);
+  text-align: left;
+  font-family: "LeagueSpartan-Regular", sans-serif;
+  font-size: 10px;
+  line-height: 130%;
+  font-weight: 400;
+  position: relative;
+}
+.product-item-description-text {
+  color: var(--color-surfaces-body, #6c6760);
+  text-align: left;
+  font-family: var(--body-xs-font-family, "LeagueSpartan-Regular", sans-serif);
+  font-size: var(--body-xs-font-size, 12px);
+  line-height: var(--body-xs-line-height, 130%);
+  font-weight: var(--body-xs-font-weight, 400);
+  position: relative;
+}
+.product-item-container2 {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.product-item-container3 {
+  border-style: solid;
+  border-color: var(--color-surfaces-border, #cfccc9);
+  border-width: 1px 0px 0px 0px;
+  padding: 20px 0px 20px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.product-item-container4 {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.product-item-description-text2 {
+  color: var(--color-surfaces-body, #6c6760);
+  text-align: left;
+  font-family: var(--body-xs-font-family, "LeagueSpartan-Regular", sans-serif);
+  font-size: var(--body-xs-font-size, 12px);
+  line-height: var(--body-xs-line-height, 130%);
+  font-weight: var(--body-xs-font-weight, 400);
+  position: relative;
+  flex: 1;
+}
+.testimonial-quote-container {
+  border-radius: 10px;
+  border-style: solid;
+  border-color: var(--color-surfaces-border-secundary, #f3ebf1);
+  border-width: 1px;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 327px;
+  position: relative;
+}
+.testimonial-container {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.testimonial-text-container {
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.testimonial-text {
+  color: var(--color-surfaces-body, #6c6760);
+  text-align: left;
+  font-family: var(--body-xs-font-family, "LeagueSpartan-Regular", sans-serif);
+  font-size: var(--body-xs-font-size, 12px);
+  line-height: var(--body-xs-line-height, 130%);
+  font-weight: var(--body-xs-font-weight, 400);
+  position: relative;
+  flex: 1;
+}

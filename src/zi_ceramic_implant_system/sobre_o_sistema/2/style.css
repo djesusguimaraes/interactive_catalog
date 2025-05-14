@@ -1,0 +1,297 @@
+.container,
+.container * {
+  box-sizing: border-box;
+}
+.container {
+  height: 971.64px;
+  position: relative;
+}
+.container2 {
+  border-radius: 10px;
+  padding: 16px 0px 16px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 327px;
+  height: 971.64px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.container3 {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 939px;
+  position: relative;
+}
+.container4 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.container5 {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.container6 {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.container7 {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-1171276846 {
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.some-summary {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  position: relative;
+}
+.summary-title-content {
+  color: var(--color-surfaces-titles-secundary, #3c1635);
+  text-align: left;
+  font-family: var(
+    --body-smhighlight-font-family,
+    "LeagueSpartan-Medium",
+    sans-serif
+  );
+  font-size: var(--body-smhighlight-font-size, 14px);
+  line-height: var(--body-smhighlight-line-height, 130%);
+  font-weight: var(--body-smhighlight-font-weight, 500);
+  position: relative;
+  flex: 1;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.sem-t-tulo-1-15 {
+  flex-shrink: 0;
+  width: 33.26px;
+  height: 33.26px;
+  position: relative;
+  overflow: hidden;
+}
+.button {
+  border-radius: var(--border-radius-xs, 4px);
+  padding: var(--spacing-nano, 8px);
+  display: flex;
+  flex-direction: row;
+  gap: var(--spacing-quarck, 4px);
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  height: 30px;
+  position: relative;
+}
+.children {
+  color: var(--color-feedback-states-active-primary, #7b3972);
+  text-align: left;
+  font-family: "LeagueSpartan-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 100%;
+  font-weight: 400;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.container8 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.container9 {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.description {
+  color: var(--color-neutral-40, #6c6760);
+  text-align: left;
+  font-family: var(--body-xs-font-family, "LeagueSpartan-Regular", sans-serif);
+  font-size: var(--body-xs-font-size, 12px);
+  line-height: var(--body-xs-line-height, 130%);
+  font-weight: var(--body-xs-font-weight, 400);
+  position: relative;
+  flex: 1;
+}
+.sem-t-tulo-1-182 {
+  flex-shrink: 0;
+  width: 145.36px;
+  height: 101.58px;
+  position: relative;
+  object-fit: cover;
+  aspect-ratio: 145.36/101.58;
+}
+.subtitle {
+  color: var(--color-surfaces-titles-primary, #250a20);
+  text-align: left;
+  font-family: var(--body-xs-font-family, "LeagueSpartan-Regular", sans-serif);
+  font-size: var(--body-xs-font-size, 12px);
+  line-height: var(--body-xs-line-height, 130%);
+  font-weight: var(--body-xs-font-weight, 400);
+  position: relative;
+  align-self: stretch;
+}
+.container10 {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.subtitle2 {
+  color: var(--color-feedback-states-active-primary, #7b3972);
+  text-align: left;
+  font-family: var(
+    --body-xshighlight-font-family,
+    "LeagueSpartan-Medium",
+    sans-serif
+  );
+  font-size: var(--body-xshighlight-font-size, 12px);
+  line-height: var(--body-xshighlight-line-height, 130%);
+  font-weight: var(--body-xshighlight-font-weight, 500);
+  position: relative;
+}
+.sem-t-tulo-1-17 {
+  flex-shrink: 0;
+  width: 64.63px;
+  height: 66.13px;
+  position: relative;
+  object-fit: cover;
+}
+.frame-1171276700 {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.subtitle3 {
+  color: var(--color-surfaces-body, #6c6760);
+  text-align: left;
+  font-family: var(
+    --body-xshighlight-font-family,
+    "LeagueSpartan-Medium",
+    sans-serif
+  );
+  font-size: var(--body-xshighlight-font-size, 12px);
+  line-height: var(--body-xshighlight-line-height, 130%);
+  font-weight: var(--body-xshighlight-font-weight, 500);
+  position: relative;
+}
+.sem-t-tulo-1-18 {
+  flex-shrink: 0;
+  width: 64.98px;
+  height: 66.62px;
+  position: relative;
+  object-fit: cover;
+}
+.frame-11712767002 {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.subtitle4 {
+  color: var(--color-feedback-states-active-primary, #7b3972);
+  text-align: left;
+  font-family: var(
+    --body-xshighlight-font-family,
+    "LeagueSpartan-Medium",
+    sans-serif
+  );
+  font-size: var(--body-xshighlight-font-size, 12px);
+  line-height: var(--body-xshighlight-line-height, 130%);
+  font-weight: var(--body-xshighlight-font-weight, 500);
+  position: relative;
+  align-self: stretch;
+}
+.container11 {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.sem-t-tulo-1-19 {
+  flex-shrink: 0;
+  width: 64.59px;
+  height: 64.72px;
+  position: relative;
+  object-fit: cover;
+}
+.description2 {
+  color: var(--color-surfaces-body, #6c6760);
+  text-align: left;
+  font-family: "LeagueSpartan-Regular", sans-serif;
+  font-size: 10px;
+  line-height: 130%;
+  font-weight: 400;
+  position: relative;
+  flex: 1;
+}

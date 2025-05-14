@@ -1,26 +1,34 @@
+html, body {
+  height: 680px;
+  width: 400px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
 .group-44,
 .group-44 * {
   box-sizing: border-box;
 }
 .group-44 {
   flex-shrink: 0;
-  height: 537.43px;
+  height: 648.86px;
   position: relative;
 }
-.group-44__container {
+.container {
   display: flex;
   flex-direction: column;
   gap: 12px;
   align-items: flex-start;
   justify-content: flex-start;
-  width: 600.62px;
+  width: 379px;
   position: absolute;
-  left: 0px;
+  left: 0.49px;
   top: 0px;
   transform-origin: 0 0;
   transform: rotate(0deg) scale(1, 1);
 }
-.group-44__container2 {
+.container2 {
   display: flex;
   flex-direction: row;
   gap: 4px;
@@ -30,14 +38,14 @@
   flex-shrink: 0;
   position: relative;
 }
-.group-44__sem-t-tulo-1-55 {
+.sem-t-tulo-1-55 {
   flex-shrink: 0;
   width: 44.02px;
   height: 72.68px;
   position: relative;
   object-fit: cover;
 }
-.group-44__container3 {
+.container3 {
   display: flex;
   flex-direction: column;
   gap: 6px;
@@ -46,7 +54,7 @@
   flex-shrink: 0;
   position: relative;
 }
-.group-44__munh-o-reto-cr-zi {
+.munh-o-reto-cr-zi {
   color: var(--color-surfaces-body, #6c6760);
   text-align: left;
   font-family: var(--body-xs-font-family, "LeagueSpartan-Regular", sans-serif);
@@ -55,21 +63,21 @@
   font-weight: var(--body-xs-font-weight, 400);
   position: relative;
 }
-.group-44__sem-t-tulo-1-50 {
+.sem-t-tulo-1-50 {
   flex-shrink: 0;
   width: 32.28px;
   height: 35.07px;
   position: relative;
   overflow: hidden;
 }
-.group-44__camada-x-0020-1 {
+.camada-x-0020-1 {
   height: auto;
   position: absolute;
   left: 2.32px;
   top: 2.87px;
   overflow: visible;
 }
-.group-44__container4 {
+.container4 {
   display: flex;
   flex-direction: row;
   gap: 5px;
@@ -78,7 +86,7 @@
   flex-shrink: 0;
   position: relative;
 }
-.group-44__container5 {
+.container5 {
   padding: 28px 0px 32px 0px;
   display: flex;
   flex-direction: column;
@@ -89,7 +97,7 @@
   height: 76px;
   position: relative;
 }
-.group-44__container6 {
+.container6 {
   display: flex;
   flex-direction: column;
   gap: 6px;
@@ -98,7 +106,7 @@
   flex: 1;
   position: relative;
 }
-.group-44___4 {
+._4 {
   color: var(--color-surfaces-titles-primary, #250a20);
   text-align: left;
   font-family: var(--body-xs-font-family, "LeagueSpartan-Regular", sans-serif);
@@ -107,7 +115,7 @@
   font-weight: var(--body-xs-font-weight, 400);
   position: relative;
 }
-.group-44__container7 {
+.container7 {
   display: flex;
   flex-direction: column;
   gap: 0px;
@@ -116,7 +124,7 @@
   flex-shrink: 0;
   position: relative;
 }
-.group-44___1 {
+._1 {
   color: var(--color-surfaces-titles-primary, #250a20);
   text-align: left;
   font-family: var(--body-xs-font-family, "LeagueSpartan-Regular", sans-serif);
@@ -125,7 +133,7 @@
   font-weight: var(--body-xs-font-weight, 400);
   position: relative;
 }
-.group-44__container8 {
+.container8 {
   display: flex;
   flex-direction: column;
   gap: 4px;
@@ -134,7 +142,7 @@
   flex-shrink: 0;
   position: relative;
 }
-.group-44__container9 {
+.container9 {
   display: flex;
   flex-direction: column;
   gap: 14px;
@@ -143,7 +151,7 @@
   flex-shrink: 0;
   position: relative;
 }
-.group-44__container10 {
+.container10 {
   border-radius: 50px;
   border-style: solid;
   border-color: var(--color-feedback-states-active-primary, #7b3972);
@@ -157,7 +165,7 @@
   flex-shrink: 0;
   position: relative;
 }
-.group-44___114-854 {
+._114-854 {
   color: var(--color-surfaces-body, #6c6760);
   text-align: left;
   font-family: "LeagueSpartan-Regular", sans-serif;
@@ -166,7 +174,7 @@
   font-weight: 400;
   position: relative;
 }
-.group-44___114-856 {
+._114-856 {
   color: var(--color-surfaces-body, #6c6760);
   text-align: left;
   font-family: "LeagueSpartan-Regular", sans-serif;
@@ -175,7 +183,7 @@
   font-weight: 400;
   position: relative;
 }
-.group-44___2 {
+._2 {
   color: var(--color-surfaces-titles-primary, #250a20);
   text-align: left;
   font-family: var(--body-xs-font-family, "LeagueSpartan-Regular", sans-serif);
@@ -184,7 +192,7 @@
   font-weight: var(--body-xs-font-weight, 400);
   position: relative;
 }
-.group-44___114-855 {
+._114-855 {
   color: var(--color-surfaces-body, #6c6760);
   text-align: left;
   font-family: "LeagueSpartan-Regular", sans-serif;
@@ -193,7 +201,7 @@
   font-weight: 400;
   position: relative;
 }
-.group-44___114-857 {
+._114-857 {
   color: var(--color-surfaces-body, #6c6760);
   text-align: left;
   font-family: "LeagueSpartan-Regular", sans-serif;
@@ -202,7 +210,7 @@
   font-weight: 400;
   position: relative;
 }
-.group-44___3 {
+._3 {
   color: var(--color-surfaces-titles-primary, #250a20);
   text-align: left;
   font-family: var(--body-xs-font-family, "LeagueSpartan-Regular", sans-serif);
@@ -211,7 +219,7 @@
   font-weight: var(--body-xs-font-weight, 400);
   position: relative;
 }
-.group-44___114-916 {
+._114-916 {
   color: var(--color-surfaces-body, #6c6760);
   text-align: left;
   font-family: "LeagueSpartan-Regular", sans-serif;
@@ -220,7 +228,7 @@
   font-weight: 400;
   position: relative;
 }
-.group-44___114-918 {
+._114-918 {
   color: var(--color-surfaces-body, #6c6760);
   text-align: left;
   font-family: "LeagueSpartan-Regular", sans-serif;
@@ -229,7 +237,7 @@
   font-weight: 400;
   position: relative;
 }
-.group-44___114-917 {
+._114-917 {
   color: var(--color-surfaces-body, #6c6760);
   text-align: left;
   font-family: "LeagueSpartan-Regular", sans-serif;
@@ -238,7 +246,7 @@
   font-weight: 400;
   position: relative;
 }
-.group-44___114-919 {
+._114-919 {
   color: var(--color-surfaces-body, #6c6760);
   text-align: left;
   font-family: "LeagueSpartan-Regular", sans-serif;
@@ -247,44 +255,44 @@
   font-weight: 400;
   position: relative;
 }
-.group-44__container11 {
+.container11 {
   display: flex;
   flex-direction: column;
   gap: 8px;
   align-items: center;
   justify-content: center;
-  width: 600.62px;
+  width: 379px;
   position: absolute;
-  left: 0px;
-  top: 92px;
+  left: 0.51px;
+  top: 91.55px;
   transform-origin: 0 0;
   transform: rotate(0deg) scale(1, 1);
 }
-.group-44__ou {
+.ou {
   color: var(--color-surfaces-titles-primary, #250a20);
   text-align: center;
-  font-family: var(--body-xs-font-family, "LeagueSpartan-Regular", sans-serif);
-  font-size: var(--body-xs-font-size, 12px);
-  line-height: var(--body-xs-line-height, 130%);
-  font-weight: var(--body-xs-font-weight, 400);
+  font-family: var(--body-sm-font-family, "LeagueSpartan-Regular", sans-serif);
+  font-size: var(--body-sm-font-size, 14px);
+  line-height: var(--body-sm-line-height, 100%);
+  font-weight: var(--body-sm-font-weight, 400);
   position: relative;
   width: 131px;
 }
-.group-44__container12 {
+.container12 {
   padding: 16px 0px 0px 0px;
   display: flex;
   flex-direction: column;
   gap: 12px;
   align-items: flex-start;
   justify-content: flex-start;
-  width: 600.62px;
+  width: 379px;
   position: absolute;
-  left: 0px;
-  top: 124px;
+  left: 0.49px;
+  top: 124.55px;
   transform-origin: 0 0;
   transform: rotate(0deg) scale(1, 1);
 }
-.group-44__container13 {
+.container13 {
   display: flex;
   flex-direction: row;
   gap: 4px;
@@ -294,14 +302,14 @@
   flex-shrink: 0;
   position: relative;
 }
-.group-44__sem-t-tulo-1-56 {
+.sem-t-tulo-1-56 {
   flex-shrink: 0;
   width: 42.1px;
   height: 72.68px;
   position: relative;
   object-fit: cover;
 }
-.group-44__munh-o-angulado-cr-zi-17 {
+.munh-o-angulado-cr-zi-17 {
   color: var(--color-surfaces-body, #6c6760);
   text-align: left;
   font-family: var(--body-xs-font-family, "LeagueSpartan-Regular", sans-serif);
@@ -310,14 +318,14 @@
   font-weight: var(--body-xs-font-weight, 400);
   position: relative;
 }
-.group-44__camada-x-0020-12 {
+.camada-x-0020-12 {
   height: auto;
   position: absolute;
   left: 2.32px;
   top: 2.87px;
   overflow: visible;
 }
-.group-44___114-858 {
+._114-858 {
   color: var(--color-surfaces-body, #6c6760);
   text-align: left;
   font-family: "LeagueSpartan-Regular", sans-serif;
@@ -326,7 +334,7 @@
   font-weight: 400;
   position: relative;
 }
-.group-44___114-860 {
+._114-860 {
   color: var(--color-surfaces-body, #6c6760);
   text-align: left;
   font-family: "LeagueSpartan-Regular", sans-serif;
@@ -335,7 +343,7 @@
   font-weight: 400;
   position: relative;
 }
-.group-44___114-859 {
+._114-859 {
   color: var(--color-surfaces-body, #6c6760);
   text-align: left;
   font-family: "LeagueSpartan-Regular", sans-serif;
@@ -344,7 +352,7 @@
   font-weight: 400;
   position: relative;
 }
-.group-44___114-861 {
+._114-861 {
   color: var(--color-surfaces-body, #6c6760);
   text-align: left;
   font-family: "LeagueSpartan-Regular", sans-serif;
@@ -353,7 +361,7 @@
   font-weight: 400;
   position: relative;
 }
-.group-44___114-920 {
+._114-920 {
   color: var(--color-surfaces-body, #6c6760);
   text-align: left;
   font-family: "LeagueSpartan-Regular", sans-serif;
@@ -362,7 +370,7 @@
   font-weight: 400;
   position: relative;
 }
-.group-44___114-922 {
+._114-922 {
   color: var(--color-surfaces-body, #6c6760);
   text-align: left;
   font-family: "LeagueSpartan-Regular", sans-serif;
@@ -371,49 +379,39 @@
   font-weight: 400;
   position: relative;
 }
-.group-44__container14 {
+.container14 {
   display: flex;
   flex-direction: column;
   gap: 8px;
   align-items: center;
   justify-content: center;
-  width: 600.62px;
+  width: 380px;
   position: absolute;
   left: 0px;
-  top: 232px;
+  top: 231.55px;
   transform-origin: 0 0;
   transform: rotate(0deg) scale(1, 1);
 }
-.group-44__camada-x-0020-13 {
+.camada-x-0020-13 {
   flex-shrink: 0;
   width: 9.86px;
   height: 28.31px;
   position: relative;
   overflow: visible;
 }
-.group-44__convecional {
-  color: var(--color-surfaces-titles-primary, #250a20);
-  text-align: center;
-  font-family: var(--body-xs-font-family, "LeagueSpartan-Regular", sans-serif);
-  font-size: var(--body-xs-font-size, 12px);
-  line-height: var(--body-xs-line-height, 130%);
-  font-weight: var(--body-xs-font-weight, 400);
-  position: relative;
-  width: 131px;
-}
-.group-44__frame-1171276651 {
+.frame-1171276651 {
   display: flex;
   flex-direction: column;
   gap: 16px;
   align-items: flex-start;
   justify-content: center;
   position: absolute;
-  left: 0px;
-  top: 300.31px;
+  left: 0.49px;
+  top: 301px;
 }
-.group-44__frame-1171276420 {
+.frame-1171276420 {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: 12px;
   align-items: flex-start;
   justify-content: flex-start;
@@ -422,17 +420,25 @@
   transform-origin: 0 0;
   transform: rotate(0deg) scale(1, 1);
 }
-.group-44__frame-1171276650 {
+.frame-1171276650 {
   display: flex;
   flex-direction: row;
   gap: 12px;
   align-items: center;
   justify-content: center;
-  align-self: stretch;
   flex-shrink: 0;
   position: relative;
 }
-.group-44__container15 {
+.frame-1171276962 {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.container15 {
   display: flex;
   flex-direction: row;
   gap: 4px;
@@ -441,14 +447,14 @@
   flex-shrink: 0;
   position: relative;
 }
-.group-44__sem-t-tulo-1-40 {
+.sem-t-tulo-1-40 {
   flex-shrink: 0;
   width: 98.73px;
   height: 72.68px;
   position: relative;
   object-fit: cover;
 }
-.group-44__coping-de-impress-o-munh-o-cr {
+.coping-de-impress-o-munh-o-cr {
   color: var(--color-surfaces-body, #6c6760);
   text-align: left;
   font-family: var(--body-xs-font-family, "LeagueSpartan-Regular", sans-serif);
@@ -457,7 +463,7 @@
   font-weight: var(--body-xs-font-weight, 400);
   position: relative;
 }
-.group-44___108-201 {
+._108-201 {
   color: var(--color-surfaces-body, #6c6760);
   text-align: left;
   font-family: "LeagueSpartan-Regular", sans-serif;
@@ -466,7 +472,7 @@
   font-weight: 400;
   position: relative;
 }
-.group-44__container16 {
+.container16 {
   display: flex;
   flex-direction: column;
   gap: 14px;
@@ -476,7 +482,7 @@
   width: 44px;
   position: relative;
 }
-.group-44__container17 {
+.container17 {
   border-radius: 50px;
   border-style: solid;
   border-color: var(--color-feedback-states-active-primary, #7b3972);
@@ -491,7 +497,7 @@
   width: 44px;
   position: relative;
 }
-.group-44___108-202 {
+._108-202 {
   color: var(--color-surfaces-body, #6c6760);
   text-align: left;
   font-family: "LeagueSpartan-Regular", sans-serif;
@@ -500,7 +506,7 @@
   font-weight: 400;
   position: relative;
 }
-.group-44__linha-2 {
+.linha-2 {
   padding: 0px 1px 0px 1px;
   display: flex;
   flex-direction: row;
@@ -510,24 +516,24 @@
   flex-shrink: 0;
   position: relative;
   transform-origin: 0 0;
-  transform: rotate(-90deg) scale(1, 1);
+  transform: rotate(0deg) scale(-1, 1);
   overflow: hidden;
 }
-.group-44__camada-x-0020-14 {
+.camada-x-0020-14 {
   flex-shrink: 0;
   width: 9.86px;
   height: 28.31px;
   position: relative;
   overflow: visible;
 }
-.group-44__sem-t-tulo-1-41 {
+.sem-t-tulo-1-41 {
   flex-shrink: 0;
   width: 98.73px;
   height: 72.68px;
   position: relative;
   object-fit: cover;
 }
-.group-44__transfer-cilindro-provis-rio-munh-o-cr {
+.transfer-cilindro-provis-rio-munh-o-cr {
   color: var(--color-surfaces-body, #6c6760);
   text-align: left;
   font-family: var(--body-xs-font-family, "LeagueSpartan-Regular", sans-serif);
@@ -536,17 +542,17 @@
   font-weight: var(--body-xs-font-weight, 400);
   position: relative;
 }
-.group-44__container18 {
+.container18 {
   display: flex;
   flex-direction: row;
   gap: 4px;
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-  width: 76px;
+  width: 80px;
   position: relative;
 }
-.group-44__container19 {
+.container19 {
   display: flex;
   flex-direction: column;
   gap: 4px;
@@ -555,14 +561,14 @@
   flex: 1;
   position: relative;
 }
-.group-44__camada-x-0020-15 {
+.camada-x-0020-15 {
   flex-shrink: 0;
   width: 8.42px;
-  height: 98.81px;
+  height: 208.31px;
   position: relative;
   overflow: visible;
 }
-.group-44__uso-h-brido-pode-ser-usado-como-um-transfer-de-moldagem-e-um-pilar-provis-rio {
+.uso-h-brido-pode-ser-usado-como-um-transfer-de-moldagem-e-um-pilar-provis-rio {
   color: var(--color-feedback-states-active-primary, #7b3972);
   text-align: left;
   font-family: var(--body-xs-font-family, "LeagueSpartan-Regular", sans-serif);
@@ -570,9 +576,9 @@
   line-height: var(--body-xs-line-height, 130%);
   font-weight: var(--body-xs-font-weight, 400);
   position: relative;
-  width: 90.44px;
+  width: 112.13px;
 }
-.group-44__container20 {
+.container20 {
   display: flex;
   flex-direction: column;
   gap: 8px;
@@ -584,14 +590,14 @@
   transform-origin: 0 0;
   transform: rotate(0deg) scale(1, 1);
 }
-.group-44__camada-x-0020-16 {
+.camada-x-0020-16 {
   flex-shrink: 0;
-  width: 9.86px;
-  height: 28.31px;
+  width: 22.33px;
+  height: 29.54px;
   position: relative;
   overflow: visible;
 }
-.group-44__frame-1171276421 {
+.frame-1171276421 {
   display: flex;
   flex-direction: column;
   gap: 12px;
@@ -603,14 +609,24 @@
   transform-origin: 0 0;
   transform: rotate(0deg) scale(1, 1);
 }
-.group-44__sem-t-tulo-1-43 {
+.frame-11712766502 {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.sem-t-tulo-1-43 {
   flex-shrink: 0;
   width: 64.92px;
   height: 72.68px;
   position: relative;
   object-fit: cover;
 }
-.group-44__an-logo-munh-o-cr-de-zi {
+.an-logo-munh-o-cr-de-zi {
   color: var(--color-surfaces-body, #6c6760);
   text-align: left;
   font-family: var(--body-xs-font-family, "LeagueSpartan-Regular", sans-serif);
@@ -619,7 +635,7 @@
   font-weight: var(--body-xs-font-weight, 400);
   position: relative;
 }
-.group-44___101-106 {
+._101-106 {
   color: var(--color-surfaces-body, #6c6760);
   text-align: left;
   font-family: "LeagueSpartan-Regular", sans-serif;
@@ -628,7 +644,7 @@
   font-weight: 400;
   position: relative;
 }
-.group-44___101-105 {
+._101-105 {
   color: var(--color-surfaces-body, #6c6760);
   text-align: left;
   font-family: "LeagueSpartan-Regular", sans-serif;
@@ -637,40 +653,50 @@
   font-weight: 400;
   position: relative;
 }
-.group-44__camada-x-0020-17 {
+.linha-22 {
+  padding: 0px 1px 0px 1px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
   flex-shrink: 0;
-  width: 9.86px;
-  height: 28.31px;
+  position: relative;
+  transform-origin: 0 0;
+  overflow: hidden;
+}
+.camada-x-0020-17 {
+  flex-shrink: 0;
   position: relative;
   overflow: visible;
 }
-.group-44__sem-t-tulo-1-57 {
+.sem-t-tulo-1-57 {
   flex-shrink: 0;
   width: 53.08px;
   height: 72.68px;
   position: relative;
   object-fit: cover;
 }
-.group-44__icon {
+.icon {
   border-radius: 139.54px;
   padding: 8.37px;
   flex-shrink: 0;
   width: 43px;
   height: 44px;
   position: absolute;
-  left: 10.92px;
-  top: 0px;
+  left: 5.04px;
+  top: -5px;
 }
-.group-44__group-42 {
+.group-42 {
   position: absolute;
   inset: 0;
 }
-.group-44__frame-1171276770 {
+.frame-1171276770 {
   background: #ffffff;
   border-radius: 40px;
   border-style: solid;
-  border-color: var(--color-brand-secundary-light, #ede0ea);
-  border-width: 1.5px;
+  border-color: var(--color-feedback-states-active-primary, #7b3972);
+  border-width: 1px;
   width: 31px;
   height: 32px;
   position: absolute;
@@ -678,7 +704,7 @@
   top: 6px;
   overflow: hidden;
 }
-.group-44__bs-cart-plus {
+.bs-cart-plus {
   width: 14.48px;
   height: 14.48px;
   position: absolute;
@@ -686,7 +712,7 @@
   top: 14.37px;
   overflow: visible;
 }
-.group-44__cilindro-calcin-vel-munh-o-cr-zi {
+.cilindro-calcin-vel-munh-o-cr-zi {
   color: var(--color-surfaces-body, #6c6760);
   text-align: left;
   font-family: var(--body-xs-font-family, "LeagueSpartan-Regular", sans-serif);
@@ -695,7 +721,7 @@
   font-weight: var(--body-xs-font-weight, 400);
   position: relative;
 }
-.group-44___118-367 {
+._118-367 {
   color: var(--color-surfaces-body, #6c6760);
   text-align: left;
   font-family: "LeagueSpartan-Regular", sans-serif;
@@ -704,7 +730,7 @@
   font-weight: 400;
   position: relative;
 }
-.group-44___118-368 {
+._118-368 {
   color: var(--color-surfaces-body, #6c6760);
   text-align: left;
   font-family: "LeagueSpartan-Regular", sans-serif;

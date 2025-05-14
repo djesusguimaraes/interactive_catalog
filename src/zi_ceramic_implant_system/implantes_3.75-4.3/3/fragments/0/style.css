@@ -1,17 +1,35 @@
-.frame-1171276651,
-.frame-1171276651 * {
+html, body {
+  height: 250px;
+  width: 380px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.container,
+.container * {
   box-sizing: border-box;
 }
-.frame-1171276651 {
+.container {
+  flex-shrink: 0;
+  display: grid;
+  gap: 0px;
+  position: relative;
+  aspect-ratio: 340/228.19;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  grid-template-rows: repeat(1, minmax(0, 1fr));
+}
+.container2 {
   display: flex;
   flex-direction: column;
   gap: 16px;
   align-items: flex-start;
   justify-content: center;
-  flex-shrink: 0;
   position: relative;
+  grid-column: 1 / span 1;
+  grid-row: 1 / span 1;
 }
-.frame-1171276651__frame-1171276420 {
+.container3 {
   display: flex;
   flex-direction: column;
   gap: 12px;
@@ -23,7 +41,7 @@
   transform-origin: 0 0;
   transform: rotate(0deg) scale(1, 1);
 }
-.frame-1171276651__frame-1171276650 {
+.container4 {
   display: flex;
   flex-direction: row;
   gap: 12px;
@@ -33,7 +51,7 @@
   flex-shrink: 0;
   position: relative;
 }
-.frame-1171276651__drill-sequence-item-container {
+.drill-sequence-item-container {
   display: flex;
   flex-direction: row;
   gap: 4px;
@@ -42,14 +60,14 @@
   flex-shrink: 0;
   position: relative;
 }
-.frame-1171276651___1-82 {
+._1-82 {
   flex-shrink: 0;
   width: 34.55px;
   height: 72.68px;
   position: relative;
   object-fit: cover;
 }
-.frame-1171276651__drill-sequence-item-container2 {
+.drill-sequence-item-container2 {
   display: flex;
   flex-direction: column;
   gap: 6px;
@@ -58,7 +76,7 @@
   flex-shrink: 0;
   position: relative;
 }
-.frame-1171276651__drill-sequence-item-text {
+.drill-sequence-item-text {
   color: var(--color-surfaces-body, #6c6760);
   text-align: left;
   font-family: var(--body-xs-font-family, "LeagueSpartan-Regular", sans-serif);
@@ -68,7 +86,7 @@
   position: relative;
   width: 72px;
 }
-.frame-1171276651__drill-sequence-item-container3 {
+.drill-sequence-item-container3 {
   background: var(--color-surfaces-body, #6c6760);
   border-radius: 60px;
   padding: 2px 4px 2px 4px;
@@ -81,7 +99,7 @@
   width: 20px;
   position: relative;
 }
-.frame-1171276651__drill-sequence-item-text2 {
+.drill-sequence-item-text2 {
   color: var(--color-neutral-100, #ffffff);
   text-align: center;
   font-family: var(--body-xs-font-family, "LeagueSpartan-Regular", sans-serif);
@@ -91,7 +109,7 @@
   position: relative;
   align-self: stretch;
 }
-.frame-1171276651__drill-sequence-item-container4 {
+.drill-sequence-item-container4 {
   display: flex;
   flex-direction: column;
   gap: 4px;
@@ -100,7 +118,7 @@
   flex-shrink: 0;
   position: relative;
 }
-.frame-1171276651__drill-sequence-item-container5 {
+.drill-sequence-item-container5 {
   display: flex;
   flex-direction: column;
   gap: 14px;
@@ -109,7 +127,7 @@
   flex-shrink: 0;
   position: relative;
 }
-.frame-1171276651__drill-sequence-item-container6 {
+.drill-sequence-item-container6 {
   border-radius: 50px;
   border-style: solid;
   border-color: var(--color-feedback-states-active-primary, #7b3972);
@@ -123,7 +141,7 @@
   flex-shrink: 0;
   position: relative;
 }
-.frame-1171276651__drill-sequence-item-text3 {
+.drill-sequence-item-text3 {
   color: var(--color-surfaces-body, #6c6760);
   text-align: left;
   font-family: "LeagueSpartan-Regular", sans-serif;
@@ -132,7 +150,44 @@
   font-weight: 400;
   position: relative;
 }
-.frame-1171276651__linha-2 {
+.icon {
+  border-radius: 139.54px;
+  padding: 8.37px;
+  flex-shrink: 0;
+  width: 43px;
+  height: 44px;
+  position: absolute;
+  left: -32.9px;
+  top: 30.55px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+}
+.group-42 {
+  position: absolute;
+  inset: 0;
+}
+.frame-1171276770 {
+  background: #ffffff;
+  border-radius: 40px;
+  border-style: solid;
+  border-color: var(--color-feedback-states-active-primary, #7b3972);
+  border-width: 1px;
+  width: 31px;
+  height: 32px;
+  position: absolute;
+  left: 6px;
+  top: 6px;
+  overflow: hidden;
+}
+.bs-cart-plus {
+  width: 14.48px;
+  height: 14.48px;
+  position: absolute;
+  left: 14.37px;
+  top: 14.37px;
+  overflow: visible;
+}
+.linha-2 {
   padding: 0px 1px 0px 1px;
   display: flex;
   flex-direction: row;
@@ -142,24 +197,22 @@
   flex-shrink: 0;
   position: relative;
   transform-origin: 0 0;
-  transform: rotate(-90deg) scale(1, 1);
   overflow: hidden;
 }
-.frame-1171276651__camada-x-0020-1 {
+.camada-x-0020-1 {
   flex-shrink: 0;
-  width: 9.86px;
-  height: 28.31px;
+  width: 24px;
   position: relative;
   overflow: visible;
 }
-.frame-1171276651___2-7 {
+._2-7 {
   flex-shrink: 0;
   width: 50.33px;
   height: 73.77px;
   position: relative;
   object-fit: cover;
 }
-.frame-1171276651__drill-sequence-item-text4 {
+.drill-sequence-item-text4 {
   color: var(--color-surfaces-body, #6c6760);
   text-align: left;
   font-family: var(--body-xs-font-family, "LeagueSpartan-Regular", sans-serif);
@@ -168,37 +221,19 @@
   font-weight: var(--body-xs-font-weight, 400);
   position: relative;
 }
-.frame-1171276651__icon {
+.icon2 {
   border-radius: 139.54px;
-  border-style: solid;
-  border-color: var(--color-surfaces-border-secundary, #f3ebf1);
-  border-width: 1.5px;
   padding: 8.37px;
   flex-shrink: 0;
   width: 43px;
   height: 44px;
   position: absolute;
-  left: 2.23px;
-  top: 29.5px;
+  left: 103.83px;
+  top: 31.96px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
 }
-.frame-1171276651__group-42 {
-  position: absolute;
-  inset: 0;
-}
-.frame-1171276651__frame-1171276770 {
-  background: #ffffff;
-  border-radius: 40px;
-  border-style: solid;
-  border-color: var(--color-brand-secundary-light, #ede0ea);
-  border-width: 1.5px;
-  width: 31px;
-  height: 32px;
-  position: absolute;
-  left: 6px;
-  top: 6px;
-  overflow: hidden;
-}
-.frame-1171276651__bs-cart-plus {
+.bs-cart-plus2 {
   width: 14.48px;
   height: 14.48px;
   position: absolute;
@@ -206,28 +241,7 @@
   top: 14.37px;
   overflow: visible;
 }
-.frame-1171276651__icon2 {
-  border-radius: 139.54px;
-  border-style: solid;
-  border-color: var(--color-surfaces-border-secundary, #f3ebf1);
-  border-width: 1.5px;
-  padding: 8.37px;
-  flex-shrink: 0;
-  width: 43px;
-  height: 44px;
-  position: absolute;
-  left: 294px;
-  top: 36.99px;
-}
-.frame-1171276651__bs-cart-plus2 {
-  width: 14.48px;
-  height: 14.48px;
-  position: absolute;
-  left: 14.37px;
-  top: 14.37px;
-  overflow: visible;
-}
-.frame-1171276651__frame-1171276704 {
+.container5 {
   display: flex;
   flex-direction: row;
   gap: 8px;
@@ -237,7 +251,7 @@
   flex-shrink: 0;
   position: relative;
 }
-.frame-1171276651__linha-3 {
+.linha-3 {
   padding: 0px 1px 0px 1px;
   display: flex;
   flex-direction: row;
@@ -247,17 +261,15 @@
   flex-shrink: 0;
   position: relative;
   transform-origin: 0 0;
-  transform: rotate(0deg) scale(-1, 1);
   overflow: hidden;
 }
-.frame-1171276651__camada-x-0020-12 {
+.camada-x-0020-12 {
   flex-shrink: 0;
-  width: 9.86px;
   height: 28.31px;
   position: relative;
   overflow: visible;
 }
-.frame-1171276651__frame-1171276703 {
+.container6 {
   display: flex;
   flex-direction: row;
   gap: 16px;
@@ -266,7 +278,7 @@
   flex-shrink: 0;
   position: relative;
 }
-.frame-1171276651__drill-sequence-item-container7 {
+.drill-sequence-item-container7 {
   display: flex;
   flex-direction: column;
   gap: 12px;
@@ -277,14 +289,34 @@
   transform-origin: 0 0;
   transform: rotate(0deg) scale(1, 1);
 }
-.frame-1171276651__sem-t-tulo-1-48 {
+.icon3 {
+  border-radius: 139.54px;
+  padding: 8.37px;
+  flex-shrink: 0;
+  width: 43px;
+  height: 44px;
+  position: absolute;
+  left: 88px;
+  top: -24px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+}
+.bs-cart-plus3 {
+  width: 14.48px;
+  height: 14.48px;
+  position: absolute;
+  left: 14.37px;
+  top: 14.37px;
+  overflow: visible;
+}
+.sem-t-tulo-1-48 {
   flex-shrink: 0;
   width: 52.16px;
   height: 86.13px;
   position: relative;
   object-fit: cover;
 }
-.frame-1171276651__drill-sequence-item-container8 {
+.drill-sequence-item-container8 {
   display: flex;
   flex-direction: row;
   gap: 8px;
@@ -293,21 +325,21 @@
   flex-shrink: 0;
   position: relative;
 }
-.frame-1171276651__sem-t-tulo-1-49 {
+.sem-t-tulo-1-49 {
   flex-shrink: 0;
   width: 32.28px;
   height: 35.07px;
   position: relative;
   overflow: hidden;
 }
-.frame-1171276651__camada-x-0020-13 {
+.camada-x-0020-13 {
   height: auto;
   position: absolute;
   left: 2.32px;
   top: 2.87px;
   overflow: visible;
 }
-.frame-1171276651__drill-sequence-item-container9 {
+.drill-sequence-item-container9 {
   display: flex;
   flex-direction: row;
   gap: 4px;
@@ -316,7 +348,7 @@
   flex-shrink: 0;
   position: relative;
 }
-.frame-1171276651__drill-sequence-item-container10 {
+.drill-sequence-item-container10 {
   padding: 28px 0px 32px 0px;
   display: flex;
   flex-direction: column;
@@ -327,7 +359,7 @@
   height: 76px;
   position: relative;
 }
-.frame-1171276651__drill-sequence-item-container11 {
+.drill-sequence-item-container11 {
   display: flex;
   flex-direction: column;
   gap: 6px;
@@ -336,7 +368,7 @@
   flex: 1;
   position: relative;
 }
-.frame-1171276651__drill-sequence-item-text5 {
+.drill-sequence-item-text5 {
   color: var(--color-surfaces-titles-primary, #250a20);
   text-align: left;
   font-family: var(--body-xs-font-family, "LeagueSpartan-Regular", sans-serif);
@@ -345,7 +377,7 @@
   font-weight: var(--body-xs-font-weight, 400);
   position: relative;
 }
-.frame-1171276651__drill-sequence-item-container12 {
+.drill-sequence-item-container12 {
   display: flex;
   flex-direction: column;
   gap: 0px;
@@ -353,25 +385,4 @@
   justify-content: center;
   flex-shrink: 0;
   position: relative;
-}
-.frame-1171276651__icon3 {
-  border-radius: 139.54px;
-  border-style: solid;
-  border-color: var(--color-surfaces-border-secundary, #f3ebf1);
-  border-width: 1.5px;
-  padding: 8.37px;
-  flex-shrink: 0;
-  width: 43px;
-  height: 44px;
-  position: absolute;
-  left: -6.77px;
-  top: 51.57px;
-}
-.frame-1171276651__bs-cart-plus3 {
-  width: 14.48px;
-  height: 14.48px;
-  position: absolute;
-  left: 14.37px;
-  top: 14.37px;
-  overflow: visible;
 }

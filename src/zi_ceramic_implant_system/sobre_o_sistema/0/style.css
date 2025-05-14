@@ -1,0 +1,299 @@
+.container,
+.container * {
+  box-sizing: border-box;
+}
+.container {
+  height: 376.64px;
+  position: relative;
+}
+.container2 {
+  border-radius: 10px;
+  padding: 0px 0px 12px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-end;
+  justify-content: center;
+  width: 327px;
+  height: 376.64px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.container3 {
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.container4 {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-1171276844 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.sumary {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+}
+.summary-title-content {
+  color: var(--color-surfaces-titles-secundary, #3c1635);
+  text-align: left;
+  font-family: var(
+    --body-smhighlight-font-family,
+    "LeagueSpartan-Medium",
+    sans-serif
+  );
+  font-size: var(--body-smhighlight-font-size, 14px);
+  line-height: var(--body-smhighlight-line-height, 130%);
+  font-weight: var(--body-smhighlight-font-weight, 500);
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.button {
+  border-radius: var(--border-radius-xs, 4px);
+  padding: var(--spacing-nano, 8px);
+  display: flex;
+  flex-direction: row;
+  gap: var(--spacing-quarck, 4px);
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  height: 30px;
+  position: relative;
+}
+.children {
+  color: var(--color-feedback-states-active-primary, #7b3972);
+  text-align: left;
+  font-family: "LeagueSpartan-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 100%;
+  font-weight: 400;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.feature-details-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.feature-details {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.product-description {
+  color: var(--color-neutral-40, #6c6760);
+  text-align: left;
+  font-family: var(--body-xs-font-family, "LeagueSpartan-Regular", sans-serif);
+  font-size: var(--body-xs-font-size, 12px);
+  line-height: var(--body-xs-line-height, 130%);
+  font-weight: var(--body-xs-font-weight, 400);
+  position: relative;
+  flex: 1;
+}
+.product-description2 {
+  color: var(--color-neutral-40, #6c6760);
+  text-align: left;
+  font-family: var(--body-xs-font-family, "LeagueSpartan-Regular", sans-serif);
+  font-size: var(--body-xs-font-size, 12px);
+  line-height: var(--body-xs-line-height, 130%);
+  font-weight: var(--body-xs-font-weight, 400);
+  position: relative;
+  align-self: stretch;
+}
+.feature-list-container {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.feature-list-title {
+  color: var(--color-feedback-states-active-primary, #7b3972);
+  text-align: left;
+  font-family: "-", sans-serif;
+  font-size: 12px;
+  line-height: 130%;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+}
+.feature-list-title-span {
+  font-family: var(--body-xs-font-family, "LeagueSpartan-Regular", sans-serif);
+  font-size: var(--body-xs-font-size, 12px);
+  line-height: var(--body-xs-line-height, 130%);
+  font-weight: var(--body-xs-font-weight, 400);
+}
+.feature-list-title-span2 {
+  font-family: var(
+    --body-xshighlight-font-family,
+    "LeagueSpartan-Medium",
+    sans-serif
+  );
+  font-size: var(--body-xshighlight-font-size, 12px);
+  line-height: var(--body-xshighlight-line-height, 130%);
+  font-weight: var(--body-xshighlight-font-weight, 500);
+}
+.feature-list-items-container {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.feature-list-item {
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.ellipse-9 {
+  background: var(--color-feedback-states-active-primary, #7b3972);
+  border-radius: 50%;
+  flex-shrink: 0;
+  width: 6px;
+  height: 6px;
+  position: relative;
+}
+.feature-list-item-text {
+  color: var(--color-surfaces-body, #6c6760);
+  text-align: left;
+  font-family: var(--body-xs-font-family, "LeagueSpartan-Regular", sans-serif);
+  font-size: var(--body-xs-font-size, 12px);
+  line-height: var(--body-xs-line-height, 130%);
+  font-weight: var(--body-xs-font-weight, 400);
+  position: relative;
+}
+.ellipse-10 {
+  background: var(--color-feedback-states-active-primary, #7b3972);
+  border-radius: 50%;
+  flex-shrink: 0;
+  width: 6px;
+  height: 6px;
+  position: relative;
+}
+.ellipse-11 {
+  background: var(--color-feedback-states-active-primary, #7b3972);
+  border-radius: 50%;
+  flex-shrink: 0;
+  width: 6px;
+  height: 6px;
+  position: relative;
+}
+.testimonial-quote-container {
+  border-radius: 10px;
+  border-style: solid;
+  border-color: var(--color-surfaces-border-secundary, #f3ebf1);
+  border-width: 1px;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.testimonial-quote-header {
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.ellipse-112 {
+  flex-shrink: 0;
+  width: 29.41px;
+  height: 29.41px;
+  position: relative;
+  overflow: visible;
+  object-fit: cover;
+}
+.testimonial-quote-author-container {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: flex-start;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.testimonial-author {
+  color: var(--color-surfaces-body, #6c6760);
+  text-align: left;
+  font-family: var(
+    --body-xshighlight-font-family,
+    "LeagueSpartan-Medium",
+    sans-serif
+  );
+  font-size: var(--body-xshighlight-font-size, 12px);
+  line-height: var(--body-xshighlight-line-height, 130%);
+  font-weight: var(--body-xshighlight-font-weight, 500);
+  position: relative;
+}
+.testimonial-text {
+  color: var(--color-surfaces-body, #6c6760);
+  text-align: left;
+  font-family: "LeagueSpartan-Regular", sans-serif;
+  font-size: 10px;
+  line-height: 130%;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+}

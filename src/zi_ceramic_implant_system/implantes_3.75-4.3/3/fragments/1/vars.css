@@ -16,3 +16,39 @@
   /* Effects */
   --drop-shadow-box-shadow: 0px 6.7px 22.32px 0px rgba(205, 111, 229, 0.7);
 }
+/* Figma Color Variables of your File */
+[data-variable-collection-mode="mode-1"] {
+  /* mode-1 */
+  --white: #ffffff;
+}
+
+[data-tokens-mode="light-mode"] {
+  /* light-mode */
+  --color-brand-primary-pure: #000032;
+}
+
+[data-colors-mode="light"] {
+  /* light */
+  --neutral-0: #fefefe;
+  --neutral-1000: #303048;
+  --neutral-400: #e3e3e5;
+  --purple-8: #6a43dd;
+  --neutral-700: #9999a3;
+  --neutral-800: #67677a;
+  --neutral-600: #b9b9c0;
+  --neutral-300: #efeff1;
+  --neutral-500: #d1d1d5;
+}
+
+[data-colors-mode="dark"] {
+  /* dark */
+  --neutral-0: #1b1b29;
+  --neutral-1000: #ebebed;
+  --neutral-400: #3c3c5b;
+  --purple-8: #917de3;
+  --neutral-700: #b8b8bf;
+  --neutral-800: #c8c8cd;
+  --neutral-600: #9c9ca6;
+  --neutral-300: #353550;
+  --neutral-500: #6f6f80;
+}

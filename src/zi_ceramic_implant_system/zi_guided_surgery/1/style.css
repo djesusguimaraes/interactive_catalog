@@ -1,0 +1,138 @@
+.container,
+.container * {
+  box-sizing: border-box;
+}
+.container {
+  height: 540.2px;
+  position: relative;
+}
+.container2 {
+  border-radius: 10px;
+  padding: 0px 0px 12px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-end;
+  justify-content: center;
+  width: 327px;
+  height: 540.2px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.container3 {
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.sem-t-tulo-1-185 {
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 143.58px;
+  position: relative;
+  object-fit: cover;
+  aspect-ratio: 327/143.58;
+}
+.frame-1171276725 {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-1171276861 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.summary-title-content {
+  color: var(--color-surfaces-titles-secundary, #3c1635);
+  text-align: left;
+  font-family: var(
+    --body-smhighlight-font-family,
+    "LeagueSpartan-Medium",
+    sans-serif
+  );
+  font-size: var(--body-smhighlight-font-size, 14px);
+  line-height: var(--body-smhighlight-line-height, 130%);
+  font-weight: var(--body-smhighlight-font-weight, 500);
+  position: relative;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.button {
+  border-radius: var(--border-radius-xs, 4px);
+  padding: var(--spacing-nano, 8px);
+  display: flex;
+  flex-direction: row;
+  gap: var(--spacing-quarck, 4px);
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  height: 30px;
+  position: relative;
+}
+.children {
+  color: var(--color-feedback-states-active-primary, #7b3972);
+  text-align: left;
+  font-family: "LeagueSpartan-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 100%;
+  font-weight: 400;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.sem-t-tulo-1-186 {
+  flex-shrink: 0;
+  width: 327px;
+  height: 143.58px;
+  position: relative;
+  object-fit: cover;
+  aspect-ratio: 327/143.58;
+}
+.frame-1171276726 {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.product-name {
+  color: var(--color-surfaces-titles-secundary, #3c1635);
+  text-align: left;
+  font-family: var(
+    --body-smhighlight-font-family,
+    "LeagueSpartan-Medium",
+    sans-serif
+  );
+  font-size: var(--body-smhighlight-font-size, 14px);
+  line-height: var(--body-smhighlight-line-height, 130%);
+  font-weight: var(--body-smhighlight-font-weight, 500);
+  position: relative;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.sem-t-tulo-1-1862 {
+  flex-shrink: 0;
+  width: 327px;
+  height: 149.26px;
+  position: relative;
+  object-fit: cover;
+  aspect-ratio: 327/149.26;
+}

@@ -1,14 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./vars.css">
-  <link rel="stylesheet" href="./style.css">
-  
-  
-  <style>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./vars.css">
+        <link rel="stylesheet" href="./style.css">
+        <style>
    a,
    button,
    input,
@@ -34,989 +32,542 @@
        margin: 0;
        padding: 0;
    }
-   </style>
-  <title>Document</title>
-</head>
-<body>
-  <div class="drill-sequence-section">
-    <div class="drill-sequence-section__drill-sequence-list">
-      <div class="drill-sequence-section__drill-sequence-section2">
-        <div class="drill-sequence-section__drill-sequence-list2">
-          <div class="drill-sequence-section__drill-sequence-section3">
-            <div class="drill-sequence-section__drill-sequence-list3">
-              <div class="drill-sequence-section__drill-sequence-header">
-                <div class="drill-sequence-section__drill-sequence-title">
-                  Sequência de brocas para cirurgia convencional
-                </div>
-                <div class="drill-sequence-section__drill-sequence-note">
-                  <div class="drill-sequence-section__drill-sequence-note-text">
-                    *Opcional/ Para osso tipo I e II
-                  </div>
-                  <img
-                    class="drill-sequence-section__sem-t-tulo-1-28"
-                    src="sem-t-tulo-1-280.png"
-                  />
-                </div>
-              </div>
-              <div class="drill-sequence-section__drill-sequence-content">
-                <div class="drill-sequence-section__drill-sequence-row">
-                  <div class="drill-sequence-section__drill-sequence-item">
-                    <div class="drill-sequence-section__drill-size">Ø 3,75</div>
-                    <img class="drill-sequence-section___2-22" src="_2-220.png" />
-                    <div class="drill-sequence-section__light-button">
-                      <svg
-                        class="drill-sequence-section__add-button-icon"
-                        width="21"
-                        height="21"
-                        viewBox="0 0 21 21"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M10.6934 5.41406C10.8576 5.41406 11.0151 5.47931 11.1313 5.59545C11.2474 5.71159 11.3126 5.86911 11.3126 6.03335V9.74909H15.0284C15.1926 9.74909 15.3502 9.81433 15.4663 9.93047C15.5824 10.0466 15.6477 10.2041 15.6477 10.3684C15.6477 10.5326 15.5824 10.6901 15.4663 10.8063C15.3502 10.9224 15.1926 10.9877 15.0284 10.9877H11.3126V14.7034C11.3126 14.8676 11.2474 15.0252 11.1313 15.1413C11.0151 15.2574 10.8576 15.3227 10.6934 15.3227C10.5291 15.3227 10.3716 15.2574 10.2555 15.1413C10.1393 15.0252 10.0741 14.8676 10.0741 14.7034V10.9877H6.35833C6.19409 10.9877 6.03657 10.9224 5.92043 10.8063C5.80429 10.6901 5.73904 10.5326 5.73904 10.3684C5.73904 10.2041 5.80429 10.0466 5.92043 9.93047C6.03657 9.81433 6.19409 9.74909 6.35833 9.74909H10.0741V6.03335C10.0741 5.86911 10.1393 5.71159 10.2555 5.59545C10.3716 5.47931 10.5291 5.41406 10.6934 5.41406Z"
-                          fill="#363330"
-                        />
-                      </svg>
+        </style>
+        <title>Document</title>
+    </head>
+    <body>
+        <script src="/scripts/flutter.js"></script>
+        <div class="container">
+            <div class="container2">
+                <div class="drill-sequence-section">
+                    <div class="drill-sequence-list">
+                        <div class="drill-sequence-section2">
+                            <div class="drill-sequence-list2">
+                                <div class="drill-sequence-section3">
+                                    <div class="drill-sequence-list3">
+                                        <div class="drill-sequence-header">
+                                            <div class="frame-1171276849">
+                                                <div class="summary-title-content">
+                                                    Sequência de brocas para cirurgia convencional
+                                                </div>
+                                                <a href="javascript:seeSummary()">
+                                                    <div class="button">
+                                                        <div class="children">Ver todos</div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="drill-sequence-note">
+                                                <div class="drill-sequence-note-text">
+                                                    *Opcional/ Para osso tipo I e II
+                                                </div>
+                                                <img class="sem-t-tulo-1-28" src="sem-t-tulo-1-280.png">
+                                            </div>
+                                        </div>
+                                        <div class="drill-sequence-content">
+                                            <div class="drill-sequence-row">
+                                                <div class="drill-sequence-item">
+                                                    <div class="drill-size">Ø 3,75</div>
+                                                    <img class="_2-22" src="_2-220.png">
+                                                    <a href="javascript:searchDrills(3.75, 0, 'I,II')">
+                                                        <div class="icon">
+                                                            <div class="frame-1171276770"></div>
+                                                            <img class="bs-plus-lg" src="bs-plus-lg0.svg">
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="drill-sequence-item">
+                                                    <div class="drill-size">Ø 4,3</div>
+                                                    <img class="_2-222" src="_2-221.png">
+                                                    <a href="javascript:searchDrills(4.3, 0, 'I,II')">
+                                                        <div class="icon">
+                                                            <div class="frame-1171276770"></div>
+                                                            <img class="bs-plus-lg2" src="bs-plus-lg1.svg">
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="drill-sequence-section3">
+                                    <div class="drill-sequence-list3">
+                                        <div class="drill-sequence-header">
+                                            <div class="drill-sequence-title">
+                                                Sequência de brocas para cirurgia convencional
+                                            </div>
+                                            <div class="drill-sequence-note">
+                                                <div class="drill-sequence-note-text">
+                                                    *Opcional/ Para osso tipo III
+                                                </div>
+                                                <img class="sem-t-tulo-1-29" src="sem-t-tulo-1-290.png">
+                                            </div>
+                                        </div>
+                                        <div class="drill-sequence-content">
+                                            <div class="drill-sequence-row">
+                                                <div class="drill-sequence-item">
+                                                    <div class="drill-size">Ø 3,75</div>
+                                                    <img class="_2-22" src="_2-222.png">
+                                                    <a href="javascript:searchDrills(3.75, 0, 'III')">
+                                                        <div class="icon">
+                                                            <div class="frame-1171276770"></div>
+                                                            <img class="bs-plus-lg3" src="bs-plus-lg2.svg">
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="drill-sequence-item">
+                                                    <div class="drill-size">Ø 4,3</div>
+                                                    <img class="_2-222" src="_2-223.png">
+                                                    <a href="javascript:searchDrills(4.3, 0, 'III')">
+                                                        <div class="icon">
+                                                            <div class="frame-1171276770"></div>
+                                                            <img class="bs-plus-lg4" src="bs-plus-lg3.svg">
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="drill-sequence-section3">
+                                    <div class="drill-sequence-list3">
+                                        <div class="drill-sequence-header">
+                                            <div class="drill-sequence-title">
+                                                Sequência de brocas para cirurgia convencional
+                                            </div>
+                                            <div class="drill-sequence-note">
+                                                <div class="drill-sequence-note-text">
+                                                    *Opcional/ Para osso tipo IV
+                                                </div>
+                                                <img class="sem-t-tulo-1-32" src="sem-t-tulo-1-320.png">
+                                            </div>
+                                        </div>
+                                        <div class="drill-sequence-content">
+                                            <div class="drill-sequence-row">
+                                                <div class="drill-sequence-item">
+                                                    <div class="drill-size">Ø 3,75</div>
+                                                    <img class="_2-22" src="_2-224.png">
+                                                    <a href="javascript:searchDrills(3.75, 0, 'IV')">
+                                                        <div class="icon">
+                                                            <div class="frame-1171276770"></div>
+                                                            <img class="bs-plus-lg5" src="bs-plus-lg4.svg">
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="drill-sequence-item">
+                                                    <div class="drill-size">Ø 4,3</div>
+                                                    <img class="_2-222" src="_2-225.png">
+                                                    <a href="javascript:searchDrills(4.3, 0, 'IV')">
+                                                        <div class="icon">
+                                                            <div class="frame-1171276770"></div>
+                                                            <img class="bs-plus-lg6" src="bs-plus-lg5.svg">
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="drill-sequence-section3">
+                                    <div class="drill-sequence-list3">
+                                        <div class="drill-sequence-header">
+                                            <div class="drill-sequence-title">
+                                                Sequência de brocas para Guided Surgery
+                                            </div>
+                                            <div class="drill-sequence-note">
+                                                <div class="drill-sequence-note-text">
+                                                    *Opcional/ Para osso tipo I e II
+                                                </div>
+                                                <img class="sem-t-tulo-1-28" src="sem-t-tulo-1-281.png">
+                                            </div>
+                                        </div>
+                                        <div class="drill-sequence-content">
+                                            <div class="drill-sequence-row">
+                                                <div class="drill-sequence-item">
+                                                    <div class="drill-size">Ø 3,75</div>
+                                                    <img class="_2-22" src="_2-226.png">
+                                                    <a href="javascript:searchDrills(3.75, 1, 'I,II')">
+                                                        <div class="icon">
+                                                            <div class="frame-1171276770"></div>
+                                                            <img class="bs-plus-lg7" src="bs-plus-lg6.svg">
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="drill-sequence-item">
+                                                    <div class="drill-size">Ø 4,3</div>
+                                                    <img class="_2-222" src="_2-227.png">
+                                                    <a href="javascript:searchDrills(4.3, 1, 'I,II')">
+                                                        <div class="icon">
+                                                            <div class="frame-1171276770"></div>
+                                                            <img class="bs-plus-lg8" src="bs-plus-lg7.svg">
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="drill-sequence-section3">
+                                    <div class="drill-sequence-list3">
+                                        <div class="drill-sequence-header">
+                                            <div class="drill-sequence-title">
+                                                Sequência de brocas para Guided Surgery
+                                            </div>
+                                            <div class="drill-sequence-note">
+                                                <div class="drill-sequence-note-text">
+                                                    *Opcional/ Para osso tipo III
+                                                </div>
+                                                <img class="sem-t-tulo-1-29" src="sem-t-tulo-1-291.png">
+                                            </div>
+                                        </div>
+                                        <div class="drill-sequence-content">
+                                            <div class="drill-sequence-row">
+                                                <div class="drill-sequence-item">
+                                                    <div class="drill-size">Ø 3,75</div>
+                                                    <img class="_2-22" src="_2-228.png">
+                                                    <a href="javascript:searchDrills(3.75, 1, 'III')">
+                                                        <div class="icon">
+                                                            <div class="frame-1171276770"></div>
+                                                            <img class="bs-plus-lg9" src="bs-plus-lg8.svg">
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="drill-sequence-item">
+                                                    <div class="drill-size">Ø 4,3</div>
+                                                    <img class="_2-222" src="_2-229.png">
+                                                    <a href="javascript:searchDrills(4.3, 1, 'III')">
+                                                        <div class="icon">
+                                                            <div class="frame-1171276770"></div>
+                                                            <img class="bs-plus-lg10" src="bs-plus-lg9.svg">
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="drill-sequence-section3">
+                                    <div class="drill-sequence-list3">
+                                        <div class="drill-sequence-header">
+                                            <div class="drill-sequence-title">
+                                                Sequência de brocas para Guided Surgery
+                                            </div>
+                                            <div class="drill-sequence-note">
+                                                <div class="drill-sequence-note-text">
+                                                    *Opcional/ Para osso tipo IV
+                                                </div>
+                                                <img class="sem-t-tulo-1-32" src="sem-t-tulo-1-321.png">
+                                            </div>
+                                        </div>
+                                        <div class="drill-sequence-content">
+                                            <div class="drill-sequence-row">
+                                                <div class="drill-sequence-item">
+                                                    <div class="drill-size">Ø 3,75</div>
+                                                    <img class="_2-22" src="_2-2210.png">
+                                                    <a href="javascript:searchDrills(3.75, 1, 'IV')">
+                                                        <div class="icon">
+                                                            <div class="frame-1171276770"></div>
+                                                            <img class="bs-plus-lg11" src="bs-plus-lg10.svg">
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="drill-sequence-item">
+                                                    <div class="drill-size">Ø 4,3</div>
+                                                    <img class="_2-222" src="_2-2211.png">
+                                                    <a href="javascript:searchDrills(4.3, 1, 'IV')">
+                                                        <div class="icon">
+                                                            <div class="frame-1171276770"></div>
+                                                            <img class="bs-plus-lg12" src="bs-plus-lg11.svg">
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="implant-section">
+                            <div class="implant-list">
+                                <div class="implant-list2">
+                                    <div class="implant-note">
+                                        <div class="implant-note-text">
+                                            <div class="frame-1171276685">
+                                                <div class="ellipse-11"></div>
+                                            </div>
+                                            <div class="implant-note-text2">
+                                                Para preparar o alvéolo cirúrgico após a extração, use
+                      sequências da broca utilizadas no osso do tipo I
+                                            </div>
+                                        </div>
+                                        <div class="implant-note-text3">
+                                            <div class="ellipse-10"></div>
+                                            <div class="implant-note-text2">
+                                                Para mandíbula, use o macho de rosca.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="implant-list3">
+                                <div class="implant-header">
+                                    <div class="implant-title">
+                                        <div class="implant-title2">
+                                            <div class="implant-title3">Implantes Zi</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="implant-content">
+                                    <div class="implant-item">
+                                        <div class="implant-item2">
+                                            <div class="implant-length">10,0mm</div>
+                                            <img class="_1-12" src="_1-120.png">
+                                            <div class="implant-code">
+                                                <div class="implant-code2">
+                                                    <div class="implant-code3">180.502</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="implant-item2">
+                                        <div class="implant-length">11,5mm</div>
+                                        <img class="_2-5" src="_2-50.png">
+                                        <div class="implant-code">
+                                            <div class="implant-code2">
+                                                <div class="implant-code3">180.503</div>
+                                            </div>
+                                        </div>
+                                        <a href="javascript:addToCartBySku('180.502')">
+                                            <div class="icon2">
+                                                <div class="frame-11712767702"></div>
+                                                <img class="bs-cart-plus" src="bs-cart-plus0.svg">
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="implant-item2">
+                                        <div class="implant-length">13,0mm</div>
+                                        <img class="_3-5" src="_3-50.png">
+                                        <div class="implant-code">
+                                            <div class="implant-code2">
+                                                <div class="implant-code3">180.504</div>
+                                            </div>
+                                        </div>
+                                        <a href="javascript:addToCartBySku('180.503')">
+                                            <div class="icon3">
+                                                <div class="frame-11712767702"></div>
+                                                <img class="bs-cart-plus2" src="bs-cart-plus1.svg">
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="implant-size">Ø 3,75 mm</div>
+                                    <div class="sem-t-tulo-2-15">
+                                        <img class="camada-x-0020-1" src="camada-x-0020-10.svg">
+                                    </div>
+                                </div>
+                                <a href="javascript:addToCartBySku('180.504')">
+                                    <div class="icon4">
+                                        <div class="frame-11712767702"></div>
+                                        <img class="bs-cart-plus3" src="bs-cart-plus2.svg">
+                                    </div>
+                                </a>
+                                <div class="implant-content2">
+                                    <div class="implant-size2">Ø 4,3 mm</div>
+                                    <div class="implant-item3">
+                                        <div class="implant-length">10,0mm</div>
+                                        <img class="_4-4" src="_4-40.png">
+                                        <div class="implant-code">
+                                            <div class="implant-code2">
+                                                <div class="implant-code3">180.506</div>
+                                            </div>
+                                        </div>
+                                        <a href="javascript:addToCartBySku('180.506')">
+                                            <div class="icon5">
+                                                <div class="frame-11712767702"></div>
+                                                <img class="bs-cart-plus4" src="bs-cart-plus3.svg">
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="implant-item3">
+                                        <div class="implant-length">11,5mm</div>
+                                        <img class="_2-5" src="_2-51.png">
+                                        <div class="implant-code">
+                                            <div class="implant-code2">
+                                                <div class="implant-code3">180.507</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="implant-item3">
+                                        <div class="implant-length">13,0mm</div>
+                                        <img class="_3-5" src="_3-51.png">
+                                        <div class="implant-code">
+                                            <div class="implant-code2">
+                                                <div class="implant-code3">180.508</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="sem-t-tulo-1-181">
+                                        <img class="camada-x-0020-12" src="camada-x-0020-11.svg">
+                                    </div>
+                                    <a href="javascript:addToCartBySku('180.507')">
+                                        <div class="icon6">
+                                            <div class="frame-11712767702"></div>
+                                            <img class="bs-cart-plus5" src="bs-cart-plus4.svg">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                  </div>
-                  <div class="drill-sequence-section__drill-sequence-item">
-                    <div class="drill-sequence-section__drill-size">Ø 4,3</div>
-                    <img
-                      class="drill-sequence-section___2-222"
-                      src="_2-221.png"
-                    />
-                    <div class="drill-sequence-section__light-button">
-                      <svg
-                        class="drill-sequence-section__add-button-icon2"
-                        width="20"
-                        height="21"
-                        viewBox="0 0 20 21"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M9.90173 5.41406C10.066 5.41406 10.2235 5.47931 10.3396 5.59545C10.4558 5.71159 10.521 5.86911 10.521 6.03335V9.74909H14.2368C14.401 9.74909 14.5585 9.81433 14.6747 9.93047C14.7908 10.0466 14.856 10.2041 14.856 10.3684C14.856 10.5326 14.7908 10.6901 14.6747 10.8063C14.5585 10.9224 14.401 10.9877 14.2368 10.9877H10.521V14.7034C10.521 14.8676 10.4558 15.0252 10.3396 15.1413C10.2235 15.2574 10.066 15.3227 9.90173 15.3227C9.73749 15.3227 9.57997 15.2574 9.46383 15.1413C9.34769 15.0252 9.28244 14.8676 9.28244 14.7034V10.9877H5.56671C5.40246 10.9877 5.24494 10.9224 5.1288 10.8063C5.01266 10.6901 4.94742 10.5326 4.94742 10.3684C4.94742 10.2041 5.01266 10.0466 5.1288 9.93047C5.24494 9.81433 5.40246 9.74909 5.56671 9.74909H9.28244V6.03335C9.28244 5.86911 9.34769 5.71159 9.46383 5.59545C9.57997 5.47931 9.73749 5.41406 9.90173 5.41406Z"
-                          fill="#363330"
-                        />
-                      </svg>
+                    <a href="javascript:addToCartBySku('180.508')">
+                        <div class="icon7">
+                            <div class="frame-11712767702"></div>
+                            <img class="bs-cart-plus6" src="bs-cart-plus5.svg">
+                        </div>
+                    </a>
+                    <div class="cover-screw-section">
+                        <div class="cover-screw-list">
+                            <div class="cover-screw-title">Parafuso de cobertura Zi</div>
+                            <div class="cover-screw-code">
+                                <div class="cover-screw-code2">
+                                    <div class="cover-screw-code3">117.023</div>
+                                </div>
+                            </div>
+                            <div class="cover-screw-note">
+                                <div class="cover-screw-note-text">
+                                    <div class="cover-screw-note-text2">
+                                        :: Use a chave Neo digital (104.060);
+                                    </div>
+                                </div>
+                                <div class="cover-screw-note-text">
+                                    <div class="cover-screw-note-text2">
+                                        :: Não exceda o torque de Inserção de 10 N.cm
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="javascript:addToCartBySku('117.023')">
+                            <div class="icon8">
+                                <div class="frame-11712767702"></div>
+                                <img class="bs-cart-plus7" src="bs-cart-plus6.svg">
+                            </div>
+                        </a>
+                        <img class="parafuso-1" src="parafuso-10.png">
                     </div>
-                  </div>
+                    <div class="healing-abutment-section">
+                        <div class="healing-abutment-list">
+                            <div class="healing-abutment-title">Cicatrizadores Zi</div>
+                            <div class="healing-abutment-content">
+                                <div class="healing-abutment-row">
+                                    <div class="healing-abutment-item">
+                                        <div class="healing-abutment-profile">
+                                            <span>
+                                                <span class="healing-abutment-profile-span">
+                                                    Perfil
+                                                    <br>
+                                                </span>
+                                                <span class="healing-abutment-profile-span2">Ø 3,75</span>
+                                            </span>
+                                        </div>
+                                        <div class="healing-abutment-size">Ø 4,5</div>
+                                    </div>
+                                    <div class="healing-abutment-item2">
+                                        <div class="healing-abutment-length">1,5mm</div>
+                                        <div class="healing-abutment-code">
+                                            <div class="healing-abutment-code2">
+                                                <div class="healing-abutment-code3">
+                                                    <div class="healing-abutment-code4">106.233</div>
+                                                </div>
+                                            </div>
+                                            <div class="healing-abutment-code2">
+                                                <div class="healing-abutment-code3">
+                                                    <div class="healing-abutment-code4">106.235</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="healing-abutment-item2">
+                                        <div class="healing-abutment-length">2,5mm</div>
+                                        <div class="healing-abutment-code">
+                                            <div class="healing-abutment-code2">
+                                                <div class="healing-abutment-code3">
+                                                    <div class="healing-abutment-code4">106.234</div>
+                                                </div>
+                                            </div>
+                                            <div class="healing-abutment-code2">
+                                                <div class="healing-abutment-code3">
+                                                    <div class="healing-abutment-code4">106.236</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="healing-abutment-item3">
+                                    <div class="healing-abutment-profile2">
+                                        <div class="healing-abutment-profile">
+                                            <span>
+                                                <span class="healing-abutment-profile-span">
+                                                    Perfil
+                                                    <br>
+                                                </span>
+                                                <span class="healing-abutment-profile-span2">Ø 3,75</span>
+                                            </span>
+                                        </div>
+                                        <div class="healing-abutment-size">Ø 4,5</div>
+                                    </div>
+                                    <div class="healing-abutment-item2">
+                                        <div class="healing-abutment-length">3,5mm</div>
+                                        <div class="healing-abutment-code">
+                                            <div class="healing-abutment-code2">
+                                                <div class="healing-abutment-code3">
+                                                    <div class="healing-abutment-code4">106.274</div>
+                                                </div>
+                                            </div>
+                                            <div class="healing-abutment-code2">
+                                                <div class="healing-abutment-code3">
+                                                    <div class="healing-abutment-code4">106.276</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="healing-abutment-item2">
+                                        <div class="healing-abutment-length">4,5mm</div>
+                                        <div class="healing-abutment-code">
+                                            <div class="healing-abutment-code2">
+                                                <div class="healing-abutment-code3">
+                                                    <div class="healing-abutment-code4">106.275</div>
+                                                </div>
+                                            </div>
+                                            <div class="healing-abutment-code2">
+                                                <div class="healing-abutment-code3">
+                                                    <div class="healing-abutment-code4">106.277</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="healing-abutment-note">
+                                <div class="healing-abutment-note-text">
+                                    <div class="healing-abutment-note-text2">
+                                        :: Use a chave Neo digital (104.060);
+                                    </div>
+                                </div>
+                                <div class="healing-abutment-note-text">
+                                    <div class="healing-abutment-note-text2">
+                                        :: Não exceda o torque de Inserção de 10 N.cm
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <img class="cicatrizador-1" src="cicatrizador-10.png">
+                        <a href="javascript:addToCartByVariations('106.233, 106.235, 106.234, 106.236, 106.274, 106.276, 106.275, 106.277')">
+                            <div class="icon9">
+                                <div class="frame-11712767702"></div>
+                                <img class="bs-cart-plus8" src="bs-cart-plus7.svg">
+                            </div>
+                        </a>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
-          <div class="drill-sequence-section__drill-sequence-section3">
-            <div class="drill-sequence-section__drill-sequence-list3">
-              <div class="drill-sequence-section__drill-sequence-header">
-                <div class="drill-sequence-section__drill-sequence-title">
-                  Sequência de brocas para cirurgia convencional
-                </div>
-                <div class="drill-sequence-section__drill-sequence-note">
-                  <div class="drill-sequence-section__drill-sequence-note-text">
-                    *Opcional/ Para osso tipo III
-                  </div>
-                  <img
-                    class="drill-sequence-section__sem-t-tulo-1-29"
-                    src="sem-t-tulo-1-290.png"
-                  />
-                </div>
-              </div>
-              <div class="drill-sequence-section__drill-sequence-content">
-                <div class="drill-sequence-section__drill-sequence-row">
-                  <div class="drill-sequence-section__drill-sequence-item">
-                    <div class="drill-sequence-section__drill-size">Ø 3,75</div>
-                    <img class="drill-sequence-section___2-22" src="_2-222.png" />
-                    <div class="drill-sequence-section__light-button">
-                      <svg
-                        class="drill-sequence-section__add-button-icon3"
-                        width="21"
-                        height="21"
-                        viewBox="0 0 21 21"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M10.6934 5.74023C10.8576 5.74023 11.0151 5.80548 11.1313 5.92162C11.2474 6.03776 11.3126 6.19528 11.3126 6.35952V10.0753H15.0284C15.1926 10.0753 15.3502 10.1405 15.4663 10.2566C15.5824 10.3728 15.6477 10.5303 15.6477 10.6945C15.6477 10.8588 15.5824 11.0163 15.4663 11.1325C15.3502 11.2486 15.1926 11.3138 15.0284 11.3138H11.3126V15.0296C11.3126 15.1938 11.2474 15.3513 11.1313 15.4675C11.0151 15.5836 10.8576 15.6489 10.6934 15.6489C10.5291 15.6489 10.3716 15.5836 10.2555 15.4675C10.1393 15.3513 10.0741 15.1938 10.0741 15.0296V11.3138H6.35833C6.19409 11.3138 6.03657 11.2486 5.92043 11.1325C5.80429 11.0163 5.73904 10.8588 5.73904 10.6945C5.73904 10.5303 5.80429 10.3728 5.92043 10.2566C6.03657 10.1405 6.19409 10.0753 6.35833 10.0753H10.0741V6.35952C10.0741 6.19528 10.1393 6.03776 10.2555 5.92162C10.3716 5.80548 10.5291 5.74023 10.6934 5.74023Z"
-                          fill="#363330"
-                        />
-                      </svg>
-                    </div>
-                  </div>
-                  <div class="drill-sequence-section__drill-sequence-item">
-                    <div class="drill-sequence-section__drill-size">Ø 4,3</div>
-                    <img
-                      class="drill-sequence-section___2-222"
-                      src="_2-223.png"
-                    />
-                    <div class="drill-sequence-section__light-button">
-                      <svg
-                        class="drill-sequence-section__add-button-icon4"
-                        width="20"
-                        height="21"
-                        viewBox="0 0 20 21"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M9.90173 5.74023C10.066 5.74023 10.2235 5.80548 10.3396 5.92162C10.4558 6.03776 10.521 6.19528 10.521 6.35952V10.0753H14.2368C14.401 10.0753 14.5585 10.1405 14.6747 10.2566C14.7908 10.3728 14.856 10.5303 14.856 10.6945C14.856 10.8588 14.7908 11.0163 14.6747 11.1325C14.5585 11.2486 14.401 11.3138 14.2368 11.3138H10.521V15.0296C10.521 15.1938 10.4558 15.3513 10.3396 15.4675C10.2235 15.5836 10.066 15.6489 9.90173 15.6489C9.73749 15.6489 9.57997 15.5836 9.46383 15.4675C9.34769 15.3513 9.28244 15.1938 9.28244 15.0296V11.3138H5.56671C5.40246 11.3138 5.24494 11.2486 5.1288 11.1325C5.01266 11.0163 4.94742 10.8588 4.94742 10.6945C4.94742 10.5303 5.01266 10.3728 5.1288 10.2566C5.24494 10.1405 5.40246 10.0753 5.56671 10.0753H9.28244V6.35952C9.28244 6.19528 9.34769 6.03776 9.46383 5.92162C9.57997 5.80548 9.73749 5.74023 9.90173 5.74023Z"
-                          fill="#363330"
-                        />
-                      </svg>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="drill-sequence-section__drill-sequence-section3">
-            <div class="drill-sequence-section__drill-sequence-list3">
-              <div class="drill-sequence-section__drill-sequence-header">
-                <div class="drill-sequence-section__drill-sequence-title">
-                  Sequência de brocas para cirurgia convencional
-                </div>
-                <div class="drill-sequence-section__drill-sequence-note">
-                  <div class="drill-sequence-section__drill-sequence-note-text">
-                    *Opcional/ Para osso tipo IV
-                  </div>
-                  <img
-                    class="drill-sequence-section__sem-t-tulo-1-32"
-                    src="sem-t-tulo-1-320.png"
-                  />
-                </div>
-              </div>
-              <div class="drill-sequence-section__drill-sequence-content">
-                <div class="drill-sequence-section__drill-sequence-row">
-                  <div class="drill-sequence-section__drill-sequence-item">
-                    <div class="drill-sequence-section__drill-size">Ø 3,75</div>
-                    <img class="drill-sequence-section___2-22" src="_2-224.png" />
-                    <div class="drill-sequence-section__light-button">
-                      <svg
-                        class="drill-sequence-section__add-button-icon5"
-                        width="21"
-                        height="20"
-                        viewBox="0 0 21 20"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M10.6934 5.06641C10.8576 5.06641 11.0151 5.13165 11.1313 5.24779C11.2474 5.36393 11.3126 5.52145 11.3126 5.6857V9.40143H15.0284C15.1926 9.40143 15.3502 9.46668 15.4663 9.58282C15.5824 9.69896 15.6477 9.85648 15.6477 10.0207C15.6477 10.185 15.5824 10.3425 15.4663 10.4586C15.3502 10.5748 15.1926 10.64 15.0284 10.64H11.3126V14.3557C11.3126 14.52 11.2474 14.6775 11.1313 14.7937C11.0151 14.9098 10.8576 14.975 10.6934 14.975C10.5291 14.975 10.3716 14.9098 10.2555 14.7937C10.1393 14.6775 10.0741 14.52 10.0741 14.3557V10.64H6.35833C6.19409 10.64 6.03657 10.5748 5.92043 10.4586C5.80429 10.3425 5.73904 10.185 5.73904 10.0207C5.73904 9.85648 5.80429 9.69896 5.92043 9.58282C6.03657 9.46668 6.19409 9.40143 6.35833 9.40143H10.0741V5.6857C10.0741 5.52145 10.1393 5.36393 10.2555 5.24779C10.3716 5.13165 10.5291 5.06641 10.6934 5.06641Z"
-                          fill="#363330"
-                        />
-                      </svg>
-                    </div>
-                  </div>
-                  <div class="drill-sequence-section__drill-sequence-item">
-                    <div class="drill-sequence-section__drill-size">Ø 4,3</div>
-                    <img
-                      class="drill-sequence-section___2-222"
-                      src="_2-225.png"
-                    />
-                    <div class="drill-sequence-section__light-button">
-                      <svg
-                        class="drill-sequence-section__add-button-icon6"
-                        width="20"
-                        height="20"
-                        viewBox="0 0 20 20"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M9.90173 5.06641C10.066 5.06641 10.2235 5.13165 10.3396 5.24779C10.4558 5.36393 10.521 5.52145 10.521 5.6857V9.40143H14.2368C14.401 9.40143 14.5585 9.46668 14.6747 9.58282C14.7908 9.69896 14.856 9.85648 14.856 10.0207C14.856 10.185 14.7908 10.3425 14.6747 10.4586C14.5585 10.5748 14.401 10.64 14.2368 10.64H10.521V14.3557C10.521 14.52 10.4558 14.6775 10.3396 14.7937C10.2235 14.9098 10.066 14.975 9.90173 14.975C9.73749 14.975 9.57997 14.9098 9.46383 14.7937C9.34769 14.6775 9.28244 14.52 9.28244 14.3557V10.64H5.56671C5.40246 10.64 5.24494 10.5748 5.1288 10.4586C5.01266 10.3425 4.94742 10.185 4.94742 10.0207C4.94742 9.85648 5.01266 9.69896 5.1288 9.58282C5.24494 9.46668 5.40246 9.40143 5.56671 9.40143H9.28244V5.6857C9.28244 5.52145 9.34769 5.36393 9.46383 5.24779C9.57997 5.13165 9.73749 5.06641 9.90173 5.06641Z"
-                          fill="#363330"
-                        />
-                      </svg>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="drill-sequence-section__drill-sequence-section3">
-            <div class="drill-sequence-section__drill-sequence-list3">
-              <div class="drill-sequence-section__drill-sequence-header">
-                <div class="drill-sequence-section__drill-sequence-title">
-                  Sequência de brocas para Guided Surgery
-                </div>
-                <div class="drill-sequence-section__drill-sequence-note">
-                  <div class="drill-sequence-section__drill-sequence-note-text">
-                    *Opcional/ Para osso tipo I e II
-                  </div>
-                  <img
-                    class="drill-sequence-section__sem-t-tulo-1-28"
-                    src="sem-t-tulo-1-281.png"
-                  />
-                </div>
-              </div>
-              <div class="drill-sequence-section__drill-sequence-content">
-                <div class="drill-sequence-section__drill-sequence-row">
-                  <div class="drill-sequence-section__drill-sequence-item">
-                    <div class="drill-sequence-section__drill-size">Ø 3,75</div>
-                    <img class="drill-sequence-section___2-22" src="_2-226.png" />
-                    <div class="drill-sequence-section__light-button">
-                      <svg
-                        class="drill-sequence-section__add-button-icon7"
-                        width="21"
-                        height="21"
-                        viewBox="0 0 21 21"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M10.6934 5.39453C10.8576 5.39453 11.0151 5.45978 11.1313 5.57592C11.2474 5.69206 11.3126 5.84957 11.3126 6.01382V9.72956H15.0284C15.1926 9.72956 15.3502 9.7948 15.4663 9.91094C15.5824 10.0271 15.6477 10.1846 15.6477 10.3488C15.6477 10.5131 15.5824 10.6706 15.4663 10.7868C15.3502 10.9029 15.1926 10.9681 15.0284 10.9681H11.3126V14.6839C11.3126 14.8481 11.2474 15.0056 11.1313 15.1218C11.0151 15.2379 10.8576 15.3032 10.6934 15.3032C10.5291 15.3032 10.3716 15.2379 10.2555 15.1218C10.1393 15.0056 10.0741 14.8481 10.0741 14.6839V10.9681H6.35833C6.19409 10.9681 6.03657 10.9029 5.92043 10.7868C5.80429 10.6706 5.73904 10.5131 5.73904 10.3488C5.73904 10.1846 5.80429 10.0271 5.92043 9.91094C6.03657 9.7948 6.19409 9.72956 6.35833 9.72956H10.0741V6.01382C10.0741 5.84957 10.1393 5.69206 10.2555 5.57592C10.3716 5.45978 10.5291 5.39453 10.6934 5.39453Z"
-                          fill="#363330"
-                        />
-                      </svg>
-                    </div>
-                  </div>
-                  <div class="drill-sequence-section__drill-sequence-item">
-                    <div class="drill-sequence-section__drill-size">Ø 4,3</div>
-                    <img
-                      class="drill-sequence-section___2-222"
-                      src="_2-227.png"
-                    />
-                    <div class="drill-sequence-section__light-button">
-                      <svg
-                        class="drill-sequence-section__add-button-icon8"
-                        width="20"
-                        height="21"
-                        viewBox="0 0 20 21"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M9.90173 5.39453C10.066 5.39453 10.2235 5.45978 10.3396 5.57592C10.4558 5.69206 10.521 5.84957 10.521 6.01382V9.72956H14.2368C14.401 9.72956 14.5585 9.7948 14.6747 9.91094C14.7908 10.0271 14.856 10.1846 14.856 10.3488C14.856 10.5131 14.7908 10.6706 14.6747 10.7868C14.5585 10.9029 14.401 10.9681 14.2368 10.9681H10.521V14.6839C10.521 14.8481 10.4558 15.0056 10.3396 15.1218C10.2235 15.2379 10.066 15.3032 9.90173 15.3032C9.73749 15.3032 9.57997 15.2379 9.46383 15.1218C9.34769 15.0056 9.28244 14.8481 9.28244 14.6839V10.9681H5.56671C5.40246 10.9681 5.24494 10.9029 5.1288 10.7868C5.01266 10.6706 4.94742 10.5131 4.94742 10.3488C4.94742 10.1846 5.01266 10.0271 5.1288 9.91094C5.24494 9.7948 5.40246 9.72956 5.56671 9.72956H9.28244V6.01382C9.28244 5.84957 9.34769 5.69206 9.46383 5.57592C9.57997 5.45978 9.73749 5.39453 9.90173 5.39453Z"
-                          fill="#363330"
-                        />
-                      </svg>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="drill-sequence-section__drill-sequence-section3">
-            <div class="drill-sequence-section__drill-sequence-list3">
-              <div class="drill-sequence-section__drill-sequence-header">
-                <div class="drill-sequence-section__drill-sequence-title">
-                  Sequência de brocas para Guided Surgery
-                </div>
-                <div class="drill-sequence-section__drill-sequence-note">
-                  <div class="drill-sequence-section__drill-sequence-note-text">
-                    *Opcional/ Para osso tipo III
-                  </div>
-                  <img
-                    class="drill-sequence-section__sem-t-tulo-1-29"
-                    src="sem-t-tulo-1-291.png"
-                  />
-                </div>
-              </div>
-              <div class="drill-sequence-section__drill-sequence-content">
-                <div class="drill-sequence-section__drill-sequence-row">
-                  <div class="drill-sequence-section__drill-sequence-item">
-                    <div class="drill-sequence-section__drill-size">Ø 3,75</div>
-                    <img class="drill-sequence-section___2-22" src="_2-228.png" />
-                    <div class="drill-sequence-section__light-button">
-                      <svg
-                        class="drill-sequence-section__add-button-icon9"
-                        width="21"
-                        height="21"
-                        viewBox="0 0 21 21"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M10.6934 5.7207C10.8576 5.7207 11.0151 5.78595 11.1313 5.90209C11.2474 6.01823 11.3126 6.17575 11.3126 6.33999V10.0557H15.0284C15.1926 10.0557 15.3502 10.121 15.4663 10.2371C15.5824 10.3533 15.6477 10.5108 15.6477 10.675C15.6477 10.8393 15.5824 10.9968 15.4663 11.1129C15.3502 11.2291 15.1926 11.2943 15.0284 11.2943H11.3126V15.01C11.3126 15.1743 11.2474 15.3318 11.1313 15.4479C11.0151 15.5641 10.8576 15.6293 10.6934 15.6293C10.5291 15.6293 10.3716 15.5641 10.2555 15.4479C10.1393 15.3318 10.0741 15.1743 10.0741 15.01V11.2943H6.35833C6.19409 11.2943 6.03657 11.2291 5.92043 11.1129C5.80429 10.9968 5.73904 10.8393 5.73904 10.675C5.73904 10.5108 5.80429 10.3533 5.92043 10.2371C6.03657 10.121 6.19409 10.0557 6.35833 10.0557H10.0741V6.33999C10.0741 6.17575 10.1393 6.01823 10.2555 5.90209C10.3716 5.78595 10.5291 5.7207 10.6934 5.7207Z"
-                          fill="#363330"
-                        />
-                      </svg>
-                    </div>
-                  </div>
-                  <div class="drill-sequence-section__drill-sequence-item">
-                    <div class="drill-sequence-section__drill-size">Ø 4,3</div>
-                    <img
-                      class="drill-sequence-section___2-222"
-                      src="_2-229.png"
-                    />
-                    <div class="drill-sequence-section__light-button">
-                      <svg
-                        class="drill-sequence-section__add-button-icon10"
-                        width="20"
-                        height="21"
-                        viewBox="0 0 20 21"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M9.90173 5.7207C10.066 5.7207 10.2235 5.78595 10.3396 5.90209C10.4558 6.01823 10.521 6.17575 10.521 6.33999V10.0557H14.2368C14.401 10.0557 14.5585 10.121 14.6747 10.2371C14.7908 10.3533 14.856 10.5108 14.856 10.675C14.856 10.8393 14.7908 10.9968 14.6747 11.1129C14.5585 11.2291 14.401 11.2943 14.2368 11.2943H10.521V15.01C10.521 15.1743 10.4558 15.3318 10.3396 15.4479C10.2235 15.5641 10.066 15.6293 9.90173 15.6293C9.73749 15.6293 9.57997 15.5641 9.46383 15.4479C9.34769 15.3318 9.28244 15.1743 9.28244 15.01V11.2943H5.56671C5.40246 11.2943 5.24494 11.2291 5.1288 11.1129C5.01266 10.9968 4.94742 10.8393 4.94742 10.675C4.94742 10.5108 5.01266 10.3533 5.1288 10.2371C5.24494 10.121 5.40246 10.0557 5.56671 10.0557H9.28244V6.33999C9.28244 6.17575 9.34769 6.01823 9.46383 5.90209C9.57997 5.78595 9.73749 5.7207 9.90173 5.7207Z"
-                          fill="#363330"
-                        />
-                      </svg>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="drill-sequence-section__drill-sequence-section3">
-            <div class="drill-sequence-section__drill-sequence-list3">
-              <div class="drill-sequence-section__drill-sequence-header">
-                <div class="drill-sequence-section__drill-sequence-title">
-                  Sequência de brocas para Guided Surgery
-                </div>
-                <div class="drill-sequence-section__drill-sequence-note">
-                  <div class="drill-sequence-section__drill-sequence-note-text">
-                    *Opcional/ Para osso tipo IV
-                  </div>
-                  <img
-                    class="drill-sequence-section__sem-t-tulo-1-32"
-                    src="sem-t-tulo-1-321.png"
-                  />
-                </div>
-              </div>
-              <div class="drill-sequence-section__drill-sequence-content">
-                <div class="drill-sequence-section__drill-sequence-row">
-                  <div class="drill-sequence-section__drill-sequence-item">
-                    <div class="drill-sequence-section__drill-size">Ø 3,75</div>
-                    <img
-                      class="drill-sequence-section___2-22"
-                      src="_2-2210.png"
-                    />
-                    <div class="drill-sequence-section__light-button">
-                      <svg
-                        class="drill-sequence-section__add-button-icon11"
-                        width="21"
-                        height="20"
-                        viewBox="0 0 21 20"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M10.6934 5.04688C10.8576 5.04687 11.0151 5.11212 11.1313 5.22826C11.2474 5.3444 11.3126 5.50192 11.3126 5.66616V9.3819H15.0284C15.1926 9.3819 15.3502 9.44715 15.4663 9.56329C15.5824 9.67943 15.6477 9.83694 15.6477 10.0012C15.6477 10.1654 15.5824 10.323 15.4663 10.4391C15.3502 10.5552 15.1926 10.6205 15.0284 10.6205H11.3126V14.3362C11.3126 14.5005 11.2474 14.658 11.1313 14.7741C11.0151 14.8903 10.8576 14.9555 10.6934 14.9555C10.5291 14.9555 10.3716 14.8903 10.2555 14.7741C10.1393 14.658 10.0741 14.5005 10.0741 14.3362V10.6205H6.35833C6.19409 10.6205 6.03657 10.5552 5.92043 10.4391C5.80429 10.323 5.73904 10.1654 5.73904 10.0012C5.73904 9.83694 5.80429 9.67943 5.92043 9.56329C6.03657 9.44715 6.19409 9.3819 6.35833 9.3819H10.0741V5.66616C10.0741 5.50192 10.1393 5.3444 10.2555 5.22826C10.3716 5.11212 10.5291 5.04687 10.6934 5.04688Z"
-                          fill="#363330"
-                        />
-                      </svg>
-                    </div>
-                  </div>
-                  <div class="drill-sequence-section__drill-sequence-item">
-                    <div class="drill-sequence-section__drill-size">Ø 4,3</div>
-                    <img
-                      class="drill-sequence-section___2-222"
-                      src="_2-2211.png"
-                    />
-                    <div class="drill-sequence-section__light-button">
-                      <svg
-                        class="drill-sequence-section__add-button-icon12"
-                        width="20"
-                        height="20"
-                        viewBox="0 0 20 20"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M9.90173 5.04688C10.066 5.04687 10.2235 5.11212 10.3396 5.22826C10.4558 5.3444 10.521 5.50192 10.521 5.66616V9.3819H14.2368C14.401 9.3819 14.5585 9.44715 14.6747 9.56329C14.7908 9.67943 14.856 9.83694 14.856 10.0012C14.856 10.1654 14.7908 10.323 14.6747 10.4391C14.5585 10.5552 14.401 10.6205 14.2368 10.6205H10.521V14.3362C10.521 14.5005 10.4558 14.658 10.3396 14.7741C10.2235 14.8903 10.066 14.9555 9.90173 14.9555C9.73749 14.9555 9.57997 14.8903 9.46383 14.7741C9.34769 14.658 9.28244 14.5005 9.28244 14.3362V10.6205H5.56671C5.40246 10.6205 5.24494 10.5552 5.1288 10.4391C5.01266 10.323 4.94742 10.1654 4.94742 10.0012C4.94742 9.83694 5.01266 9.67943 5.1288 9.56329C5.24494 9.44715 5.40246 9.3819 5.56671 9.3819H9.28244V5.66616C9.28244 5.50192 9.34769 5.3444 9.46383 5.22826C9.57997 5.11212 9.73749 5.04687 9.90173 5.04688Z"
-                          fill="#363330"
-                        />
-                      </svg>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
-      </div>
-      <div class="drill-sequence-section__implant-section">
-        <div class="drill-sequence-section__implant-list">
-          <div class="drill-sequence-section__implant-list2">
-            <div class="drill-sequence-section__implant-note">
-              <div class="drill-sequence-section__implant-note-text">
-                <div class="drill-sequence-section__frame-1171276685">
-                  <div class="drill-sequence-section__ellipse-11"></div>
-                </div>
-                <div class="drill-sequence-section__implant-note-text2">
-                  Para preparar o alvéolo cirúrgico após a extração, use
-                  sequências da broca utilizadas no osso do tipo I
-                </div>
-              </div>
-              <div class="drill-sequence-section__implant-note-text3">
-                <div class="drill-sequence-section__ellipse-10"></div>
-                <div class="drill-sequence-section__implant-note-text2">
-                  Para mandíbula, use o macho de rosca.
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="drill-sequence-section__implant-list3">
-          <div class="drill-sequence-section__implant-header">
-            <div class="drill-sequence-section__implant-title">
-              <div class="drill-sequence-section__implant-title2">
-                <div class="drill-sequence-section__implant-title3">
-                  Implantes Zi
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="drill-sequence-section__implant-content">
-            <div class="drill-sequence-section__implant-item">
-              <div class="drill-sequence-section__implant-item2">
-                <div class="drill-sequence-section__implant-length">10,0mm</div>
-                <img class="drill-sequence-section___1-12" src="_1-120.png" />
-                <div class="drill-sequence-section__implant-code">
-                  <div class="drill-sequence-section__implant-code2">
-                    <div class="drill-sequence-section__implant-code3">
-                      180.502
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="drill-sequence-section__icon">
-                <div class="drill-sequence-section__frame-1171276770"></div>
-                <svg
-                  class="drill-sequence-section__bs-cart-plus"
-                  width="16"
-                  height="15"
-                  viewBox="0 0 16 15"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M8.75856 5.40768C8.75856 5.28764 8.71087 5.17252 8.62599 5.08764C8.54111 5.00276 8.42599 4.95508 8.30595 4.95508C8.18592 4.95508 8.07079 5.00276 7.98591 5.08764C7.90103 5.17252 7.85335 5.28764 7.85335 5.40768V6.76549H6.49554C6.3755 6.76549 6.26038 6.81318 6.1755 6.89805C6.09062 6.98293 6.04294 7.09806 6.04294 7.21809C6.04294 7.33813 6.09062 7.45325 6.1755 7.53813C6.26038 7.62301 6.3755 7.6707 6.49554 7.6707H7.85335V9.02851C7.85335 9.14854 7.90103 9.26366 7.98591 9.34854C8.07079 9.43342 8.18592 9.48111 8.30595 9.48111C8.42599 9.48111 8.54111 9.43342 8.62599 9.34854C8.71087 9.26366 8.75856 9.14854 8.75856 9.02851V7.6707H10.1164C10.2364 7.6707 10.3515 7.62301 10.4364 7.53813C10.5213 7.45325 10.569 7.33813 10.569 7.21809C10.569 7.09806 10.5213 6.98293 10.4364 6.89805C10.3515 6.81318 10.2364 6.76549 10.1164 6.76549H8.75856V5.40768Z"
-                    fill="#363330"
-                  />
-                  <path
-                    d="M1.0643 1.33398C0.94426 1.33398 0.829138 1.38167 0.744259 1.46655C0.659379 1.55143 0.611694 1.66655 0.611694 1.78659C0.611694 1.90663 0.659379 2.02175 0.744259 2.10663C0.829138 2.19151 0.94426 2.23919 1.0643 2.23919H2.06908L2.43206 3.69386L3.78806 10.9219C3.80748 11.0256 3.86252 11.1193 3.94368 11.1868C4.02483 11.2542 4.127 11.2912 4.23252 11.2913H5.13772C4.65757 11.2913 4.19709 11.482 3.85757 11.8215C3.51805 12.161 3.32731 12.6215 3.32731 13.1017C3.32731 13.5818 3.51805 14.0423 3.85757 14.3818C4.19709 14.7213 4.65757 14.9121 5.13772 14.9121C5.61788 14.9121 6.07836 14.7213 6.41788 14.3818C6.7574 14.0423 6.94814 13.5818 6.94814 13.1017C6.94814 12.6215 6.7574 12.161 6.41788 11.8215C6.07836 11.482 5.61788 11.2913 5.13772 11.2913H11.4742C10.994 11.2913 10.5335 11.482 10.194 11.8215C9.85449 12.161 9.66375 12.6215 9.66375 13.1017C9.66375 13.5818 9.85449 14.0423 10.194 14.3818C10.5335 14.7213 10.994 14.9121 11.4742 14.9121C11.9543 14.9121 12.4148 14.7213 12.7543 14.3818C13.0938 14.0423 13.2846 13.5818 13.2846 13.1017C13.2846 12.6215 13.0938 12.161 12.7543 11.8215C12.4148 11.482 11.9543 11.2913 11.4742 11.2913H12.3794C12.4849 11.2912 12.5871 11.2542 12.6682 11.1868C12.7494 11.1193 12.8044 11.0256 12.8238 10.9219L14.1816 3.68028C14.1939 3.61496 14.1916 3.54774 14.1749 3.48341C14.1582 3.41908 14.1276 3.35921 14.0851 3.30806C14.0427 3.25691 13.9895 3.21573 13.9294 3.18744C13.8693 3.15915 13.8036 3.14446 13.7372 3.1444H3.22774L2.86113 1.67706C2.8367 1.5791 2.78022 1.49212 2.70067 1.42996C2.62112 1.36779 2.52307 1.33401 2.42211 1.33398H1.0643ZM4.60818 10.386L3.41964 4.0496H13.1922L12.0037 10.386H4.60818ZM6.04293 13.1017C6.04293 13.3417 5.94756 13.572 5.7778 13.7417C5.60804 13.9115 5.3778 14.0069 5.13772 14.0069C4.89765 14.0069 4.66741 13.9115 4.49765 13.7417C4.32789 13.572 4.23252 13.3417 4.23252 13.1017C4.23252 12.8616 4.32789 12.6313 4.49765 12.4616C4.66741 12.2918 4.89765 12.1965 5.13772 12.1965C5.3778 12.1965 5.60804 12.2918 5.7778 12.4616C5.94756 12.6313 6.04293 12.8616 6.04293 13.1017ZM12.3794 13.1017C12.3794 13.3417 12.284 13.572 12.1142 13.7417C11.9445 13.9115 11.7142 14.0069 11.4742 14.0069C11.2341 14.0069 11.0038 13.9115 10.8341 13.7417C10.6643 13.572 10.569 13.3417 10.569 13.1017C10.569 12.8616 10.6643 12.6313 10.8341 12.4616C11.0038 12.2918 11.2341 12.1965 11.4742 12.1965C11.7142 12.1965 11.9445 12.2918 12.1142 12.4616C12.284 12.6313 12.3794 12.8616 12.3794 13.1017Z"
-                    fill="#363330"
-                  />
-                </svg>
-              </div>
-            </div>
-            <div class="drill-sequence-section__implant-item2">
-              <div class="drill-sequence-section__implant-length">11,5mm</div>
-              <img class="drill-sequence-section___2-5" src="_2-50.png" />
-              <div class="drill-sequence-section__implant-code">
-                <div class="drill-sequence-section__implant-code2">
-                  <div class="drill-sequence-section__implant-code3">180.503</div>
-                </div>
-              </div>
-              <div class="drill-sequence-section__icon2">
-                <div class="drill-sequence-section__frame-1171276770"></div>
-                <svg
-                  class="drill-sequence-section__bs-cart-plus2"
-                  width="15"
-                  height="15"
-                  viewBox="0 0 15 15"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M8.13953 5.45065C8.13953 5.33061 8.09185 5.21549 8.00697 5.13061C7.92209 5.04573 7.80696 4.99805 7.68693 4.99805C7.56689 4.99805 7.45177 5.04573 7.36689 5.13061C7.28201 5.21549 7.23432 5.33061 7.23432 5.45065V6.80846H5.87652C5.75648 6.80846 5.64136 6.85614 5.55648 6.94102C5.4716 7.0259 5.42391 7.14102 5.42391 7.26106C5.42391 7.3811 5.4716 7.49622 5.55648 7.5811C5.64136 7.66598 5.75648 7.71367 5.87652 7.71367H7.23432V9.07147C7.23432 9.19151 7.28201 9.30663 7.36689 9.39151C7.45177 9.47639 7.56689 9.52408 7.68693 9.52408C7.80696 9.52408 7.92209 9.47639 8.00697 9.39151C8.09185 9.30663 8.13953 9.19151 8.13953 9.07147V7.71367H9.49734C9.61738 7.71367 9.7325 7.66598 9.81738 7.5811C9.90226 7.49622 9.94994 7.3811 9.94994 7.26106C9.94994 7.14102 9.90226 7.0259 9.81738 6.94102C9.7325 6.85614 9.61738 6.80846 9.49734 6.80846H8.13953V5.45065Z"
-                    fill="#363330"
-                  />
-                  <path
-                    d="M0.445279 1.37695C0.325241 1.37695 0.21012 1.42464 0.12524 1.50952C0.0403606 1.5944 -0.00732422 1.70952 -0.00732422 1.82956C-0.00732422 1.94959 0.0403606 2.06472 0.12524 2.14959C0.21012 2.23447 0.325241 2.28216 0.445279 2.28216H1.45006L1.81305 3.73683L3.16904 10.9649C3.18846 11.0686 3.2435 11.1623 3.32466 11.2297C3.40581 11.2972 3.50798 11.3341 3.6135 11.3342H4.51871C4.03855 11.3342 3.57807 11.525 3.23855 11.8645C2.89903 12.204 2.70829 12.6645 2.70829 13.1446C2.70829 13.6248 2.89903 14.0853 3.23855 14.4248C3.57807 14.7643 4.03855 14.955 4.51871 14.955C4.99886 14.955 5.45934 14.7643 5.79886 14.4248C6.13838 14.0853 6.32912 13.6248 6.32912 13.1446C6.32912 12.6645 6.13838 12.204 5.79886 11.8645C5.45934 11.525 4.99886 11.3342 4.51871 11.3342H10.8551C10.375 11.3342 9.91451 11.525 9.57499 11.8645C9.23548 12.204 9.04474 12.6645 9.04474 13.1446C9.04474 13.6248 9.23548 14.0853 9.57499 14.4248C9.91451 14.7643 10.375 14.955 10.8551 14.955C11.3353 14.955 11.7958 14.7643 12.1353 14.4248C12.4748 14.0853 12.6656 13.6248 12.6656 13.1446C12.6656 12.6645 12.4748 12.204 12.1353 11.8645C11.7958 11.525 11.3353 11.3342 10.8551 11.3342H11.7604C11.8659 11.3341 11.968 11.2972 12.0492 11.2297C12.1304 11.1623 12.1854 11.0686 12.2048 10.9649L13.5626 3.72325C13.5748 3.65792 13.5725 3.59071 13.5559 3.52638C13.5392 3.46205 13.5085 3.40218 13.4661 3.35103C13.4237 3.29988 13.3705 3.25869 13.3104 3.23041C13.2502 3.20212 13.1846 3.18743 13.1182 3.18737H2.60872L2.24211 1.72003C2.21768 1.62207 2.1612 1.53509 2.08165 1.47293C2.0021 1.41076 1.90405 1.37698 1.80309 1.37695H0.445279ZM3.98916 10.429L2.80062 4.09257H12.5732L11.3847 10.429H3.98916ZM5.42391 13.1446C5.42391 13.3847 5.32854 13.6149 5.15878 13.7847C4.98902 13.9545 4.75878 14.0498 4.51871 14.0498C4.27863 14.0498 4.04839 13.9545 3.87863 13.7847C3.70887 13.6149 3.6135 13.3847 3.6135 13.1446C3.6135 12.9046 3.70887 12.6743 3.87863 12.5046C4.04839 12.3348 4.27863 12.2394 4.51871 12.2394C4.75878 12.2394 4.98902 12.3348 5.15878 12.5046C5.32854 12.6743 5.42391 12.9046 5.42391 13.1446ZM11.7604 13.1446C11.7604 13.3847 11.665 13.6149 11.4952 13.7847C11.3255 13.9545 11.0952 14.0498 10.8551 14.0498C10.6151 14.0498 10.3848 13.9545 10.2151 13.7847C10.0453 13.6149 9.94994 13.3847 9.94994 13.1446C9.94994 12.9046 10.0453 12.6743 10.2151 12.5046C10.3848 12.3348 10.6151 12.2394 10.8551 12.2394C11.0952 12.2394 11.3255 12.3348 11.4952 12.5046C11.665 12.6743 11.7604 12.9046 11.7604 13.1446Z"
-                    fill="#363330"
-                  />
-                </svg>
-              </div>
-            </div>
-            <div class="drill-sequence-section__implant-item2">
-              <div class="drill-sequence-section__implant-length">13,0mm</div>
-              <img class="drill-sequence-section___3-5" src="_3-50.png" />
-              <div class="drill-sequence-section__implant-code">
-                <div class="drill-sequence-section__implant-code2">
-                  <div class="drill-sequence-section__implant-code3">180.504</div>
-                </div>
-              </div>
-              <div class="drill-sequence-section__icon2">
-                <div class="drill-sequence-section__frame-1171276770"></div>
-                <svg
-                  class="drill-sequence-section__bs-cart-plus3"
-                  width="15"
-                  height="15"
-                  viewBox="0 0 15 15"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M8.13953 5.45065C8.13953 5.33061 8.09185 5.21549 8.00697 5.13061C7.92209 5.04573 7.80696 4.99805 7.68693 4.99805C7.56689 4.99805 7.45177 5.04573 7.36689 5.13061C7.28201 5.21549 7.23432 5.33061 7.23432 5.45065V6.80846H5.87652C5.75648 6.80846 5.64136 6.85614 5.55648 6.94102C5.4716 7.0259 5.42391 7.14102 5.42391 7.26106C5.42391 7.3811 5.4716 7.49622 5.55648 7.5811C5.64136 7.66598 5.75648 7.71367 5.87652 7.71367H7.23432V9.07147C7.23432 9.19151 7.28201 9.30663 7.36689 9.39151C7.45177 9.47639 7.56689 9.52408 7.68693 9.52408C7.80696 9.52408 7.92209 9.47639 8.00697 9.39151C8.09185 9.30663 8.13953 9.19151 8.13953 9.07147V7.71367H9.49734C9.61738 7.71367 9.7325 7.66598 9.81738 7.5811C9.90226 7.49622 9.94994 7.3811 9.94994 7.26106C9.94994 7.14102 9.90226 7.0259 9.81738 6.94102C9.7325 6.85614 9.61738 6.80846 9.49734 6.80846H8.13953V5.45065Z"
-                    fill="#363330"
-                  />
-                  <path
-                    d="M0.445279 1.37695C0.325241 1.37695 0.21012 1.42464 0.12524 1.50952C0.0403606 1.5944 -0.00732422 1.70952 -0.00732422 1.82956C-0.00732422 1.94959 0.0403606 2.06472 0.12524 2.14959C0.21012 2.23447 0.325241 2.28216 0.445279 2.28216H1.45006L1.81305 3.73683L3.16904 10.9649C3.18846 11.0686 3.2435 11.1623 3.32466 11.2297C3.40581 11.2972 3.50798 11.3341 3.6135 11.3342H4.51871C4.03855 11.3342 3.57807 11.525 3.23855 11.8645C2.89903 12.204 2.70829 12.6645 2.70829 13.1446C2.70829 13.6248 2.89903 14.0853 3.23855 14.4248C3.57807 14.7643 4.03855 14.955 4.51871 14.955C4.99886 14.955 5.45934 14.7643 5.79886 14.4248C6.13838 14.0853 6.32912 13.6248 6.32912 13.1446C6.32912 12.6645 6.13838 12.204 5.79886 11.8645C5.45934 11.525 4.99886 11.3342 4.51871 11.3342H10.8551C10.375 11.3342 9.91451 11.525 9.57499 11.8645C9.23548 12.204 9.04474 12.6645 9.04474 13.1446C9.04474 13.6248 9.23548 14.0853 9.57499 14.4248C9.91451 14.7643 10.375 14.955 10.8551 14.955C11.3353 14.955 11.7958 14.7643 12.1353 14.4248C12.4748 14.0853 12.6656 13.6248 12.6656 13.1446C12.6656 12.6645 12.4748 12.204 12.1353 11.8645C11.7958 11.525 11.3353 11.3342 10.8551 11.3342H11.7604C11.8659 11.3341 11.968 11.2972 12.0492 11.2297C12.1304 11.1623 12.1854 11.0686 12.2048 10.9649L13.5626 3.72325C13.5748 3.65792 13.5725 3.59071 13.5559 3.52638C13.5392 3.46205 13.5085 3.40218 13.4661 3.35103C13.4237 3.29988 13.3705 3.25869 13.3104 3.23041C13.2502 3.20212 13.1846 3.18743 13.1182 3.18737H2.60872L2.24211 1.72003C2.21768 1.62207 2.1612 1.53509 2.08165 1.47293C2.0021 1.41076 1.90405 1.37698 1.80309 1.37695H0.445279ZM3.98916 10.429L2.80062 4.09257H12.5732L11.3847 10.429H3.98916ZM5.42391 13.1446C5.42391 13.3847 5.32854 13.6149 5.15878 13.7847C4.98902 13.9545 4.75878 14.0498 4.51871 14.0498C4.27863 14.0498 4.04839 13.9545 3.87863 13.7847C3.70887 13.6149 3.6135 13.3847 3.6135 13.1446C3.6135 12.9046 3.70887 12.6743 3.87863 12.5046C4.04839 12.3348 4.27863 12.2394 4.51871 12.2394C4.75878 12.2394 4.98902 12.3348 5.15878 12.5046C5.32854 12.6743 5.42391 12.9046 5.42391 13.1446ZM11.7604 13.1446C11.7604 13.3847 11.665 13.6149 11.4952 13.7847C11.3255 13.9545 11.0952 14.0498 10.8551 14.0498C10.6151 14.0498 10.3848 13.9545 10.2151 13.7847C10.0453 13.6149 9.94994 13.3847 9.94994 13.1446C9.94994 12.9046 10.0453 12.6743 10.2151 12.5046C10.3848 12.3348 10.6151 12.2394 10.8551 12.2394C11.0952 12.2394 11.3255 12.3348 11.4952 12.5046C11.665 12.6743 11.7604 12.9046 11.7604 13.1446Z"
-                    fill="#363330"
-                  />
-                </svg>
-              </div>
-            </div>
-            <div class="drill-sequence-section__implant-size">Ø 3,75 mm</div>
-            <div class="drill-sequence-section__sem-t-tulo-2-15">
-              <svg
-                class="drill-sequence-section__camada-x-0020-1"
-                width="55"
-                height="53"
-                viewBox="0 0 55 53"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M8.40765 10.5668C8.296 10.5668 8.09503 10.5444 7.93873 10.5221C7.35816 10.4774 6.75526 10.1425 6.55429 9.7629C6.35332 9.5396 6.42031 8.9367 6.68827 8.40079C7.13486 7.52994 7.62611 7.10567 8.16202 7.10567C8.34066 7.03868 8.87657 7.26198 9.36782 7.5746C9.56879 7.70857 10.261 8.06585 10.395 8.5571C10.3503 9.31631 10.0377 10.0755 9.70277 10.2765C9.65811 10.2988 9.59112 10.3435 9.54646 10.3658L9.5018 10.3881C9.47947 10.3881 9.43481 10.4105 9.39015 10.4328C9.36782 10.4328 9.36782 10.4328 9.34549 10.4551H9.32316C9.30083 10.4551 9.25617 10.4774 9.23384 10.4774C9.21151 10.4774 9.18918 10.4998 9.16685 10.4998C9.14453 10.4998 9.09987 10.5221 9.07754 10.5221C9.05521 10.5221 8.74259 10.5668 8.69793 10.5891H8.6756C8.6756 10.5891 8.65327 10.5891 8.63094 10.5891C8.58629 10.5891 8.54163 10.5891 8.49697 10.5891C8.47464 10.5891 8.42998 10.5891 8.42998 10.5891L8.40765 10.5668Z"
-                  stroke="#919291"
-                />
-                <path
-                  d="M29.6215 10.5668C29.7332 10.5668 29.9342 10.5444 30.0905 10.5221C30.6487 10.4774 31.2739 10.1425 31.4749 9.7629C31.6759 9.5396 31.6089 8.9367 31.3409 8.40079C30.8943 7.52994 30.4031 7.10567 29.8672 7.10567C29.6885 7.03868 29.1526 7.26198 28.6614 7.5746C28.4604 7.70857 27.7682 8.06585 27.6342 8.5571C27.6789 9.31631 27.9915 10.0755 28.3264 10.2765C28.3711 10.2988 28.4381 10.3435 28.4827 10.3658L28.5274 10.3881C28.5497 10.3881 28.5944 10.4105 28.639 10.4328C28.6614 10.4328 28.6614 10.4328 28.6837 10.4551H28.706C28.7284 10.4551 28.773 10.4774 28.7953 10.4774C28.8177 10.4774 28.84 10.4998 28.8623 10.4998C28.8847 10.4998 28.9293 10.5221 28.9516 10.5221C28.974 10.5221 29.2866 10.5668 29.3313 10.5891H29.3536C29.3536 10.5891 29.3759 10.5891 29.3982 10.5891C29.4429 10.5891 29.4876 10.5891 29.5322 10.5891C29.5545 10.5891 29.5992 10.5891 29.5992 10.5891L29.6215 10.5668Z"
-                  stroke="#919291"
-                />
-                <path
-                  d="M17.4737 4.51505C16.9378 4.51505 16.3573 4.38107 15.8883 3.37624C15.8437 3.28692 15.8213 3.21993 15.7767 3.15294C15.7767 3.15294 15.7767 3.15294 15.7767 3.13061C15.7544 3.06362 15.732 2.99663 15.7097 2.92964C15.5087 2.3714 15.5087 1.90248 15.6874 1.54521C15.8883 1.18793 16.3349 0.942309 17.0048 0.830661C17.2504 0.786001 17.4737 0.763672 17.6524 0.763672C18.0766 0.763672 18.3669 0.85299 18.5679 1.05396C18.8135 1.32191 18.8805 1.7685 18.8135 2.52771C18.6572 4.33641 18.099 4.49272 17.4737 4.49272V4.51505Z"
-                  fill="#929292"
-                />
-                <path
-                  d="M13.9679 5.6079C13.5214 5.6079 13.0748 5.36227 12.5612 4.82636C12.5612 4.82636 12.5612 4.82636 12.5388 4.80403C12.4942 4.75937 12.4495 4.71471 12.4049 4.64772C12.0029 4.20113 11.8466 3.7992 11.9136 3.44192C11.9806 3.06232 12.3156 2.72737 12.8738 2.41476C13.3427 2.16913 13.7446 2.03516 14.0573 2.03516C14.5932 2.03516 14.9058 2.39243 15.1514 3.3526C15.598 5.005 15.1068 5.31761 14.5039 5.51858C14.2806 5.58557 14.1019 5.63023 13.9233 5.63023L13.9679 5.6079Z"
-                  fill="#929292"
-                />
-                <path
-                  d="M11.3556 7.66395C11.0429 7.66395 10.6857 7.55231 10.2391 7.35134C10.2391 7.35134 10.2391 7.35134 10.2168 7.35134C10.1498 7.32901 10.0828 7.28435 10.0381 7.26202C9.5022 6.99407 9.18959 6.65912 9.10027 6.30185C9.01095 5.92224 9.16726 5.49798 9.54686 5.00673C9.99345 4.42616 10.3954 4.1582 10.7527 4.1582C11.1099 4.1582 11.4895 4.42616 11.9585 5.05139C13.0303 6.43582 12.7177 6.90475 12.2711 7.28435C11.9585 7.55231 11.6905 7.66395 11.3556 7.66395Z"
-                  fill="#929292"
-                />
-                <path
-                  d="M6.35377 14.3399C6.24212 14.3399 6.01883 14.3399 5.84019 14.3176C5.37127 14.3176 4.76837 13.938 4.50041 13.4914C4.27712 13.2234 4.25479 12.6429 4.45575 12.1516C5.01399 10.8565 5.5499 10.7002 5.92951 10.7002C6.10814 10.6555 6.62173 10.8342 7.09065 11.1244C7.33627 11.2584 7.67122 11.5264 7.84985 11.7497C7.87218 11.7943 7.91684 11.8167 7.93917 11.8613V11.8836C7.98383 11.9506 8.02849 12.04 8.07315 12.1069C8.09548 12.1293 8.09548 12.1739 8.11781 12.2186C8.11781 12.2409 8.14014 12.2856 8.16247 12.3302C8.16247 12.3749 8.1848 12.3972 8.1848 12.4419V12.4642C8.1848 12.4865 8.1848 12.5312 8.1848 12.5759C8.1848 12.5982 8.1848 12.6429 8.1848 12.6652C8.1848 12.7098 8.1848 12.7322 8.1848 12.7768V12.7992C8.1848 12.8215 8.1848 12.8661 8.16247 12.8885C8.16247 12.9331 8.14014 12.9555 8.14014 12.9778V13.0225C8.14014 13.0448 8.11781 13.0894 8.11781 13.1118L8.09548 13.1564C8.09548 13.1788 8.07315 13.2011 8.07315 13.2234L8.05082 13.2681C8.02849 13.2904 8.02849 13.3351 8.00616 13.3574L7.98383 13.3797C7.98383 13.4021 7.9615 13.4467 7.93917 13.469C7.91684 13.5137 7.89451 13.536 7.87218 13.5807L7.84985 13.6254C7.84985 13.6477 7.82752 13.67 7.8052 13.6923C7.8052 13.6923 7.78287 13.7147 7.78287 13.737C7.78287 13.7593 7.76054 13.7817 7.73821 13.7817C7.73821 13.7817 7.71588 13.804 7.69355 13.8263C7.69355 13.8263 7.67122 13.8487 7.67122 13.871C7.64889 13.8933 7.64889 13.9156 7.62656 13.9156L7.60423 13.938C7.55957 14.005 7.42559 14.0943 7.29161 14.1613C7.26928 14.1613 7.22463 14.1836 7.2023 14.2059C7.15764 14.2283 7.13531 14.2283 7.09065 14.2506C6.979 14.2952 6.64405 14.3399 6.3761 14.3622H6.35377V14.3399Z"
-                  stroke="#919291"
-                />
-                <path
-                  d="M31.6522 14.3399C31.7639 14.3399 31.9872 14.3399 32.1658 14.3176C32.6347 14.3176 33.2376 13.938 33.5056 13.4914C33.7289 13.2234 33.7512 12.6429 33.5502 12.1516C32.992 10.8565 32.4561 10.7002 32.0765 10.7002C31.8979 10.6555 31.3843 10.8342 30.9153 11.1244C30.6697 11.2584 30.3348 11.5264 30.1561 11.7497C30.1338 11.7943 30.0892 11.8167 30.0668 11.8613V11.8836C30.0222 11.9506 29.9775 12.04 29.9328 12.1069C29.9105 12.1293 29.9105 12.1739 29.8882 12.2186C29.8882 12.2409 29.8659 12.2856 29.8435 12.3302C29.8435 12.3749 29.8212 12.3972 29.8212 12.4419V12.4642C29.8212 12.4865 29.8212 12.5312 29.8212 12.5759C29.8212 12.5982 29.8212 12.6429 29.8212 12.6652C29.8212 12.7098 29.8212 12.7322 29.8212 12.7768V12.7992C29.8212 12.8215 29.8212 12.8661 29.8435 12.8885C29.8435 12.9331 29.8659 12.9555 29.8659 12.9778V13.0225C29.8659 13.0448 29.8882 13.0894 29.8882 13.1118L29.9105 13.1564C29.9105 13.1788 29.9328 13.2011 29.9328 13.2234L29.9552 13.2681C29.9552 13.2904 29.9775 13.3351 29.9998 13.3574L30.0222 13.3797C30.0222 13.4021 30.0445 13.4467 30.0668 13.469C30.0892 13.5137 30.1115 13.536 30.1338 13.5807L30.1561 13.6254C30.1561 13.6477 30.1785 13.67 30.2008 13.6923C30.2008 13.6923 30.2231 13.7147 30.2231 13.737C30.2231 13.7593 30.2455 13.7817 30.2678 13.7817C30.2678 13.7817 30.2901 13.804 30.3124 13.8263C30.3124 13.8263 30.3348 13.8487 30.3348 13.871C30.3571 13.8933 30.3571 13.9156 30.3794 13.9156L30.4018 13.938C30.4464 14.005 30.5804 14.0943 30.7144 14.1613C30.7367 14.1613 30.7814 14.1836 30.8037 14.2059C30.8484 14.2283 30.8707 14.2283 30.9153 14.2506C31.027 14.2952 31.3619 14.3399 31.6299 14.3622H31.6522V14.3399Z"
-                  stroke="#919291"
-                />
-                <path
-                  d="M3.31652 24.7231C2.8476 24.7007 2.33402 24.6561 2.15538 24.6337C2.08839 24.6337 1.99907 24.5891 1.90976 24.5444C1.30686 24.3658 0.793275 23.361 0.770945 22.2891C0.703956 21.5523 0.949582 20.6367 1.32919 20.2571C1.61947 19.9669 2.04373 19.8105 2.60197 19.8105C2.73595 19.8105 3.04857 19.8329 3.31652 19.8775C3.87476 19.9222 4.6563 20.2125 5.08056 20.5474C5.14755 20.5921 5.23687 20.6591 5.28153 20.7037C5.54948 20.8377 5.81744 21.5299 5.90676 22.2668C5.90676 22.3115 5.92909 22.4231 5.92909 22.5124C6.01841 22.959 5.77278 23.6066 5.37085 23.9862C5.23687 24.1425 4.83494 24.3881 4.433 24.5668C4.41067 24.5668 4.36601 24.5891 4.34368 24.6114C4.09806 24.7007 3.74078 24.7454 3.31652 24.7454V24.7231Z"
-                  stroke="#919291"
-                />
-                <path
-                  d="M34.6901 24.7231C35.159 24.7007 35.6726 24.6561 35.8513 24.6337C35.9183 24.6337 36.0076 24.5891 36.0969 24.5444C36.6998 24.3658 37.2134 23.361 37.2357 22.2891C37.3027 21.5523 37.0571 20.6367 36.6775 20.2571C36.3872 19.9669 35.9629 19.8105 35.4047 19.8105C35.2707 19.8105 34.9581 19.8329 34.6901 19.8775C34.1319 19.9222 33.3503 20.2125 32.9261 20.5474C32.8591 20.5921 32.7698 20.6591 32.7251 20.7037C32.4572 20.8377 32.1892 21.5299 32.0999 22.2668C32.0999 22.3115 32.0776 22.4231 32.0776 22.5124C31.9882 22.959 32.2339 23.6066 32.6358 23.9862C32.7698 24.1425 33.1717 24.3881 33.5736 24.5668C33.596 24.5668 33.6406 24.5891 33.663 24.6114C33.9086 24.7007 34.2659 24.7454 34.6901 24.7454V24.7231Z"
-                  stroke="#919291"
-                />
-                <path
-                  d="M4.74528 19.5421C4.63364 19.5421 4.43267 19.5197 4.29869 19.4974C4.20937 19.4751 4.09773 19.4528 4.00841 19.4304C3.94142 19.4081 3.67346 19.3411 3.45017 19.2518C3.11522 19.1625 2.66863 18.8052 2.44533 18.4479C2.11039 18.046 1.95408 17.0858 2.13272 16.3043C2.37835 15.1655 3.09289 14.5179 4.12006 14.5179C4.47733 14.4733 5.14722 14.6742 5.59381 14.9868C6.44234 15.7014 7.08989 16.6839 7.04524 17.1975C7.04524 17.2645 7.02291 17.3984 7.00058 17.4878V17.5101C7.00058 17.5547 6.95592 17.6664 6.93359 17.7557L6.91126 17.8004L6.88893 17.8897L6.8666 17.9343L6.84427 17.979C6.84427 18.0013 6.82194 18.0683 6.79961 18.0907C6.77728 18.1353 6.75495 18.2246 6.71029 18.2916C6.6433 18.4703 6.39768 18.7829 6.19671 18.9838C6.0404 19.1625 5.6608 19.3634 5.32586 19.4528C5.30353 19.4528 5.2812 19.4528 5.25887 19.4751C5.21421 19.4974 5.10256 19.4974 5.03557 19.5197C4.94625 19.5421 4.8346 19.5421 4.72296 19.5421H4.74528Z"
-                  stroke="#919291"
-                />
-                <path
-                  d="M33.2837 19.2967C33.3507 19.2967 33.5293 19.2744 33.6856 19.2521C33.7526 19.2297 33.8866 19.2074 33.9759 19.1851C34.0652 19.1628 34.2885 19.0958 34.5118 19.0064C34.8021 18.9395 35.204 18.6045 35.3827 18.3142C35.6729 17.9793 35.8293 17.1308 35.6729 16.3492C35.4496 15.3221 34.8244 14.7638 33.9312 14.7638C33.6409 14.7415 33.038 14.8978 32.5915 15.1881C31.7653 15.8803 31.2293 16.7958 31.2517 17.1754C31.2517 17.2424 31.274 17.3541 31.2963 17.4434C31.3187 17.5104 31.341 17.622 31.3633 17.689L31.408 17.8453L31.475 18.0239C31.475 18.0463 31.5196 18.1356 31.542 18.1803C31.609 18.3366 31.8099 18.6268 32.0109 18.8055C32.1449 18.9395 32.4798 19.1404 32.7701 19.2297C32.8817 19.2521 32.9487 19.2744 33.0157 19.2744C33.105 19.2967 33.1944 19.2967 33.2837 19.2967Z"
-                  stroke="#919291"
-                />
-                <path
-                  d="M20.8676 4.5142C20.2424 4.5142 19.6842 4.3579 19.5279 2.5492C19.4609 1.78999 19.5279 1.3434 19.7735 1.07544C19.9521 0.874475 20.2424 0.785156 20.689 0.785156C20.89 0.785156 21.0909 0.807486 21.3365 0.852145C22.0064 0.963793 22.4307 1.20942 22.654 1.56669C22.855 1.90164 22.855 2.37056 22.6317 2.95113C22.6093 3.01812 22.587 3.08511 22.5647 3.1521V3.17443C22.5423 3.24141 22.4977 3.3084 22.4754 3.39772C21.9841 4.40255 21.4259 4.53653 20.89 4.53653L20.8676 4.5142Z"
-                  fill="#929292"
-                />
-                <path
-                  d="M24.3956 5.60874C24.2169 5.60874 24.0383 5.58641 23.815 5.49709C23.2344 5.29613 22.7432 4.98351 23.1674 3.33112C23.4131 2.39328 23.7257 2.01367 24.2616 2.01367C24.5742 2.01367 24.9761 2.14765 25.445 2.39328C26.0256 2.70589 26.3382 3.04083 26.4052 3.42044C26.4722 3.77771 26.2936 4.17965 25.914 4.62624C25.8693 4.69323 25.8247 4.73789 25.78 4.78254C25.2664 5.34079 24.8198 5.56408 24.3732 5.56408L24.3956 5.60874Z"
-                  fill="#929292"
-                />
-                <path
-                  d="M27.0086 7.66395C26.6737 7.66395 26.4057 7.55231 26.0931 7.28435C25.6465 6.90475 25.3339 6.43582 26.4057 5.05139C26.8747 4.42616 27.2543 4.1582 27.6115 4.1582C27.9688 4.1582 28.3707 4.44849 28.8173 5.00673C29.1969 5.49798 29.3532 5.92224 29.2639 6.30185C29.1746 6.65912 28.862 6.99407 28.3261 7.26202C28.2591 7.30668 28.1921 7.32901 28.1251 7.35134C28.1251 7.35134 28.1251 7.35134 28.1028 7.35134C27.6562 7.55231 27.2766 7.66395 26.9863 7.66395H27.0086Z"
-                  fill="#929292"
-                />
-                <path
-                  d="M3.27216 30.5967C3.56244 30.6191 4.03136 30.5298 4.34398 30.3958C5.0362 30.2395 5.72842 29.5249 5.88472 28.8104C5.97404 28.5871 5.99637 28.0512 5.92938 27.6046C5.95171 27.1357 5.6391 26.4658 5.21483 26.1085C5.0362 25.7736 4.16534 25.4163 3.27216 25.3046C3.04886 25.2823 2.82556 25.26 2.64693 25.26C2.20034 25.193 1.59744 25.4163 1.30715 25.7289C0.972206 25.9075 0.72658 26.89 0.77124 27.9395C0.905217 30.3511 2.55761 30.5967 3.27216 30.5967Z"
-                  stroke="#919291"
-                />
-                <path
-                  d="M34.7565 30.5967C34.4662 30.6191 33.9973 30.5298 33.6847 30.3958C32.9925 30.2395 32.3003 29.5249 32.144 28.8104C32.0546 28.5871 32.0323 28.0512 32.0993 27.6046C32.077 27.1357 32.3896 26.4658 32.8138 26.1085C32.9925 25.7736 33.8633 25.4163 34.7565 25.3046C34.9798 25.2823 35.2031 25.26 35.3818 25.26C35.8283 25.193 36.4312 25.4163 36.7215 25.7289C37.0565 25.9075 37.3021 26.89 37.2574 27.9395C37.1235 30.3511 35.4711 30.5967 34.7565 30.5967Z"
-                  stroke="#919291"
-                />
-                <path
-                  d="M1.70858 45.3328V40.8446H1.01636V45.3328H1.70858ZM5.28131 45.3328V43.1445C5.28131 42.8319 5.192 42.5863 5.01336 42.4077C4.83472 42.229 4.5891 42.1397 4.27648 42.1397C4.00853 42.1397 3.74057 42.2067 3.49494 42.363L3.11534 42.5863V42.162H2.49011V45.3328H3.11534V43.1445L3.65125 42.8319C3.82989 42.7203 4.00853 42.6756 4.1425 42.6756C4.29881 42.6756 4.41046 42.7203 4.49978 42.8319C4.5891 42.9212 4.63375 43.0552 4.63375 43.2115V45.3328L5.25898 45.3552L5.28131 45.3328ZM8.20649 44.3727L7.62592 44.6853C7.44729 44.7746 7.29098 44.8193 7.11234 44.8193C6.93371 44.8193 6.79973 44.7746 6.68808 44.663C6.57643 44.5513 6.53177 44.4173 6.53177 44.2387V43.2785C6.53177 43.0999 6.59876 42.9659 6.68808 42.8543C6.79973 42.7426 6.93371 42.698 7.11234 42.698C7.29098 42.698 7.44729 42.7426 7.62592 42.8319L8.20649 43.1445V44.395V44.3727ZM8.83172 45.3328V40.8446H8.20649V42.564L7.80456 42.3407C7.53661 42.2067 7.29098 42.1397 7.04535 42.1397C6.71041 42.1397 6.44245 42.2514 6.24149 42.4523C6.01819 42.6533 5.92887 42.9212 5.92887 43.2339V44.328C5.92887 44.6406 6.04052 44.9086 6.24149 45.1096C6.44245 45.3105 6.71041 45.3998 7.04535 45.3998C7.31331 45.3998 7.58126 45.3328 7.82689 45.1989L8.22882 44.9756V45.3552H8.83172V45.3328ZM10.2162 45.3552V42.1844H9.5686V45.3552H10.2162ZM10.2608 41.1349C10.2608 41.0456 10.2385 40.9786 10.1715 40.9116C10.1045 40.8669 10.0152 40.8223 9.90354 40.8223C9.7919 40.8223 9.70258 40.8446 9.63559 40.8893C9.5686 40.9339 9.52394 41.0232 9.52394 41.1125V41.2465C9.52394 41.3358 9.54627 41.4252 9.63559 41.4698C9.70258 41.5145 9.7919 41.5591 9.90354 41.5591C10.0152 41.5591 10.1045 41.5368 10.1715 41.4698C10.2385 41.4252 10.2831 41.3358 10.2831 41.2465V41.1125L10.2608 41.1349ZM13.6549 44.1717H13.052C13.052 44.6406 12.7841 44.8639 12.2705 44.8639C11.7569 44.8639 11.5113 44.6183 11.5113 44.1047V43.4125C11.5113 42.9212 11.7569 42.6533 12.2705 42.6533C12.7841 42.6533 13.052 42.8766 13.052 43.3455H13.6549V43.3009C13.6549 42.9213 13.5209 42.631 13.2753 42.43C13.0297 42.229 12.6947 42.1174 12.2482 42.1174C11.8239 42.1174 11.4889 42.229 11.2433 42.4523C10.9977 42.6756 10.8637 42.9659 10.8637 43.3455V44.1494C10.8637 44.529 10.9977 44.8416 11.2433 45.0649C11.4889 45.2882 11.8239 45.3998 12.2482 45.3998C12.6724 45.3998 13.0074 45.2882 13.2753 45.0872C13.5209 44.8863 13.6549 44.596 13.6549 44.2164V44.194V44.1717ZM16.3791 44.4173L15.8432 44.6853C15.6199 44.7969 15.419 44.8639 15.1957 44.8639C15.0617 44.8639 14.95 44.8193 14.883 44.7523C14.8161 44.6853 14.7714 44.5736 14.7714 44.462C14.7714 44.1494 14.9724 43.9931 15.3966 43.9931H16.3791V44.395V44.4173ZM17.0044 45.3552V43.3009C17.0044 42.9213 16.8927 42.631 16.6471 42.43C16.4015 42.229 16.0665 42.1174 15.6423 42.1174C15.218 42.1174 14.883 42.2067 14.6151 42.4077C14.3471 42.6086 14.2132 42.8766 14.2132 43.2339V43.2562H14.8384C14.8384 42.8319 15.1063 42.631 15.6423 42.631C16.1558 42.631 16.4015 42.8543 16.4015 43.3232V43.5241H15.352C14.9947 43.5241 14.7044 43.6135 14.4811 43.7698C14.2578 43.9261 14.1462 44.1717 14.1462 44.4843C14.1462 44.7523 14.2355 44.9756 14.4141 45.1319C14.5928 45.2882 14.8161 45.3775 15.1063 45.3775C15.3966 45.3775 15.7092 45.2882 16.0219 45.1319L16.3791 44.9309V45.3328H17.0044V45.3552ZM19.9072 44.395L19.3266 44.7076C19.148 44.7969 18.9917 44.8416 18.8131 44.8416C18.6344 44.8416 18.5004 44.7969 18.3888 44.6853C18.2772 44.5736 18.2325 44.4397 18.2325 44.261V43.3009C18.2325 43.1222 18.2995 42.9882 18.3888 42.8766C18.5004 42.7649 18.6344 42.7203 18.8131 42.7203C18.9917 42.7203 19.148 42.7649 19.3266 42.8543L19.9072 43.1669V44.4173V44.395ZM20.5324 45.3552V40.8669H19.9072V42.5863L19.5053 42.363C19.2597 42.229 18.9917 42.162 18.7461 42.162C18.4111 42.162 18.1432 42.2737 17.9422 42.4747C17.7189 42.6756 17.6296 42.9436 17.6296 43.2562V44.3503C17.6296 44.663 17.7412 44.9309 17.9422 45.1319C18.1432 45.3328 18.4111 45.4222 18.7461 45.4222C19.014 45.4222 19.282 45.3552 19.5276 45.2212L19.9295 44.9979V45.3775H20.5324V45.3552ZM23.5023 44.0601C23.5023 44.328 23.4353 44.529 23.279 44.663C23.1227 44.7969 22.9217 44.8863 22.6538 44.8863C22.4081 44.8863 22.1848 44.8193 22.0285 44.663C21.8722 44.529 21.8052 44.3057 21.8052 44.0601V43.5018C21.8052 43.2339 21.8722 43.0329 22.0285 42.8989C22.1848 42.7649 22.3858 42.6756 22.6538 42.6756C22.9217 42.6756 23.1227 42.7426 23.279 42.8989C23.4353 43.0329 23.5246 43.2339 23.5246 43.5018V44.0601H23.5023ZM24.1275 43.4348C24.1275 43.0329 23.9935 42.7203 23.7032 42.497C23.4353 42.2514 23.078 42.1397 22.6538 42.1397C22.2295 42.1397 21.8722 42.2514 21.6043 42.497C21.3363 42.7426 21.18 43.0552 21.18 43.4348V44.1047C21.18 44.5067 21.314 44.8193 21.6043 45.0426C21.8722 45.2882 22.2295 45.3998 22.6538 45.3998C23.078 45.3998 23.4353 45.2882 23.7032 45.0426C23.9712 44.8193 24.1275 44.4843 24.1275 44.1047V43.4348ZM28.7274 44.2387C28.7274 44.4173 28.6828 44.5513 28.5711 44.663C28.4595 44.7746 28.3255 44.8193 28.1468 44.8193C27.9682 44.8193 27.7896 44.7746 27.6333 44.6853L27.0527 44.3727V43.1445L27.6333 42.8319C27.8119 42.7426 27.9682 42.698 28.1468 42.698C28.3255 42.698 28.4595 42.7426 28.5711 42.8543C28.6828 42.9659 28.7274 43.0999 28.7274 43.2785V44.2387ZM27.0527 46.4493V44.9532L27.4546 45.1765C27.7002 45.3105 27.9682 45.3775 28.2362 45.3775C28.5711 45.3775 28.8391 45.2659 29.04 45.0649C29.241 44.8639 29.3526 44.596 29.3526 44.2834V43.1892C29.3526 42.8766 29.2633 42.6086 29.04 42.4077C28.8391 42.2067 28.5711 42.1174 28.2362 42.1174C27.9682 42.1174 27.7002 42.1844 27.4546 42.3184L27.0527 42.5416V42.162H26.4498V46.4493L27.075 46.4717L27.0527 46.4493ZM32.0992 44.395L31.5633 44.663C31.34 44.7746 31.139 44.8416 30.9157 44.8416C30.7817 44.8416 30.6701 44.7969 30.6031 44.7299C30.5361 44.663 30.4915 44.5513 30.4915 44.4397C30.4915 44.127 30.6924 43.9707 31.1167 43.9707H32.0992V44.3727V44.395ZM32.7244 45.3328V43.2785C32.7244 42.8989 32.6128 42.6086 32.3671 42.4077C32.1215 42.2067 31.7866 42.0951 31.3623 42.0951C30.938 42.0951 30.6031 42.1844 30.3351 42.3853C30.0672 42.5863 29.9332 42.8543 29.9332 43.2115V43.2339H30.5584C30.5584 42.8096 30.8264 42.6086 31.3623 42.6086C31.8759 42.6086 32.1215 42.8319 32.1215 43.3009V43.5018H31.072C30.7147 43.5018 30.4245 43.5911 30.2012 43.7474C29.9779 43.9038 29.8662 44.1494 29.8662 44.462C29.8662 44.7299 29.9555 44.9532 30.1342 45.1096C30.3128 45.2659 30.5361 45.3552 30.8264 45.3552C31.1167 45.3552 31.4293 45.2659 31.7419 45.1096L32.0992 44.9086V45.3105H32.7244V45.3328ZM34.0419 45.3328V43.2339L34.3098 43.0106C34.5108 42.8543 34.7564 42.7649 35.0244 42.7649H35.1807V42.1397H35.002C34.6894 42.1397 34.3991 42.2514 34.1535 42.497L33.9972 42.631V42.1397H33.372V45.3105H34.0195L34.0419 45.3328ZM37.6816 44.395L37.1457 44.663C36.9224 44.7746 36.7214 44.8416 36.4981 44.8416C36.3641 44.8416 36.2525 44.7969 36.1855 44.7299C36.1185 44.663 36.0739 44.5513 36.0739 44.4397C36.0739 44.127 36.2748 43.9707 36.6991 43.9707H37.6816V44.3727V44.395ZM38.3068 45.3328V43.2785C38.3068 42.8989 38.1952 42.6086 37.9495 42.4077C37.7039 42.2067 37.369 42.0951 36.9447 42.0951C36.5204 42.0951 36.1855 42.1844 35.9175 42.3853C35.6496 42.5863 35.5156 42.8543 35.5156 43.2115V43.2339H36.1408C36.1408 42.8096 36.4088 42.6086 36.9447 42.6086C37.4583 42.6086 37.7039 42.8319 37.7039 43.3009V43.5018H36.6544C36.2972 43.5018 36.0069 43.5911 35.7836 43.7474C35.5603 43.9038 35.4486 44.1494 35.4486 44.462C35.4486 44.7299 35.5379 44.9532 35.7166 45.1096C35.8952 45.2659 36.1185 45.3552 36.4088 45.3552C36.6991 45.3552 37.0117 45.2659 37.3243 45.1096L37.6816 44.9086V45.3105H38.3068V45.3328Z"
-                  fill="#929292"
-                />
-                <path
-                  d="M1.61962 52.5681V49.3973H0.972058V52.5681H1.61962ZM1.66428 48.3478C1.66428 48.2585 1.64195 48.1915 1.57496 48.1245C1.50797 48.0798 1.41865 48.0352 1.307 48.0352C1.19535 48.0352 1.10604 48.0575 1.03905 48.1245C0.972058 48.1691 0.927399 48.2585 0.927399 48.3478V48.4818C0.927399 48.5711 0.949728 48.6604 1.03905 48.705C1.10604 48.7497 1.19535 48.772 1.307 48.772C1.41865 48.772 1.50797 48.7497 1.57496 48.6827C1.64195 48.6381 1.68661 48.5487 1.68661 48.4594V48.3254L1.66428 48.3478ZM5.1477 52.5681V50.3798C5.1477 50.0671 5.05838 49.8215 4.87974 49.6429C4.7011 49.4643 4.45548 49.3749 4.14286 49.3749C3.87491 49.3749 3.60695 49.4419 3.36133 49.5982L2.98172 49.8215V49.3973H2.35649V52.5681H2.98172V50.3798L3.51763 50.0672C3.69627 49.9555 3.87491 49.9108 4.00889 49.9108C4.16519 49.9108 4.27684 49.9555 4.36616 50.0672C4.45548 50.1565 4.50014 50.2904 4.50014 50.4468V52.5681L5.12537 52.5904L5.1477 52.5681ZM8.5418 51.3846H7.9389C7.9389 51.8535 7.67094 52.0768 7.15736 52.0768C6.64378 52.0768 6.39816 51.8312 6.39816 51.3176V50.6254C6.39816 50.1341 6.64378 49.8662 7.15736 49.8662C7.67094 49.8662 7.9389 50.0895 7.9389 50.5584H8.5418V50.5137C8.5418 50.1341 8.40782 49.8439 8.1622 49.6429C7.91657 49.4419 7.58163 49.3303 7.13503 49.3303C6.71077 49.3303 6.37583 49.4419 6.1302 49.6652C5.88457 49.8885 5.7506 50.1788 5.7506 50.5584V51.3623C5.7506 51.7419 5.88457 52.0545 6.1302 52.2778C6.37583 52.5011 6.71077 52.6127 7.13503 52.6127C7.5593 52.6127 7.89424 52.5011 8.1622 52.3001C8.40782 52.0991 8.5418 51.8089 8.5418 51.4293V51.4069V51.3846ZM9.83692 52.5681V49.3973H9.18936V52.5681H9.83692ZM9.88158 48.3478C9.88158 48.2585 9.85925 48.1915 9.79226 48.1245C9.72527 48.0798 9.63595 48.0352 9.5243 48.0352C9.41266 48.0352 9.32334 48.0575 9.25635 48.1245C9.18936 48.1691 9.1447 48.2585 9.1447 48.3478V48.4818C9.1447 48.5711 9.16703 48.6604 9.25635 48.705C9.32334 48.7497 9.41266 48.772 9.5243 48.772C9.63595 48.772 9.72527 48.7497 9.79226 48.6827C9.85925 48.6381 9.90391 48.5487 9.90391 48.4594V48.3254L9.88158 48.3478ZM13.2087 50.4021V50.3798C13.2087 50.0671 13.097 49.8215 12.8514 49.6206C12.6058 49.4419 12.2708 49.3303 11.8466 49.3303C11.4223 49.3303 11.1097 49.4196 10.8641 49.5982C10.6185 49.7769 10.5068 50.0002 10.5068 50.3128C10.5068 50.5584 10.5738 50.737 10.7301 50.871C10.8641 51.005 11.0427 51.0943 11.266 51.139C11.467 51.1836 11.6903 51.206 11.8912 51.2283C12.0922 51.2506 12.2708 51.2953 12.4272 51.3623C12.5611 51.4293 12.6504 51.5186 12.6504 51.6526C12.6504 51.7865 12.5835 51.8982 12.4495 51.9652C12.3155 52.0322 12.1369 52.0768 11.8912 52.0768C11.3777 52.0768 11.132 51.8982 11.132 51.5186H10.4845V51.5409C10.4845 51.8535 10.6185 52.0991 10.8641 52.2778C11.1097 52.4564 11.467 52.5681 11.8912 52.5681C12.3155 52.5681 12.6504 52.4788 12.8961 52.3001C13.1417 52.1215 13.2534 51.8982 13.2534 51.5856C13.2534 51.3846 13.2087 51.2283 13.097 51.0943C12.9854 50.9603 12.8514 50.871 12.6951 50.8487C12.5388 50.804 12.3602 50.7594 12.1815 50.737C12.0029 50.7147 11.8243 50.6924 11.6679 50.6701C11.5116 50.6477 11.3777 50.6031 11.266 50.5361C11.1544 50.4691 11.1097 50.3798 11.1097 50.2458C11.1097 50.1118 11.1767 50.0002 11.2883 49.9332C11.4223 49.8439 11.601 49.8215 11.8243 49.8215C12.3155 49.8215 12.5611 50.0002 12.5611 50.3574L13.1864 50.3798L13.2087 50.4021ZM14.4815 52.5681V49.3973H13.8339V52.5681H14.4815ZM14.5261 48.3478C14.5261 48.2585 14.5038 48.1915 14.4368 48.1245C14.3698 48.0798 14.2805 48.0352 14.1689 48.0352C14.0572 48.0352 13.9679 48.0575 13.9009 48.1245C13.8339 48.1691 13.7893 48.2585 13.7893 48.3478V48.4818C13.7893 48.5711 13.8116 48.6604 13.9009 48.705C13.9679 48.7497 14.0572 48.772 14.1689 48.772C14.2805 48.772 14.3698 48.7497 14.4368 48.6827C14.5038 48.6381 14.5485 48.5487 14.5485 48.4594V48.3254L14.5261 48.3478ZM16.7814 52.5681L17.9649 49.3973H17.3173L16.4465 51.8758L15.598 49.3973H14.9057L16.0892 52.5681H16.8038H16.7814ZM20.4658 51.273C20.4658 51.5409 20.3988 51.7419 20.2425 51.8758C20.0862 52.0098 19.8852 52.0991 19.6173 52.0991C19.3493 52.0991 19.1484 52.0322 18.9921 51.8758C18.8358 51.7195 18.7688 51.5186 18.7688 51.273V50.7147C18.7688 50.4468 18.8358 50.2458 18.9921 50.1118C19.1484 49.9555 19.3493 49.8885 19.6173 49.8885C19.8629 49.8885 20.0862 49.9555 20.2425 50.1118C20.3988 50.2458 20.4881 50.4468 20.4881 50.7147V51.273H20.4658ZM21.091 50.6477C21.091 50.2458 20.9571 49.9332 20.6891 49.7099C20.4212 49.4643 20.0639 49.3526 19.6396 49.3526C19.2154 49.3526 18.8581 49.4643 18.5901 49.7099C18.3222 49.9555 18.1659 50.2681 18.1659 50.6477V51.3176C18.1659 51.7195 18.2998 52.0322 18.5901 52.2555C18.8581 52.5011 19.2154 52.6127 19.6396 52.6127C20.0639 52.6127 20.4212 52.5011 20.6891 52.2555C20.9571 52.0322 21.091 51.6972 21.091 51.3176V50.6477ZM24.3735 50.3798C24.3735 50.0671 24.2619 49.8215 24.0162 49.6206C23.7706 49.4419 23.4357 49.3303 23.0114 49.3303C22.5871 49.3303 22.2745 49.4196 22.0289 49.5982C21.7833 49.7769 21.6716 50.0002 21.6716 50.3128C21.6716 50.5584 21.7386 50.737 21.8949 50.871C22.0289 51.005 22.2075 51.0943 22.4308 51.139C22.6318 51.1836 22.8551 51.206 23.0561 51.2283C23.257 51.2506 23.4357 51.2953 23.592 51.3623C23.7259 51.4293 23.8153 51.5186 23.8153 51.6526C23.8153 51.7865 23.7483 51.8982 23.6143 51.9652C23.4803 52.0322 23.3017 52.0768 23.0561 52.0768C22.5425 52.0768 22.2968 51.8982 22.2968 51.5186H21.6493V51.5409C21.6493 51.8535 21.7833 52.0991 22.0289 52.2778C22.2745 52.4564 22.6318 52.5681 23.0561 52.5681C23.4803 52.5681 23.8153 52.4788 24.0609 52.3001C24.3065 52.1215 24.4405 51.8982 24.4405 51.5856C24.4405 51.3846 24.3958 51.2283 24.2842 51.0943C24.1725 50.9603 24.0386 50.871 23.8822 50.8487C23.7259 50.804 23.5473 50.7594 23.3687 50.737C23.19 50.7147 23.0114 50.6924 22.8551 50.6701C22.6988 50.6477 22.5648 50.6031 22.4532 50.5361C22.3415 50.4691 22.2968 50.3798 22.2968 50.2458C22.2968 50.1118 22.3638 50.0002 22.4755 49.9332C22.6095 49.8439 22.7881 49.8215 23.0114 49.8215C23.5026 49.8215 23.7483 50.0002 23.7483 50.3574L24.3735 50.3798ZM29.3977 51.5632H28.7948C28.7948 51.9205 28.5268 52.0991 27.9909 52.0991C27.7453 52.0991 27.5443 52.0322 27.388 51.9205C27.2317 51.8089 27.1647 51.6079 27.1647 51.3846V51.206H29.42V50.6701C29.42 50.2681 29.286 49.9555 29.0181 49.7099C28.7501 49.4643 28.4152 49.3526 27.9909 49.3526C27.5666 49.3526 27.2317 49.4643 26.9637 49.7099C26.6958 49.9555 26.5618 50.2681 26.5618 50.6477V51.4069C26.5618 51.7865 26.6958 52.0768 26.9637 52.3001C27.2317 52.5234 27.5666 52.6351 28.0132 52.6351C28.4375 52.6351 28.7724 52.5457 29.0404 52.3448C29.286 52.1661 29.42 51.9205 29.42 51.6079V51.5632H29.3977ZM28.8171 50.7594H27.1647V50.6701C27.1647 50.4244 27.2317 50.2235 27.388 50.0895C27.522 49.9555 27.7229 49.8885 27.9909 49.8885C28.2365 49.8885 28.4598 49.9555 28.5938 50.0895C28.7278 50.2235 28.8171 50.4244 28.8171 50.6701V50.7817V50.7594ZM34.3995 51.4069H33.7966C33.7966 51.8759 33.5286 52.0991 33.0151 52.0991C32.5015 52.0991 32.2559 51.8535 32.2559 51.3399V50.6477C32.2559 50.1565 32.5015 49.8885 33.0151 49.8885C33.5286 49.8885 33.7966 50.1118 33.7966 50.5807H34.3995V50.5361C34.3995 50.1565 34.2655 49.8662 34.0199 49.6652C33.7743 49.4643 33.4393 49.3526 32.9927 49.3526C32.5685 49.3526 32.2335 49.4643 31.9879 49.6875C31.7423 49.9108 31.6083 50.2011 31.6083 50.5807V51.3846C31.6083 51.7642 31.7423 52.0768 31.9879 52.3001C32.2335 52.5234 32.5685 52.6351 32.9927 52.6351C33.417 52.6351 33.7519 52.5234 34.0199 52.3224C34.2655 52.1215 34.3995 51.8312 34.3995 51.4516V51.4293V51.4069ZM37.1237 51.6526L36.5878 51.9205C36.3645 52.0322 36.1635 52.0991 35.9402 52.0991C35.8063 52.0991 35.6946 52.0545 35.6276 51.9875C35.5606 51.9205 35.516 51.8089 35.516 51.6972C35.516 51.3846 35.7169 51.2283 36.1412 51.2283H37.1237V51.6302V51.6526ZM37.7489 52.5904V50.5361C37.7489 50.1565 37.6373 49.8662 37.3917 49.6652C37.146 49.4643 36.8111 49.3526 36.3868 49.3526C35.9626 49.3526 35.6276 49.4419 35.3597 49.6429C35.0917 49.8439 34.9577 50.1118 34.9577 50.4691V50.4914H35.583C35.583 50.0672 35.8509 49.8662 36.3868 49.8662C36.9004 49.8662 37.146 50.0895 37.146 50.5584V50.7594H36.0966C35.7393 50.7594 35.449 50.8487 35.2257 51.005C35.0024 51.1613 34.8908 51.4069 34.8908 51.7195C34.8908 51.9875 34.9801 52.2108 35.1587 52.3671C35.3373 52.5234 35.5606 52.6127 35.8509 52.6127C36.1412 52.6127 36.4538 52.5234 36.7664 52.3671L37.1237 52.1661V52.5681H37.7489V52.5904ZM41.21 52.5904V50.4021C41.21 50.0895 41.1207 49.8439 40.9421 49.6652C40.7634 49.4866 40.5178 49.3973 40.2052 49.3973C39.9372 49.3973 39.6693 49.4643 39.4237 49.6206L39.0441 49.8439V49.4196H38.4188V52.5904H39.0441V50.4021L39.58 50.0895C39.7586 49.9778 39.9372 49.9332 40.0712 49.9332C40.2275 49.9332 40.3392 49.9778 40.4285 50.0895C40.5178 50.1788 40.5625 50.3128 40.5625 50.4691V52.5904L41.1877 52.6127L41.21 52.5904ZM42.5721 52.5904V49.4196H41.9246V52.5904H42.5721ZM42.6168 48.3701C42.6168 48.2808 42.5945 48.2138 42.5275 48.1468C42.4605 48.1021 42.3712 48.0575 42.2595 48.0575C42.1479 48.0575 42.0586 48.0798 41.9916 48.1468C41.9246 48.1915 41.8799 48.2808 41.8799 48.3701V48.5041C41.8799 48.5934 41.9023 48.6827 41.9916 48.7274C42.0586 48.772 42.1479 48.7944 42.2595 48.7944C42.3712 48.7944 42.4605 48.772 42.5275 48.705C42.5945 48.6604 42.6391 48.5711 42.6391 48.4818V48.3478L42.6168 48.3701ZM46.1002 52.5904V50.4021C46.1002 50.0895 46.0109 49.8439 45.8323 49.6652C45.6536 49.4866 45.408 49.3973 45.0954 49.3973C44.8274 49.3973 44.5595 49.4643 44.3139 49.6206L43.9342 49.8439V49.4196H43.309V52.5904H43.9342V50.4021L44.4702 50.0895C44.6488 49.9778 44.8274 49.9332 44.9614 49.9332C45.1177 49.9332 45.2294 49.9778 45.3187 50.0895C45.408 50.1788 45.4527 50.3128 45.4527 50.4691V52.5904L46.0779 52.6127L46.1002 52.5904ZM49.0254 51.2953C49.0254 51.5632 48.9584 51.7642 48.8021 51.8982C48.6458 52.0322 48.4448 52.1215 48.1769 52.1215C47.9313 52.1215 47.708 52.0545 47.5516 51.8982C47.3953 51.7419 47.3283 51.5409 47.3283 51.2953V50.737C47.3283 50.4691 47.3953 50.2681 47.5516 50.1341C47.708 49.9778 47.9089 49.9108 48.1769 49.9108C48.4448 49.9108 48.6458 49.9778 48.8021 50.1341C48.9584 50.2681 49.0477 50.4691 49.0477 50.737V51.2953H49.0254ZM49.6506 50.6701C49.6506 50.2681 49.5167 49.9555 49.2264 49.7322C48.9584 49.4866 48.6011 49.3749 48.1769 49.3749C47.7526 49.3749 47.3953 49.4866 47.1274 49.7322C46.8594 49.9778 46.7031 50.2904 46.7031 50.6701V51.3399C46.7031 51.7419 46.8371 52.0545 47.1274 52.2778C47.3953 52.5234 47.7526 52.6351 48.1769 52.6351C48.6011 52.6351 48.9584 52.5234 49.2264 52.2778C49.4943 52.0545 49.6506 51.7195 49.6506 51.3399V50.6701ZM52.9331 50.4021C52.9331 50.0895 52.8214 49.8439 52.5758 49.6429C52.3302 49.4643 51.9952 49.3526 51.571 49.3526C51.1467 49.3526 50.8341 49.4419 50.5885 49.6206C50.3428 49.7992 50.2312 50.0225 50.2312 50.3351C50.2312 50.5807 50.2982 50.7594 50.4545 50.8933C50.5885 51.0273 50.7671 51.1166 50.9904 51.1613C51.1914 51.206 51.4147 51.2283 51.6156 51.2506C51.8166 51.273 51.9952 51.3176 52.1516 51.3846C52.2855 51.4516 52.3748 51.5409 52.3748 51.6749C52.3748 51.8089 52.3079 51.9205 52.1739 51.9875C52.0399 52.0545 51.8613 52.0991 51.6156 52.0991C51.1021 52.0991 50.8564 51.9205 50.8564 51.5409H50.2089V51.5632C50.2089 51.8759 50.3428 52.1215 50.5885 52.3001C50.8341 52.4788 51.1914 52.5904 51.6156 52.5904C52.0399 52.5904 52.3748 52.5011 52.6205 52.3224C52.8661 52.1438 53.0001 51.9205 53.0001 51.6079C53.0001 51.4069 52.9554 51.2506 52.8438 51.1166C52.7321 50.9827 52.5981 50.8933 52.4418 50.871C52.2855 50.8264 52.1069 50.7817 51.9283 50.7594C51.7496 50.737 51.571 50.7147 51.4147 50.6924C51.2584 50.6701 51.1244 50.6254 51.0127 50.5584C50.9011 50.4914 50.8564 50.4021 50.8564 50.2681C50.8564 50.1341 50.9234 50.0225 51.0351 49.9555C51.169 49.8662 51.3477 49.8439 51.571 49.8439C52.0622 49.8439 52.3079 50.0225 52.3079 50.3798L52.9331 50.4021ZM54.2059 52.2108C54.2059 52.1215 54.1835 52.0545 54.1166 51.9875C54.0496 51.9428 53.9603 51.8982 53.8486 51.8982C53.737 51.8982 53.6476 51.9205 53.5806 51.9652C53.5137 52.0098 53.4913 52.0991 53.4913 52.1885V52.3224C53.4913 52.4118 53.5137 52.5011 53.5806 52.5457C53.6476 52.5904 53.737 52.6351 53.8486 52.6351C53.9603 52.6351 54.0496 52.6127 54.1166 52.5457C54.1835 52.5011 54.2282 52.4118 54.2282 52.3224V52.1885L54.2059 52.2108Z"
-                  fill="#929292"
-                />
-              </svg>
-            </div>
-          </div>
-          <div class="drill-sequence-section__implant-content2">
-            <div class="drill-sequence-section__implant-size2">Ø 4,3 mm</div>
-            <div class="drill-sequence-section__implant-item3">
-              <div class="drill-sequence-section__implant-length">10,0mm</div>
-              <img class="drill-sequence-section___4-4" src="_4-40.png" />
-              <div class="drill-sequence-section__implant-code">
-                <div class="drill-sequence-section__implant-code2">
-                  <div class="drill-sequence-section__implant-code3">180.506</div>
-                </div>
-              </div>
-              <div class="drill-sequence-section__icon3">
-                <div class="drill-sequence-section__frame-1171276770"></div>
-                <svg
-                  class="drill-sequence-section__bs-cart-plus4"
-                  width="16"
-                  height="16"
-                  viewBox="0 0 16 16"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M8.84291 5.75534C8.84291 5.6353 8.79522 5.52018 8.71034 5.4353C8.62546 5.35042 8.51034 5.30273 8.3903 5.30273C8.27027 5.30273 8.15514 5.35042 8.07026 5.4353C7.98539 5.52018 7.9377 5.6353 7.9377 5.75534V7.11315H6.57989C6.45985 7.11315 6.34473 7.16083 6.25985 7.24571C6.17497 7.33059 6.12729 7.44571 6.12729 7.56575C6.12729 7.68579 6.17497 7.80091 6.25985 7.88579C6.34473 7.97067 6.45985 8.01835 6.57989 8.01835H7.9377V9.37616C7.9377 9.4962 7.98539 9.61132 8.07026 9.6962C8.15514 9.78108 8.27027 9.82876 8.3903 9.82876C8.51034 9.82876 8.62546 9.78108 8.71034 9.6962C8.79522 9.61132 8.84291 9.4962 8.84291 9.37616V8.01835H10.2007C10.3208 8.01835 10.4359 7.97067 10.5208 7.88579C10.6056 7.80091 10.6533 7.68579 10.6533 7.56575C10.6533 7.44571 10.6056 7.33059 10.5208 7.24571C10.4359 7.16083 10.3208 7.11315 10.2007 7.11315H8.84291V5.75534Z"
-                    fill="#363330"
-                  />
-                  <path
-                    d="M1.14866 1.68164C1.02863 1.68164 0.913504 1.72933 0.828625 1.8142C0.743745 1.89908 0.69606 2.01421 0.69606 2.13424C0.69606 2.25428 0.743745 2.3694 0.828625 2.45428C0.913504 2.53916 1.02863 2.58685 1.14866 2.58685H2.15344L2.51643 4.04151L3.87243 11.2696C3.89184 11.3733 3.94689 11.467 4.02804 11.5344C4.1092 11.6018 4.21137 11.6388 4.31688 11.6389H5.22209C4.74194 11.6389 4.28145 11.8296 3.94194 12.1692C3.60242 12.5087 3.41168 12.9692 3.41168 13.4493C3.41168 13.9295 3.60242 14.39 3.94194 14.7295C4.28145 15.069 4.74194 15.2597 5.22209 15.2597C5.70224 15.2597 6.16273 15.069 6.50224 14.7295C6.84176 14.39 7.0325 13.9295 7.0325 13.4493C7.0325 12.9692 6.84176 12.5087 6.50224 12.1692C6.16273 11.8296 5.70224 11.6389 5.22209 11.6389H11.5585C11.0784 11.6389 10.6179 11.8296 10.2784 12.1692C9.93886 12.5087 9.74812 12.9692 9.74812 13.4493C9.74812 13.9295 9.93886 14.39 10.2784 14.7295C10.6179 15.069 11.0784 15.2597 11.5585 15.2597C12.0387 15.2597 12.4992 15.069 12.8387 14.7295C13.1782 14.39 13.3689 13.9295 13.3689 13.4493C13.3689 12.9692 13.1782 12.5087 12.8387 12.1692C12.4992 11.8296 12.0387 11.6389 11.5585 11.6389H12.4637C12.5693 11.6388 12.6714 11.6018 12.7526 11.5344C12.8337 11.467 12.8888 11.3733 12.9082 11.2696L14.266 4.02793C14.2782 3.96261 14.2759 3.8954 14.2592 3.83107C14.2426 3.76674 14.2119 3.70687 14.1695 3.65572C14.1271 3.60456 14.0739 3.56338 14.0138 3.5351C13.9536 3.50681 13.888 3.49211 13.8215 3.49205H3.31211L2.9455 2.02471C2.92107 1.92676 2.86458 1.83978 2.78503 1.77761C2.70548 1.71545 2.60743 1.68167 2.50647 1.68164H1.14866ZM4.69254 10.7337L3.50401 4.39726H13.2766L12.0881 10.7337H4.69254ZM6.1273 13.4493C6.1273 13.6894 6.03193 13.9196 5.86217 14.0894C5.69241 14.2592 5.46217 14.3545 5.22209 14.3545C4.98201 14.3545 4.75177 14.2592 4.58201 14.0894C4.41225 13.9196 4.31688 13.6894 4.31688 13.4493C4.31688 13.2092 4.41225 12.979 4.58201 12.8092C4.75177 12.6395 4.98201 12.5441 5.22209 12.5441C5.46217 12.5441 5.69241 12.6395 5.86217 12.8092C6.03193 12.979 6.1273 13.2092 6.1273 13.4493ZM12.4637 13.4493C12.4637 13.6894 12.3684 13.9196 12.1986 14.0894C12.0289 14.2592 11.7986 14.3545 11.5585 14.3545C11.3185 14.3545 11.0882 14.2592 10.9185 14.0894C10.7487 13.9196 10.6533 13.6894 10.6533 13.4493C10.6533 13.2092 10.7487 12.979 10.9185 12.8092C11.0882 12.6395 11.3185 12.5441 11.5585 12.5441C11.7986 12.5441 12.0289 12.6395 12.1986 12.8092C12.3684 12.979 12.4637 13.2092 12.4637 13.4493Z"
-                    fill="#363330"
-                  />
-                </svg>
-              </div>
-            </div>
-            <div class="drill-sequence-section__implant-item3">
-              <div class="drill-sequence-section__implant-length">11,5mm</div>
-              <img class="drill-sequence-section___2-5" src="_2-51.png" />
-              <div class="drill-sequence-section__implant-code">
-                <div class="drill-sequence-section__implant-code2">
-                  <div class="drill-sequence-section__implant-code3">180.507</div>
-                </div>
-              </div>
-              <div class="drill-sequence-section__icon4">
-                <div class="drill-sequence-section__frame-1171276770"></div>
-                <svg
-                  class="drill-sequence-section__bs-cart-plus5"
-                  width="15"
-                  height="16"
-                  viewBox="0 0 15 16"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M8.24123 5.75534C8.24123 5.6353 8.19355 5.52018 8.10867 5.4353C8.02379 5.35042 7.90866 5.30273 7.78863 5.30273C7.66859 5.30273 7.55347 5.35042 7.46859 5.4353C7.38371 5.52018 7.33602 5.6353 7.33602 5.75534V7.11315H5.97821C5.85818 7.11315 5.74306 7.16083 5.65818 7.24571C5.5733 7.33059 5.52561 7.44571 5.52561 7.56575C5.52561 7.68579 5.5733 7.80091 5.65818 7.88579C5.74306 7.97067 5.85818 8.01835 5.97821 8.01835H7.33602V9.37616C7.33602 9.4962 7.38371 9.61132 7.46859 9.6962C7.55347 9.78108 7.66859 9.82876 7.78863 9.82876C7.90866 9.82876 8.02379 9.78108 8.10867 9.6962C8.19355 9.61132 8.24123 9.4962 8.24123 9.37616V8.01835H9.59904C9.71908 8.01835 9.8342 7.97067 9.91908 7.88579C10.004 7.80091 10.0516 7.68579 10.0516 7.56575C10.0516 7.44571 10.004 7.33059 9.91908 7.24571C9.8342 7.16083 9.71908 7.11315 9.59904 7.11315H8.24123V5.75534Z"
-                    fill="#363330"
-                  />
-                  <path
-                    d="M0.546979 1.68164C0.426941 1.68164 0.311819 1.72933 0.22694 1.8142C0.14206 1.89908 0.0943756 2.01421 0.0943756 2.13424C0.0943756 2.25428 0.14206 2.3694 0.22694 2.45428C0.311819 2.53916 0.426941 2.58685 0.546979 2.58685H1.55176L1.91474 4.04151L3.27074 11.2696C3.29016 11.3733 3.3452 11.467 3.42636 11.5344C3.50751 11.6018 3.60968 11.6388 3.7152 11.6389H4.62041C4.14025 11.6389 3.67977 11.8296 3.34025 12.1692C3.00073 12.5087 2.80999 12.9692 2.80999 13.4493C2.80999 13.9295 3.00073 14.39 3.34025 14.7295C3.67977 15.069 4.14025 15.2597 4.62041 15.2597C5.10056 15.2597 5.56104 15.069 5.90056 14.7295C6.24008 14.39 6.43082 13.9295 6.43082 13.4493C6.43082 12.9692 6.24008 12.5087 5.90056 12.1692C5.56104 11.8296 5.10056 11.6389 4.62041 11.6389H10.9568C10.4767 11.6389 10.0162 11.8296 9.67669 12.1692C9.33718 12.5087 9.14644 12.9692 9.14644 13.4493C9.14644 13.9295 9.33718 14.39 9.67669 14.7295C10.0162 15.069 10.4767 15.2597 10.9568 15.2597C11.437 15.2597 11.8975 15.069 12.237 14.7295C12.5765 14.39 12.7673 13.9295 12.7673 13.4493C12.7673 12.9692 12.5765 12.5087 12.237 12.1692C11.8975 11.8296 11.437 11.6389 10.9568 11.6389H11.8621C11.9676 11.6388 12.0697 11.6018 12.1509 11.5344C12.2321 11.467 12.2871 11.3733 12.3065 11.2696L13.6643 4.02793C13.6765 3.96261 13.6742 3.8954 13.6576 3.83107C13.6409 3.76674 13.6102 3.70687 13.5678 3.65572C13.5254 3.60456 13.4722 3.56338 13.4121 3.5351C13.3519 3.50681 13.2863 3.49211 13.2199 3.49205H2.71042L2.34381 2.02471C2.31938 1.92676 2.2629 1.83978 2.18335 1.77761C2.1038 1.71545 2.00575 1.68167 1.90479 1.68164H0.546979ZM4.09086 10.7337L2.90232 4.39726H12.6749L11.4864 10.7337H4.09086ZM5.52561 13.4493C5.52561 13.6894 5.43024 13.9196 5.26048 14.0894C5.09072 14.2592 4.86048 14.3545 4.62041 14.3545C4.38033 14.3545 4.15009 14.2592 3.98033 14.0894C3.81057 13.9196 3.7152 13.6894 3.7152 13.4493C3.7152 13.2092 3.81057 12.979 3.98033 12.8092C4.15009 12.6395 4.38033 12.5441 4.62041 12.5441C4.86048 12.5441 5.09072 12.6395 5.26048 12.8092C5.43024 12.979 5.52561 13.2092 5.52561 13.4493ZM11.8621 13.4493C11.8621 13.6894 11.7667 13.9196 11.5969 14.0894C11.4272 14.2592 11.1969 14.3545 10.9568 14.3545C10.7168 14.3545 10.4865 14.2592 10.3168 14.0894C10.147 13.9196 10.0516 13.6894 10.0516 13.4493C10.0516 13.2092 10.147 12.979 10.3168 12.8092C10.4865 12.6395 10.7168 12.5441 10.9568 12.5441C11.1969 12.5441 11.4272 12.6395 11.5969 12.8092C11.7667 12.979 11.8621 13.2092 11.8621 13.4493Z"
-                    fill="#363330"
-                  />
-                </svg>
-              </div>
-            </div>
-            <div class="drill-sequence-section__implant-item3">
-              <div class="drill-sequence-section__implant-length">13,0mm</div>
-              <img class="drill-sequence-section___3-5" src="_3-51.png" />
-              <div class="drill-sequence-section__implant-code">
-                <div class="drill-sequence-section__implant-code2">
-                  <div class="drill-sequence-section__implant-code3">180.508</div>
-                </div>
-              </div>
-              <div class="drill-sequence-section__icon5">
-                <div class="drill-sequence-section__frame-1171276770"></div>
-                <svg
-                  class="drill-sequence-section__bs-cart-plus6"
-                  width="16"
-                  height="15"
-                  viewBox="0 0 16 15"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M8.76624 5.29635C8.76624 5.17632 8.71855 5.06119 8.63368 4.97631C8.5488 4.89143 8.43367 4.84375 8.31364 4.84375C8.1936 4.84375 8.07848 4.89143 7.9936 4.97631C7.90872 5.06119 7.86103 5.17632 7.86103 5.29635V6.65416H6.50322C6.38319 6.65416 6.26807 6.70185 6.18319 6.78673C6.09831 6.87161 6.05062 6.98673 6.05062 7.10677C6.05062 7.2268 6.09831 7.34192 6.18319 7.4268C6.26807 7.51168 6.38319 7.55937 6.50322 7.55937H7.86103V8.91718C7.86103 9.03721 7.90872 9.15234 7.9936 9.23722C8.07848 9.3221 8.1936 9.36978 8.31364 9.36978C8.43367 9.36978 8.5488 9.3221 8.63368 9.23722C8.71855 9.15234 8.76624 9.03721 8.76624 8.91718V7.55937H10.124C10.2441 7.55937 10.3592 7.51168 10.4441 7.4268C10.529 7.34192 10.5767 7.2268 10.5767 7.10677C10.5767 6.98673 10.529 6.87161 10.4441 6.78673C10.3592 6.70185 10.2441 6.65416 10.124 6.65416H8.76624V5.29635Z"
-                    fill="#363330"
-                  />
-                  <path
-                    d="M1.07199 1.22266C0.95195 1.22266 0.836829 1.27034 0.751949 1.35522C0.66707 1.4401 0.619385 1.55522 0.619385 1.67526C0.619385 1.7953 0.66707 1.91042 0.751949 1.9953C0.836829 2.08018 0.95195 2.12786 1.07199 2.12786H2.07677L2.43975 3.58253L3.79575 10.8106C3.81517 10.9143 3.87021 11.008 3.95137 11.0754C4.03252 11.1429 4.13469 11.1798 4.24021 11.1799H5.14541C4.66526 11.1799 4.20478 11.3707 3.86526 11.7102C3.52574 12.0497 3.335 12.5102 3.335 12.9903C3.335 13.4705 3.52574 13.931 3.86526 14.2705C4.20478 14.61 4.66526 14.8007 5.14541 14.8007C5.62557 14.8007 6.08605 14.61 6.42557 14.2705C6.76509 13.931 6.95583 13.4705 6.95583 12.9903C6.95583 12.5102 6.76509 12.0497 6.42557 11.7102C6.08605 11.3707 5.62557 11.1799 5.14541 11.1799H11.4819C11.0017 11.1799 10.5412 11.3707 10.2017 11.7102C9.86218 12.0497 9.67144 12.5102 9.67144 12.9903C9.67144 13.4705 9.86218 13.931 10.2017 14.2705C10.5412 14.61 11.0017 14.8007 11.4819 14.8007C11.962 14.8007 12.4225 14.61 12.762 14.2705C13.1015 13.931 13.2923 13.4705 13.2923 12.9903C13.2923 12.5102 13.1015 12.0497 12.762 11.7102C12.4225 11.3707 11.962 11.1799 11.4819 11.1799H12.3871C12.4926 11.1798 12.5947 11.1429 12.6759 11.0754C12.7571 11.008 12.8121 10.9143 12.8315 10.8106L14.1893 3.56895C14.2016 3.50363 14.1992 3.43641 14.1826 3.37208C14.1659 3.30775 14.1353 3.24789 14.0928 3.19673C14.0504 3.14558 13.9972 3.1044 13.9371 3.07611C13.877 3.04783 13.8113 3.03313 13.7449 3.03307H3.23543L2.86882 1.56573C2.84439 1.46777 2.78791 1.38079 2.70836 1.31863C2.62881 1.25647 2.53076 1.22268 2.4298 1.22266H1.07199ZM4.61587 10.2747L3.42733 3.93827H13.1999L12.0114 10.2747H4.61587ZM6.05062 12.9903C6.05062 13.2304 5.95525 13.4607 5.78549 13.6304C5.61573 13.8002 5.38549 13.8955 5.14541 13.8955C4.90534 13.8955 4.6751 13.8002 4.50534 13.6304C4.33558 13.4607 4.24021 13.2304 4.24021 12.9903C4.24021 12.7503 4.33558 12.52 4.50534 12.3503C4.6751 12.1805 4.90534 12.0851 5.14541 12.0851C5.38549 12.0851 5.61573 12.1805 5.78549 12.3503C5.95525 12.52 6.05062 12.7503 6.05062 12.9903ZM12.3871 12.9903C12.3871 13.2304 12.2917 13.4607 12.1219 13.6304C11.9522 13.8002 11.7219 13.8955 11.4819 13.8955C11.2418 13.8955 11.0115 13.8002 10.8418 13.6304C10.672 13.4607 10.5767 13.2304 10.5767 12.9903C10.5767 12.7503 10.672 12.52 10.8418 12.3503C11.0115 12.1805 11.2418 12.0851 11.4819 12.0851C11.7219 12.0851 11.9522 12.1805 12.1219 12.3503C12.2917 12.52 12.3871 12.7503 12.3871 12.9903Z"
-                    fill="#363330"
-                  />
-                </svg>
-              </div>
-            </div>
-            <div class="drill-sequence-section__sem-t-tulo-1-181">
-              <svg
-                class="drill-sequence-section__camada-x-0020-12"
-                width="55"
-                height="52"
-                viewBox="0 0 55 52"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M8.00147 9.7112C7.85163 9.7112 7.70179 9.68124 7.55196 9.68124C6.86271 9.56137 6.38323 9.32163 6.20343 8.93205C6.02362 8.57244 6.08356 8.12293 6.35326 7.58352C6.80277 6.71447 7.28225 6.29492 7.7917 6.29492C8.12134 6.29492 8.48095 6.44476 8.96042 6.74443C9.14023 6.8643 9.85945 7.22391 9.94935 7.70339C10.0692 8.18287 9.58974 9.20176 9.2601 9.38156C9.2601 9.38156 9.1702 9.4415 9.11026 9.47146L9.08029 9.50143C9.05033 9.5314 9.02036 9.5314 8.99039 9.5314C8.99039 9.5314 8.96042 9.5314 8.96042 9.56137H8.93046C8.90049 9.56137 8.87052 9.59134 8.84056 9.59134C8.81059 9.59134 8.78062 9.59134 8.78062 9.6213C8.75065 9.6213 8.72069 9.65127 8.69072 9.65127C8.66075 9.65127 8.36108 9.7112 8.33111 9.7112H8.30114C8.30114 9.7112 8.27117 9.7112 8.24121 9.7112C8.18127 9.7112 8.15131 9.7112 8.09137 9.7112H8.03144H8.00147Z"
-                  fill="#929292"
-                />
-                <path
-                  d="M28.7684 9.7112C28.9182 9.7112 29.0681 9.68124 29.2179 9.68124C29.9071 9.56137 30.3866 9.32163 30.5664 8.93205C30.7462 8.57244 30.6863 8.12293 30.4166 7.58352C29.9671 6.71447 29.4876 6.29492 28.9782 6.29492C28.6485 6.29492 28.2889 6.44476 27.8094 6.74443C27.6296 6.8643 26.9104 7.22391 26.8205 7.70339C26.7006 8.18287 27.1801 9.20176 27.5098 9.38156C27.5098 9.38156 27.5997 9.4415 27.6596 9.47146L27.6896 9.50143C27.7195 9.5314 27.7495 9.5314 27.7795 9.5314C27.7795 9.5314 27.8094 9.5314 27.8094 9.56137H27.8394C27.8694 9.56137 27.8993 9.59134 27.9293 9.59134C27.9593 9.59134 27.9892 9.59134 27.9892 9.6213C28.0192 9.6213 28.0492 9.65127 28.0791 9.65127C28.1091 9.65127 28.4088 9.7112 28.4387 9.7112H28.4687C28.4987 9.7112 28.4987 9.7112 28.5286 9.7112C28.5886 9.7112 28.6185 9.7112 28.6785 9.7112H28.7384H28.7684Z"
-                  fill="#929292"
-                />
-                <path
-                  d="M16.9015 3.77644C16.3621 3.77644 15.8227 3.62661 15.3432 2.66765C15.3133 2.57775 15.2833 2.51781 15.2533 2.45788C15.2234 2.39794 15.1934 2.33801 15.1634 2.24811C14.9537 1.67873 14.9537 1.22922 15.1634 0.899575C15.3732 0.539967 15.7927 0.300228 16.452 0.210325C16.6918 0.180358 16.9015 0.150391 17.0813 0.150391C17.5009 0.150391 17.8006 0.240293 17.9804 0.450065C18.2201 0.689804 18.28 1.13931 18.2201 1.8885C18.0703 3.65657 17.5309 3.80641 16.9315 3.80641L16.9015 3.77644Z"
-                  fill="#929292"
-                />
-                <path
-                  d="M13.4552 4.85579C13.0057 4.85579 12.5861 4.61605 12.0767 4.07664C12.0167 4.01671 11.9868 3.98674 11.9568 3.9268C11.5672 3.47729 11.4174 3.08772 11.4773 2.72811C11.5373 2.3685 11.8669 2.00889 12.4363 1.70922C12.9158 1.46948 13.3053 1.34961 13.605 1.34961C14.1444 1.34961 14.4441 1.70922 14.6838 2.63821C15.1034 4.25645 14.6239 4.55612 14.0545 4.76589C13.8448 4.82583 13.6649 4.85579 13.4851 4.85579H13.4552Z"
-                  fill="#929292"
-                />
-                <path
-                  d="M10.9081 6.86422C10.6084 6.86422 10.2488 6.77432 9.79927 6.56454C9.79927 6.56454 9.79927 6.56454 9.7693 6.56454C9.70937 6.53458 9.64943 6.50461 9.5895 6.47464C9.05008 6.20494 8.75041 5.87529 8.66051 5.51569C8.57061 5.15608 8.72044 4.73653 9.11002 4.25706C9.55953 3.68768 9.94911 3.41797 10.2787 3.41797C10.6384 3.41797 10.998 3.68768 11.4475 4.28702C12.4963 5.63556 12.1967 6.08507 11.7471 6.47464C11.4475 6.74435 11.1778 6.83425 10.8481 6.83425L10.9081 6.86422Z"
-                  fill="#929292"
-                />
-                <path
-                  d="M6.02371 13.3969C5.84391 13.3969 5.69407 13.3969 5.51427 13.3669C4.97485 13.307 4.46541 13.0073 4.1957 12.5578C3.95596 12.1682 3.95596 11.7187 4.13577 11.2392C4.67518 9.95062 5.21459 9.80078 5.5742 9.80078C5.87387 9.80078 6.26345 9.92065 6.71296 10.2203C7.0426 10.4001 7.28234 10.6099 7.46215 10.8197C7.49211 10.8496 7.52208 10.8796 7.55205 10.9395C7.61198 10.9995 7.64195 11.0894 7.67192 11.1493C7.70189 11.1793 7.70188 11.2092 7.70188 11.2692C7.70188 11.2992 7.73185 11.3591 7.73185 11.3891C7.73185 11.419 7.73185 11.449 7.76182 11.5089C7.76182 11.5389 7.76182 11.5689 7.76182 11.5988C7.76182 11.6288 7.76182 11.6588 7.76182 11.6887C7.76182 11.7187 7.76182 11.7487 7.76182 11.7786V11.8086C7.76182 11.8386 7.76182 11.8685 7.76182 11.8985C7.76182 11.9285 7.76182 11.9584 7.73185 11.9884V12.0184C7.73185 12.0483 7.70188 12.0783 7.70188 12.1083V12.1382C7.70188 12.1682 7.67192 12.1682 7.67192 12.1982V12.2281C7.67192 12.2581 7.64195 12.2881 7.64195 12.318L7.61198 12.348C7.61198 12.378 7.58202 12.4079 7.58202 12.4379C7.55205 12.4679 7.55205 12.4978 7.52208 12.5578L7.49211 12.5877C7.49211 12.6177 7.46215 12.6177 7.46215 12.6477L7.43218 12.6777C7.43218 12.7076 7.40221 12.7076 7.40221 12.7376C7.40221 12.7676 7.37224 12.7676 7.37224 12.7975L7.34228 12.8275C7.34228 12.8575 7.31231 12.8575 7.31231 12.8874L7.28234 12.9174C7.19244 13.0073 7.10254 13.0672 6.98267 13.1272C6.9527 13.1272 6.92273 13.1571 6.89276 13.1571C6.8628 13.1871 6.83283 13.1871 6.80286 13.1871C6.59309 13.247 6.35335 13.277 6.08365 13.277H6.05368L6.02371 13.3969Z"
-                  fill="#929292"
-                />
-                <path
-                  d="M30.7762 13.3969C30.956 13.3969 31.1059 13.3969 31.2857 13.3669C31.8251 13.307 32.3345 13.0073 32.6042 12.5578C32.844 12.1682 32.844 11.7187 32.6642 11.2392C32.1247 9.95062 31.5853 9.80078 31.2257 9.80078C30.926 9.80078 30.5365 9.92065 30.087 10.2203C29.7573 10.4001 29.5176 10.6099 29.3378 10.8197C29.3078 10.8496 29.2778 10.8796 29.2479 10.9395C29.1879 10.9995 29.158 11.0894 29.128 11.1493C29.098 11.1793 29.098 11.2092 29.098 11.2692C29.098 11.2992 29.0681 11.3591 29.0681 11.3891C29.0681 11.419 29.0681 11.449 29.0381 11.5089C29.0381 11.5389 29.0381 11.5689 29.0381 11.5988C29.0381 11.6288 29.0381 11.6588 29.0381 11.6887C29.0381 11.7187 29.0381 11.7487 29.0381 11.7786V11.8086C29.0381 11.8386 29.0381 11.8685 29.0681 11.8985C29.0681 11.9285 29.098 11.9584 29.098 11.9884V12.0184C29.098 12.0483 29.128 12.0783 29.128 12.1083V12.1382C29.128 12.1682 29.128 12.1682 29.158 12.1982V12.2281C29.158 12.2581 29.1879 12.2881 29.1879 12.318V12.348C29.1879 12.378 29.2179 12.4079 29.2179 12.4379C29.2479 12.4679 29.2479 12.4978 29.2778 12.5578L29.3078 12.5877C29.3078 12.6177 29.3378 12.6177 29.3378 12.6477L29.3677 12.6777C29.3677 12.7076 29.3977 12.7076 29.3977 12.7376C29.3977 12.7676 29.4277 12.7676 29.4277 12.7975L29.4576 12.8275C29.4576 12.8575 29.4876 12.8575 29.4876 12.8874L29.5176 12.9174C29.6075 13.0073 29.6974 13.0672 29.8173 13.1272C29.8472 13.1272 29.8772 13.1571 29.9072 13.1571C29.9371 13.1871 29.9671 13.1871 29.9971 13.1871C30.2068 13.247 30.4166 13.277 30.7163 13.277H30.7462L30.7762 13.3969Z"
-                  fill="#929292"
-                />
-                <path
-                  d="M3.02675 23.5565C2.51731 23.5565 2.0678 23.4966 1.88799 23.4666C1.79809 23.4666 1.73815 23.4366 1.64825 23.3767C0.929035 22.9871 0.539459 22.208 0.539459 21.1591C0.539459 20.2002 0.719264 19.5409 1.07887 19.1813C1.34858 18.8816 1.76812 18.7617 2.3375 18.7617C2.54727 18.7617 2.78701 18.7917 3.02675 18.8217C3.77594 18.9415 4.34532 19.1513 4.76486 19.4809C4.85476 19.5409 4.9147 19.6008 4.97463 19.6308C5.33424 19.9904 5.51405 20.4399 5.57398 21.1591C5.57398 21.249 5.57398 21.3089 5.60395 21.3988C5.63391 21.9982 5.45411 22.4777 5.06453 22.8373C4.8248 23.0471 4.52512 23.2269 4.13555 23.4067C4.10558 23.4067 4.07561 23.4366 4.04564 23.4366C3.8059 23.5265 3.4463 23.5565 3.05672 23.5565H3.02675Z"
-                  fill="#929292"
-                />
-                <path
-                  d="M33.7435 23.5565C34.253 23.5565 34.7025 23.4966 34.8823 23.4666C34.9722 23.4666 35.0321 23.4366 35.122 23.3767C35.8412 22.9871 36.2308 22.208 36.2308 21.1591C36.2308 20.2002 36.051 19.5409 35.6914 19.1813C35.4217 18.8816 35.0022 18.7617 34.4328 18.7617C34.223 18.7617 33.9833 18.7917 33.7435 18.8217C32.9943 18.9415 32.425 19.1513 32.0054 19.4809C31.9155 19.5409 31.8556 19.6008 31.7956 19.6308C31.436 19.9904 31.2562 20.4399 31.1963 21.1591C31.1963 21.249 31.1963 21.3089 31.1963 21.3988C31.1663 21.9982 31.3461 22.4777 31.7357 22.8373C31.9754 23.0471 32.2751 23.2269 32.6647 23.4067C32.6947 23.4067 32.7246 23.4366 32.7546 23.4366C32.9943 23.5265 33.3539 23.5565 33.7435 23.5565Z"
-                  fill="#929292"
-                />
-                <path
-                  d="M4.43572 18.4921C4.28589 18.4921 4.13605 18.4921 3.98621 18.4621C3.86634 18.4322 3.77644 18.4322 3.68654 18.4022C3.5367 18.3722 3.3569 18.3123 3.14713 18.2224C2.72758 18.0726 2.39794 17.8029 2.1582 17.4432C1.79859 16.8439 1.67873 16.1247 1.82856 15.3455C2.0683 14.2367 2.78752 13.6074 3.77644 13.6074C4.25592 13.6074 4.76537 13.7573 5.21488 14.0569C6.56341 14.956 6.68328 15.7051 6.62334 16.2146C6.62334 16.3045 6.59338 16.3944 6.59338 16.4843C6.59338 16.4843 6.59338 16.4843 6.59338 16.5143C6.56341 16.6042 6.56341 16.6641 6.53344 16.754V16.784L6.50347 16.8739V16.9038L6.47351 16.9638C6.47351 16.9937 6.44354 17.0537 6.44354 17.0836C6.41357 17.1436 6.38361 17.2035 6.35364 17.2634C6.23377 17.5331 6.05396 17.7429 5.84419 17.9527C5.60445 18.1625 5.30478 18.3423 5.00511 18.4022C4.97514 18.4022 4.97514 18.4022 4.94517 18.4322C4.85527 18.4621 4.79533 18.4621 4.7354 18.4621C4.6455 18.4621 4.52563 18.4921 4.43572 18.4921Z"
-                  fill="#929292"
-                />
-                <path
-                  d="M32.3651 18.4921C32.5149 18.4921 32.6648 18.4921 32.8146 18.4621C32.9345 18.4322 33.0244 18.4322 33.1143 18.4022C33.2641 18.3722 33.4439 18.3123 33.6537 18.2224C34.0732 18.0726 34.4029 17.8029 34.6426 17.4432C35.0022 16.8439 35.1221 16.1247 34.9723 15.3455C34.7325 14.2367 34.0133 13.6074 33.0244 13.6074C32.5449 13.6074 32.0355 13.7573 31.586 14.0569C30.2374 14.956 30.1176 15.7051 30.1775 16.2146C30.1775 16.3045 30.2075 16.3944 30.2075 16.4843C30.2075 16.4843 30.2075 16.4843 30.2075 16.5143C30.2374 16.6042 30.2374 16.6641 30.2674 16.754V16.784L30.2974 16.8739L30.3273 16.9038L30.3573 16.9638C30.3573 16.9937 30.3873 17.0537 30.3873 17.0836C30.4172 17.1436 30.4472 17.2035 30.4772 17.2634C30.597 17.5331 30.7768 17.7429 30.9866 17.9527C31.2263 18.1625 31.526 18.3423 31.8257 18.4022C31.8557 18.4022 31.8557 18.4022 31.8856 18.4322C31.9755 18.4621 32.0355 18.4621 32.0954 18.4621C32.1853 18.4621 32.3052 18.4921 32.3951 18.4921H32.3651Z"
-                  fill="#929292"
-                />
-                <path
-                  d="M20.2285 3.77712C19.6291 3.77712 19.0597 3.62728 18.9099 1.8592C18.85 1.11002 18.9099 0.660507 19.1496 0.420768C19.3294 0.210996 19.6291 0.121094 20.0487 0.121094C20.2285 0.121094 20.4382 0.151061 20.678 0.181029C21.3372 0.300898 21.7568 0.51067 21.9666 0.870278C22.1763 1.19992 22.1464 1.64943 21.9666 2.21881C21.9366 2.27875 21.9066 2.33868 21.9066 2.39862V2.42858C21.8767 2.48852 21.8467 2.54845 21.8167 2.63835C21.3372 3.62728 20.7978 3.77712 20.2584 3.77712H20.2285Z"
-                  fill="#929292"
-                />
-                <path
-                  d="M23.6742 4.85579C23.4944 4.85579 23.3146 4.82583 23.1048 4.76589C22.5354 4.55612 22.0559 4.25645 22.4755 2.63821C22.7152 1.70922 23.0149 1.34961 23.5543 1.34961C23.854 1.34961 24.2436 1.46948 24.723 1.70922C25.2924 2.00889 25.5921 2.33853 25.682 2.72811C25.7419 3.08772 25.5921 3.47729 25.2025 3.89684C25.1426 3.95677 25.1126 3.98674 25.0527 4.04667C24.5432 4.58609 24.1237 4.82583 23.6742 4.82583V4.85579Z"
-                  fill="#929292"
-                />
-                <path
-                  d="M26.2219 6.86355C25.8922 6.86355 25.6225 6.74368 25.3228 6.50394C24.9033 6.11436 24.5737 5.66485 25.6225 4.31632C26.072 3.71697 26.4616 3.44727 26.7912 3.44727C27.1508 3.44727 27.5404 3.71697 27.9899 4.28635C28.3495 4.76583 28.4994 5.18537 28.4394 5.54498C28.3495 5.90459 28.0499 6.23423 27.5404 6.47397C27.4805 6.50394 27.4206 6.53391 27.3606 6.56387C26.9111 6.77365 26.5515 6.86355 26.2518 6.86355H26.2219Z"
-                  fill="#929292"
-                />
-                <path
-                  d="M2.99646 29.31C3.35606 29.31 3.74564 29.2501 4.04531 29.1302C4.91437 28.8006 5.39385 28.2911 5.54368 27.6019C5.63359 27.2423 5.66355 26.8527 5.60362 26.4332C5.51372 25.7439 5.30395 25.3244 4.91437 24.9648C4.49483 24.5452 3.89548 24.3055 2.99646 24.1556C2.78668 24.1257 2.57691 24.0957 2.39711 24.0957C1.79776 24.0957 1.37822 24.2455 1.07854 24.5452C0.688967 24.9648 0.509163 25.684 0.569097 26.7029C0.688967 29.0703 2.30721 29.31 2.99646 29.31Z"
-                  fill="#929292"
-                />
-                <path
-                  d="M33.8028 29.31C33.4432 29.31 33.0536 29.2501 32.7539 29.1302C31.8848 28.8006 31.4054 28.2911 31.2555 27.6019C31.1656 27.2423 31.1357 26.8527 31.1956 26.4332C31.2855 25.7439 31.4953 25.3244 31.8848 24.9648C32.3044 24.5452 32.9337 24.3055 33.8028 24.1556C34.0125 24.1257 34.2223 24.0957 34.4021 24.0957C35.0015 24.0957 35.421 24.2455 35.7207 24.5452C36.1102 24.9648 36.2901 25.684 36.2301 26.7029C36.1102 29.0703 34.492 29.31 33.8028 29.31Z"
-                  fill="#929292"
-                />
-                <path
-                  d="M1.70811 43.7236V39.3184H1.01886V43.7236H1.70811ZM5.18433 43.7236V41.566C5.18433 41.2663 5.09443 41.0266 4.91462 40.8468C4.73482 40.667 4.49508 40.577 4.1954 40.577C3.9257 40.577 3.65599 40.637 3.41625 40.7868L3.05664 40.9966V40.577H2.45729V43.6937H3.05664V41.566L3.59606 41.2663C3.77586 41.1764 3.9257 41.1165 4.07553 41.1165C4.22537 41.1165 4.34524 41.1764 4.43514 41.2663C4.52504 41.3562 4.55501 41.4761 4.55501 41.6259V43.6937H5.15436L5.18433 43.7236ZM8.03123 42.7647L7.46185 43.0643C7.28204 43.1542 7.13221 43.2142 6.9524 43.2142C6.7726 43.2142 6.65273 43.1542 6.53286 43.0643C6.44296 42.9445 6.38302 42.8246 6.38302 42.6448V41.7158C6.38302 41.536 6.44296 41.4161 6.53286 41.2963C6.62276 41.1764 6.7726 41.1464 6.9524 41.1464C7.13221 41.1464 7.28204 41.1764 7.46185 41.2663L8.03123 41.566V42.7647ZM8.63058 43.6937V39.2884H8.03123V40.9666L7.64165 40.7569C7.40191 40.607 7.13221 40.5471 6.89247 40.5471C6.56283 40.5471 6.29312 40.637 6.08335 40.8468C5.87358 41.0565 5.78367 41.2963 5.78367 41.6259V42.7047C5.78367 43.0044 5.87358 43.2741 6.08335 43.4539C6.29312 43.6637 6.56283 43.7536 6.8625 43.7536C7.13221 43.7536 7.37195 43.6937 7.64165 43.5438L8.03123 43.334V43.6937H8.63058ZM9.97911 43.6937V40.577H9.34979V43.6937H9.97911ZM10.0091 39.5582C10.0091 39.4683 9.97911 39.4083 9.91917 39.3484C9.85924 39.2885 9.76934 39.2585 9.64947 39.2585C9.5296 39.2585 9.4397 39.2885 9.37976 39.3484C9.31983 39.4083 9.28986 39.4683 9.28986 39.5582V39.678C9.28986 39.7679 9.31983 39.8279 9.37976 39.8878C9.4397 39.9477 9.5296 39.9777 9.64947 39.9777C9.73937 39.9777 9.82927 39.9477 9.91917 39.8878C9.97911 39.8279 10.0091 39.7679 10.0091 39.678V39.5582ZM13.3355 42.5249H12.7361C12.7361 42.9744 12.4664 43.1842 11.957 43.1842C11.4775 43.1842 11.2078 42.9445 11.2078 42.465V41.7757C11.2078 41.2963 11.4475 41.0565 11.957 41.0565C12.4664 41.0565 12.7361 41.2663 12.7361 41.7158H13.3355V41.6559C13.3355 41.2963 13.2156 40.9966 12.9758 40.7868C12.7361 40.577 12.4065 40.4871 11.9869 40.4871C11.5674 40.4871 11.2677 40.607 10.998 40.8168C10.7583 41.0266 10.6384 41.3262 10.6384 41.6858V42.465C10.6384 42.8546 10.7583 43.1542 10.998 43.364C11.2377 43.5738 11.5674 43.6937 11.9869 43.6937C12.4065 43.6937 12.7361 43.6038 12.9758 43.394C13.2156 43.1842 13.3355 42.9145 13.3355 42.5249ZM16.0026 42.7647L15.4631 43.0344C15.2534 43.1542 15.0436 43.2142 14.8338 43.2142C14.714 43.2142 14.5941 43.1842 14.5342 43.0943C14.4742 43.0344 14.4143 42.9145 14.4143 42.7946C14.4143 42.495 14.6241 42.3451 15.0136 42.3451H15.9726V42.7347L16.0026 42.7647ZM16.6019 43.6637V41.6559C16.6019 41.2963 16.482 40.9966 16.2423 40.8168C16.0026 40.607 15.6729 40.5171 15.2534 40.5171C14.8338 40.5171 14.5042 40.607 14.2644 40.8168C13.9947 41.0266 13.8749 41.2663 13.8749 41.6259V41.6559H14.4742C14.4742 41.2363 14.7439 41.0565 15.2534 41.0565C15.7628 41.0565 16.0026 41.2663 16.0026 41.7458V41.9256H14.9537C14.6241 41.9256 14.3244 42.0155 14.1146 42.1653C13.9048 42.3152 13.785 42.5549 13.785 42.8546C13.785 43.1243 13.8749 43.334 14.0547 43.4839C14.2345 43.6337 14.4443 43.7236 14.7439 43.7236C15.0136 43.7236 15.3133 43.6337 15.6429 43.4839L16.0026 43.3041V43.6937H16.6319L16.6019 43.6637ZM19.4488 42.7347L18.8794 43.0344C18.6996 43.1243 18.5498 43.1842 18.37 43.1842C18.1902 43.1842 18.0703 43.1243 17.9504 43.0344C17.8605 42.9145 17.8006 42.7946 17.8006 42.6148V41.6858C17.8006 41.506 17.8605 41.3862 17.9504 41.2663C18.0403 41.1464 18.1902 41.1165 18.37 41.1165C18.5498 41.1165 18.6996 41.1464 18.8794 41.2363L19.4488 41.536V42.7347ZM20.0482 43.6637V39.2585H19.4488V40.9367L19.0592 40.7269C18.8195 40.577 18.5498 40.5171 18.31 40.5171C17.9804 40.5171 17.7107 40.607 17.5009 40.8168C17.2912 41.0266 17.2013 41.2663 17.2013 41.5959V42.6748C17.2013 42.9744 17.2912 43.2441 17.5009 43.4239C17.7107 43.6337 17.9804 43.7236 18.2801 43.7236C18.5498 43.7236 18.7895 43.6637 19.0592 43.5139L19.4488 43.3041V43.6637H20.0482ZM22.955 42.4051C22.955 42.6448 22.8951 42.8546 22.7153 43.0044C22.5654 43.1542 22.3556 43.2142 22.1159 43.2142C21.8762 43.2142 21.6664 43.1542 21.5166 43.0044C21.3667 42.8546 21.2768 42.6748 21.2768 42.4051V41.8656C21.2768 41.6259 21.3368 41.4161 21.5166 41.2663C21.6664 41.1165 21.8762 41.0565 22.1159 41.0565C22.3556 41.0565 22.5654 41.1165 22.7153 41.2663C22.8651 41.4161 22.955 41.5959 22.955 41.8656V42.4051ZM23.5543 41.8057C23.5543 41.4161 23.4345 41.1165 23.1348 40.8767C22.8651 40.637 22.5354 40.5171 22.0859 40.5171C21.6664 40.5171 21.3068 40.637 21.0371 40.8767C20.7674 41.1165 20.6175 41.4161 20.6175 41.8057V42.465C20.6175 42.8546 20.7674 43.1542 21.0371 43.394C21.3068 43.6337 21.6364 43.7536 22.0859 43.7536C22.5055 43.7536 22.8651 43.6337 23.1348 43.394C23.4045 43.1542 23.5543 42.8546 23.5543 42.465V41.8057ZM28.0494 42.5849C28.0494 42.7647 27.9895 42.8845 27.8996 43.0044C27.8097 43.1243 27.6599 43.1542 27.4801 43.1542C27.3003 43.1542 27.1504 43.0943 26.9706 43.0044L26.4012 42.7047V41.506L26.9706 41.2064C27.1504 41.1165 27.3003 41.0565 27.4801 41.0565C27.6599 41.0565 27.7797 41.1165 27.8996 41.2064C27.9895 41.3262 28.0494 41.4461 28.0494 41.6259V42.5549V42.5849ZM26.4012 44.7725V43.3041L26.7908 43.5139C27.0306 43.6637 27.3003 43.7236 27.54 43.7236C27.8696 43.7236 28.1393 43.6337 28.3192 43.4239C28.5289 43.2142 28.6188 42.9744 28.6188 42.6448V41.566C28.6188 41.2663 28.5289 40.9966 28.3192 40.8168C28.1094 40.637 27.8397 40.5171 27.54 40.5171C27.2703 40.5171 27.0306 40.577 26.7608 40.7269L26.3713 40.9367V40.5471H25.7719V44.7425H26.3713L26.4012 44.7725ZM31.3459 42.7647L30.8064 43.0344C30.5967 43.1542 30.3869 43.2142 30.1771 43.2142C30.0573 43.2142 29.9374 43.1842 29.8775 43.0943C29.8175 43.0344 29.7576 42.9145 29.7576 42.7946C29.7576 42.495 29.9674 42.3451 30.3569 42.3451H31.3159V42.7347L31.3459 42.7647ZM31.9452 43.6637V41.6559C31.9452 41.2963 31.8253 40.9966 31.5856 40.8168C31.3459 40.607 31.0162 40.5171 30.5967 40.5171C30.1771 40.5171 29.8475 40.607 29.6077 40.8168C29.338 41.0266 29.2182 41.2663 29.2182 41.6259V41.6559H29.8175C29.8175 41.2363 30.0872 41.0565 30.5967 41.0565C31.0762 41.0565 31.3459 41.2663 31.3459 41.7458V41.9256H30.297C29.9674 41.9256 29.6677 42.0155 29.4579 42.1653C29.2481 42.3152 29.1283 42.5549 29.1283 42.8546C29.1283 43.1243 29.2182 43.334 29.398 43.4839C29.5778 43.6337 29.7876 43.7236 30.0872 43.7236C30.3569 43.7236 30.6566 43.6337 30.9862 43.4839L31.3459 43.3041V43.6937H31.9752L31.9452 43.6637ZM33.2338 43.6637V41.5959L33.5035 41.3862C33.7133 41.2363 33.953 41.1464 34.2227 41.1464H34.3726V40.5171H34.2227C33.9231 40.5171 33.6533 40.637 33.3836 40.8468L33.2338 40.9966V40.5171H32.6345V43.6337H33.2638L33.2338 43.6637ZM36.7999 42.7347L36.2605 43.0044C36.0507 43.1243 35.841 43.1842 35.6312 43.1842C35.5113 43.1842 35.3915 43.1542 35.3315 43.0643C35.2716 43.0044 35.2117 42.8845 35.2117 42.7647C35.2117 42.465 35.4214 42.3152 35.811 42.3152H36.77V42.7047L36.7999 42.7347ZM37.3993 43.6337V41.6259C37.3993 41.2663 37.2794 40.9666 37.0397 40.7868C36.7999 40.577 36.4703 40.4871 36.0507 40.4871C35.6312 40.4871 35.3016 40.577 35.0618 40.7868C34.7921 40.9966 34.6722 41.2363 34.6722 41.5959V41.6259H35.2716C35.2716 41.2064 35.5413 41.0266 36.0507 41.0266C36.5302 41.0266 36.7999 41.2363 36.7999 41.7158V41.8956H35.7511C35.4214 41.8956 35.1217 41.9855 34.912 42.1354C34.7022 42.2852 34.5823 42.5249 34.5823 42.8246C34.5823 43.0943 34.6722 43.3041 34.852 43.4539C35.0318 43.6038 35.2416 43.6937 35.5413 43.6937C35.811 43.6937 36.1107 43.6038 36.4403 43.4539L36.7999 43.2741V43.6637H37.4292L37.3993 43.6337ZM41.4748 43.6337V43.0943H41.1152C40.9055 43.0943 40.7556 43.0643 40.6657 42.9744C40.5758 42.8845 40.5159 42.7347 40.5159 42.5249V41.0266H41.4449V40.5171H40.5159V39.678H39.8866V40.5171H39.3771V41.0266H39.8866V42.5549C39.8866 42.9145 39.9765 43.1842 40.2162 43.364C40.426 43.5438 40.7257 43.6337 41.0853 43.6337H41.5048H41.4748ZM44.0221 42.3751C44.0221 42.6148 43.9621 42.8246 43.7823 42.9744C43.6325 43.1243 43.4227 43.1842 43.183 43.1842C42.9432 43.1842 42.7335 43.1243 42.5836 42.9744C42.4338 42.8246 42.3439 42.6448 42.3439 42.3751V41.8357C42.3439 41.5959 42.4038 41.3862 42.5836 41.2363C42.7335 41.0865 42.9432 41.0266 43.183 41.0266C43.4227 41.0266 43.6325 41.0865 43.7823 41.2363C43.9322 41.3862 44.0221 41.566 44.0221 41.8357V42.3751ZM44.6214 41.7757C44.6214 41.3862 44.5015 41.0865 44.2019 40.8468C43.9322 40.607 43.6025 40.4871 43.153 40.4871C42.7335 40.4871 42.3739 40.607 42.1041 40.8468C41.8344 41.0865 41.6846 41.3862 41.6846 41.7757V42.435C41.6846 42.8246 41.8344 43.1243 42.1041 43.364C42.3739 43.6038 42.7035 43.7236 43.153 43.7236C43.5726 43.7236 43.9322 43.6038 44.2019 43.364C44.4716 43.1243 44.6214 42.8246 44.6214 42.435V41.7757ZM47.4084 42.7047L46.839 43.0044C46.6592 43.0943 46.5094 43.1542 46.3296 43.1542C46.1497 43.1542 46.0299 43.0943 45.91 43.0044C45.8201 42.8845 45.7602 42.7647 45.7602 42.5849V41.6559C45.7602 41.4761 45.8201 41.3562 45.91 41.2363C45.9999 41.1165 46.1497 41.0865 46.3296 41.0865C46.5094 41.0865 46.6592 41.1165 46.839 41.2064L47.4084 41.506V42.7047ZM48.0077 43.6337V39.2285H47.4084V40.9067L47.0188 40.6969C46.7791 40.5471 46.5094 40.4871 46.2696 40.4871C45.94 40.4871 45.6703 40.577 45.4605 40.7868C45.2507 40.9966 45.1608 41.2363 45.1608 41.566V42.6448C45.1608 42.9445 45.2507 43.2142 45.4605 43.394C45.6703 43.6038 45.94 43.6937 46.2397 43.6937C46.5094 43.6937 46.7491 43.6337 47.0188 43.4839L47.4084 43.2741V43.6337H48.0077ZM50.7947 42.7347L50.2553 43.0044C50.0455 43.1243 49.8357 43.1842 49.626 43.1842C49.5061 43.1842 49.3862 43.1542 49.3263 43.0643C49.2664 43.0044 49.2064 42.8845 49.2064 42.7647C49.2064 42.465 49.4162 42.3152 49.8058 42.3152H50.7647V42.7047L50.7947 42.7347ZM51.394 43.6337V41.6259C51.394 41.2663 51.2742 40.9666 51.0344 40.7868C50.7947 40.577 50.4651 40.4871 50.0455 40.4871C49.626 40.4871 49.2963 40.577 49.0566 40.7868C48.7869 40.9966 48.667 41.2363 48.667 41.5959V41.6259H49.2664C49.2664 41.2064 49.5361 41.0266 50.0455 41.0266C50.555 41.0266 50.7947 41.2363 50.7947 41.7158V41.8956H49.7458C49.4162 41.8956 49.1165 41.9855 48.9067 42.1354C48.697 42.2852 48.5771 42.5249 48.5771 42.8246C48.5771 43.0943 48.667 43.3041 48.8468 43.4539C49.0266 43.6038 49.2364 43.6937 49.5361 43.6937C49.8058 43.6937 50.1054 43.6038 50.4351 43.4539L50.7947 43.2741V43.6637H51.424L51.394 43.6337ZM54.6305 41.536V41.506C54.6305 41.2064 54.5107 40.9367 54.2709 40.7569C54.0312 40.577 53.7015 40.4871 53.282 40.4871C52.8624 40.4871 52.5628 40.577 52.323 40.7569C52.0833 40.9367 51.9634 41.1464 51.9634 41.4461C51.9634 41.6858 52.0533 41.8656 52.1732 42.0155C52.323 42.1653 52.4729 42.2253 52.6826 42.2852C52.8924 42.3152 53.1022 42.3451 53.282 42.3751C53.4918 42.4051 53.6416 42.435 53.7914 42.495C53.9413 42.5549 54.0012 42.6448 54.0012 42.7946C54.0012 42.9145 53.9413 43.0344 53.8214 43.0943C53.7015 43.1842 53.5217 43.2142 53.282 43.2142C52.7725 43.2142 52.5328 43.0344 52.5328 42.6748H51.9035V42.7047C51.9035 43.0044 52.0234 43.2441 52.2631 43.4239C52.5028 43.6038 52.8325 43.6937 53.282 43.6937C53.7015 43.6937 54.0312 43.6038 54.2709 43.4239C54.5107 43.2441 54.6305 43.0344 54.6305 42.7347C54.6305 42.5249 54.5706 42.3751 54.4807 42.2552C54.3908 42.1354 54.2409 42.0454 54.0911 42.0155C53.9413 41.9855 53.7615 41.9256 53.5817 41.8956C53.4019 41.8656 53.252 41.8357 53.0722 41.8357C52.9224 41.8057 52.8025 41.7757 52.6826 41.7158C52.5927 41.6559 52.5328 41.566 52.5328 41.4161C52.5328 41.2963 52.5927 41.1764 52.7126 41.1165C52.8325 41.0266 53.0123 40.9966 53.252 40.9966C53.7315 40.9966 53.9712 41.1764 53.9712 41.536L54.5706 41.566L54.6305 41.536Z"
-                  fill="#929292"
-                />
-                <path
-                  d="M3.02655 49.8988L2.48713 50.1685C2.27736 50.2883 2.06759 50.3483 1.85782 50.3483C1.73795 50.3483 1.61808 50.3183 1.55814 50.2284C1.49821 50.1685 1.43828 50.0486 1.43828 49.9287C1.43828 49.6291 1.64805 49.4792 2.03762 49.4792H2.99658V49.8688L3.02655 49.8988ZM3.62589 50.7978V48.79C3.62589 48.4304 3.50603 48.1307 3.26629 47.9509C3.02655 47.7411 2.69691 47.6512 2.27736 47.6512C1.85782 47.6512 1.52818 47.7411 1.28844 47.9509C1.01873 48.1607 0.898862 48.4004 0.898862 48.76V48.79H1.49821C1.49821 48.3704 1.76792 48.1906 2.27736 48.1906C2.75684 48.1906 3.02655 48.4004 3.02655 48.8799V49.0597H1.97769C1.64805 49.0597 1.34837 49.1496 1.1386 49.2994C0.92883 49.4493 0.80896 49.689 0.80896 49.9887C0.80896 50.2584 0.898862 50.4681 1.07867 50.618C1.25847 50.7678 1.46824 50.8577 1.76792 50.8577C2.03762 50.8577 2.3373 50.7678 2.66694 50.618L3.02655 50.4382V50.8278H3.65586L3.62589 50.7978ZM6.86237 48.7001V48.6701C6.86237 48.3704 6.7425 48.1007 6.50276 47.9209C6.26302 47.7411 5.93338 47.6512 5.51384 47.6512C5.0943 47.6512 4.79462 47.7411 4.55488 47.9209C4.31514 48.1007 4.19527 48.3105 4.19527 48.6102C4.19527 48.8499 4.25521 49.0297 4.40505 49.1795C4.55488 49.3294 4.70472 49.3893 4.91449 49.4492C5.12426 49.4792 5.33404 49.5092 5.51384 49.5392C5.72361 49.5691 5.87345 49.5991 6.02329 49.659C6.17312 49.719 6.23306 49.8089 6.23306 49.9587C6.23306 50.0786 6.17312 50.1984 6.05325 50.2584C5.93338 50.3483 5.75358 50.3782 5.51384 50.3782C5.00439 50.3782 4.76466 50.1984 4.76466 49.8388H4.13534V49.8688C4.13534 50.1685 4.25521 50.4082 4.49495 50.588C4.73469 50.7678 5.06433 50.8577 5.51384 50.8577C5.93338 50.8577 6.26302 50.7678 6.50276 50.588C6.7425 50.4082 6.86237 50.1984 6.86237 49.8988C6.86237 49.689 6.80244 49.5392 6.71254 49.4193C6.62263 49.2994 6.4728 49.2095 6.32296 49.1795C6.17312 49.1496 5.99332 49.0896 5.81351 49.0597C5.63371 49.0297 5.48387 48.9997 5.30407 48.9997C5.15423 48.9698 5.03436 48.9398 4.91449 48.8799C4.82459 48.8199 4.76466 48.73 4.76466 48.5802C4.76466 48.4603 4.82459 48.3405 4.94446 48.2805C5.06433 48.1906 5.24413 48.1607 5.48387 48.1607C5.96335 48.1607 6.20309 48.3405 6.20309 48.7001L6.80244 48.73L6.86237 48.7001ZM9.70927 50.8278V48.76L9.97898 48.5502C10.1888 48.4004 10.4285 48.3105 10.6982 48.3105H10.848V47.6812H10.6682C10.3686 47.6812 10.0989 47.801 9.82914 48.0108L9.67931 48.1607V47.6812H9.07996V50.7978H9.70927V50.8278ZM13.9047 49.8388H13.3054C13.3054 50.1984 13.0357 50.3782 12.5262 50.3782C12.2865 50.3782 12.0767 50.3183 11.9269 50.1984C11.777 50.0786 11.7171 49.8988 11.7171 49.659V49.4792H13.9047V48.9398C13.9047 48.5502 13.7848 48.2206 13.5151 48.0108C13.2454 47.7711 12.9158 47.6512 12.4962 47.6512C12.0767 47.6512 11.7471 47.7711 11.4774 48.0108C11.2076 48.2506 11.0878 48.5502 11.0878 48.9398V49.689C11.0878 50.0486 11.2076 50.3483 11.4774 50.558C11.7471 50.7678 12.0767 50.8877 12.4962 50.8877C12.9158 50.8877 13.2454 50.7978 13.4852 50.618C13.7249 50.4382 13.8448 50.1984 13.8448 49.8988V49.8688L13.9047 49.8388ZM13.3353 49.0597H11.7171V48.9698C11.7171 48.73 11.777 48.5502 11.9269 48.4004C12.0767 48.2506 12.2565 48.1906 12.5262 48.1906C12.7659 48.1906 12.9757 48.2506 13.1256 48.3704C13.2754 48.4903 13.3353 48.7001 13.3353 48.9398V49.0297V49.0597ZM16.3021 50.618C16.5119 50.618 16.6617 50.6479 16.7516 50.7079C16.8415 50.7678 16.9014 50.8577 16.9014 51.0076C16.9014 51.3372 16.6018 51.517 16.0324 51.517C15.7327 51.517 15.493 51.4571 15.3731 51.3372C15.2532 51.2173 15.1933 51.0375 15.1933 50.7678V50.618H16.3021ZM15.7327 49.2395C15.3132 49.2395 15.1334 49.0597 15.1334 48.73C15.1334 48.5502 15.1933 48.4004 15.2832 48.3105C15.3731 48.2206 15.5529 48.1906 15.7627 48.1906H16.0624C16.4819 48.1906 16.6917 48.3704 16.6917 48.7001C16.6917 49.0597 16.4519 49.2095 16.0024 49.2095H15.7627L15.7327 49.2395ZM16.0324 49.689C16.392 49.689 16.6917 49.5991 16.9014 49.4193C17.1112 49.2395 17.2311 48.9997 17.2311 48.7001C17.2311 48.4603 17.1712 48.3105 17.0513 48.2206H17.5308V47.7111H15.7028C15.3431 47.7111 15.0734 47.801 14.8637 47.9809C14.6539 48.1607 14.564 48.4004 14.564 48.73C14.564 48.8499 14.594 48.9698 14.6239 49.0597C14.6539 49.1496 14.7138 49.2095 14.7138 49.2395C14.7438 49.2694 14.7738 49.2994 14.7738 49.2994C14.6239 49.3294 14.534 49.4193 14.4441 49.5092C14.3542 49.5991 14.3243 49.7489 14.3243 49.8988C14.3243 50.1685 14.4142 50.3483 14.6539 50.4382V50.7378C14.6539 51.547 15.1334 51.9365 16.0624 51.9365C16.5119 51.9365 16.8715 51.8466 17.1112 51.6668C17.3809 51.487 17.5008 51.2473 17.5008 50.9476C17.5008 50.3782 17.1112 50.1085 16.362 50.1085H15.0734C14.9236 50.1085 14.8337 50.0486 14.8337 49.8988C14.8337 49.7489 14.9236 49.689 15.0734 49.689H16.0324ZM18.5497 50.8278V47.7111H17.9203V50.8278H18.5497ZM18.5796 46.6923C18.5796 46.6024 18.5497 46.5424 18.4897 46.4825C18.4298 46.4225 18.3399 46.3926 18.22 46.3926C18.1001 46.3926 18.0102 46.4225 17.9503 46.4825C17.8904 46.5424 17.8604 46.6024 17.8604 46.6923V46.8121C17.8604 46.902 17.8904 46.962 17.9503 47.0219C18.0102 47.0818 18.1001 47.1118 18.22 47.1118C18.3099 47.1118 18.3998 47.0818 18.4897 47.0219C18.5497 46.962 18.5796 46.902 18.5796 46.8121V46.6923ZM21.4565 49.5392C21.4565 49.7789 21.3966 49.9887 21.2168 50.1385C21.0669 50.2883 20.8571 50.3483 20.6174 50.3483C20.3777 50.3483 20.1679 50.2883 20.0181 50.1385C19.8682 49.9887 19.7783 49.8089 19.7783 49.5392V48.9997C19.7783 48.76 19.8383 48.5502 20.0181 48.4004C20.1679 48.2506 20.3777 48.1906 20.6174 48.1906C20.8571 48.1906 21.0669 48.2506 21.2168 48.4004C21.3666 48.5502 21.4565 48.73 21.4565 48.9997V49.5392ZM22.0558 48.9398C22.0558 48.5502 21.936 48.2506 21.6363 48.0108C21.3666 47.7711 21.0369 47.6512 20.5874 47.6512C20.1679 47.6512 19.8083 47.7711 19.5386 48.0108C19.2689 48.2506 19.119 48.5502 19.119 48.9398V49.5991C19.119 49.9887 19.2689 50.2883 19.5386 50.5281C19.8083 50.7678 20.1379 50.8877 20.5874 50.8877C21.007 50.8877 21.3666 50.7678 21.6363 50.5281C21.906 50.2883 22.0558 49.9887 22.0558 49.5991V48.9398ZM21.876 46.4225H21.3666C21.3666 46.6623 21.2767 46.7822 21.0969 46.7822C21.007 46.7822 20.947 46.7522 20.8571 46.6923C20.7672 46.6323 20.6773 46.5724 20.5575 46.4825C20.4376 46.4225 20.3177 46.3926 20.1679 46.3926C19.9282 46.3926 19.7483 46.4525 19.6285 46.6024C19.5086 46.7522 19.4187 46.932 19.4187 47.1717V47.2017H19.9581C19.9581 47.0818 19.9881 46.9919 20.0181 46.932C20.078 46.8721 20.1379 46.8421 20.2278 46.8421C20.2878 46.8421 20.3477 46.8721 20.4076 46.902C20.4676 46.932 20.5275 46.9919 20.5874 47.0219C20.6474 47.0818 20.7073 47.1118 20.8272 47.1418C20.9171 47.1717 21.0369 47.2017 21.1268 47.2017C21.3666 47.2017 21.5464 47.1118 21.6663 46.9919C21.7861 46.8421 21.8461 46.6623 21.8461 46.4225L21.8161 46.3926L21.876 46.4225ZM25.3822 49.8388H24.7829C24.7829 50.1984 24.5132 50.3782 24.0037 50.3782C23.764 50.3782 23.5542 50.3183 23.4044 50.1984C23.2545 50.0786 23.1946 49.8988 23.1946 49.659V49.4792H25.3822V48.9398C25.3822 48.5502 25.2623 48.2206 24.9926 48.0108C24.7229 47.7711 24.3933 47.6512 23.9738 47.6512C23.5542 47.6512 23.2246 47.7711 22.9549 48.0108C22.6852 48.2506 22.5653 48.5502 22.5653 48.9398V49.689C22.5653 50.0486 22.6852 50.3483 22.9549 50.558C23.2246 50.7678 23.5542 50.8877 23.9738 50.8877C24.3933 50.8877 24.7229 50.7978 24.9627 50.618C25.2024 50.4382 25.3223 50.1984 25.3223 49.8988V49.8688L25.3822 49.8388ZM24.8128 49.0597H23.1946V48.9698C23.1946 48.73 23.2845 48.5502 23.4044 48.4004C23.5542 48.2506 23.734 48.1906 24.0037 48.1906C24.2435 48.1906 24.4532 48.2506 24.6031 48.3704C24.7529 48.4903 24.8128 48.7001 24.8128 48.9398V49.0297V49.0597ZM28.6187 48.73V48.7001C28.6187 48.4004 28.4988 48.1307 28.2591 47.9509C28.0193 47.7711 27.6897 47.6812 27.2702 47.6812C26.8506 47.6812 26.5509 47.7711 26.3112 47.9509C26.0715 48.1307 25.9516 48.3405 25.9516 48.6401C25.9516 48.8799 26.0115 49.0597 26.1614 49.2095C26.3112 49.3593 26.461 49.4193 26.6708 49.4792C26.8806 49.5092 27.0604 49.5392 27.2702 49.5691C27.4799 49.5991 27.6298 49.6291 27.7796 49.689C27.9294 49.7489 27.9894 49.8388 27.9894 49.9887C27.9894 50.1085 27.9294 50.2284 27.8096 50.2883C27.6897 50.3782 27.5099 50.4082 27.2702 50.4082C26.7607 50.4082 26.521 50.2284 26.521 49.8688H25.8917V49.8988C25.8917 50.1984 26.0115 50.4382 26.2513 50.618C26.491 50.7978 26.8207 50.8877 27.2702 50.8877C27.6897 50.8877 28.0193 50.7978 28.2591 50.618C28.4988 50.4382 28.6187 50.2284 28.6187 49.9287C28.6187 49.719 28.5588 49.5691 28.4689 49.4492C28.379 49.3294 28.2291 49.2395 28.0793 49.2095C27.9294 49.1795 27.7496 49.1196 27.5698 49.0896C27.39 49.0597 27.2402 49.0297 27.0604 49.0297C26.9106 48.9997 26.7907 48.9698 26.6708 48.9098C26.5809 48.8499 26.521 48.76 26.521 48.6102C26.521 48.4903 26.5809 48.3704 26.7008 48.3105C26.8207 48.2206 27.0005 48.1906 27.2402 48.1906C27.7197 48.1906 27.9594 48.3704 27.9594 48.73L28.5588 48.76L28.6187 48.73ZM32.9939 49.8988L32.4246 50.1984C32.2448 50.2883 32.0949 50.3483 31.9151 50.3483C31.7353 50.3483 31.6154 50.2883 31.4956 50.1984C31.4057 50.0786 31.3457 49.9587 31.3457 49.7789V48.8499C31.3457 48.6701 31.4057 48.5502 31.4956 48.4304C31.5855 48.3105 31.7353 48.2805 31.9151 48.2805C32.0649 48.2805 32.2448 48.3105 32.4246 48.4004L32.9939 48.7001V49.8988ZM33.5933 50.8278V46.4225H32.9939V48.1007L32.6044 47.8909C32.3646 47.7411 32.0949 47.6812 31.8552 47.6812C31.5255 47.6812 31.2558 47.7711 31.0461 47.9809C30.8363 48.1906 30.7464 48.4304 30.7464 48.76V49.8388C30.7464 50.1385 30.8363 50.4082 31.0461 50.588C31.2558 50.7978 31.5255 50.8877 31.8252 50.8877C32.0949 50.8877 32.3347 50.8278 32.6044 50.6779L32.9939 50.4681V50.8278H33.5933ZM36.3802 49.9287L35.8408 50.1984C35.6311 50.3183 35.4213 50.3782 35.2115 50.3782C35.0917 50.3782 34.9718 50.3483 34.9118 50.2584C34.8519 50.1984 34.792 50.0786 34.792 49.9587C34.792 49.659 35.0018 49.5092 35.3913 49.5092H36.3503V49.8988L36.3802 49.9287ZM36.9796 50.8278V48.8199C36.9796 48.4603 36.8597 48.1607 36.62 47.9809C36.3802 47.7711 36.0506 47.6812 35.6311 47.6812C35.2115 47.6812 34.8819 47.7711 34.6421 47.9809C34.3724 48.1906 34.2526 48.4304 34.2526 48.79V48.8199H34.8519C34.8519 48.4004 35.1216 48.2206 35.6311 48.2206C36.1405 48.2206 36.3802 48.4304 36.3802 48.9098V49.0896H35.3314C35.0018 49.0896 34.7021 49.1795 34.4923 49.3294C34.2825 49.4792 34.1627 49.719 34.1627 50.0186C34.1627 50.2883 34.2526 50.4981 34.4324 50.648C34.6122 50.7978 34.8219 50.8877 35.1216 50.8877C35.3913 50.8877 35.691 50.7978 36.0206 50.648L36.3802 50.4681V50.8577H37.0096L36.9796 50.8278ZM41.5047 49.7489C41.5047 49.9287 41.4447 50.0486 41.3548 50.1685C41.2649 50.2883 41.1151 50.3183 40.9353 50.3183C40.7855 50.3183 40.6057 50.2584 40.4258 50.1685L39.8565 49.8688V48.6701L40.4258 48.3704C40.6057 48.2805 40.7555 48.2506 40.9353 48.2506C41.1151 48.2506 41.235 48.3105 41.3548 48.4004C41.4447 48.5203 41.5047 48.6401 41.5047 48.8199V49.7489ZM40.246 50.6779C40.5158 50.8278 40.7555 50.8877 40.9952 50.8877C41.3249 50.8877 41.5946 50.7978 41.7744 50.588C41.9842 50.3782 42.0741 50.1385 42.0741 49.8388V48.76C42.0741 48.4603 41.9842 48.1906 41.7744 48.0108C41.5646 47.801 41.2949 47.7111 40.9952 47.7111C40.7555 47.7111 40.4858 47.7711 40.246 47.9209L39.8565 48.1307V46.4525H39.2571V50.8577H39.8565V50.4981L40.246 50.7079V50.6779ZM44.921 49.5691C44.921 49.8089 44.861 50.0186 44.6812 50.1685C44.5314 50.3183 44.3216 50.3782 44.0819 50.3782C43.8421 50.3782 43.6324 50.3183 43.4825 50.1685C43.3327 50.0186 43.2428 49.8388 43.2428 49.5691V49.0297C43.2428 48.79 43.3027 48.5802 43.4825 48.4304C43.6324 48.2805 43.8421 48.2206 44.0819 48.2206C44.3216 48.2206 44.5314 48.2805 44.6812 48.4304C44.8311 48.5802 44.921 48.76 44.921 49.0297V49.5691ZM45.5203 48.9698C45.5203 48.5802 45.4004 48.2805 45.1307 48.0408C44.861 47.801 44.5314 47.6812 44.0819 47.6812C43.6623 47.6812 43.3027 47.801 43.033 48.0408C42.7633 48.2805 42.6135 48.5802 42.6135 48.9698V49.6291C42.6135 50.0186 42.7633 50.3183 43.033 50.558C43.3027 50.7978 43.6324 50.9177 44.0819 50.9177C44.5014 50.9177 44.861 50.7978 45.1307 50.558C45.4004 50.3183 45.5203 50.0186 45.5203 49.6291V48.9698ZM48.7868 49.689H48.1874C48.1874 50.1385 47.9177 50.3483 47.4082 50.3483C46.9288 50.3483 46.6591 50.1085 46.6591 49.6291V48.9398C46.6591 48.4603 46.8988 48.2206 47.4082 48.2206C47.9177 48.2206 48.1874 48.4304 48.1874 48.8799H48.7868V48.8199C48.7868 48.4603 48.6669 48.1607 48.4271 47.9509C48.1874 47.7411 47.8578 47.6512 47.4382 47.6512C47.0187 47.6512 46.719 47.7711 46.4493 47.9809C46.2096 48.1906 46.0897 48.4903 46.0897 48.8499V49.6291C46.0897 50.0186 46.2096 50.3183 46.4493 50.5281C46.689 50.7378 47.0187 50.8577 47.4382 50.8577C47.8578 50.8577 48.1874 50.7678 48.4271 50.558C48.6669 50.3483 48.7868 50.0786 48.7868 49.689ZM51.4538 49.9287L50.9144 50.1984C50.7047 50.3183 50.4949 50.3782 50.2851 50.3782C50.1652 50.3782 50.0454 50.3483 49.9854 50.2584C49.9255 50.1984 49.8656 50.0786 49.8656 49.9587C49.8656 49.659 50.0753 49.5092 50.4649 49.5092H51.4239V49.8988L51.4538 49.9287ZM52.0532 50.8278V48.8199C52.0532 48.4603 51.9333 48.1607 51.6936 47.9809C51.4538 47.7711 51.1242 47.6812 50.7047 47.6812C50.2851 47.6812 49.9555 47.7711 49.7157 47.9809C49.446 48.1906 49.3262 48.4304 49.3262 48.79V48.8199H49.9255C49.9255 48.4004 50.1952 48.2206 50.7047 48.2206C51.1841 48.2206 51.4538 48.4304 51.4538 48.9098V49.0896H50.405C50.0753 49.0896 49.7757 49.1795 49.5659 49.3294C49.3561 49.4792 49.2363 49.719 49.2363 50.0186C49.2363 50.2883 49.3262 50.4981 49.506 50.648C49.6858 50.7978 49.8955 50.8877 50.1952 50.8877C50.4649 50.8877 50.7646 50.7978 51.0942 50.648L51.4538 50.4681V50.8577H52.0832L52.0532 50.8278ZM53.3718 50.4681C53.3718 50.3782 53.3418 50.3183 53.2819 50.2584C53.2219 50.1984 53.132 50.1685 53.0122 50.1685C52.8923 50.1685 52.8024 50.1984 52.7424 50.2584C52.6825 50.3183 52.6525 50.3782 52.6525 50.4681V50.588C52.6525 50.6779 52.6825 50.7678 52.7424 50.7978C52.8024 50.8577 52.8923 50.8877 53.0122 50.8877C53.1021 50.8877 53.192 50.8577 53.2819 50.7978C53.3418 50.7379 53.3718 50.6779 53.3718 50.588V50.4681Z"
-                  fill="#929292"
-                />
-              </svg>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="drill-sequence-section__cover-screw-section">
-      <div class="drill-sequence-section__cover-screw-list">
-        <div class="drill-sequence-section__cover-screw-title">
-          Parafuso de cobertura Zi
-        </div>
-        <div class="drill-sequence-section__cover-screw-code">
-          <div class="drill-sequence-section__cover-screw-code2">
-            <div class="drill-sequence-section__cover-screw-code3">117.023</div>
-          </div>
-        </div>
-        <div class="drill-sequence-section__cover-screw-note">
-          <div class="drill-sequence-section__cover-screw-note-text">
-            <div class="drill-sequence-section__cover-screw-note-text2">
-              :: Use a chave Neo digital (104.060);
-            </div>
-          </div>
-          <div class="drill-sequence-section__cover-screw-note-text">
-            <div class="drill-sequence-section__cover-screw-note-text2">
-              :: Não exceda o torque de Inserção de 10 N.cm
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="drill-sequence-section__icon6">
-        <div class="drill-sequence-section__frame-1171276770"></div>
-        <svg
-          class="drill-sequence-section__bs-cart-plus7"
-          width="15"
-          height="16"
-          viewBox="0 0 15 16"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M8.24662 5.64206C8.24662 5.52202 8.19893 5.4069 8.11405 5.32202C8.02917 5.23714 7.91405 5.18945 7.79401 5.18945C7.67398 5.18945 7.55885 5.23714 7.47397 5.32202C7.38909 5.4069 7.34141 5.52202 7.34141 5.64206V6.99987H5.9836C5.86356 6.99987 5.74844 7.04755 5.66356 7.13243C5.57868 7.21731 5.531 7.33243 5.531 7.45247C5.531 7.57251 5.57868 7.68763 5.66356 7.77251C5.74844 7.85739 5.86356 7.90507 5.9836 7.90507H7.34141V9.26288C7.34141 9.38292 7.38909 9.49804 7.47397 9.58292C7.55885 9.6678 7.67398 9.71548 7.79401 9.71548C7.91405 9.71548 8.02917 9.6678 8.11405 9.58292C8.19893 9.49804 8.24662 9.38292 8.24662 9.26288V7.90507H9.60443C9.72446 7.90507 9.83958 7.85739 9.92446 7.77251C10.0093 7.68763 10.057 7.57251 10.057 7.45247C10.057 7.33243 10.0093 7.21731 9.92446 7.13243C9.83958 7.04755 9.72446 6.99987 9.60443 6.99987H8.24662V5.64206Z"
-            fill="#363330"
-          />
-          <path
-            d="M0.552365 1.56836C0.432327 1.56836 0.317206 1.61604 0.232326 1.70092C0.147447 1.7858 0.099762 1.90092 0.099762 2.02096C0.099762 2.141 0.147447 2.25612 0.232326 2.341C0.317206 2.42588 0.432327 2.47357 0.552365 2.47357H1.55714L1.92013 3.92823L3.27613 11.1563C3.29555 11.26 3.35059 11.3537 3.43174 11.4211C3.5129 11.4886 3.61507 11.5255 3.72059 11.5256H4.62579C4.14564 11.5256 3.68516 11.7164 3.34564 12.0559C3.00612 12.3954 2.81538 12.8559 2.81538 13.336C2.81538 13.8162 3.00612 14.2767 3.34564 14.6162C3.68516 14.9557 4.14564 15.1465 4.62579 15.1465C5.10594 15.1465 5.56643 14.9557 5.90595 14.6162C6.24546 14.2767 6.4362 13.8162 6.4362 13.336C6.4362 12.8559 6.24546 12.3954 5.90595 12.0559C5.56643 11.7164 5.10594 11.5256 4.62579 11.5256H10.9622C10.4821 11.5256 10.0216 11.7164 9.68208 12.0559C9.34256 12.3954 9.15182 12.8559 9.15182 13.336C9.15182 13.8162 9.34256 14.2767 9.68208 14.6162C10.0216 14.9557 10.4821 15.1465 10.9622 15.1465C11.4424 15.1465 11.9029 14.9557 12.2424 14.6162C12.5819 14.2767 12.7726 13.8162 12.7726 13.336C12.7726 12.8559 12.5819 12.3954 12.2424 12.0559C11.9029 11.7164 11.4424 11.5256 10.9622 11.5256H11.8674C11.973 11.5255 12.0751 11.4886 12.1563 11.4211C12.2374 11.3537 12.2925 11.26 12.3119 11.1563L13.6697 3.91465C13.6819 3.84933 13.6796 3.78212 13.6629 3.71779C13.6463 3.65346 13.6156 3.59359 13.5732 3.54244C13.5308 3.49128 13.4776 3.4501 13.4175 3.42181C13.3573 3.39353 13.2917 3.37883 13.2252 3.37877H2.71581L2.3492 1.91143C2.32477 1.81347 2.26828 1.7265 2.18873 1.66433C2.10918 1.60217 2.01113 1.56839 1.91017 1.56836H0.552365ZM4.09625 10.6204L2.90771 4.28398H12.6803L11.4918 10.6204H4.09625ZM5.531 13.336C5.531 13.5761 5.43563 13.8064 5.26587 13.9761C5.09611 14.1459 4.86587 14.2412 4.62579 14.2412C4.38572 14.2412 4.15547 14.1459 3.98571 13.9761C3.81596 13.8064 3.72059 13.5761 3.72059 13.336C3.72059 13.096 3.81596 12.8657 3.98571 12.696C4.15547 12.5262 4.38572 12.4308 4.62579 12.4308C4.86587 12.4308 5.09611 12.5262 5.26587 12.696C5.43563 12.8657 5.531 13.096 5.531 13.336ZM11.8674 13.336C11.8674 13.5761 11.7721 13.8064 11.6023 13.9761C11.4326 14.1459 11.2023 14.2412 10.9622 14.2412C10.7222 14.2412 10.4919 14.1459 10.3222 13.9761C10.1524 13.8064 10.057 13.5761 10.057 13.336C10.057 13.096 10.1524 12.8657 10.3222 12.696C10.4919 12.5262 10.7222 12.4308 10.9622 12.4308C11.2023 12.4308 11.4326 12.5262 11.6023 12.696C11.7721 12.8657 11.8674 13.096 11.8674 13.336Z"
-            fill="#363330"
-          />
-        </svg>
-      </div>
-      <img class="drill-sequence-section__parafuso-1" src="parafuso-10.png" />
-    </div>
-    <div class="drill-sequence-section__healing-abutment-section">
-      <div class="drill-sequence-section__healing-abutment-list">
-        <div class="drill-sequence-section__healing-abutment-title">
-          Cicatrizadores Zi
-        </div>
-        <div class="drill-sequence-section__healing-abutment-content">
-          <div class="drill-sequence-section__healing-abutment-row">
-            <div class="drill-sequence-section__healing-abutment-item">
-              <div class="drill-sequence-section__healing-abutment-profile">
-                <span>
-                  <span class="healing-abutment-profile-span">
-                    Perfil
-                    <br />
-                  </span>
-                  <span class="healing-abutment-profile-span2">Ø 3,75</span>
-                </span>
-              </div>
-              <div class="drill-sequence-section__healing-abutment-size">
-                Ø 4,5
-              </div>
-            </div>
-            <div class="drill-sequence-section__healing-abutment-item2">
-              <div class="drill-sequence-section__healing-abutment-length">
-                1,5mm
-              </div>
-              <div class="drill-sequence-section__healing-abutment-code">
-                <div class="drill-sequence-section__healing-abutment-code2">
-                  <div class="drill-sequence-section__healing-abutment-code3">
-                    <div class="drill-sequence-section__healing-abutment-code4">
-                      106.233
-                    </div>
-                  </div>
-                </div>
-                <div class="drill-sequence-section__healing-abutment-code2">
-                  <div class="drill-sequence-section__healing-abutment-code3">
-                    <div class="drill-sequence-section__healing-abutment-code4">
-                      106.235
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="drill-sequence-section__healing-abutment-item2">
-              <div class="drill-sequence-section__healing-abutment-length">
-                2,5mm
-              </div>
-              <div class="drill-sequence-section__healing-abutment-code">
-                <div class="drill-sequence-section__healing-abutment-code2">
-                  <div class="drill-sequence-section__healing-abutment-code3">
-                    <div class="drill-sequence-section__healing-abutment-code4">
-                      106.234
-                    </div>
-                  </div>
-                </div>
-                <div class="drill-sequence-section__healing-abutment-code2">
-                  <div class="drill-sequence-section__healing-abutment-code3">
-                    <div class="drill-sequence-section__healing-abutment-code4">
-                      106.236
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="drill-sequence-section__healing-abutment-item3">
-            <div class="drill-sequence-section__healing-abutment-profile2">
-              <div class="drill-sequence-section__healing-abutment-profile">
-                <span>
-                  <span class="healing-abutment-profile-span">
-                    Perfil
-                    <br />
-                  </span>
-                  <span class="healing-abutment-profile-span2">Ø 3,75</span>
-                </span>
-              </div>
-              <div class="drill-sequence-section__healing-abutment-size">
-                Ø 4,5
-              </div>
-            </div>
-            <div class="drill-sequence-section__healing-abutment-item2">
-              <div class="drill-sequence-section__healing-abutment-length">
-                3,5mm
-              </div>
-              <div class="drill-sequence-section__healing-abutment-code">
-                <div class="drill-sequence-section__healing-abutment-code2">
-                  <div class="drill-sequence-section__healing-abutment-code3">
-                    <div class="drill-sequence-section__healing-abutment-code4">
-                      106.274
-                    </div>
-                  </div>
-                </div>
-                <div class="drill-sequence-section__healing-abutment-code2">
-                  <div class="drill-sequence-section__healing-abutment-code3">
-                    <div class="drill-sequence-section__healing-abutment-code4">
-                      106.276
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="drill-sequence-section__healing-abutment-item2">
-              <div class="drill-sequence-section__healing-abutment-length">
-                4,5mm
-              </div>
-              <div class="drill-sequence-section__healing-abutment-code">
-                <div class="drill-sequence-section__healing-abutment-code2">
-                  <div class="drill-sequence-section__healing-abutment-code3">
-                    <div class="drill-sequence-section__healing-abutment-code4">
-                      106.275
-                    </div>
-                  </div>
-                </div>
-                <div class="drill-sequence-section__healing-abutment-code2">
-                  <div class="drill-sequence-section__healing-abutment-code3">
-                    <div class="drill-sequence-section__healing-abutment-code4">
-                      106.277
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="drill-sequence-section__healing-abutment-note">
-          <div class="drill-sequence-section__healing-abutment-note-text">
-            <div class="drill-sequence-section__healing-abutment-note-text2">
-              :: Use a chave Neo digital (104.060);
-            </div>
-          </div>
-          <div class="drill-sequence-section__healing-abutment-note-text">
-            <div class="drill-sequence-section__healing-abutment-note-text2">
-              :: Não exceda o torque de Inserção de 10 N.cm
-            </div>
-          </div>
-        </div>
-      </div>
-      <img
-        class="drill-sequence-section__cicatrizador-1"
-        src="cicatrizador-10.png"
-      />
-      <div class="drill-sequence-section__icon7">
-        <div class="drill-sequence-section__frame-1171276770"></div>
-        <svg
-          class="drill-sequence-section__bs-cart-plus8"
-          width="16"
-          height="16"
-          viewBox="0 0 16 16"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M9.04282 5.75534C9.04282 5.6353 8.99514 5.52018 8.91026 5.4353C8.82538 5.35042 8.71025 5.30273 8.59022 5.30273C8.47018 5.30273 8.35506 5.35042 8.27018 5.4353C8.1853 5.52018 8.13761 5.6353 8.13761 5.75534V7.11315H6.7798C6.65977 7.11315 6.54465 7.16083 6.45977 7.24571C6.37489 7.33059 6.3272 7.44571 6.3272 7.56575C6.3272 7.68579 6.37489 7.80091 6.45977 7.88579C6.54465 7.97067 6.65977 8.01835 6.7798 8.01835H8.13761V9.37616C8.13761 9.4962 8.1853 9.61132 8.27018 9.6962C8.35506 9.78108 8.47018 9.82876 8.59022 9.82876C8.71025 9.82876 8.82538 9.78108 8.91026 9.6962C8.99514 9.61132 9.04282 9.4962 9.04282 9.37616V8.01835H10.4006C10.5207 8.01835 10.6358 7.97067 10.7207 7.88579C10.8055 7.80091 10.8532 7.68579 10.8532 7.56575C10.8532 7.44571 10.8055 7.33059 10.7207 7.24571C10.6358 7.16083 10.5207 7.11315 10.4006 7.11315H9.04282V5.75534Z"
-            fill="#363330"
-          />
-          <path
-            d="M1.34857 1.68164C1.22853 1.68164 1.11341 1.72933 1.02853 1.8142C0.94365 1.89908 0.895966 2.01421 0.895966 2.13424C0.895966 2.25428 0.94365 2.3694 1.02853 2.45428C1.11341 2.53916 1.22853 2.58685 1.34857 2.58685H2.35335L2.71633 4.04151L4.07233 11.2696C4.09175 11.3733 4.14679 11.467 4.22795 11.5344C4.3091 11.6018 4.41127 11.6388 4.51679 11.6389H5.422C4.94184 11.6389 4.48136 11.8296 4.14184 12.1692C3.80232 12.5087 3.61158 12.9692 3.61158 13.4493C3.61158 13.9295 3.80232 14.39 4.14184 14.7295C4.48136 15.069 4.94184 15.2597 5.422 15.2597C5.90215 15.2597 6.36263 15.069 6.70215 14.7295C7.04167 14.39 7.23241 13.9295 7.23241 13.4493C7.23241 12.9692 7.04167 12.5087 6.70215 12.1692C6.36263 11.8296 5.90215 11.6389 5.422 11.6389H11.7584C11.2783 11.6389 10.8178 11.8296 10.4783 12.1692C10.1388 12.5087 9.94803 12.9692 9.94803 13.4493C9.94803 13.9295 10.1388 14.39 10.4783 14.7295C10.8178 15.069 11.2783 15.2597 11.7584 15.2597C12.2386 15.2597 12.6991 15.069 13.0386 14.7295C13.3781 14.39 13.5688 13.9295 13.5688 13.4493C13.5688 12.9692 13.3781 12.5087 13.0386 12.1692C12.6991 11.8296 12.2386 11.6389 11.7584 11.6389H12.6636C12.7692 11.6388 12.8713 11.6018 12.9525 11.5344C13.0336 11.467 13.0887 11.3733 13.1081 11.2696L14.4659 4.02793C14.4781 3.96261 14.4758 3.8954 14.4592 3.83107C14.4425 3.76674 14.4118 3.70687 14.3694 3.65572C14.327 3.60456 14.2738 3.56338 14.2137 3.5351C14.1535 3.50681 14.0879 3.49211 14.0215 3.49205H3.51201L3.1454 2.02471C3.12097 1.92676 3.06449 1.83978 2.98494 1.77761C2.90539 1.71545 2.80734 1.68167 2.70638 1.68164H1.34857ZM4.89245 10.7337L3.70391 4.39726H13.4765L12.288 10.7337H4.89245ZM6.3272 13.4493C6.3272 13.6894 6.23183 13.9196 6.06207 14.0894C5.89231 14.2592 5.66207 14.3545 5.422 14.3545C5.18192 14.3545 4.95168 14.2592 4.78192 14.0894C4.61216 13.9196 4.51679 13.6894 4.51679 13.4493C4.51679 13.2092 4.61216 12.979 4.78192 12.8092C4.95168 12.6395 5.18192 12.5441 5.422 12.5441C5.66207 12.5441 5.89231 12.6395 6.06207 12.8092C6.23183 12.979 6.3272 13.2092 6.3272 13.4493ZM12.6636 13.4493C12.6636 13.6894 12.5683 13.9196 12.3985 14.0894C12.2288 14.2592 11.9985 14.3545 11.7584 14.3545C11.5184 14.3545 11.2881 14.2592 11.1184 14.0894C10.9486 13.9196 10.8532 13.6894 10.8532 13.4493C10.8532 13.2092 10.9486 12.979 11.1184 12.8092C11.2881 12.6395 11.5184 12.5441 11.7584 12.5441C11.9985 12.5441 12.2288 12.6395 12.3985 12.8092C12.5683 12.979 12.6636 13.2092 12.6636 13.4493Z"
-            fill="#363330"
-          />
-        </svg>
-      </div>
-    </div>
-  </div>
-  
-</body>
+    </body>
 </html>

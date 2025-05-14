@@ -1,0 +1,727 @@
+.container,
+.container * {
+  box-sizing: border-box;
+}
+.container {
+  height: 2266.1px;
+  position: relative;
+}
+.container2 {
+  border-radius: 10px;
+  padding: 0px 0px 12px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-end;
+  justify-content: center;
+  width: 327px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.container3 {
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.product-list-container {
+  padding: 16px 0px 16px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-1171276907 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-1171276865 {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.summary-title-content {
+  color: var(--color-surfaces-titles-secundary, #3c1635);
+  text-align: left;
+  font-family: var(
+    --body-smhighlight-font-family,
+    "LeagueSpartan-Medium",
+    sans-serif
+  );
+  font-size: var(--body-smhighlight-font-size, 14px);
+  line-height: var(--body-smhighlight-line-height, 130%);
+  font-weight: var(--body-smhighlight-font-weight, 500);
+  position: relative;
+  flex: 1;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.button {
+  border-radius: var(--border-radius-xs, 4px);
+  padding: var(--spacing-nano, 8px);
+  display: flex;
+  flex-direction: row;
+  gap: var(--spacing-quarck, 4px);
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  height: 30px;
+  position: relative;
+}
+.children {
+  color: var(--color-feedback-states-active-primary, #7b3972);
+  text-align: left;
+  font-family: "LeagueSpartan-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 100%;
+  font-weight: 400;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.product-item-container {
+  border-style: solid;
+  border-color: var(--color-surfaces-border-secundary, #f3ebf1);
+  border-width: 0px 0px 1px 0px;
+  padding: 0px 0px 20px 0px;
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+  justify-content: flex-end;
+  flex-shrink: 0;
+  width: 327px;
+  position: relative;
+}
+.product-details-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+.product-description-container {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.product-description {
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.product-feature {
+  color: var(--color-surfaces-body, #6c6760);
+  text-align: left;
+  font-family: var(--body-xs-font-family, "LeagueSpartan-Regular", sans-serif);
+  font-size: var(--body-xs-font-size, 12px);
+  line-height: var(--body-xs-line-height, 130%);
+  font-weight: var(--body-xs-font-weight, 400);
+  position: relative;
+}
+.product-code-container {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.product-code {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.product-code2 {
+  color: var(--color-surfaces-titles-primary, #250a20);
+  text-align: left;
+  font-family: var(--body-xs-font-family, "LeagueSpartan-Regular", sans-serif);
+  font-size: var(--body-xs-font-size, 12px);
+  line-height: var(--body-xs-line-height, 130%);
+  font-weight: var(--body-xs-font-weight, 400);
+  position: relative;
+}
+.product-code3 {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.product-code4 {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.product-code5 {
+  border-radius: 50px;
+  border-style: solid;
+  border-color: var(--color-feedback-states-active-primary, #7b3972);
+  border-width: 0.5px;
+  padding: 2px 6px 2px 6px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.product-code6 {
+  color: var(--color-surfaces-body, #6c6760);
+  text-align: left;
+  font-family: "LeagueSpartan-Regular", sans-serif;
+  font-size: 10px;
+  line-height: 130%;
+  font-weight: 400;
+  position: relative;
+}
+._1-81 {
+  flex-shrink: 0;
+  width: 38.13px;
+  height: 82.1px;
+  position: relative;
+  object-fit: cover;
+}
+.icon {
+  border-radius: 139.54px;
+  padding: 8.37px;
+  flex-shrink: 0;
+  width: 43px;
+  height: 44px;
+  position: absolute;
+  left: 255.37px;
+  top: 31.51px;
+}
+.group-42 {
+  position: absolute;
+  inset: 0;
+}
+.frame-1171276770 {
+  background: #ffffff;
+  border-radius: 40px;
+  border-style: solid;
+  border-color: var(--color-feedback-states-active-primary, #7b3972);
+  border-width: 1px;
+  width: 31px;
+  height: 32px;
+  position: absolute;
+  left: 6px;
+  top: 6px;
+  overflow: hidden;
+}
+.bs-cart-plus {
+  width: 14.48px;
+  height: 14.48px;
+  position: absolute;
+  left: 14.37px;
+  top: 14.37px;
+  overflow: visible;
+}
+.product-name {
+  color: var(--color-surfaces-titles-secundary, #3c1635);
+  text-align: left;
+  font-family: var(
+    --body-smhighlight-font-family,
+    "LeagueSpartan-Medium",
+    sans-serif
+  );
+  font-size: var(--body-smhighlight-font-size, 14px);
+  line-height: var(--body-smhighlight-line-height, 130%);
+  font-weight: var(--body-smhighlight-font-weight, 500);
+  position: relative;
+  align-self: stretch;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.product-feature2 {
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.product-code7 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+._4-5 {
+  flex-shrink: 0;
+  width: 67.05px;
+  height: 82.1px;
+  position: relative;
+  object-fit: cover;
+}
+.icon2 {
+  border-radius: 139.54px;
+  padding: 8.37px;
+  flex-shrink: 0;
+  width: 43px;
+  height: 44px;
+  position: absolute;
+  left: calc(50% - -72.48px);
+  top: 50%;
+  translate: 0 -50%;
+}
+.bs-cart-plus2 {
+  width: 14.48px;
+  height: 14.48px;
+  position: absolute;
+  left: 14.37px;
+  top: 14.37px;
+  overflow: visible;
+}
+.product-description-container2 {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.product-description2 {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.product-code-container2 {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.product-code8 {
+  color: var(--color-surfaces-body, #6c6760);
+  text-align: left;
+  font-family: var(--body-xs-font-family, "LeagueSpartan-Regular", sans-serif);
+  font-size: var(--body-xs-font-size, 12px);
+  line-height: var(--body-xs-line-height, 130%);
+  font-weight: var(--body-xs-font-weight, 400);
+  position: relative;
+}
+.product-code9 {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+._1-82 {
+  flex-shrink: 0;
+  width: 52.45px;
+  height: 112.94px;
+  position: relative;
+  object-fit: cover;
+}
+.icon3 {
+  border-radius: 139.54px;
+  padding: 8.37px;
+  flex-shrink: 0;
+  width: 43px;
+  height: 44px;
+  position: absolute;
+  left: calc(50% - -118.48px);
+  top: calc(50% - -44.81px);
+}
+.bs-cart-plus3 {
+  width: 14.48px;
+  height: 14.48px;
+  position: absolute;
+  left: 14.37px;
+  top: 14.37px;
+  overflow: visible;
+}
+._4-6 {
+  flex-shrink: 0;
+  width: 67.05px;
+  height: 82.1px;
+  position: relative;
+  object-fit: cover;
+}
+.icon4 {
+  border-radius: 139.54px;
+  padding: 8.37px;
+  flex-shrink: 0;
+  width: 43px;
+  height: 44px;
+  position: absolute;
+  left: calc(50% - -72.48px);
+  top: calc(50% - 29.69px);
+}
+.bs-cart-plus4 {
+  width: 14.48px;
+  height: 14.48px;
+  position: absolute;
+  left: 14.37px;
+  top: 14.37px;
+  overflow: visible;
+}
+.product-details-container2 {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+.product-name2 {
+  color: var(--color-surfaces-titles-secundary, #3c1635);
+  text-align: left;
+  font-family: var(
+    --body-smhighlight-font-family,
+    "LeagueSpartan-Medium",
+    sans-serif
+  );
+  font-size: var(--body-smhighlight-font-size, 14px);
+  line-height: var(--body-smhighlight-line-height, 130%);
+  font-weight: var(--body-smhighlight-font-weight, 500);
+  position: relative;
+  width: 262px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.product-description-container3 {
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 262px;
+  position: relative;
+}
+.product-feature3 {
+  color: var(--color-surfaces-body, #6c6760);
+  text-align: left;
+  font-family: var(--body-xs-font-family, "LeagueSpartan-Regular", sans-serif);
+  font-size: var(--body-xs-font-size, 12px);
+  line-height: var(--body-xs-line-height, 130%);
+  font-weight: var(--body-xs-font-weight, 400);
+  position: relative;
+  flex: 1;
+}
+.group-20 {
+  flex-shrink: 0;
+  width: 52.14px;
+  height: 110.33px;
+  position: static;
+}
+.posicionador-1 {
+  width: 52.14px;
+  height: 110.33px;
+  position: absolute;
+  left: 274.86px;
+  top: 13.34px;
+  object-fit: cover;
+}
+.icon5 {
+  border-radius: 139.54px;
+  padding: 8.37px;
+  flex-shrink: 0;
+  width: 43px;
+  height: 44px;
+  position: absolute;
+  left: calc(50% - -72.48px);
+  top: calc(50% - 26.69px);
+}
+.bs-cart-plus5 {
+  width: 14.48px;
+  height: 14.48px;
+  position: absolute;
+  left: 14.37px;
+  top: 14.37px;
+  overflow: visible;
+}
+.product-name3 {
+  color: var(--color-surfaces-titles-secundary, #3c1635);
+  text-align: left;
+  font-family: var(
+    --body-smhighlight-font-family,
+    "LeagueSpartan-Medium",
+    sans-serif
+  );
+  font-size: var(--body-smhighlight-font-size, 14px);
+  line-height: var(--body-smhighlight-line-height, 130%);
+  font-weight: var(--body-smhighlight-font-weight, 500);
+  position: relative;
+  width: 268.15px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.frame-1171276697 {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 226px;
+  position: relative;
+}
+.product-description-container4 {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+.product-feature4 {
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.group-16 {
+  flex-shrink: 0;
+  width: 69.41px;
+  height: 107.08px;
+  position: static;
+}
+.product-image-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  width: 69.41px;
+  height: 107.08px;
+  position: absolute;
+  left: 252.61px;
+  top: -39.5px;
+}
+._6-4 {
+  flex-shrink: 0;
+  width: 69.41px;
+  height: 63.01px;
+  position: relative;
+  object-fit: cover;
+}
+._6-3 {
+  flex-shrink: 0;
+  width: 43.99px;
+  height: 44.07px;
+  position: relative;
+  object-fit: cover;
+}
+.icon6 {
+  border-radius: 139.54px;
+  padding: 8.37px;
+  flex-shrink: 0;
+  width: 43px;
+  height: 44px;
+  position: absolute;
+  left: calc(50% - -122.98px);
+  top: calc(50% - 51.19px);
+}
+.bs-cart-plus6 {
+  width: 14.48px;
+  height: 14.48px;
+  position: absolute;
+  left: 14.37px;
+  top: 14.37px;
+  overflow: visible;
+}
+.product-code-container3 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.product-code10 {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.product-code11 {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.group-202 {
+  flex-shrink: 0;
+  width: 31.76px;
+  height: 82.1px;
+  position: static;
+}
+.posicionador-12 {
+  width: 31.76px;
+  height: 82.1px;
+  position: absolute;
+  left: 287.07px;
+  top: 14.88px;
+  object-fit: cover;
+}
+.icon7 {
+  border-radius: 139.54px;
+  padding: 8.37px;
+  flex-shrink: 0;
+  width: 43px;
+  height: 44px;
+  position: absolute;
+  left: calc(50% - -72.48px);
+  top: calc(50% - 20.69px);
+}
+.bs-cart-plus7 {
+  width: 14.48px;
+  height: 14.48px;
+  position: absolute;
+  left: 14.37px;
+  top: 14.37px;
+  overflow: visible;
+}
+._3-6 {
+  flex-shrink: 0;
+  width: 46.6px;
+  height: 115px;
+  position: relative;
+  object-fit: cover;
+}
+.icon8 {
+  border-radius: 139.54px;
+  padding: 8.37px;
+  flex-shrink: 0;
+  width: 43px;
+  height: 44px;
+  position: absolute;
+  left: calc(50% - -115.48px);
+  top: calc(50% - 102.19px);
+}
+.bs-cart-plus8 {
+  width: 14.48px;
+  height: 14.48px;
+  position: absolute;
+  left: 14.37px;
+  top: 14.37px;
+  overflow: visible;
+}
+.product-item-container2 {
+  padding: 0px 0px 20px 0px;
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+  justify-content: flex-end;
+  flex-shrink: 0;
+  width: 327px;
+  position: relative;
+}
+.frame-1171276724 {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.group-203 {
+  flex-shrink: 0;
+  width: 45.44px;
+  height: 117.46px;
+  position: static;
+}
+.posicionador-13 {
+  width: 45.44px;
+  height: 117.46px;
+  position: absolute;
+  left: 278.36px;
+  top: 16.15px;
+  object-fit: cover;
+}
+.icon9 {
+  border-radius: 139.54px;
+  padding: 8.37px;
+  flex-shrink: 0;
+  width: 43px;
+  height: 44px;
+  position: relative;
+}
+.bs-cart-plus9 {
+  width: 14.48px;
+  height: 14.48px;
+  position: absolute;
+  left: 14.37px;
+  top: 14.37px;
+  overflow: visible;
+}
