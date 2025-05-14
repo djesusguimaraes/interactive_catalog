@@ -77,6 +77,7 @@ for subcategory in lista_subcategorys:
         lista_manter_subcategory.append(subcategory)
 
 #Filtrar pastas finais
+pastas_fragments = []
 pastas_finais = []
 for pasta in pastas_src:
 
@@ -86,9 +87,12 @@ for pasta in pastas_src:
     except:
         subcategory = None
     
-    if (pasta[-1].isdigit()) or (family in lista_manter_family) or (subcategory in lista_manter_subcategory):
-        pastas_finais.append("/" + "/".join(pasta) + "/index.html")
-    
+    if "fragments" in pasta: #queremos separar as pastas que possuem fragments
+        pastas_fragments.append(pasta) #aqui vai o código par identificar e montar a base de fragments
+    else:
+        if (pasta[-1].isdigit()) or (family in lista_manter_family) or (subcategory in lista_manter_subcategory):
+            pastas_finais.append("/" + "/".join(pasta) + "/index.html")
+
 #Coleta links do index.html
 lista_urls = []
 for dir in pastas_finais:
@@ -100,15 +104,22 @@ for dir in pastas_finais:
 #coleta produtos dentro do index.html
 lista_products = []
 lista_is_sku = []
+lista_summary_title_content = []
 for url in lista_urls:
     response = requests.get(url, headers=HEADERS, auth=AUTH)
 
     if response.status_code == 200:
         soup = BeautifulSoup(response.content, "html.parser")
 
+        # Extrai summary_title_content
+        summary_title_content = soup.find("div", class_="summary_title_content") #.find pois coleta apenas a primeira ocorrência
+        if summary_title_content:
+            summary_title_content = summary_title_content.text.strip()
+        lista_summary_title_content.append(summary_title_content)
+
+        # Extrai products
         products = []
         is_sku = []
-
         for a in soup.find_all("a", href=True):
             href = a["href"]
 
@@ -129,7 +140,6 @@ for url in lista_urls:
                             is_sku.append(1)
                         else:
                             is_sku.append(0)
-
         products_formatados = []
 
         for produto in products:
@@ -163,13 +173,30 @@ for dir in pastas_finais:
         subcategory_df.append(dir[1])
         pagina_df.append(dir[2])
 
-#Cria DataFrame
+#DataFrame fragments
+max_len = max(len(row) for row in pastas_fragments)
+data_padded = [row + [None] * (max_len - len(row)) for row in pastas_fragments] # Preenche com None para igualar o tamanho das listas
+
+df_fragments = pd.DataFrame(data_padded, columns=["src", "family", "subcategory", "page", "fragments", "max_fragment_number"])
+df_fragments = df_fragments[["family", "subcategory", "page", "max_fragment_number"]]
+df_fragments = df_fragments.sort_values("max_fragment_number", ascending=False).drop_duplicates(subset=["family", "subcategory", "page"], keep="first").sort_values(["family", "subcategory", "page"])
+
+df_fragments["link"] = df_fragments.apply(lambda row: 
+                          f"http://{BRANCH}-{REPO}"+ ".s3-website-us-east-1.amazonaws.com/src/" + row["family"] + "/" + row["subcategory"] + "/"
+                          if row["subcategory"] #and not row['subcategory'].isnumeric()
+                          else 
+                          f"http://{BRANCH}-{REPO}"+ ".s3-website-us-east-1.amazonaws.com/src/" + row["family"] + "/", axis = 1)
+
+df_fragments = df_fragments[["link", "page", "max_fragment_number"]].reset_index(drop=True)
+
+#Cria DataFrame pages e depois extrai dele products e titles
 df_pages = pd.DataFrame({
     "family": family_df,
     "subcategory":subcategory_df,
     "max_page_number": pagina_df,
     "product":lista_products,
-    "is_sku": lista_is_sku
+    "is_sku": lista_is_sku,
+    "summary_title_content": lista_summary_title_content
 })
 
 #Formata o Dataframe
@@ -185,6 +212,10 @@ df_products.rename(columns={"max_page_number": "page"}, inplace=True)
 df_products = df_products.explode(['is_sku', 'product']).reset_index(drop=True)
 df_products = df_products.where(pd.notna(df_products), None)
 df_products["product"] = df_products["product"].str.replace(r'^\s+|\s+$', '', regex=True)
+
+df_summary = df_pages[["link", "max_page_number", "summary_title_content"]]
+df_summary.columns = ['link', 'page', 'summary_title_content']
+df_summary = df_summary[df_summary["summary_title_content"].notna()].reset_index(drop=True)
 
 df_pages = df_pages[["family", "subcategory", "max_page_number", "link"]]
 df_pages = df_pages.copy()
@@ -235,8 +266,10 @@ df_pages = df_pages.groupby(["family", "subcategory", "link", "image"], dropna=F
 df_pages = df_pages.astype(str).replace("nan", None) #garante str nas colunas
 df_pages = df_pages[["family", "subcategory", "max_page_number", "link", "image"]]
 
-print("Registros em interactive_catalog_pages: ", len(df_pages))
-print("Registros em interactive_catalog_products: ", len(df_products))
+print("Registros em interactive_catalog_page: ", len(df_pages))
+print("Registros em interactive_catalog_product: ", len(df_products))
+print("Registros em interactive_catalog_fragment: ", len(df_fragments))
+print("Registros em interactive_catalog_summary: ", len(df_summary))
 
 #=====================================================SALVA BASES==========================================================================
 
@@ -292,6 +325,44 @@ conn.commit()
 
 # Insert DataFrame into the table
 for _, row in df_products.iterrows():
+    placeholders = ",  ".join("?" * len(row))
+    query = f"INSERT INTO {table_name} VALUES ({placeholders})"
+    cursor.execute(query, *row)
+conn.commit()
+
+#salva base fragmentos
+table_name = "interactive_catalog_fragment"
+
+# Delete records from the table
+cursor.execute(f"IF OBJECT_ID('{table_name}', 'U') IS NOT NULL DROP TABLE {table_name}")
+conn.commit()
+
+# Recreate the table with all columns as VARCHAR(MAX)
+columns = ", ".join([f"{col} VARCHAR(MAX)" if col not in ['page', 'max_fragment_number'] else f"{col} INT" for col in df_fragments.columns])
+cursor.execute(f"CREATE TABLE {table_name} ({columns})")
+conn.commit()
+
+# Insert DataFrame into the table
+for _, row in df_fragments.iterrows():
+    placeholders = ",  ".join("?" * len(row))
+    query = f"INSERT INTO {table_name} VALUES ({placeholders})"
+    cursor.execute(query, *row)
+conn.commit()
+
+#salva base summary
+table_name = "interactive_catalog_summary"
+
+# Delete records from the table
+cursor.execute(f"IF OBJECT_ID('{table_name}', 'U') IS NOT NULL DROP TABLE {table_name}")
+conn.commit()
+
+# Recreate the table with all columns as VARCHAR(MAX)
+columns = ", ".join([f"{col} VARCHAR(MAX)" for col in df_summary.columns])
+cursor.execute(f"CREATE TABLE {table_name} ({columns})")
+conn.commit()
+
+# Insert DataFrame into the table
+for _, row in df_summary.iterrows():
     placeholders = ",  ".join("?" * len(row))
     query = f"INSERT INTO {table_name} VALUES ({placeholders})"
     cursor.execute(query, *row)

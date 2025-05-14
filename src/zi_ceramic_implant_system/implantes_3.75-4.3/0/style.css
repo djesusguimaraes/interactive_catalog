@@ -2,6 +2,7 @@
 .container * {
   box-sizing: border-box;
 }
+
 .container {
   height: 528.37px;
   position: relative;
@@ -74,11 +75,9 @@
 .summary-title-content {
   color: var(--color-surfaces-titles-secundary, #3c1635);
   text-align: left;
-  font-family: var(
-    --body-smhighlight-font-family,
-    "LeagueSpartan-Medium",
-    sans-serif
-  );
+  font-family: var(--body-smhighlight-font-family,
+      "LeagueSpartan-Medium",
+      sans-serif);
   font-size: var(--body-smhighlight-font-size, 14px);
   line-height: var(--body-smhighlight-line-height, 130%);
   font-weight: var(--body-smhighlight-font-weight, 500);
@@ -164,11 +163,9 @@
 .product-description-title {
   color: var(--color-feedback-states-active-primary, #7b3972);
   text-align: left;
-  font-family: var(
-    --body-xshighlight-font-family,
-    "LeagueSpartan-Medium",
-    sans-serif
-  );
+  font-family: var(--body-xshighlight-font-family,
+      "LeagueSpartan-Medium",
+      sans-serif);
   font-size: var(--body-xshighlight-font-size, 12px);
   line-height: var(--body-xshighlight-line-height, 130%);
   font-weight: var(--body-xshighlight-font-weight, 500);
@@ -241,11 +238,9 @@
 .indications-title {
   color: var(--color-feedback-states-active-primary, #7b3972);
   text-align: left;
-  font-family: var(
-    --body-xshighlight-font-family,
-    "LeagueSpartan-Medium",
-    sans-serif
-  );
+  font-family: var(--body-xshighlight-font-family,
+      "LeagueSpartan-Medium",
+      sans-serif);
   font-size: var(--body-xshighlight-font-size, 12px);
   line-height: var(--body-xshighlight-line-height, 130%);
   font-weight: var(--body-xshighlight-font-weight, 500);
@@ -294,11 +289,9 @@
 .drilling-characteristics-title {
   color: var(--color-feedback-states-active-primary, #7b3972);
   text-align: left;
-  font-family: var(
-    --body-xshighlight-font-family,
-    "LeagueSpartan-Medium",
-    sans-serif
-  );
+  font-family: var(--body-xshighlight-font-family,
+      "LeagueSpartan-Medium",
+      sans-serif);
   font-size: var(--body-xshighlight-font-size, 12px);
   line-height: var(--body-xshighlight-line-height, 130%);
   font-weight: var(--body-xshighlight-font-weight, 500);
@@ -378,11 +371,9 @@
 .surface-title {
   color: var(--color-feedback-states-active-primary, #7b3972);
   text-align: left;
-  font-family: var(
-    --body-xshighlight-font-family,
-    "LeagueSpartan-Medium",
-    sans-serif
-  );
+  font-family: var(--body-xshighlight-font-family,
+      "LeagueSpartan-Medium",
+      sans-serif);
   font-size: var(--body-xshighlight-font-size, 12px);
   line-height: var(--body-xshighlight-line-height, 130%);
   font-weight: var(--body-xshighlight-font-weight, 500);
