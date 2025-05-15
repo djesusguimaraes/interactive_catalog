@@ -726,8 +726,10 @@
   width: 43px;
   height: 44px;
   position: absolute;
-  left: 38.5px;
-  top: 57.04px;
+  right: 50%;
+  left: -7.33%;
+  bottom: 41.07%;
+  top: 20.26%;
 }
 .bs-cart-plus3 {
   width: 14.48px;
@@ -741,7 +743,7 @@
   border-style: solid;
   border-color: var(--color-surfaces-border-secundary, #f3ebf1);
   border-width: 1px 0px 0px 0px;
-  padding: 6px 0px 6px 0px;
+  padding: 6px 0px 6px 48px;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -757,13 +759,16 @@
   font-size: var(--body-xs-font-size, 12px);
   line-height: var(--body-xs-line-height, 130%);
   font-weight: var(--body-xs-font-weight, 400);
-  position: relative;
-  align-self: stretch;
+  position: absolute;
+  left: 0px;
+  top: 113.75px;
   width: 113.77px;
+  height: 16px;
   transform-origin: 0 0;
   transform: rotate(-89.846deg) scale(1, 1);
 }
 .implant-item3 {
+  padding: 0px 0px 0px 29px;
   display: flex;
   flex-direction: column;
   gap: 4px;
@@ -787,8 +792,10 @@
   width: 43px;
   height: 44px;
   position: absolute;
-  left: -37px;
-  top: 21.9px;
+  right: 50%;
+  left: -7.33%;
+  bottom: 41.07%;
+  top: 20.26%;
 }
 .bs-cart-plus4 {
   width: 14.48px;
@@ -822,8 +829,10 @@
   width: 43px;
   height: 44px;
   position: absolute;
-  left: 127.15px;
-  top: 27.9px;
+  right: 50%;
+  left: -7.33%;
+  bottom: 41.07%;
+  top: 20.26%;
 }
 .bs-cart-plus5 {
   width: 14.48px;
@@ -841,8 +850,10 @@
   width: 43px;
   height: 44px;
   position: absolute;
-  left: 245.07px;
-  top: 1493.28px;
+  right: 50%;
+  left: -7.33%;
+  bottom: 41.07%;
+  top: 20.26%;
 }
 .bs-cart-plus6 {
   width: 14.48px;
@@ -868,7 +879,6 @@
   gap: 8px;
   align-items: flex-start;
   justify-content: flex-start;
-  flex-shrink: 0;
   position: relative;
 }
 .cover-screw-title {
@@ -987,7 +997,6 @@
   gap: 8px;
   align-items: flex-start;
   justify-content: flex-start;
-  flex-shrink: 0;
   position: relative;
 }
 .healing-abutment-title {
@@ -1180,7 +1189,7 @@
   width: 43px;
   height: 44px;
   position: absolute;
-  left: 225.01px;
+  left: 200px;
   top: 73px;
 }
 .bs-cart-plus8 {
