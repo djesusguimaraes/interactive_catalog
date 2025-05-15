@@ -206,6 +206,7 @@ html, body {
   position: relative;
 }
 .icon {
+	z-index: 9999;
   border-radius: 139.54px;
   padding: 8.37px;
   flex-shrink: 0;
@@ -276,6 +277,7 @@ html, body {
   object-fit: cover;
 }
 .icon2 {
+	z-index: 9999;
   border-radius: 139.54px;
   padding: 8.37px;
   flex-shrink: 0;
@@ -407,6 +409,7 @@ html, body {
   position: relative;
 }
 .icon3 {
+	z-index: 9999;
   border-radius: 139.54px;
   padding: 8.37px;
   flex-shrink: 0;
@@ -444,6 +447,7 @@ html, body {
   overflow: visible;
 }
 .icon4 {
+	z-index: 9999;
   border-radius: 139.54px;
   padding: 8.37px;
   flex-shrink: 0;

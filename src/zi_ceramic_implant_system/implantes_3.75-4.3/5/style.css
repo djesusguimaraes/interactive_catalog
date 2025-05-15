@@ -266,6 +266,7 @@
   object-fit: cover;
 }
 .icon {
+	z-index: 9999;
   border-radius: 139.54px;
   padding: 8.37px;
   flex-shrink: 0;
@@ -530,6 +531,7 @@
   object-fit: cover;
 }
 .icon2 {
+	z-index: 9999;
   border-radius: 139.54px;
   padding: 8.37px;
   flex-shrink: 0;
@@ -581,6 +583,7 @@
   position: relative;
 }
 .icon3 {
+	z-index: 9999;
   border-radius: 139.54px;
   padding: 8.37px;
   flex-shrink: 0;
@@ -710,6 +713,7 @@
   position: relative;
 }
 .icon4 {
+	z-index: 9999;
   border-radius: 139.54px;
   padding: 8.37px;
   flex-shrink: 0;

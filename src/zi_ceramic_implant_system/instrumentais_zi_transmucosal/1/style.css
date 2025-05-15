@@ -246,6 +246,7 @@
   object-fit: cover;
 }
 .icon {
+	z-index: 9999;
   border-radius: 139.54px;
   padding: 8.37px;
   flex-shrink: 0;
@@ -382,6 +383,7 @@
   position: relative;
 }
 .icon2 {
+	z-index: 9999;
   border-radius: 139.54px;
   padding: 8.37px;
   flex-shrink: 0;
@@ -470,6 +472,7 @@
   position: relative;
 }
 .icon3 {
+	z-index: 9999;
   border-radius: 139.54px;
   padding: 8.37px;
   flex-shrink: 0;
@@ -488,6 +491,7 @@
   overflow: visible;
 }
 .icon4 {
+	z-index: 9999;
   border-radius: 139.54px;
   padding: 8.37px;
   flex-shrink: 0;
@@ -558,6 +562,7 @@
   object-fit: cover;
 }
 .icon5 {
+	z-index: 9999;
   border-radius: 139.54px;
   padding: 8.37px;
   flex-shrink: 0;
@@ -593,6 +598,7 @@
   object-fit: cover;
 }
 .icon6 {
+	z-index: 9999;
   border-radius: 139.54px;
   padding: 8.37px;
   flex-shrink: 0;
@@ -630,6 +636,7 @@
   object-fit: cover;
 }
 .icon7 {
+	z-index: 9999;
   border-radius: 139.54px;
   padding: 8.37px;
   flex-shrink: 0;
@@ -668,6 +675,7 @@
   position: relative;
 }
 .icon8 {
+	z-index: 9999;
   border-radius: 139.54px;
   padding: 8.37px;
   flex-shrink: 0;
@@ -693,6 +701,7 @@
   object-fit: cover;
 }
 .icon9 {
+	z-index: 9999;
   border-radius: 139.54px;
   padding: 8.37px;
   flex-shrink: 0;
@@ -711,6 +720,7 @@
   overflow: visible;
 }
 .icon10 {
+	z-index: 9999;
   border-radius: 139.54px;
   padding: 8.37px;
   flex-shrink: 0;
@@ -774,6 +784,7 @@
   width: 222.55px;
 }
 .icon11 {
+	z-index: 9999;
   border-radius: 139.54px;
   padding: 8.37px;
   flex-shrink: 0;
@@ -834,6 +845,7 @@
   align-self: stretch;
 }
 .icon12 {
+	z-index: 9999;
   border-radius: 139.54px;
   padding: 8.37px;
   flex-shrink: 0;
@@ -872,6 +884,7 @@
   position: relative;
 }
 .icon13 {
+	z-index: 9999;
   border-radius: 139.54px;
   padding: 8.37px;
   flex-shrink: 0;

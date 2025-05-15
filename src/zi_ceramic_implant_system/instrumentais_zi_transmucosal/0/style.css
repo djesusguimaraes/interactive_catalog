@@ -111,7 +111,6 @@
   align-items: center;
   justify-content: flex-end;
   flex-shrink: 0;
-  width: 327px;
   position: relative;
 }
 .product-details-container {
@@ -227,6 +226,7 @@
   object-fit: cover;
 }
 .icon {
+	z-index: 9999;
   border-radius: 139.54px;
   padding: 8.37px;
   flex-shrink: 0;
@@ -303,6 +303,7 @@
   object-fit: cover;
 }
 .icon2 {
+	z-index: 9999;
   border-radius: 139.54px;
   padding: 8.37px;
   flex-shrink: 0;
@@ -377,6 +378,7 @@
   object-fit: cover;
 }
 .icon3 {
+	z-index: 9999;
   border-radius: 139.54px;
   padding: 8.37px;
   flex-shrink: 0;
@@ -402,6 +404,7 @@
   object-fit: cover;
 }
 .icon4 {
+	z-index: 9999;
   border-radius: 139.54px;
   padding: 8.37px;
   flex-shrink: 0;
@@ -479,6 +482,7 @@
   object-fit: cover;
 }
 .icon5 {
+	z-index: 9999;
   border-radius: 139.54px;
   padding: 8.37px;
   flex-shrink: 0;
@@ -543,8 +547,6 @@
 }
 .group-16 {
   flex-shrink: 0;
-  width: 69.41px;
-  height: 107.08px;
   position: static;
 }
 .product-image-container {
@@ -574,6 +576,7 @@
   object-fit: cover;
 }
 .icon6 {
+	z-index: 9999;
   border-radius: 139.54px;
   padding: 8.37px;
   flex-shrink: 0;
@@ -633,6 +636,7 @@
   object-fit: cover;
 }
 .icon7 {
+	z-index: 9999;
   border-radius: 139.54px;
   padding: 8.37px;
   flex-shrink: 0;
@@ -658,6 +662,7 @@
   object-fit: cover;
 }
 .icon8 {
+	z-index: 9999;
   border-radius: 139.54px;
   padding: 8.37px;
   flex-shrink: 0;
@@ -683,7 +688,6 @@
   align-items: center;
   justify-content: flex-end;
   flex-shrink: 0;
-  width: 327px;
   position: relative;
 }
 .frame-1171276724 {
@@ -710,6 +714,7 @@
   object-fit: cover;
 }
 .icon9 {
+  z-index: 9999;
   border-radius: 139.54px;
   padding: 8.37px;
   flex-shrink: 0;

@@ -110,7 +110,6 @@
   align-items: center;
   justify-content: flex-end;
   flex-shrink: 0;
-  width: 327px;
   position: relative;
 }
 .product-details-container {
@@ -128,7 +127,6 @@
   gap: 4px;
   align-items: flex-start;
   justify-content: flex-start;
-  flex-shrink: 0;
   position: relative;
 }
 .product-description {
@@ -235,6 +233,7 @@
   object-fit: cover;
 }
 .icon {
+	z-index: 9999;
   border-radius: 139.54px;
   padding: 8.37px;
   flex-shrink: 0;
@@ -302,6 +301,7 @@
   object-fit: cover;
 }
 .icon2 {
+	z-index: 9999;
   border-radius: 139.54px;
   padding: 8.37px;
   flex-shrink: 0;
@@ -368,6 +368,7 @@
   position: relative;
 }
 .icon3 {
+	z-index: 9999;
   border-radius: 139.54px;
   padding: 8.37px;
   flex-shrink: 0;
@@ -402,13 +403,13 @@
   position: relative;
 }
 .icon4 {
+	z-index: 9999;
   border-radius: 139.54px;
   padding: 8.37px;
   flex-shrink: 0;
   width: 43px;
   height: 44px;
   position: absolute;
-  left: 266.52px;
   top: 114.9px;
 }
 .bs-cart-plus4 {
@@ -462,8 +463,8 @@
   align-items: center;
   justify-content: center;
   position: absolute;
-  left: 249px;
   top: 0px;
+  width: 75px;
 }
 ._6-4 {
   flex-shrink: 0;
@@ -548,12 +549,13 @@
   position: static;
 }
 .icon5 {
+	z-index: 9999;
   border-radius: 139.54px;
   padding: 8.37px;
   width: 43px;
   height: 44px;
   position: absolute;
-  left: calc(50% - -73.02px);
+  left: calc(50% - -64.02px);
   top: calc(50% - 26.5px);
 }
 .bs-cart-plus5 {
@@ -573,6 +575,7 @@
   object-fit: cover;
 }
 .icon6 {
+	z-index: 9999;
   border-radius: 139.54px;
   padding: 8.37px;
   flex-shrink: 0;
@@ -616,6 +619,7 @@
   position: relative;
 }
 .icon7 {
+	z-index: 9999;
   border-radius: 139.54px;
   padding: 8.37px;
   flex-shrink: 0;
@@ -655,6 +659,7 @@
   object-fit: cover;
 }
 .icon8 {
+	z-index: 9999;
   border-radius: 139.54px;
   padding: 8.37px;
   flex-shrink: 0;
@@ -673,6 +678,7 @@
   overflow: visible;
 }
 .icon9 {
+	z-index: 9999;
   border-radius: 139.54px;
   padding: 8.37px;
   flex-shrink: 0;
@@ -782,6 +788,7 @@
   object-fit: cover;
 }
 .icon10 {
+	z-index: 9999;
   border-radius: 139.54px;
   padding: 8.37px;
   flex-shrink: 0;

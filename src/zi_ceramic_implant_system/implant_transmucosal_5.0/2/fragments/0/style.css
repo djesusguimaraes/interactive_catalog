@@ -141,6 +141,7 @@ html, body {
   position: relative;
 }
 .icon {
+	z-index: 9999;
   border-radius: 139.54px;
   padding: 8.37px;
   flex-shrink: 0;
@@ -210,6 +211,7 @@ html, body {
   width: 67.67px;
 }
 .icon2 {
+	z-index: 9999;
   border-radius: 139.54px;
   padding: 8.37px;
   flex-shrink: 0;
@@ -276,6 +278,7 @@ html, body {
   transform: rotate(0deg) scale(1, 1);
 }
 .icon3 {
+	z-index: 9999;
   border-radius: 139.54px;
   padding: 8.37px;
   flex-shrink: 0;
