@@ -29,3 +29,8 @@ function searchDrills(size, type, bones) {
 function seeSummary() {
     FlutterChannel.postMessage(`catalog://summary`);
 }
+
+function zoomContentImage(url) {
+    let path = window.location.pathname.replaceAll('/src', '/assets/images').replaceAll('index.html', '');
+    zoomImg(path + url);
+}
