@@ -1,0 +1,18 @@
+/* Figma Styles of your File */
+:root {
+  /* Colors */
+  --gradiente: linear-gradient(
+    133.15deg,
+    rgba(123, 57, 114, 1) 16.37873947620392%,
+    rgba(225, 104, 209, 1) 100%
+  );
+  --radial: radial-gradient(
+    closest-side,
+    rgba(123, 57, 114, 1) 0.40249465964734554%,
+    rgba(60, 22, 53, 1) 100%
+  );
+
+  /* Fonts */
+  /* Effects */
+  --drop-shadow-box-shadow: 0px 6.7px 22.32px 0px rgba(205, 111, 229, 0.7);
+}

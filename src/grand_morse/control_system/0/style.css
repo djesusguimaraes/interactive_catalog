@@ -1,10 +1,6 @@
-.mask-group,
-.mask-group * {
+.mask-group-container,
+.mask-group-container * {
   box-sizing: border-box;
-}
-.mask-group {
-  height: 889.95px;
-  position: relative;
 }
 .mask-group-container {
   border-radius: 10px;
@@ -13,11 +9,8 @@
   gap: 24px;
   align-items: flex-start;
   justify-content: flex-start;
-  width: 327px;
-  height: 889.95px;
-  position: absolute;
-  left: 0px;
-  top: 0px;
+  height: 873px;
+  position: relative;
 }
 .mask-group-content {
   display: flex;
@@ -74,7 +67,7 @@
   overflow: visible;
 }
 .title {
-  color: var(--color-surfaces-titles-secundary, #07392a);
+  color: var(--color-surfaces-titles-secundary, #3c1635);
   text-align: left;
   font-family: var(
     --body-smhighlight-font-family,
@@ -110,7 +103,7 @@
   position: relative;
 }
 .subtitle {
-  color: var(--color-surfaces-titles-primary, #0b221a);
+  color: var(--color-surfaces-titles-primary, #250a20);
   text-align: left;
   font-family: var(--body-xs-font-family, "LeagueSpartan-Regular", sans-serif);
   font-size: var(--body-xs-font-size, 12px);
@@ -189,7 +182,7 @@
   position: relative;
 }
 .section-title {
-  color: var(--color-feedback-states-active-primary, #46b98c);
+  color: var(--color-feedback-states-active-primary, #7b3972);
   text-align: left;
   font-family: var(
     --body-xshighlight-font-family,

@@ -1,34 +1,81 @@
-# Pipeline to automatically mirror
-# an Azure DevOps repository in AWS CodeCommit
-
-# Trigger on all branches
+# Trigger nos branches desejados
 trigger:
-- '*'
+  branches:
+    include:
+      - main
+      - develop
 
-# Use latest Ubuntu image
+pr:
+  branches:
+    include:
+      - main
+      - develop
+
+# Pool comum para todos os jobs
 pool:
   vmImage: 'ubuntu-latest'
 
-# Pipeline
-steps:
-- checkout: none
-- script: |
+jobs:
+# Job 1 - Sincronizar repositório Azure ➡️ AWS CodeCommit
+- job: sync_repo_to_codecommit
+  displayName: 'Sync Azure Repo to AWS CodeCommit'
+  steps:
+    - checkout: none
+    - script: |
+        set -e
 
-      # Install urlencode function to encode reserved characters in passwords
-      sudo apt-get install gridsite-clients
+        # Função para URL encode
+        urlencode() {
+          local string="$1"
+          local length="${#string}"
+          local encoded=""
+          for (( i = 0; i < length; i++ )); do
+            local c="${string:$i:1}"
+            case $c in
+              [a-zA-Z0-9.~_-]) encoded+="$c" ;;
+              *) encoded+=$(printf '%%%02X' "'$c") ;;
+            esac
+          done
+          echo "$encoded"
+        }
 
-      # Create local mirror of Azure DevOps repository
-      git clone --mirror https://${AZURE_GIT_USERNAME}:$(urlencode ${AZURE_GIT_PASSWORD})@${AZURE_REPO_URL} repo-mirror
+        AZURE_PASS_ENC=$(urlencode "$AZURE_GIT_PASSWORD")
+        AWS_PASS_ENC=$(urlencode "$AWS_GIT_PASSWORD")
 
-      # Sync AWS CodeCommit repository
-      cd repo-mirror
-      git push --mirror https://${AWS_GIT_USERNAME}:$(urlencode ${AWS_GIT_PASSWORD})@${AWS_REPO_URL}
+        git clone --mirror https://${AZURE_GIT_USERNAME}:${AZURE_PASS_ENC}@${AZURE_REPO_URL} repo-mirror
+        cd repo-mirror
+        git push --mirror https://${AWS_GIT_USERNAME}:${AWS_PASS_ENC}@${AWS_REPO_URL}
+      displayName: 'Sync repository with AWS CodeCommit'
+      env:
+        AZURE_REPO_URL: $(AZURE_REPO_URL)
+        AZURE_GIT_USERNAME: $(AZURE_GIT_USERNAME)
+        AZURE_GIT_PASSWORD: $(AZURE_GIT_PASSWORD)
+        AWS_REPO_URL: $(AWS_REPO_URL)
+        AWS_GIT_USERNAME: $(AWS_GIT_USERNAME)
+        AWS_GIT_PASSWORD: $(AWS_GIT_PASSWORD)
 
-  displayName: 'Sync repository with AWS CodeCommit'
-  env:
-    AZURE_REPO_URL: $(AZURE_REPO_URL)
-    AZURE_GIT_USERNAME: $(AZURE_GIT_USERNAME)
-    AZURE_GIT_PASSWORD: $(AZURE_GIT_PASSWORD)
-    AWS_REPO_URL: $(AWS_REPO_URL)
-    AWS_GIT_USERNAME: $(AWS_GIT_USERNAME)
-    AWS_GIT_PASSWORD: $(AWS_GIT_PASSWORD)
+# Job 2 - Executar script Python
+- job: populate_interactive_catalog_db
+  displayName: 'Populate Interactive Catalog DB'
+  steps:
+    - checkout: self
+
+    - script: |
+        curl https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
+        curl https://packages.microsoft.com/config/ubuntu/20.04/prod.list | sudo tee /etc/apt/sources.list.d/msprod.list
+        sudo apt-get update -y
+        sudo ACCEPT_EULA=Y apt-get install -y msodbcsql18 unixodbc-dev -y
+      displayName: 'Install ODBC Driver for SQL Server'
+
+    - script: |
+        python -m venv venv
+        source venv/bin/activate
+        pip install --upgrade pip
+        pip install -r requirements.txt
+      displayName: 'Install Python dependencies'
+
+    - script: |
+        source venv/bin/activate
+        echo "Running Py Script"
+        python scripts/extract_catalog_info.py
+      displayName: 'Run scripts/extract_catalog_info.py'
